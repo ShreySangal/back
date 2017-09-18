@@ -1,0 +1,4 @@
+[ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ@2] Running shell script
++ docker inspect -f . maven:3.3.9
+
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.31/containers/maven:3.3.9/json: dial unix /var/run/docker.sock: connect: permission denied

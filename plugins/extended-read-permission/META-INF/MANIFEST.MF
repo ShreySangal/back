@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: tiste
+Build-Jdk: 1.8.0_121
+Extension-Name: extended-read-permission
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: extended-read-permission
+Implementation-Version: 2.0
+Plugin-Class: hudson.plugins.extendedread.PluginImpl
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: extended-read-permission
+Long-Name: Jenkins Extended Read Permission Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Extended+Read+Permiss
+ ion+Plugin
+Plugin-Version: 2.0
+Hudson-Version: 1.609.1
+Jenkins-Version: 1.609.1
+Plugin-Developers: Dean Yu:dty:
+Support-Dynamic-Loading: true
+

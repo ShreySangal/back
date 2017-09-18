@@ -1,0 +1,45 @@
+Started by timer
+[Sun Sep 17 19:42:00 IST 2017] Starting branch indexing...
+[8mha:////4IhPtNff6DdqFJped8IYK+Zqh2YAzOyknekqJlpDKztmAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTcBL3WQAAH1QNzjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+[8mha:////4DUIVWTtv2j8xen3h1q5RnOtVfmSLZqEKlhtpUwwqJCwAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTcBL2OGgA/93KDjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Examining [8mha:////4G379kw28KxPmeOpAklFXhbqCAfSJzw8mrewJtIXHxgXAAAArB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGHQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wzy5NSi3KSy1JLdZNztRNTgEAVJNGS7EAAAA=[0mshreys-s/kubernetes-ci-cd
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4OhHbKMtC1f05LpRiYdrLuMhEfUD0OgX7y9XRpYq90lUAAAAuh+LCAAAAAAAAP9djbsNwkAQRBcjCAkIES3YlxGALCGRgGSRUIE/K9/h43za3UN2G7QBCUVQDj1gRMYkM8l783jDhAmWOlTcuqRsHbcWk33vkaxxzbEVXKX3Z3rzrwiiA0wtulp0BuNAVmCenfNrrmzuanUSMq7edASLP93u118Z/DKKADo/jJnAVot4XitVG9GhGKiLYk3Yc8yqCQWSQ0GOSxOXlRJCVMMPIXMcfJULfgBQ+DOTxQAAAA==[0mingress-update
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: ingress-update (still at 370636c1e18320d1f6cfdcaa69544dc0c0f13399)
+
+    Checking branch [8mha:////4MCE5YMfIhxWkCo7njbkMN0TrdwE7HMYDHKNo68EBZwxAAAAwx+LCAAAAAAAAP9djEEOATEUhp8RDmApHKGaSFgQKxsSYeEE1XmZ1lSn6XuVmWu4BhuHcBx3MGLn3/z/t/i/xxt6FGFkUk6Vn+jKU+VwsmkCRmd9ua8Y56v7c3ULrwyyLfQd+oLNDropOobB7qyuSjrlC3nkaH2xrCMM/3TrX39l8EsnA6hDO8YMB8McaCFlYdmkU/u6SDIRGxIky3TC6JGRhLZC55IjorRECcV0JlSeCxWUNi0JZzV6wg/LPOGE1AAAAA==[0missue-25-add-apache-2-license
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: issue-25-add-apache-2-license (still at 85ccaa6c3d9ca1277f1b407609d98d3ec64e9fe5)
+
+    Checking branch [8mha:////4CaevmQItTIresDSgpvsnSJ6Tu93dE8DJCTCXLVakYyGAAAAsx+LCAAAAAAAAP9djD0OgkAQRkeMHMDSeAXYzhgNlY0mxMYT8DNhkWWXzMwauIbX0MZDeBzvIIbO13yv+d7zAwsmWGtfsrNx4Sw7g/Fx6JBMbZuzE9wkj1dy794BBCcIDdpKdApzT0ZgmV6zW6ZMZit1Eaptte8JVn+5w7S/GEzMAoC+GyUU2GqRjndKVbVon4+vVrEmHDhi1fgcyaIgR0UdFaUSQlRtxoL0BeS6yee9AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 7cc73f42c7061bfbdbb83f72414fec716b7d3adb)
+
+    Checking branch [8mha:////4LvV0M1gbpAM8k2qDxkkZsWkA6JDBHDeR3nP/tpK8nvWAAAAsx+LCAAAAAAAAP9djLENwjAQRY+gMAAlYoXEogEJlIoGpIiGCZzkFJsYxzqfUbIGa0DDEIzDDgSl4zX/Nf89PxB7gqUKlW9tWrbWtwbTQ++QjLbNqWVcZ49XdnfvCKIjzAzamlUO00CGYZ5f5E0KI20tzkza1ruOYPGX24/7i8HIJALo3CAxw0YxO78VotasQjG8rsIrwt4nXjShQLLI6JNSJ2UlmBCFk8SrLz3U3oy8AAAA[0mpart1
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4E2VZlt1gfZyEecRUT2LXbKIVxX+04Rdz3fxhg4reKT4AAAAtB+LCAAAAAAAAP9djLENwjAQRY+gMAAlYoXEEgVIoFQ0IEU0TOAkp9jEONb5jJI1WAMahmAcdiAoHa/5r/nv+YHYEyxVqHxr07K1vjWYHnqHZLRtTi3jOnu8srt7RxAdYWbQ1qxymAYyDPP8Im9SGGlrcWbStt51BIu/3H7cXwxGJhFA5waJGTaK2fmtELVmFYrhdRVeEfY+8aIJBZJFRp+UOikrwYQonCRefQGHhdcVvAAAAA==[0mpart2
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  5 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/kubernetes-ci-cd
+
+[Sun Sep 17 19:42:06 IST 2017] Finished branch indexing. Indexing took 5.9 sec
+Finished: SUCCESS

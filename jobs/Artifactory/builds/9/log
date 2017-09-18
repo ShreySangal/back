@@ -1,0 +1,34 @@
+Started by upstream project "[8mha:////4OV8JQUVuAm6pOui/VXcQOzW8jt1VSTBBgIslC5pQEQfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP3QkHhnZ30A1Ps7QcAAAAA=[0mUT_CC" build number [8mha:////4EETpP2QoQTQ4dtTzuk/EWGGywHmW35hzvfkxIlBq0o8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JP3QkHhnZ31DcwAL7VIowgAAAA==[0m17
+originally caused by:
+ Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4CAk37bixufQ0oNQlJhZUcEt5Wj4ZhVbKICPnnRBHxyhAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUMLAOPGer3FAAAA[0m18
+ originally caused by:
+  Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4DX2chbjXhwfskCLot/zO2pth/+Kda54Py2trCXVCZZLAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fUNLAK1Q63PFAAAA[0m19
+  originally caused by:
+   Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Artifactory
+Uploading artifact jpetstore.war started....
+GroupId: com.ctc.devops
+ArtifactId: jpet
+Classifier: BN_9
+Type: war
+Version: 1.0
+File: jpetstore.war
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/jpet/1.0/jpet-1.0-BN_9.war
+10 % completed (913 kB / 9.1 MB).
+20 % completed (1.8 MB / 9.1 MB).
+30 % completed (2.7 MB / 9.1 MB).
+40 % completed (3.6 MB / 9.1 MB).
+50 % completed (4.6 MB / 9.1 MB).
+60 % completed (5.5 MB / 9.1 MB).
+70 % completed (6.4 MB / 9.1 MB).
+80 % completed (7.3 MB / 9.1 MB).
+90 % completed (8.2 MB / 9.1 MB).
+100 % completed (9.1 MB / 9.1 MB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/jpet/1.0/jpet-1.0-BN_9.war (9.1 MB at 27 MB/s)
+Uploading artifact jpetstore.war completed.
+Triggering projects: [8mha:////4PbyHCuoPY6YMqESKhMLbLEgq2dViOaq7AC4MLhYEvcPAAAAmB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2EQ18/KT9J3SSxJTEosTlU1MnBJLcjJr9QHACgtl+2cAAAA[0mDatabase Deploy
+Triggering projects: [8mha:////4HWzDUGL5QwGDd87SwengIQXsyfmJgjB20rt0dawGGYBAAAAlB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLmEQ1s/KT9J3zk9JVTUycEktyMmv1AcAQv8rk5gAAAA=[0mCode Deploy
+Notifying upstream projects of job completion
+Finished: SUCCESS

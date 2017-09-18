@@ -1,0 +1,109 @@
+Started by upstream project "[8mha:////4FNEcoCx1XF46BqrQspE1AL2aUjFrJH+3S9vHMVzZkmjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH3HvOLMpJxUfQBmzeh0wgAAAA==[0mAnsible" build number [8mha:////4Ez2nyULLIWp8eWxdQj78yYBuP3hWM2zlayX2S4v3GtiAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwkfce84syknFR9UwDy0RU/wwAAAA==[0m5
+originally caused by:
+ Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/Ansible/default
+[default] $ /bin/ksh -xe /tmp/hudson2456205694233143698.sh
++ echo TestHostname 10.0.5.208
+TestHostname 10.0.5.208
++ ssh test@ansibleserver sudo bash -x ./ansible_test/newserver.sh TestHostname 10.0.5.208
++ servername=TestHostname
++ serverip=10.0.5.208
++ hostsfile=/etc/hosts
+++ grep -e 10.0.5.208 /etc/hosts
++ testhost=
++ '[' '!' -z '' -a '!= ' ']'
++ echo 10.0.5.208 TestHostname
++ inventoryfile=/home/test/ansible_test/host
+++ grep -e 10.0.5.208 /home/test/ansible_test/host
++ testinventory=
++ '[' '!' -z '' -a '!= ' ']'
++ echo 10.0.5.208
++ port=5985
++ grep -q Escape
++ telnet -c 10.0.5.208 5985
+5985 : no connection
++ echo '5985 : no connection'
+++ /usr/bin/ansible-playbook /home/test/playbooks/iis.yml --limit 10.0.5.208 -vvvvv
+Using /etc/ansible/ansible.cfg as config file Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc PLAYBOOK: iis.yml AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 1 plays in /home/test/playbooks/iis.yml PLAY [Install IIS] AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip META: ran handlers TASK [Install IIS] AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip task path: /home/test/playbooks/iis.yml:6 Using module file /usr/lib/python2.7/site-packages/ansible/modules/windows/win_feature.ps1 <10.0.5.208> ESTABLISH WINRM CONNECTION FOR USER: newuser on PORT 5985 TO 10.0.5.208 <10.0.5.208> WINRM CONNECT: transport=plaintext endpoint=http://10.0.5.208:5985/wsman <10.0.5.208> WINRM CONNECTION ERROR: HTTPConnectionPool(host='10.0.5.208', port=5985): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x3928810>, 'Connection to 10.0.5.208 timed out. (connect timeout=70)')) Traceback (most recent call last): File "/usr/lib/python2.7/site-packages/ansible/plugins/connection/winrm.py", line 214, in _winrm_connect self.shell_id = protocol.open_shell(codepage=65001) # UTF-8 File "/usr/lib/python2.7/site-packages/winrm/protocol.py", line 132, in open_shell res = self.send_message(xmltodict.unparse(req)) File "/usr/lib/python2.7/site-packages/winrm/protocol.py", line 207, in send_message return self.transport.send_message(message) File "/usr/lib/python2.7/site-packages/winrm/transport.py", line 173, in send_message response = self.session.send(prepared_request, timeout=self.read_timeout_sec) File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 609, in send r = adapter.send(request, **kwargs) File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 479, in send raise ConnectTimeout(e, request=request) ConnectTimeout: HTTPConnectionPool(host='10.0.5.208', port=5985): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x3928810>, 'Connection to 10.0.5.208 timed out. (connect timeout=70)')) fatal: [10.0.5.208]: UNREACHABLE! => { "changed": false, "msg": "plaintext: HTTPConnectionPool(host='10.0.5.208', port=5985): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x3928810>, 'Connection to 10.0.5.208 timed out. (connect timeout=70)'))", "unreachable": true } to retry, use: --limit @/home/test/playbooks/iis.retry PLAY RECAP AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 10.0.5.208 : ok=0 changed=0 unreachable=1 failed=0
++ output='Using /etc/ansible/ansible.cfg as config file
+Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc
+
+PLAYBOOK: iis.yml **************************************************************
+1 plays in /home/test/playbooks/iis.yml
+
+PLAY [Install IIS] *************************************************************
+META: ran handlers
+
+TASK [Install IIS] *************************************************************
+task path: /home/test/playbooks/iis.yml:6
+Using module file /usr/lib/python2.7/site-packages/ansible/modules/windows/win_feature.ps1
+<10.0.5.208> ESTABLISH WINRM CONNECTION FOR USER: newuser on PORT 5985 TO 10.0.5.208
+<10.0.5.208> WINRM CONNECT: transport=plaintext endpoint=http://10.0.5.208:5985/wsman
+<10.0.5.208> WINRM CONNECTION ERROR: HTTPConnectionPool(host='\''10.0.5.208'\'', port=5985): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x3928810>, '\''Connection to 10.0.5.208 timed out. (connect timeout=70)'\''))
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/ansible/plugins/connection/winrm.py", line 214, in _winrm_connect
+    self.shell_id = protocol.open_shell(codepage=65001)  # UTF-8
+  File "/usr/lib/python2.7/site-packages/winrm/protocol.py", line 132, in open_shell
+    res = self.send_message(xmltodict.unparse(req))
+  File "/usr/lib/python2.7/site-packages/winrm/protocol.py", line 207, in send_message
+    return self.transport.send_message(message)
+  File "/usr/lib/python2.7/site-packages/winrm/transport.py", line 173, in send_message
+    response = self.session.send(prepared_request, timeout=self.read_timeout_sec)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 609, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 479, in send
+    raise ConnectTimeout(e, request=request)
+ConnectTimeout: HTTPConnectionPool(host='\''10.0.5.208'\'', port=5985): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x3928810>, '\''Connection to 10.0.5.208 timed out. (connect timeout=70)'\''))
+fatal: [10.0.5.208]: UNREACHABLE! => {
+    "changed": false, 
+    "msg": "plaintext: HTTPConnectionPool(host='\''10.0.5.208'\'', port=5985): Max retries exceeded with url: /wsman (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x3928810>, '\''Connection to 10.0.5.208 timed out. (connect timeout=70)'\''))", 
+    "unreachable": true
+}
+	to retry, use: --limit @/home/test/playbooks/iis.retry
+
+PLAY RECAP *********************************************************************
+10.0.5.208                 : ok=0    changed=0    unreachable=1    failed=0   '
++ echo Using /etc/ansible/ansible.cfg as config file Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc PLAYBOOK: iis.yml AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 1 plays in /home/test/playbooks/iis.yml PLAY '[Install' 'IIS]' AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip META: ran handlers TASK '[Install' 'IIS]' AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip task path: /home/test/playbooks/iis.yml:6 Using module file /usr/lib/python2.7/site-packages/ansible/modules/windows/win_feature.ps1 '<10.0.5.208>' ESTABLISH WINRM CONNECTION FOR USER: newuser on PORT 5985 TO 10.0.5.208 '<10.0.5.208>' WINRM CONNECT: transport=plaintext endpoint=http://10.0.5.208:5985/wsman '<10.0.5.208>' WINRM CONNECTION ERROR: 'HTTPConnectionPool(host='\''10.0.5.208'\'',' 'port=5985):' Max retries exceeded with url: /wsman '(Caused' by 'ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection' object at '0x3928810>,' ''\''Connection' to 10.0.5.208 timed out. '(connect' 'timeout=70)'\''))' Traceback '(most' recent call 'last):' File '"/usr/lib/python2.7/site-packages/ansible/plugins/connection/winrm.py",' line 214, in _winrm_connect self.shell_id = 'protocol.open_shell(codepage=65001)' '#' UTF-8 File '"/usr/lib/python2.7/site-packages/winrm/protocol.py",' line 132, in open_shell res = 'self.send_message(xmltodict.unparse(req))' File '"/usr/lib/python2.7/site-packages/winrm/protocol.py",' line 207, in send_message return 'self.transport.send_message(message)' File '"/usr/lib/python2.7/site-packages/winrm/transport.py",' line 173, in send_message response = 'self.session.send(prepared_request,' 'timeout=self.read_timeout_sec)' File '"/usr/lib/python2.7/site-packages/requests/sessions.py",' line 609, in send r = 'adapter.send(request,' '**kwargs)' File '"/usr/lib/python2.7/site-packages/requests/adapters.py",' line 479, in send raise 'ConnectTimeout(e,' 'request=request)' ConnectTimeout: 'HTTPConnectionPool(host='\''10.0.5.208'\'',' 'port=5985):' Max retries exceeded with url: /wsman '(Caused' by 'ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection' object at '0x3928810>,' ''\''Connection' to 10.0.5.208 timed out. '(connect' 'timeout=70)'\''))' fatal: '[10.0.5.208]:' 'UNREACHABLE!' '=>' '{' '"changed":' false, '"msg":' '"plaintext:' 'HTTPConnectionPool(host='\''10.0.5.208'\'',' 'port=5985):' Max retries exceeded with url: /wsman '(Caused' by 'ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection' object at '0x3928810>,' ''\''Connection' to 10.0.5.208 timed out. '(connect' 'timeout=70)'\''))",' '"unreachable":' true '}' to retry, use: --limit @/home/test/playbooks/iis.retry PLAY RECAP AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 10.0.5.208 : ok=0 changed=0 unreachable=1 failed=0
++ echo Using /etc/ansible/ansible.cfg as config file Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc PLAYBOOK: iis.yml AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 1 plays in /home/test/playbooks/iis.yml PLAY '[Install' 'IIS]' AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip META: ran handlers TASK '[Install' 'IIS]' AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip task path: /home/test/playbooks/iis.yml:6 Using module file /usr/lib/python2.7/site-packages/ansible/modules/windows/win_feature.ps1 '<10.0.5.208>' ESTABLISH WINRM CONNECTION FOR USER: newuser on PORT 5985 TO 10.0.5.208 '<10.0.5.208>' WINRM CONNECT: transport=plaintext endpoint=http://10.0.5.208:5985/wsman '<10.0.5.208>' WINRM CONNECTION ERROR: 'HTTPConnectionPool(host='\''10.0.5.208'\'',' 'port=5985):' Max retries exceeded with url: /wsman '(Caused' by 'ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection' object at '0x3928810>,' ''\''Connection' to 10.0.5.208 timed out. '(connect' 'timeout=70)'\''))' Traceback '(most' recent call 'last):' File '"/usr/lib/python2.7/site-packages/ansible/plugins/connection/winrm.py",' line 214, in _winrm_connect self.shell_id = 'protocol.open_shell(codepage=65001)' '#' UTF-8 File '"/usr/lib/python2.7/site-packages/winrm/protocol.py",' line 132, in open_shell res = 'self.send_message(xmltodict.unparse(req))' File '"/usr/lib/python2.7/site-packages/winrm/protocol.py",' line 207, in send_message return 'self.transport.send_message(message)' File '"/usr/lib/python2.7/site-packages/winrm/transport.py",' line 173, in send_message response = 'self.session.send(prepared_request,' 'timeout=self.read_timeout_sec)' File '"/usr/lib/python2.7/site-packages/requests/sessions.py",' line 609, in send r = 'adapter.send(request,' '**kwargs)' File '"/usr/lib/python2.7/site-packages/requests/adapters.py",' line 479, in send raise 'ConnectTimeout(e,' 'request=request)' ConnectTimeout: 'HTTPConnectionPool(host='\''10.0.5.208'\'',' 'port=5985):' Max retries exceeded with url: /wsman '(Caused' by 'ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection' object at '0x3928810>,' ''\''Connection' to 10.0.5.208 timed out. '(connect' 'timeout=70)'\''))' fatal: '[10.0.5.208]:' 'UNREACHABLE!' '=>' '{' '"changed":' false, '"msg":' '"plaintext:' 'HTTPConnectionPool(host='\''10.0.5.208'\'',' 'port=5985):' Max retries exceeded with url: /wsman '(Caused' by 'ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection' object at '0x3928810>,' ''\''Connection' to 10.0.5.208 timed out. '(connect' 'timeout=70)'\''))",' '"unreachable":' true '}' to retry, use: --limit @/home/test/playbooks/iis.retry PLAY RECAP AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 10.0.5.208 : ok=0 changed=0 unreachable=1 failed=0
+Failed
+++ sed -n '/ok=/{s/.*ok=//;p;}' newfile
+++ cut -d ' ' -f1
++ result=0
++ rm -rf newfile
++ '[' 0 -eq 1 ']'
++ echo Failed
++ sed -ie '\|^10.0.5.208  TestHostname$|d' /etc/hosts
++ sed -ie '\|^10.0.5.208$|d' /home/test/ansible_test/host
++ exit 1
+Build step 'Execute shell' marked build as failure
+Performing Post build task...
+Match found for : : True
+Logical operation result is TRUE
+Running script  : export AMIID=`cat /tmp/variable.properties`
+echo ""
+echo " The new AMI ID created by AWS CLI : " $AMIID
+echo ""
+cat /tmp/variable.properties
+echo ""
+
+[default] $ /bin/ksh -xe /tmp/hudson799815002393037181.sh
++ cat /tmp/variable.properties
+cat: /tmp/variable.properties: No such file or directory
++ AMIID=''
++ export AMIID
++ echo ''
+
++ echo ' The new AMI ID created by AWS CLI : '
+ The new AMI ID created by AWS CLI : 
++ echo ''
+
++ cat /tmp/variable.properties
+cat: /tmp/variable.properties: No such file or directory
+POST BUILD TASK : FAILURE
+END OF POST BUILD TASK : 0
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

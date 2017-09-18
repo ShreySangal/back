@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.database.GlobalDatabaseConfiguration plugin="database@1.5">
+  <database class="org.jenkinsci.plugins.database.sqlite.GlobalSQLiteDatabase" plugin="database-sqlite@1.0">
+    <path>/var/lib/jenkins/global</path>
+  </database>
+</org.jenkinsci.plugins.database.GlobalDatabaseConfiguration>

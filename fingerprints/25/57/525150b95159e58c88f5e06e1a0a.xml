@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-28 10:17:44.695 UTC</timestamp>
+  <md5sum>2557525150b95159e58c88f5e06e1a0a</md5sum>
+  <fileName>org.webbitserver:webbit-0.4.14.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

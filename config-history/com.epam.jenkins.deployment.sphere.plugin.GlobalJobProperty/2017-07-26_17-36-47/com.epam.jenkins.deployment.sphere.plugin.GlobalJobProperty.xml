@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.epam.jenkins.deployment.sphere.plugin.GlobalJobProperty_-CustomViewsTabBarDescriptor plugin="deployment-sphere@0.1.105">
+  <environmentDao>
+    <modelMapper>
+      <config>
+        <typeMapStore>
+          <typeMaps class="concurrent-hash-map"/>
+          <immutableTypeMaps class="java.util.Collections$UnmodifiableMap">
+            <m class="concurrent-hash-map" reference="../../typeMaps"/>
+          </immutableTypeMaps>
+          <lock/>
+          <config reference="../.."/>
+        </typeMapStore>
+        <converterStore>
+          <converters class="java.util.concurrent.CopyOnWriteArrayList">
+            <org.modelmapper.internal.converter.ArrayConverter/>
+            <org.modelmapper.internal.converter.CollectionConverter/>
+            <org.modelmapper.internal.converter.MapConverter/>
+            <org.modelmapper.internal.converter.AssignableConverter/>
+            <org.modelmapper.internal.converter.StringConverter/>
+            <org.modelmapper.internal.converter.EnumConverter/>
+            <org.modelmapper.internal.converter.NumberConverter/>
+            <org.modelmapper.internal.converter.BooleanConverter/>
+            <org.modelmapper.internal.converter.CharacterConverter/>
+            <org.modelmapper.internal.converter.DateConverter/>
+            <org.modelmapper.internal.converter.CalendarConverter/>
+          </converters>
+        </converterStore>
+        <valueAccessStore>
+          <valueReaders serialization="custom">
+            <java.util.concurrent.CopyOnWriteArrayList>
+              <default/>
+              <int>1</int>
+              <org.modelmapper.internal.valueaccess.MapValueReader/>
+            </java.util.concurrent.CopyOnWriteArrayList>
+            <org.modelmapper.internal.valueaccess.ValueAccessStore_-TypeResolvingList>
+              <default>
+                <valueAccessorType>org.modelmapper.spi.ValueReader</valueAccessorType>
+                <valueAccessors class="org.modelmapper.internal.util.CopyOnWriteLinkedHashMap">
+                  <map class="linked-hash-map">
+                    <entry>
+                      <org.modelmapper.internal.valueaccess.MapValueReader reference="../../../../../../java.util.concurrent.CopyOnWriteArrayList/org.modelmapper.internal.valueaccess.MapValueReader"/>
+                      <java-class>java.util.Map</java-class>
+                    </entry>
+                  </map>
+                </valueAccessors>
+              </default>
+            </org.modelmapper.internal.valueaccess.ValueAccessStore_-TypeResolvingList>
+          </valueReaders>
+        </valueAccessStore>
+        <destinationNameTokenizer class="org.modelmapper.convention.NameTokenizers$CamelCaseNameTokenizer"/>
+        <destinationNameTransformer class="org.modelmapper.convention.NameTransformers$2"/>
+        <destinationNamingConvention class="org.modelmapper.convention.NamingConventions$2"/>
+        <fieldAccessLevel>PUBLIC</fieldAccessLevel>
+        <matchingStrategy class="org.modelmapper.convention.StandardMatchingStrategy"/>
+        <methodAccessLevel>PUBLIC</methodAccessLevel>
+        <sourceNameTokenizer class="org.modelmapper.convention.NameTokenizers$CamelCaseNameTokenizer" reference="../destinationNameTokenizer"/>
+        <sourceNameTransformer class="org.modelmapper.convention.NameTransformers$1"/>
+        <sourceNamingConvention class="org.modelmapper.convention.NamingConventions$1"/>
+        <fieldMatchingEnabled>false</fieldMatchingEnabled>
+        <ambiguityIgnored>false</ambiguityIgnored>
+        <fullTypeMatchingRequired>false</fullTypeMatchingRequired>
+        <implicitMatchingEnabled>true</implicitMatchingEnabled>
+      </config>
+      <engine>
+        <converterCache class="concurrent-hash-map"/>
+        <configuration reference="../../config"/>
+        <typeMapStore reference="../../config/typeMapStore"/>
+        <converterStore reference="../../config/converterStore"/>
+      </engine>
+    </modelMapper>
+    <databaseProvider>
+      <dataSourceProvider/>
+      <databaseMigrator/>
+    </databaseProvider>
+  </environmentDao>
+  <applicationDao>
+    <modelMapper>
+      <config>
+        <typeMapStore>
+          <typeMaps class="concurrent-hash-map"/>
+          <immutableTypeMaps class="java.util.Collections$UnmodifiableMap">
+            <m class="concurrent-hash-map" reference="../../typeMaps"/>
+          </immutableTypeMaps>
+          <lock/>
+          <config reference="../.."/>
+        </typeMapStore>
+        <converterStore>
+          <converters class="java.util.concurrent.CopyOnWriteArrayList">
+            <org.modelmapper.internal.converter.ArrayConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.ArrayConverter"/>
+            <org.modelmapper.internal.converter.CollectionConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.CollectionConverter"/>
+            <org.modelmapper.internal.converter.MapConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.MapConverter"/>
+            <org.modelmapper.internal.converter.AssignableConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.AssignableConverter"/>
+            <org.modelmapper.internal.converter.StringConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.StringConverter"/>
+            <org.modelmapper.internal.converter.EnumConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.EnumConverter"/>
+            <org.modelmapper.internal.converter.NumberConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.NumberConverter"/>
+            <org.modelmapper.internal.converter.BooleanConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.BooleanConverter"/>
+            <org.modelmapper.internal.converter.CharacterConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.CharacterConverter"/>
+            <org.modelmapper.internal.converter.DateConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.DateConverter"/>
+            <org.modelmapper.internal.converter.CalendarConverter reference="../../../../../../environmentDao/modelMapper/config/converterStore/converters/org.modelmapper.internal.converter.CalendarConverter"/>
+          </converters>
+        </converterStore>
+        <valueAccessStore>
+          <valueReaders serialization="custom">
+            <java.util.concurrent.CopyOnWriteArrayList>
+              <default/>
+              <int>1</int>
+              <org.modelmapper.internal.valueaccess.MapValueReader/>
+            </java.util.concurrent.CopyOnWriteArrayList>
+            <org.modelmapper.internal.valueaccess.ValueAccessStore_-TypeResolvingList>
+              <default>
+                <valueAccessorType>org.modelmapper.spi.ValueReader</valueAccessorType>
+                <valueAccessors class="org.modelmapper.internal.util.CopyOnWriteLinkedHashMap">
+                  <map class="linked-hash-map">
+                    <entry>
+                      <org.modelmapper.internal.valueaccess.MapValueReader reference="../../../../../../java.util.concurrent.CopyOnWriteArrayList/org.modelmapper.internal.valueaccess.MapValueReader"/>
+                      <java-class>java.util.Map</java-class>
+                    </entry>
+                  </map>
+                </valueAccessors>
+              </default>
+            </org.modelmapper.internal.valueaccess.ValueAccessStore_-TypeResolvingList>
+          </valueReaders>
+        </valueAccessStore>
+        <destinationNameTokenizer class="org.modelmapper.convention.NameTokenizers$CamelCaseNameTokenizer" reference="../../../../environmentDao/modelMapper/config/destinationNameTokenizer"/>
+        <destinationNameTransformer class="org.modelmapper.convention.NameTransformers$2" reference="../../../../environmentDao/modelMapper/config/destinationNameTransformer"/>
+        <destinationNamingConvention class="org.modelmapper.convention.NamingConventions$2" reference="../../../../environmentDao/modelMapper/config/destinationNamingConvention"/>
+        <fieldAccessLevel>PUBLIC</fieldAccessLevel>
+        <matchingStrategy class="org.modelmapper.convention.StandardMatchingStrategy" reference="../../../../environmentDao/modelMapper/config/matchingStrategy"/>
+        <methodAccessLevel>PUBLIC</methodAccessLevel>
+        <sourceNameTokenizer class="org.modelmapper.convention.NameTokenizers$CamelCaseNameTokenizer" reference="../../../../environmentDao/modelMapper/config/destinationNameTokenizer"/>
+        <sourceNameTransformer class="org.modelmapper.convention.NameTransformers$1" reference="../../../../environmentDao/modelMapper/config/sourceNameTransformer"/>
+        <sourceNamingConvention class="org.modelmapper.convention.NamingConventions$1" reference="../../../../environmentDao/modelMapper/config/sourceNamingConvention"/>
+        <fieldMatchingEnabled>false</fieldMatchingEnabled>
+        <ambiguityIgnored>false</ambiguityIgnored>
+        <fullTypeMatchingRequired>false</fullTypeMatchingRequired>
+        <implicitMatchingEnabled>true</implicitMatchingEnabled>
+      </config>
+      <engine>
+        <converterCache class="concurrent-hash-map"/>
+        <configuration reference="../../config"/>
+        <typeMapStore reference="../../config/typeMapStore"/>
+        <converterStore reference="../../config/converterStore"/>
+      </engine>
+    </modelMapper>
+    <databaseProvider reference="../../environmentDao/databaseProvider"/>
+  </applicationDao>
+  <applicationConverter class="com.epam.jenkins.deployment.sphere.plugin.GlobalJobProperty$CustomViewsTabBarDescriptor$1">
+    <handleNullAutomatically>true</handleNullAutomatically>
+    <outer-class reference="../.."/>
+  </applicationConverter>
+  <environmentConverter class="com.epam.jenkins.deployment.sphere.plugin.GlobalJobProperty$CustomViewsTabBarDescriptor$2">
+    <handleNullAutomatically>true</handleNullAutomatically>
+    <outer-class reference="../.."/>
+  </environmentConverter>
+</com.epam.jenkins.deployment.sphere.plugin.GlobalJobProperty_-CustomViewsTabBarDescriptor>

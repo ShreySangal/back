@@ -1,0 +1,14 @@
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 79a74e3c44a79b39775e054c136e418f0f213116 (refs/remotes/origin/master)
+Commit message: "ma"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 79a74e3c44a79b39775e054c136e418f0f213116
+ > /bin/git branch -a -v --no-abbrev # timeout=10
+ > /bin/git checkout -b master 79a74e3c44a79b39775e054c136e418f0f213116

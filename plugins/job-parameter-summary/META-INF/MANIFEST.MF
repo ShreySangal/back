@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ogondza
+Build-Jdk: 1.8.0_112
+Extension-Name: job-parameter-summary
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: job-parameter-summary
+Implementation-Version: 0.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: job-parameter-summary
+Long-Name: Job Parameter Summary Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Job+Parameter+Summary+
+ Plugin
+Plugin-Version: 0.5
+Hudson-Version: 1.580
+Jenkins-Version: 1.580
+Plugin-Developers: Oliver Gondža:ogondza:ogondza@gmail.com
+

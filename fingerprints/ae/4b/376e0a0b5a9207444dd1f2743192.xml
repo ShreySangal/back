@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-12 16:55:10.662 UTC</timestamp>
+  <md5sum>ae4b376e0a0b5a9207444dd1f2743192</md5sum>
+  <fileName>org.eclipse.jetty.websocket:websocket-client-9.4.3.v20170317.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

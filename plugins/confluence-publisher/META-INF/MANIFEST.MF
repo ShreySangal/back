@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jhansche
+Build-Jdk: 1.6.0_37
+Extension-Name: confluence-publisher
+Specification-Title: Publish build artifacts to an Atlassian Confluenc
+ e wiki
+Specification-Vendor: MeetMe, Inc.
+Implementation-Vendor: MeetMe, Inc.
+Implementation-Title: confluence-publisher
+Implementation-Version: 1.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: confluence-publisher
+Long-Name: Confluence Publisher
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Confluence+Publisher+P
+ lugin
+Plugin-Version: 1.8
+Hudson-Version: 1.409
+Jenkins-Version: 1.409
+Plugin-Developers: Joe Hansche:jhansche:jhansche@myyearbook.com
+

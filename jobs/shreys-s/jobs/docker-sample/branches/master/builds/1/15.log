@@ -1,0 +1,8 @@
+[reys-s_docker-sample_master-A4NKFY2IAPXKBKAU3PHONFLQRMMCQXK4UHB53QHZE7A43QPZJ2DA] Running shell script
++ ./gradlew clean
+
+ERROR: JAVA_HOME is set to an invalid directory: /opt/jdk8
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+

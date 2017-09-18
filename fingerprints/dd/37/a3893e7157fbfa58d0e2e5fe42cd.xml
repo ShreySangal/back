@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-12 16:55:10.567 UTC</timestamp>
+  <md5sum>dd37a3893e7157fbfa58d0e2e5fe42cd</md5sum>
+  <fileName>org.springframework:spring-tx-4.3.9.RELEASE.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

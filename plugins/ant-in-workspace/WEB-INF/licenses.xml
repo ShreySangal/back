@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ant-in-workspace' version='1.0.0'><l:dependency name='Ant In Workspace' groupId='org.jenkins-ci.plugins' artifactId='ant-in-workspace' version='1.0.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Ant+In+Workspace+Plugin'><l:description>Plugin extends official Ant Plugin. Allows to use an Ant that is located in the Workspace.</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

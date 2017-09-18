@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.7.0_75
+Extension-Name: release
+Specification-Title: Adds the ability to wrap your job with pre- and p
+ ost- build steps which are only executed when a manual release build 
+ is triggered.
+Implementation-Title: release
+Implementation-Version: 2.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: release
+Long-Name: Jenkins Release Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Release+Plugin
+Plugin-Version: 2.8
+Hudson-Version: 1.642.4
+Jenkins-Version: 1.642.4
+Plugin-Dependencies: maven-plugin:2.13,workflow-step-api:2.3;resolutio
+ n:=optional,workflow-support:2.6;resolution:=optional,dashboard-view:
+ 2.0;resolution:=optional,ivy:1.22;resolution:=optional,jobgenerator:1
+ .22;resolution:=optional,matrix-project:1.7,promoted-builds:2.0;resol
+ ution:=optional
+Plugin-Developers: Peter Hayes:petehayes:petehayes@gmail.com,Oleg Nena
+ shev:oleg_nenashev:,Steven Christou:christ66:
+

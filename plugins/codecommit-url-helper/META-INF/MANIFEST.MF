@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: aldrin
+Build-Jdk: 1.8.0_77
+Extension-Name: codecommit-url-helper
+Specification-Title: Generates Token Macros for CodeCommit URLs
+Specification-Vendor: ingenieux Labs
+Implementation-Vendor: ingenieux Labs
+Implementation-Title: codecommit-url-helper
+Implementation-Version: 0.0.1
+Group-Id: br.com.ingenieux.jenkins.plugins
+Short-Name: codecommit-url-helper
+Long-Name: AWS CodeCommit URL Helper
+Url: https://wiki.jenkins-ci.org/display/JENKINS/CodeCommit+URL+Helper
+Plugin-Version: 0.0.1
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Dependencies: aws-credentials:1.11,git:2.4.4,aws-java-sdk:1.10.45
+Plugin-Developers: Aldrin Leal:aldrinleal:
+

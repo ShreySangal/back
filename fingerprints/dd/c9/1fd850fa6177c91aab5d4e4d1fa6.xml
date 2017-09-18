@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-12 16:55:10.869 UTC</timestamp>
+  <md5sum>ddc91fd850fa6177c91aab5d4e4d1fa6</md5sum>
+  <fileName>com.google.guava:guava-21.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.14">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepAtomNode" plugin="workflow-cps@2.37">
+    <parentIds>
+      <string>4</string>
+    </parentIds>
+    <id>5</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.scm.GenericSCMStep</descriptorId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+      <charset>UTF-8</charset>
+    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.37">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>scm</string>
+          <hudson.plugins.git.GitSCM plugin="git@3.4.1">
+            <configVersion>2</configVersion>
+            <userRemoteConfigs>
+              <hudson.plugins.git.UserRemoteConfig>
+                <name>origin</name>
+                <refspec>+refs/heads/ingress-update:refs/remotes/origin/ingress-update</refspec>
+                <url>https://github.com/shreys-s/kubernetes-ci-cd.git</url>
+                <credentialsId>github</credentialsId>
+              </hudson.plugins.git.UserRemoteConfig>
+            </userRemoteConfigs>
+            <branches class="singleton-list">
+              <hudson.plugins.git.BranchSpec>
+                <name>ingress-update</name>
+              </hudson.plugins.git.BranchSpec>
+            </branches>
+            <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+            <browser class="hudson.plugins.git.browser.GithubWeb">
+              <url>https://github.com/shreys-s/kubernetes-ci-cd</url>
+            </browser>
+            <submoduleCfg class="empty-list"/>
+            <extensions>
+              <jenkins.plugins.git.GitSCMSourceDefaults>
+                <includeTags>false</includeTags>
+              </jenkins.plugins.git.GitSCMSourceDefaults>
+              <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+                <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+                  <revision plugin="git-client@2.4.6">
+                    <sha1 serialization="custom">
+                      <unserializable-parents>
+                        <w1>923154113</w1>
+                        <w2>-511500079</w2>
+                        <w3>-154149718</w3>
+                        <w4>1767132608</w4>
+                        <w5>-1057934439</w5>
+                      </unserializable-parents>
+                      <org.eclipse.jgit.lib.ObjectId>
+                        <int>923154113</int>
+                        <int>-511500079</int>
+                        <int>-154149718</int>
+                        <int>1767132608</int>
+                        <int>-1057934439</int>
+                      </org.eclipse.jgit.lib.ObjectId>
+                    </sha1>
+                    <branches class="singleton-set">
+                      <hudson.plugins.git.Branch>
+                        <sha1 reference="../../../sha1"/>
+                        <name>ingress-update</name>
+                      </hudson.plugins.git.Branch>
+                    </branches>
+                  </revision>
+                </buildChooser>
+              </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            </extensions>
+          </hudson.plugins.git.GitSCM>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.19">
+      <startTime>1501316199260</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

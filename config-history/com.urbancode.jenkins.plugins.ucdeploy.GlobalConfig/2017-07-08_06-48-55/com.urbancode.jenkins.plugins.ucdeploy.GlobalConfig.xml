@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.urbancode.jenkins.plugins.ucdeploy.GlobalConfig_-GlobalConfigDescriptor plugin="ibm-ucdeploy-build-steps@2.5.923266">
+  <sites>
+    <com.urbancode.jenkins.plugins.ucdeploy.UCDeploySite>
+      <profileName>udeploy-server</profileName>
+      <url>http://10.1.23.185:8080</url>
+      <user>admin</user>
+      <password>{AQAAABAAAAAQgPRkB/gjOzAiJy7FkDu3PL0LlfufQDRJZS5OWBvROeE=}</password>
+      <adminUser>true</adminUser>
+      <trustAllCerts>true</trustAllCerts>
+    </com.urbancode.jenkins.plugins.ucdeploy.UCDeploySite>
+  </sites>
+</com.urbancode.jenkins.plugins.ucdeploy.GlobalConfig_-GlobalConfigDescriptor>

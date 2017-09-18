@@ -1,0 +1,9 @@
+Started on Jul 24, 2017 3:27:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision b45e3f81f3d74f775dedc11185262e6322f8fed5 (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > /bin/git ls-remote -h https://github.com/shreys-s/CounterWebApp # timeout=10
+Found 1 remote heads on https://github.com/shreys-s/CounterWebApp
+[poll] Latest remote head revision on refs/heads/master is: e15e199b057a78e9d903e872bfe5a782fe40cb2c
+Done. Took 1.6 sec
+Changes found

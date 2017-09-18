@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-12 16:55:10.637 UTC</timestamp>
+  <md5sum>d4f11349a0263b82d07c115a8522c431</md5sum>
+  <fileName>org.seleniumhq.selenium:selenium-remote-driver-3.4.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

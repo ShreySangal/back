@@ -1,0 +1,11 @@
+commit e6f7f24a4139049a8c97b9803362a6d8c943dca5
+tree 6e1c1d2f4a8652f7d123a956487048d5329b01e4
+parent 7504b41a8deefa0bc52ef2df2c04cfc874b8538d
+author shreys-s <shrey_s@hcl.com> 2017-07-10 15:44:51 +0530
+committer GitHub <noreply@github.com> 2017-07-10 15:44:51 +0530
+
+    adding assembly functionality
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 006da1b95a1f63920a6ba7fa02946359f01b58ab A	src/main/assembly/repository.xml

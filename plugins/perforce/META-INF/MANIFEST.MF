@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.6.0_38
+Extension-Name: perforce
+Implementation-Title: perforce
+Implementation-Version: 1.3.36
+Short-Name: perforce
+Long-Name: Perforce Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Perforce+Plugin
+Plugin-Version: 1.3.36
+Hudson-Version: 1.346
+Plugin-Developers: Carl Quinn:javadude:carl.quinn@gmail.com,Rob Petti:
+ rpetti:rob.petti@gmail.com,Oleg Nenashev:oleg_nenashev:o dot v dot ne
+ nashev at gmail dot com
+

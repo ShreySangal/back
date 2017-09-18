@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:36:35.153 UTC</timestamp>
+  <md5sum>e16b1b8fca0980263f764f633ec91dd6</md5sum>
+  <fileName>com.google.code.gson:gson-2.3.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

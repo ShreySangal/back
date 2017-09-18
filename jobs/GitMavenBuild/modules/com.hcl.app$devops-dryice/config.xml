@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@2.17">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.19.0">
+      <doNotScan>false</doNotScan>
+    </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>devops-dryice</displayName>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <relativePath></relativePath>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <plugin>false</plugin>
+      <scope>test</scope>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+  <children/>
+</maven2>

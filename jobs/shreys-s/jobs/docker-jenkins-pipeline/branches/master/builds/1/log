@@ -1,0 +1,124 @@
+Branch indexing
+[8mha:////4KTblGg3+Kv/DdAn/zZ6cth9IpFV1chKegFEKN0BkCycAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcQt+DPAAfLPGCjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Obtained Jenkinsfile from 732688fab6ebd1fb928b01fc740efefed775a31e
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/docker-jenkins-pipeline.git
+ > /bin/git init /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/docker-jenkins-pipeline.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/docker-jenkins-pipeline.git +refs/heads/master:refs/remotes/origin/master
+ > /bin/git config remote.origin.url https://github.com/shreys-s/docker-jenkins-pipeline.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/docker-jenkins-pipeline.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/docker-jenkins-pipeline.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/docker-jenkins-pipeline.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 732688fab6ebd1fb928b01fc740efefed775a31e (master)
+Commit message: "updated node"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 732688fab6ebd1fb928b01fc740efefed775a31e
+First time build. Skipping changelog.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Package)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[webapp] Running shell script
++ mvn clean package -DskipTests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webapp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ webapp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ webapp ---
+[INFO] Building jar: /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/webapp-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (make-assembly) @ webapp ---
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/couchbase/ already added, skipping
+[INFO] com/couchbase/client/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.couchbase.client/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] Building jar: /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/webapp-1.0-SNAPSHOT-jar-with-dependencies.jar
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/couchbase/ already added, skipping
+[INFO] com/couchbase/client/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.couchbase.client/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.161 s
+[INFO] Finished at: 2017-09-08T13:46:21+05:30
+[INFO] Final Memory: 23M/382M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // dir
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Create Docker Image)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[webapp] Running shell script
++ docker build -t shreys/docker-jenkins-pipeline:1 .
+time="2017-09-08T13:46:22+05:30" level=error msg="failed to dial gRPC: cannot connect to the Docker daemon. Is 'docker daemon' running on this host?: dial unix /var/run/docker.sock: connect: permission denied" 
+context canceled
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // dir
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

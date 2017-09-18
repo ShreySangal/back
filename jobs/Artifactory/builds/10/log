@@ -1,0 +1,28 @@
+Started by upstream project "[8mha:////4OV8JQUVuAm6pOui/VXcQOzW8jt1VSTBBgIslC5pQEQfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP3QkHhnZ30A1Ps7QcAAAAA=[0mUT_CC" build number [8mha:////4JMJGSIOEnUWxa9ExAj/WqP7004IT1McN88Wb5pRPKe8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JP3QkHhnZ31DCwCa8O24wgAAAA==[0m18
+originally caused by:
+ Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4LuA3eK0W7Ey9xKZ7g0h7D4b7yAIfjI9tKU8z8YTkG06AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUNLAHX2fcrFAAAA[0m19
+ originally caused by:
+  Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4KsR7T3GvQCm1i3EYCZ4LJu+s0cvI8eZjSMIxQVwClQNAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fSMDAMq7GiHFAAAA[0m20
+  originally caused by:
+   Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4N1UkMrpl96/GocWR7sAVuH/RblGzte5NNGMwNShiGCcAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/fDMvJT88uCcxLJUAAXURuzKAAAA[0mWindowSlave (windows) in workspace c:\jenkins\workspace\Artifactory
+jpetstore.war file doesn't exists
+FATAL: jpetstore.war file doesn't exists
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjava.io.IOException: jpetstore.war file doesn't exists
+	at sp.sd.nexusartifactuploader.NexusArtifactUploader.perform(NexusArtifactUploader.java:148)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:735)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:490)
+	at hudson.model.Run.execute(Run.java:1735)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:405)
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

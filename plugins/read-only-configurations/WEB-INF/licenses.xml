@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='read-only-configurations' version='1.10'><l:dependency name='Read-only configurations' groupId='org.jenkins-ci.plugins' artifactId='read-only-configurations' version='1.10' url='https://wiki.jenkins-ci.org/display/JENKINS/Read-only+configurations+plugin'><l:description/></l:dependency></l:dependencies>

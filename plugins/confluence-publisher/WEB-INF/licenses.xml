@@ -1,0 +1,16 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Confluence Publisher' groupId='org.jenkins-ci.plugins' artifactId='confluence-publisher' version='1.8' url='http://wiki.jenkins-ci.org/display/JENKINS/Confluence+Publisher+Plugin'>
+    <l:description>Publish build artifacts to an Atlassian Confluence wiki</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt' />
+  </l:dependency>
+  <l:dependency name='WSDL4J' groupId='wsdl4j' artifactId='wsdl4j' version='1.6.2' url='http://sf.net/projects/wsdl4j'>
+    <l:description>Java stub generator for WSDL</l:description>
+    <l:license name='CPL' url='http://www.opensource.org/licenses/cpl1.0.txt' />
+  </l:dependency>
+  <l:dependency name='Java API for XML Based RPC' groupId='javax.xml' artifactId='jaxrpc-api' version='1.1' url='http://java.sun.com/webservices/jaxrpc/index.jsp'>
+    <l:description>Part of the Java Web Services Developer Pack 1.6</l:description>
+  </l:dependency>
+  <l:dependency name='axis' groupId='org.apache.axis' artifactId='axis' version='1.4'>
+    <l:description>POM was created from deploy:deploy-file</l:description>
+  </l:dependency>
+</l:dependencies>

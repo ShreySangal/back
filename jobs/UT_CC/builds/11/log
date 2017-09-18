@@ -1,0 +1,113 @@
+Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4I9ANZ+GyTZI22N3vY80IYjmfQSXk5irABx16Wrm05LFAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUMjAP0vr13FAAAA[0m12
+originally caused by:
+ Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4N8Nt9QAa0Vk1fLqFwKhUiKL9HiHzoL6QhU6QkQMwY/PAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fUNjALO5PpPFAAAA[0m13
+ originally caused by:
+  Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/UT_CC
+[UT_CC] $ /bin/ksh -xe /tmp/jenkins4179426496802689694.sh
++ cd /var/lib/jenkins/workspace
++ cd UT_CC
++ cp -r /var/lib/jenkins/workspace/Building/DB /var/lib/jenkins/workspace/Building/gameoflife-acceptance-tests /var/lib/jenkins/workspace/Building/gameoflife-build /var/lib/jenkins/workspace/Building/gameoflife-core /var/lib/jenkins/workspace/Building/gameoflife-deploy /var/lib/jenkins/workspace/Building/gameoflife-web /var/lib/jenkins/workspace/Building/infinitest.filters /var/lib/jenkins/workspace/Building/pom.xml /var/lib/jenkins/workspace/Building/README.markdown /var/lib/jenkins/workspace/Building/target .
+[UT_CC] $ /opt/sonar-runner-2.4/bin/sonar-runner -e -Dsonar.host.url=http://10.1.23.186:9000/sonar/ ******** -Dsonar.projectName=UT_CC -Dsonar.projectVersion=1.0 -Dsonar.tests=/var/lib/jenkins/workspace/UT_CC/gameoflife-web/src/test -Dsonar.projectKey=UT_CC -Dsonar.sources=/var/lib/jenkins/workspace/UT_CC/gameoflife-web/src/main -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/UT_CC
+SonarQube Runner 2.4
+Java 1.8.0_131 Oracle Corporation (64-bit)
+Linux 3.10.0-514.26.2.el7.x86_64 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: /opt/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: NONE
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Work directory: /var/lib/jenkins/workspace/UT_CC/.sonar
+INFO: SonarQube Server 6.0
+13:56:15.785 INFO  - Load global repositories
+13:56:16.139 INFO  - Load global repositories (done) | time=358ms
+13:56:16.202 WARN  - Property 'sonar.jdbc.url' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:56:16.212 INFO  - User cache: /var/lib/jenkins/.sonar/cache
+13:56:17.051 INFO  - Load plugins index
+13:56:17.087 INFO  - Load plugins index (done) | time=37ms
+13:56:18.275 INFO  - Process project properties
+13:56:18.703 INFO  - Load project repositories
+13:56:19.608 INFO  - Load project repositories (done) | time=904ms
+13:56:19.828 INFO  - Load quality profiles
+13:56:19.984 INFO  - Load quality profiles (done) | time=156ms
+13:56:20.004 INFO  - Load active rules
+13:56:21.118 INFO  - Load active rules (done) | time=1113ms
+13:56:21.270 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+13:56:21.272 INFO  - Publish mode
+13:56:21.279 INFO  - -------------  Scan UT_CC
+13:56:21.768 INFO  - Load server rules
+13:56:22.148 INFO  - Load server rules (done) | time=379ms
+13:56:22.609 INFO  - Base dir: /var/lib/jenkins/workspace/UT_CC
+13:56:22.612 INFO  - Working dir: /var/lib/jenkins/workspace/UT_CC/.sonar
+13:56:22.619 INFO  - Source paths: gameoflife-web/src/main
+13:56:22.620 INFO  - Test paths: gameoflife-web/src/test
+13:56:22.621 INFO  - Source encoding: UTF-8, default locale: en_US
+13:56:22.624 INFO  - Index files
+13:56:22.848 INFO  - 5 files indexed
+13:56:22.874 INFO  - Quality profile for java: Sonar way
+13:56:25.945 INFO  - Sensor Lines Sensor
+13:56:26.030 INFO  - Sensor Lines Sensor (done) | time=85ms
+13:56:26.033 INFO  - Sensor JavaSquidSensor
+13:56:27.366 INFO  - Configured Java source version (sonar.java.source): none
+13:56:27.499 INFO  - JavaClasspath initialization
+13:56:27.507 WARN  - Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+13:56:27.508 INFO  - JavaClasspath initialization (done) | time=8ms
+13:56:27.508 INFO  - JavaTestClasspath initialization
+13:56:27.508 WARN  - Bytecode of dependencies was not provided for analysis of test files, you might end up with less precise results. Bytecode can be provided using sonar.java.test.libraries property
+13:56:27.509 INFO  - JavaTestClasspath initialization (done) | time=1ms
+13:56:28.919 INFO  - Java Main Files AST scan
+13:56:28.924 INFO  - 2 source files to be analyzed
+13:56:32.537 INFO  - Java Main Files AST scan (done) | time=3618ms
+13:56:32.539 INFO  - 2/2 source files have been analyzed
+13:56:32.541 WARN  - Java bytecode has not been made available to the analyzer. The  are disabled.
+13:56:32.542 INFO  - Java Test Files AST scan
+13:56:32.543 INFO  - 3 source files to be analyzed
+13:56:32.988 INFO  - Java Test Files AST scan (done) | time=446ms
+13:56:32.995 INFO  - 3/3 source files have been analyzed
+13:56:32.995 INFO  - Sensor JavaSquidSensor (done) | time=6962ms
+13:56:33.001 INFO  - Sensor SCM Sensor
+13:56:33.019 INFO  - No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+13:56:33.038 INFO  - Sensor SCM Sensor (done) | time=36ms
+13:56:33.039 INFO  - Sensor SurefireSensor
+13:56:33.053 INFO  - parsing /var/lib/jenkins/workspace/UT_CC/target/surefire-reports
+13:56:33.065 INFO  - Sensor SurefireSensor (done) | time=16ms
+13:56:33.068 INFO  - Sensor JaCoCoSensor
+13:56:33.179 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+13:56:33.181 INFO  - Sensor JaCoCoSensor (done) | time=113ms
+13:56:33.182 INFO  - Sensor JaCoCoItSensor
+13:56:33.184 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /var/lib/jenkins/workspace/UT_CC/target/jacoco-it.exec
+13:56:33.184 INFO  - Sensor JaCoCoItSensor (done) | time=2ms
+13:56:33.185 INFO  - Sensor JaCoCoOverallSensor
+13:56:33.257 WARN  - You are not using the latest JaCoCo binary format version, please consider upgrading to latest JaCoCo version.
+13:56:33.259 INFO  - Analysing /var/lib/jenkins/workspace/UT_CC/target/jacoco.exec
+13:56:33.367 INFO  - No JaCoCo analysis of project coverage can be done since there is no class files.
+13:56:33.369 INFO  - Sensor JaCoCoOverallSensor (done) | time=184ms
+13:56:33.370 INFO  - Sensor XmlFileSensor
+13:56:33.389 INFO  - Sensor XmlFileSensor (done) | time=16ms
+13:56:33.392 INFO  - Sensor Zero Coverage Sensor
+13:56:33.474 INFO  - Sensor Zero Coverage Sensor (done) | time=81ms
+13:56:33.477 INFO  - Sensor Code Colorizer Sensor
+13:56:33.480 INFO  - Sensor Code Colorizer Sensor (done) | time=3ms
+13:56:33.480 INFO  - Sensor CPD Block Indexer
+13:56:33.481 INFO  - JavaCpdBlockIndexer is used for java
+13:56:33.597 INFO  - Sensor CPD Block Indexer (done) | time=117ms
+13:56:33.607 INFO  - Calculating CPD for 1 files
+13:56:33.692 INFO  - CPD calculation finished
+13:56:33.966 INFO  - Analysis report generated in 262ms, dir size=27 KB
+13:56:34.028 INFO  - Analysis reports compressed in 59ms, zip size=14 KB
+13:56:34.116 INFO  - Analysis report uploaded in 85ms
+13:56:34.121 INFO  - ANALYSIS SUCCESSFUL, you can browse http://10.1.23.186:9000/sonar/dashboard/index/UT_CC
+13:56:34.121 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+13:56:34.121 INFO  - More about the report processing at http://10.1.23.186:9000/sonar/api/ce/task?id=AV2c51rliT8DnR5Eg9JV
+13:56:34.177 INFO  - Task total time: 16.713 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 21.796s
+Final Memory: 12M/411M
+INFO: ------------------------------------------------------------------------
+Recording test results
+Notifying upstream projects of job completion
+Warning: ‘Access Control for Builds’ in global security configuration is empty, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Triggering a new build of [8mha:////4By0JVPgH92y9DR05Cnoq0cBF5ihBtL6kyeimhsU3G6kAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH3HopLMtMTkkvyiSn0Ayw3LOcYAAAA=[0mArtifactory
+Finished: SUCCESS

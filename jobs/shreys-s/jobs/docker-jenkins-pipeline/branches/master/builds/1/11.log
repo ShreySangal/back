@@ -1,0 +1,61 @@
+[webapp] Running shell script
++ mvn clean package -DskipTests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webapp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ webapp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ webapp ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ webapp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ webapp ---
+[INFO] Building jar: /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/webapp-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (make-assembly) @ webapp ---
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/couchbase/ already added, skipping
+[INFO] com/couchbase/client/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.couchbase.client/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] Building jar: /var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ/webapp/target/webapp-1.0-SNAPSHOT-jar-with-dependencies.jar
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/couchbase/ already added, skipping
+[INFO] com/couchbase/client/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.couchbase.client/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.161 s
+[INFO] Finished at: 2017-09-08T13:46:21+05:30
+[INFO] Final Memory: 23M/382M
+[INFO] ------------------------------------------------------------------------

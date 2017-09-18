@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nullin
+Build-Jdk: 1.7.0_71
+Extension-Name: simple-parameterized-builds-report
+Implementation-Title: simple-parameterized-builds-report
+Implementation-Version: 1.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: simple-parameterized-builds-report
+Long-Name: Simple Parameterized Builds Report Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Simple+Parameterized+
+ Builds+Report+plugin
+Plugin-Version: 1.5
+Hudson-Version: 1.447
+Jenkins-Version: 1.447
+Plugin-Developers: Nalin Makar:nullin:nullin@nullin.com
+

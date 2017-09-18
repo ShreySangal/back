@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Antonio
+Build-Jdk: 1.6.0_20
+Extension-Name: deploy-websphere
+Implementation-Title: deploy-websphere
+Implementation-Version: 1.0
+Short-Name: deploy-websphere
+Long-Name: Deploy to Websphere container Plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/Deploy+WebSphere+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.343
+Plugin-Dependencies: deploy:1.5
+Plugin-Developers: Antonio Sanso:asanso:
+

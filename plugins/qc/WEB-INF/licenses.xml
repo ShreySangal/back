@@ -1,0 +1,8 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Quality Center Plugin' groupId='org.jenkins-ci.plugins' artifactId='qc' version='1.2.1' url='http://wiki.jenkins-ci.org/display/HUDSON/Quality+Center+Plugin'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='com4j' groupId='org.jvnet.com4j' artifactId='com4j' version='20070717'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

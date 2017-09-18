@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Url: https://wiki.jenkins-ci.org/display/JENKINS/matrix+groovy+executi
+ on+strategy+plugin
+Plugin-Dependencies: matrix-project:1.6,script-security:1.15,envinject
+ :1.23;resolution:=optional
+Group-Id: org.jenkins-ci.plugins
+Jenkins-Version: 1.609
+Plugin-Version: 1.0.4
+Long-Name: Matrix Groovy Execution Strategy Plugin
+Plugin-Developers: Jeremy Marshall:jeremym:jeremystuartmarshall@gmail.
+ com
+Short-Name: matrix-groovy-execution-strategy
+

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: vjuranek
+Build-Jdk: 1.6.0_24
+Extension-Name: delta-cloud
+Implementation-Title: delta-cloud
+Implementation-Version: 1.0.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: delta-cloud
+Long-Name: delta-cloud
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Delta+Cloud+API+plugin
+Plugin-Version: 1.0.1
+Hudson-Version: 1.409
+Jenkins-Version: 1.409
+Plugin-Developers: 
+

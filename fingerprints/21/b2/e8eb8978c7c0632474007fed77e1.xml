@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-27 13:25:55.802 UTC</timestamp>
+  <original>
+    <name>jpetstore/org.mybatis:jpetstore</name>
+    <number>15</number>
+  </original>
+  <md5sum>21b2e8eb8978c7c0632474007fed77e1</md5sum>
+  <fileName>org.mybatis:jpetstore.war</fileName>
+  <usages>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>15</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>15</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

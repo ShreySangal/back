@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jlf
+Build-Jdk: 1.6.0_22
+Extension-Name: job-poll-action-plugin
+Specification-Title: Provides an easy mechanism to force a job to poll
+  for SCM changes.
+Implementation-Title: job-poll-action-plugin
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: job-poll-action-plugin
+Long-Name: Job Poll Action Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Job+Poll+Action+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Developers: Jesse Farinacci:jieryn:jieryn@gmail.com
+

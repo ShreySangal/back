@@ -1,0 +1,5 @@
+Started on Jul 20, 2017 8:05:00 PM
+[AWS CodePipeline Plugin] Polling for jobs for action type id: [Owner: Custom, Category: Build, Provider: Jenkins1, Version: 1, ProjectName: AWSCodePipe]
+[AWS CodePipeline Plugin] Received job with ID: 6c79968c-c177-487a-8e1c-5b54f5938e27
+Done. Took 16 sec
+Changes found

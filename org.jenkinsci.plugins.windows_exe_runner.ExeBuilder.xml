@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.windows__exe__runner.ExeBuilder_-DescriptorImpl plugin="windows-exe-runner@1.2">
+  <installations/>
+</org.jenkinsci.plugins.windows__exe__runner.ExeBuilder_-DescriptorImpl>

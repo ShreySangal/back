@@ -1,0 +1,3 @@
+[rnetes-ci-cd_ingress-update-ZYDFGNKCGJJ5UK6NGDQKRSI3CZFV3XFMT5CUCB2XEXAKMHCVBMFA] Running shell script
++ git rev-parse --short HEAD
++ 1> commit-id

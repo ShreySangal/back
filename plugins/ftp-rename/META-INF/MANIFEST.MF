@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bccan
+Build-Jdk: 1.8.0_121
+Extension-Name: ftp-rename
+Specification-Title: Allows users to rename files remotely in ftp server
+Implementation-Title: ftp-rename
+Implementation-Version: 1.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: ftp-rename
+Long-Name: FTP Rename Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Ftp+Rename+Plugin
+Plugin-Version: 1.1
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Bruno Cantisano:bruno.cantisano:bruno.cantisano@gma
+ il.com
+

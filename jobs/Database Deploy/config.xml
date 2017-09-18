@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.nullin.jenkins.spbr.SPBRConfigJobProperty plugin="simple-parameterized-builds-report@1.5">
+      <includes></includes>
+      <excludes></excludes>
+    </com.nullin.jenkins.spbr.SPBRConfigJobProperty>
+    <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.19.0">
+      <doNotScan>false</doNotScan>
+    </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
+    <com.suryagaddipati.jenkins.SlaveUtilizationProperty plugin="slave-utilization-plugin@1.8">
+      <needsExclusiveAccessToNode>false</needsExclusiveAccessToNode>
+      <singleInstancePerSlave>false</singleInstancePerSlave>
+      <slaveUtilizationPercentage>0</slaveUtilizationPercentage>
+    </com.suryagaddipati.jenkins.SlaveUtilizationProperty>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.25">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>export ORACLE_BASE=/home/oracle/u02/app/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/fmw12cr3
+export ORACLE_SID=dryice
+export ORACLE_TERM=xterm
+export MW_HOME=/opt/weblogic1213
+export WLS_HOME=$MW_HOME/wlserver
+export WL_HOME=$WLS_HOME
+LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export LD_LIBRARY_PATH
+export PATH=$JAVA_HOME/bin:$HOME/.local/bin:$HOME/bin:$ORACLE_BASE:$ORACLE_HOME:$ORACLE_HOME/bin:$PATH
+cd /home/dryice2/package/db;
+echo exit | /home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus -S dryice2/dryice2@dryice @game.sql</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -1,0 +1,45 @@
+Started by upstream project "[8mha:////4GT+PduGwXNhqGYTjqBkKb7Hi3h+RNu2YCwl6D9Jqr4mAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH1XZyOfxNK85Ax9AAaegcXEAAAA[0mEC2Launch" build number [8mha:////4Muf1HeiqPbfW5KhZe3R7ePBznEFvKGznNl0b6iLNbbyAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfVdnI5/E0rzkDH1jACrWfMjFAAAA[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4CzbJeop/KsMJ/0G0snSjN3686tx4VY8CBWz/3a0W02IAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2wAOfg0qS81BL9lNS0xNKcEn0A9FwKUcwAAAA=[0mVPCSubnet/default" build number [8mha:////4GOiTxZ8+oPJYKcn8ej+GIeEWaRrafOwpDiFCWHDVVRPAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/bAA5+DSpLzUEv2U1LTE0pwSfWMADQxXLs0AAAA=[0m3
+ originally caused by:
+  Started by upstream project "[8mha:////4EAzgSgSWSiq0D9V4td/5u5WsOX5YCavmoiH0aaRK1fMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2wAOfg0qS81BJ9AICNRMXEAAAA[0mVPCSubnet" build number [8mha:////4KwYFNcFFb9ymDj54ZaZ6XZFKGcvM9vF2ZWXRR91TbC1AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/bAA5+DSpLzUEn1jACw1p8zFAAAA[0m3
+  originally caused by:
+   Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/EC2Launch/default
+Determining to create or update Cloud Formation stack: EC2Launch
+Stack not found: EC2Launch. Reason: Detailed Message: Stack with id EC2Launch does not exist (Service: AmazonCloudFormation; Status Code: 400; Error Code: ValidationError; Request ID: ab189646-55e0-11e7-8c18-75a954290306)
+Status Code: 400
+Error Code: ValidationError
+
+Creating Cloud Formation stack: EC2Launch
+Stack status CREATE_IN_PROGRESS. ( 0ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 488ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 657ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 1059ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 1861ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 3457ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 6659ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 14013ms since previous check)
+Stack status CREATE_COMPLETE. ( 26811ms since previous check)
+abd88ae0-55e0-11e7-96df-500c2864aa35 - AWS::CloudFormation::Stack - CREATE_IN_PROGRESS - User Initiated
+SecurityGroup-CREATE_IN_PROGRESS-2017-06-20T17:48:35.559Z - AWS::EC2::SecurityGroup - CREATE_IN_PROGRESS - null
+SecurityGroup-CREATE_IN_PROGRESS-2017-06-20T17:48:36.268Z - AWS::EC2::SecurityGroup - CREATE_IN_PROGRESS - Resource creation Initiated
+SecurityGroup-CREATE_COMPLETE-2017-06-20T17:48:38.329Z - AWS::EC2::SecurityGroup - CREATE_COMPLETE - null
+Instance-CREATE_IN_PROGRESS-2017-06-20T17:48:41.239Z - AWS::EC2::Instance - CREATE_IN_PROGRESS - null
+Instance-CREATE_IN_PROGRESS-2017-06-20T17:48:42.460Z - AWS::EC2::Instance - CREATE_IN_PROGRESS - Resource creation Initiated
+Instance-CREATE_COMPLETE-2017-06-20T17:49:11.439Z - AWS::EC2::Instance - CREATE_COMPLETE - null
+c5e9d240-55e0-11e7-8216-500c28604cae - AWS::CloudFormation::Stack - CREATE_COMPLETE - null
+Successfully created stack: EC2Launch
+[EnvInject] - Executing scripts and injecting environment variables after the SCM step.
+[EnvInject] - Injecting as environment variables the properties content 
+HostName=TestHostname
+InstanceID=i-0d6542ff9b513ad1c
+IP=10.0.5.208
+
+[EnvInject] - Variables injected successfully.
+[default] $ /bin/ksh -xe /tmp/hudson4525131335708785098.sh
++ sleep 1000s
+Triggering projects: [8mha:////4D+hc6pLXAJpcYpxAoLxoyYjnbFifkANA+1QHAMqbKD6AAAAjh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgL2Hg1c/KT9J3zCvOTMpJ1QcAnOaoa5IAAAA=[0mAnsible
+Notifying upstream projects of job completion
+Finished: SUCCESS

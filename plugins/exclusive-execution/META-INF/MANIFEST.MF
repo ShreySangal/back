@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: fer
+Build-Jdk: 1.6.0_65
+Extension-Name: exclusive-execution
+Specification-Title: This plugin allows for the execution of a job whe
+ n no other jobs are running.
+Implementation-Title: exclusive-execution
+Implementation-Version: 0.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: exclusive-execution
+Long-Name: Jenkins Exclusive Execution Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Exclusive+Execution+Pl
+ ugin
+Plugin-Version: 0.8
+Hudson-Version: 1.420
+Jenkins-Version: 1.420
+Plugin-Developers: Marco Ambu:mambu:marco.ambu+jenkins@gmail.com,Sam T
+ avakoli:sata_:sam@tavakoli.se,Fernando Miguélez Palomo:fmiguelez:fern
+ ando.miguelez@gmail.com
+

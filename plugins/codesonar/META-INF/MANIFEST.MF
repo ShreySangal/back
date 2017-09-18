@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: praqma
+Build-Jdk: 1.7.0_65
+Extension-Name: codesonar
+Implementation-Title: codesonar
+Implementation-Version: 2.0.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: codesonar
+Long-Name: CodeSonar Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/CodeSonar+Plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 2.0.5 (cf87a)
+Hudson-Version: 1.642.4
+Jenkins-Version: 1.642.4
+Plugin-Dependencies: workflow-cps:2.23,credentials:1.24,job-dsl:1.37;r
+ esolution:=optional,workflow-job:2.9,workflow-basic-steps:2.3,workflo
+ w-aggregator:2.4
+Plugin-Developers: Praqma Josra:praqma_josra:josra@praqma.net
+

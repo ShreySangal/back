@@ -1,0 +1,670 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/recruiting
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/recruiting-old-style # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/recruiting-old-style
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/recruiting-old-style +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9de7cf6a60b4b478b65477f8b79b179a0e0eea06 (refs/remotes/origin/master)
+Commit message: "Merge pull request #6 from gmlewis/master"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 9de7cf6a60b4b478b65477f8b79b179a0e0eea06
+ > /bin/git rev-list 9de7cf6a60b4b478b65477f8b79b179a0e0eea06 # timeout=10
+ > /bin/git tag -a -f -m Jenkins Build #3 jenkins-recruiting-3 # timeout=10
+[recruiting] $ /opt/maven/bin/mvn clean install -Dspring.profiles.active=mysql
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Recruiting Project
+[INFO] Recruiting Pagination Services
+[INFO] Recruiting Datastore MongoDB
+[INFO] Recruiting Datastore MySQL
+[INFO] Recruiting Core
+[INFO] Recruiting Webapp
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Recruiting Project 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ recruiting ---
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ recruiting ---
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/pom.xml to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting/0.0.1-SNAPSHOT/recruiting-0.0.1-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Recruiting Pagination Services 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ recruiting-pagination ---
+[INFO] Deleting /var/lib/jenkins/workspace/recruiting/recruiting-pagination/target
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ recruiting-pagination ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/recruiting/recruiting-pagination/src/main/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ recruiting-pagination ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /var/lib/jenkins/workspace/recruiting/recruiting-pagination/target/classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ recruiting-pagination ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/recruiting/recruiting-pagination/src/test/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ recruiting-pagination ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ recruiting-pagination ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ recruiting-pagination ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-pagination/target/recruiting-pagination-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-source-plugin:2.2.1:jar-no-fork (attach-sources) @ recruiting-pagination ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-pagination/target/recruiting-pagination-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ recruiting-pagination ---
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-pagination/target/recruiting-pagination-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-pagination/0.0.1-SNAPSHOT/recruiting-pagination-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-pagination/pom.xml to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-pagination/0.0.1-SNAPSHOT/recruiting-pagination-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-pagination/target/recruiting-pagination-0.0.1-SNAPSHOT-sources.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-pagination/0.0.1-SNAPSHOT/recruiting-pagination-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Recruiting Datastore MongoDB 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ recruiting-datastore-mongodb ---
+[INFO] Deleting /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ recruiting-datastore-mongodb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ recruiting-datastore-mongodb ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ recruiting-datastore-mongodb ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/src/test/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ recruiting-datastore-mongodb ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ recruiting-datastore-mongodb ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ recruiting-datastore-mongodb ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/recruiting-datastore-mongodb-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:test-jar (default) @ recruiting-datastore-mongodb ---
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/recruiting-datastore-mongodb-0.0.1-SNAPSHOT-tests.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-source-plugin:2.2.1:jar-no-fork (attach-sources) @ recruiting-datastore-mongodb ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/recruiting-datastore-mongodb-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ recruiting-datastore-mongodb ---
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/recruiting-datastore-mongodb-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mongodb/0.0.1-SNAPSHOT/recruiting-datastore-mongodb-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/pom.xml to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mongodb/0.0.1-SNAPSHOT/recruiting-datastore-mongodb-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/recruiting-datastore-mongodb-0.0.1-SNAPSHOT-tests.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mongodb/0.0.1-SNAPSHOT/recruiting-datastore-mongodb-0.0.1-SNAPSHOT-tests.jar
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mongodb/target/recruiting-datastore-mongodb-0.0.1-SNAPSHOT-sources.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mongodb/0.0.1-SNAPSHOT/recruiting-datastore-mongodb-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Recruiting Datastore MySQL 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ recruiting-datastore-mysql ---
+[INFO] Deleting /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- apt-maven-plugin:1.1.1:process (default) @ recruiting-datastore-mysql ---
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ recruiting-datastore-mysql ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ recruiting-datastore-mysql ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 39 source files to /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ recruiting-datastore-mysql ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/src/test/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ recruiting-datastore-mysql ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ recruiting-datastore-mysql ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ recruiting-datastore-mysql ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/recruiting-datastore-mysql-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:test-jar (default) @ recruiting-datastore-mysql ---
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/recruiting-datastore-mysql-0.0.1-SNAPSHOT-tests.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-source-plugin:2.2.1:jar-no-fork (attach-sources) @ recruiting-datastore-mysql ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/recruiting-datastore-mysql-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ recruiting-datastore-mysql ---
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/recruiting-datastore-mysql-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mysql/0.0.1-SNAPSHOT/recruiting-datastore-mysql-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/pom.xml to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mysql/0.0.1-SNAPSHOT/recruiting-datastore-mysql-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/recruiting-datastore-mysql-0.0.1-SNAPSHOT-tests.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mysql/0.0.1-SNAPSHOT/recruiting-datastore-mysql-0.0.1-SNAPSHOT-tests.jar
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-datastore-mysql/target/recruiting-datastore-mysql-0.0.1-SNAPSHOT-sources.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-datastore-mysql/0.0.1-SNAPSHOT/recruiting-datastore-mysql-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Recruiting Core 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ recruiting-core ---
+[INFO] Deleting /var/lib/jenkins/workspace/recruiting/recruiting-core/target
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ recruiting-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/recruiting/recruiting-core/src/main/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ recruiting-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to /var/lib/jenkins/workspace/recruiting/recruiting-core/target/classes
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/recruiting/recruiting-core/src/main/java/it/f2informatica/core/gateway/mongodb/UserRepositoryGatewayMongoDB.java: /var/lib/jenkins/workspace/recruiting/recruiting-core/src/main/java/it/f2informatica/core/gateway/mongodb/UserRepositoryGatewayMongoDB.java uses or overrides a deprecated API.
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/recruiting/recruiting-core/src/main/java/it/f2informatica/core/gateway/mongodb/UserRepositoryGatewayMongoDB.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ recruiting-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ recruiting-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /var/lib/jenkins/workspace/recruiting/recruiting-core/target/test-classes
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/recruiting/recruiting-core/src/test/java/it/f2informatica/test/services/gateway/mongodb/UserRepositoryGatewayMongoDBTest.java: /var/lib/jenkins/workspace/recruiting/recruiting-core/src/test/java/it/f2informatica/test/services/gateway/mongodb/UserRepositoryGatewayMongoDBTest.java uses or overrides a deprecated API.
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] /var/lib/jenkins/workspace/recruiting/recruiting-core/src/test/java/it/f2informatica/test/services/gateway/mongodb/UserRepositoryGatewayMongoDBTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ recruiting-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/recruiting/recruiting-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.f2informatica.test.services.gateway.mongodb.ConsultantRepositoryGatewayMongoDBTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.633 sec
+Running it.f2informatica.test.services.gateway.mongodb.UserRepositoryGatewayMongoDBTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.265 sec
+Running it.f2informatica.test.services.domain.user.UserServiceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running it.f2informatica.test.services.domain.user.PasswordUpdaterServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running it.f2informatica.test.services.domain.authentication.AuthenticationServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running it.f2informatica.test.services.domain.consultant.ConsultantServiceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.175 sec
+Running it.f2informatica.test.services.context.ServicesAppCtxTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+
+Results :
+
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ recruiting-core ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-core/target/recruiting-core-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-source-plugin:2.2.1:jar-no-fork (attach-sources) @ recruiting-core ---
+[INFO] Building jar: /var/lib/jenkins/workspace/recruiting/recruiting-core/target/recruiting-core-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ recruiting-core ---
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-core/target/recruiting-core-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-core/0.0.1-SNAPSHOT/recruiting-core-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-core/pom.xml to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-core/0.0.1-SNAPSHOT/recruiting-core-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-core/target/recruiting-core-0.0.1-SNAPSHOT-sources.jar to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-core/0.0.1-SNAPSHOT/recruiting-core-0.0.1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Recruiting Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ recruiting-webapp ---
+[INFO] Deleting /var/lib/jenkins/workspace/recruiting/recruiting-webapp/target
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ recruiting-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ recruiting-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /var/lib/jenkins/workspace/recruiting/recruiting-webapp/target/classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ recruiting-webapp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ recruiting-webapp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /var/lib/jenkins/workspace/recruiting/recruiting-webapp/target/test-classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ recruiting-webapp ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/recruiting/recruiting-webapp/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.f2informatica.webapp.test.context.WebApplicationContextTest
+0    [main] INFO - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.ServletContextTemplateResolver
+0    [main] INFO - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.859 sec
+Running it.f2informatica.webapp.test.controllers.AuthenticationControllerTest
+468  [main] INFO - Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.AuthenticationController.loginPage(java.lang.String,org.springframework.ui.ModelMap)
+915  [main] INFO - HV000001: Hibernate Validator 5.1.0.Final
+1088 [main] INFO - Initializing Spring FrameworkServlet ''
+1088 [main] INFO - FrameworkServlet '': initialization started
+1094 [main] INFO - FrameworkServlet '': initialization completed in 6 ms
+1256 [main] INFO - Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.AuthenticationController.loginPage(java.lang.String,org.springframework.ui.ModelMap)
+1297 [main] INFO - Initializing Spring FrameworkServlet ''
+1297 [main] INFO - FrameworkServlet '': initialization started
+1298 [main] INFO - FrameworkServlet '': initialization completed in 0 ms
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.282 sec
+Running it.f2informatica.webapp.test.controllers.UserControllerTest
+1390 [main] INFO - Mapped "{[/user/update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updateUser(it.f2informatica.core.model.UserModel)
+1391 [main] INFO - Mapped "{[/user/load-users],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.loadUsers()
+1391 [main] INFO - Mapped "{[/user/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.saveUser(it.f2informatica.core.model.UserModel)
+1391 [main] INFO - Mapped "{[/user/validate-user],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validateUser(it.f2informatica.core.model.UserModel,org.springframework.validation.BindingResult)
+1392 [main] INFO - Mapped "{[/user/change-password],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.changePasswordForm(java.lang.String,org.springframework.ui.ModelMap)
+1392 [main] INFO - Mapped "{[/user/validate-password-updating],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validatePasswordUpdating(it.f2informatica.core.model.UpdatePasswordModel,org.springframework.validation.BindingResult)
+1392 [main] INFO - Mapped "{[/user/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.model.UserModel it.f2informatica.webapp.controller.UserController.editUser(java.lang.String)
+1393 [main] INFO - Mapped "{[/user/delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.deleteUser(java.lang.String)
+1393 [main] INFO - Mapped "{[/user/update-password],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updatePassword(it.f2informatica.core.model.UpdatePasswordModel)
+1406 [main] INFO - Initializing Spring FrameworkServlet ''
+1406 [main] INFO - FrameworkServlet '': initialization started
+1406 [main] INFO - FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+         HTTP Method = POST
+         Request URI = /user/save
+          Parameters = {username=[username], password=[password], role.roleId=[52602b9b92bede6f44752e35], role.roleName=[ADMIN]}
+             Headers = {}
+
+             Handler:
+                Type = it.f2informatica.webapp.controller.UserController
+              Method = public java.lang.String it.f2informatica.webapp.controller.UserController.saveUser(it.f2informatica.core.model.UserModel)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = redirect:/users
+                View = null
+           Attribute = userModel
+               value = UserModel(userId=null, username=username, password=password, firstName=null, lastName=null, email=null, notRemovable=false, role=RoleModel(roleId=52602b9b92bede6f44752e35, roleName=ADMIN), submitEvent=null)
+              errors = []
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 302
+       Error message = null
+             Headers = {Location=[/users]}
+        Content type = null
+                Body = 
+       Forwarded URL = null
+      Redirected URL = /users
+             Cookies = []
+1480 [main] INFO - Mapped "{[/user/update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updateUser(it.f2informatica.core.model.UserModel)
+1480 [main] INFO - Mapped "{[/user/load-users],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.loadUsers()
+1480 [main] INFO - Mapped "{[/user/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.saveUser(it.f2informatica.core.model.UserModel)
+1481 [main] INFO - Mapped "{[/user/validate-user],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validateUser(it.f2informatica.core.model.UserModel,org.springframework.validation.BindingResult)
+1481 [main] INFO - Mapped "{[/user/change-password],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.changePasswordForm(java.lang.String,org.springframework.ui.ModelMap)
+1482 [main] INFO - Mapped "{[/user/validate-password-updating],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validatePasswordUpdating(it.f2informatica.core.model.UpdatePasswordModel,org.springframework.validation.BindingResult)
+1482 [main] INFO - Mapped "{[/user/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.model.UserModel it.f2informatica.webapp.controller.UserController.editUser(java.lang.String)
+1482 [main] INFO - Mapped "{[/user/delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.deleteUser(java.lang.String)
+1483 [main] INFO - Mapped "{[/user/update-password],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updatePassword(it.f2informatica.core.model.UpdatePasswordModel)
+1496 [main] INFO - Initializing Spring FrameworkServlet ''
+1496 [main] INFO - FrameworkServlet '': initialization started
+1496 [main] INFO - FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+         HTTP Method = GET
+         Request URI = /user/edit
+          Parameters = {userId=[1234567890]}
+             Headers = {}
+
+             Handler:
+                Type = it.f2informatica.webapp.controller.UserController
+              Method = public it.f2informatica.core.model.UserModel it.f2informatica.webapp.controller.UserController.editUser(java.lang.String)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = null
+                View = null
+               Model = null
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 200
+       Error message = null
+             Headers = {Content-Type=[application/json;charset=UTF-8]}
+        Content type = application/json;charset=UTF-8
+                Body = {"userId":"1234567890","username":"username","password":"password","firstName":"Username","lastName":"Lastname","email":"mario.rossi@tiscali.it","notRemovable":false,"role":{"roleId":"123456","roleName":"Administrator"},"submitEvent":null}
+       Forwarded URL = null
+      Redirected URL = null
+             Cookies = []
+2017-08-28 11:02:12.537:INFO::main: Logging initialized @2969ms
+1618 [main] INFO - Mapped "{[/user/update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updateUser(it.f2informatica.core.model.UserModel)
+1618 [main] INFO - Mapped "{[/user/load-users],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.loadUsers()
+1618 [main] INFO - Mapped "{[/user/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.saveUser(it.f2informatica.core.model.UserModel)
+1619 [main] INFO - Mapped "{[/user/validate-user],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validateUser(it.f2informatica.core.model.UserModel,org.springframework.validation.BindingResult)
+1619 [main] INFO - Mapped "{[/user/change-password],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.changePasswordForm(java.lang.String,org.springframework.ui.ModelMap)
+1619 [main] INFO - Mapped "{[/user/validate-password-updating],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validatePasswordUpdating(it.f2informatica.core.model.UpdatePasswordModel,org.springframework.validation.BindingResult)
+1619 [main] INFO - Mapped "{[/user/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.model.UserModel it.f2informatica.webapp.controller.UserController.editUser(java.lang.String)
+1619 [main] INFO - Mapped "{[/user/delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.deleteUser(java.lang.String)
+1619 [main] INFO - Mapped "{[/user/update-password],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updatePassword(it.f2informatica.core.model.UpdatePasswordModel)
+1627 [main] INFO - Initializing Spring FrameworkServlet ''
+1627 [main] INFO - FrameworkServlet '': initialization started
+1627 [main] INFO - FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+         HTTP Method = GET
+         Request URI = /user/delete
+          Parameters = {userId=[1234567890]}
+             Headers = {}
+
+             Handler:
+                Type = it.f2informatica.webapp.controller.UserController
+              Method = public java.lang.String it.f2informatica.webapp.controller.UserController.deleteUser(java.lang.String)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = redirect:/users
+                View = null
+               Model = null
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 302
+       Error message = null
+             Headers = {Location=[/users]}
+        Content type = null
+                Body = 
+       Forwarded URL = null
+      Redirected URL = /users
+             Cookies = []
+1633 [main] INFO - Mapped "{[/user/update],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updateUser(it.f2informatica.core.model.UserModel)
+1633 [main] INFO - Mapped "{[/user/load-users],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.loadUsers()
+1633 [main] INFO - Mapped "{[/user/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.saveUser(it.f2informatica.core.model.UserModel)
+1633 [main] INFO - Mapped "{[/user/validate-user],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validateUser(it.f2informatica.core.model.UserModel,org.springframework.validation.BindingResult)
+1633 [main] INFO - Mapped "{[/user/change-password],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.changePasswordForm(java.lang.String,org.springframework.ui.ModelMap)
+1634 [main] INFO - Mapped "{[/user/validate-password-updating],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.UserController.validatePasswordUpdating(it.f2informatica.core.model.UpdatePasswordModel,org.springframework.validation.BindingResult)
+1634 [main] INFO - Mapped "{[/user/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.model.UserModel it.f2informatica.webapp.controller.UserController.editUser(java.lang.String)
+1634 [main] INFO - Mapped "{[/user/delete],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.deleteUser(java.lang.String)
+1634 [main] INFO - Mapped "{[/user/update-password],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.UserController.updatePassword(it.f2informatica.core.model.UpdatePasswordModel)
+1638 [main] INFO - Initializing Spring FrameworkServlet ''
+1638 [main] INFO - FrameworkServlet '': initialization started
+1638 [main] INFO - FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+         HTTP Method = POST
+         Request URI = /user/update-password
+          Parameters = {}
+             Headers = {}
+
+             Handler:
+                Type = it.f2informatica.webapp.controller.UserController
+              Method = public java.lang.String it.f2informatica.webapp.controller.UserController.updatePassword(it.f2informatica.core.model.UpdatePasswordModel)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = redirect:/users
+                View = null
+           Attribute = changePasswordModel
+               value = UpdatePasswordModel(userId=null, currentPassword=null, newPassword=null, passwordConfirmed=null)
+              errors = []
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 302
+       Error message = null
+             Headers = {Location=[/users]}
+        Content type = null
+                Body = 
+       Forwarded URL = null
+      Redirected URL = /users
+             Cookies = []
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.339 sec
+Running it.f2informatica.webapp.test.controllers.ConsultantControllerTest
+1771 [main] INFO - Mapped "{[/consultant/save-personal-details],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.savePersonalDetails(it.f2informatica.core.model.ConsultantModel)
+1771 [main] INFO - Mapped "{[/consultant/validate-experience],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.ConsultantController.validateProfile(it.f2informatica.core.model.ExperienceModel,org.springframework.validation.BindingResult)
+1771 [main] INFO - Mapped "{[/consultant/save-experience],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.saveExperience(it.f2informatica.core.model.ExperienceModel,java.lang.String)
+1772 [main] INFO - Mapped "{[/consultant/update-experience],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.updateExperience(it.f2informatica.core.model.ExperienceModel,java.lang.String)
+1772 [main] INFO - Mapped "{[/consultant/delete-experience],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.deleteExperience(java.lang.String,java.lang.String)
+1775 [main] INFO - Mapped "{[/consultant/save-languages],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.saveLanguages(it.f2informatica.core.model.ConsultantModel,java.lang.String)
+1775 [main] INFO - Mapped "{[/consultant/save-skill],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.saveSkill(java.lang.String,java.lang.String)
+1775 [main] INFO - Mapped "{[/consultant/save-education],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.saveEducation(it.f2informatica.core.model.EducationModel,java.lang.String)
+1775 [main] INFO - Mapped "{[/consultant/edit-education],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.editEducation(java.lang.String,java.lang.String)
+1775 [main] INFO - Mapped "{[/consultant/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.searchConsultants(it.f2informatica.core.model.query.ConsultantSearchCriteria,org.springframework.data.domain.Pageable,org.springframework.ui.ModelMap)
+1775 [main] INFO - Mapped "{[/consultant/edit-personal-details],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.editPersonalDetails(java.lang.String,org.springframework.ui.ModelMap)
+1775 [main] INFO - Mapped "{[/consultant/validate-personal-details],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.ConsultantController.validatePersonalDetails(it.f2informatica.core.model.ConsultantModel,org.springframework.validation.BindingResult)
+1775 [main] INFO - Mapped "{[/consultant/profile],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.profilePage(java.lang.String,org.springframework.ui.ModelMap)
+1775 [main] INFO - Mapped "{[/consultant/edit-experience],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.editExperience(java.lang.String,java.lang.String)
+1776 [main] INFO - Mapped "{[/consultant/update-personal-details],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.updatePersonalDetails(it.f2informatica.core.model.ConsultantModel)
+1776 [main] INFO - Mapped "{[/consultant/update-education],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.updateEducation(it.f2informatica.core.model.EducationModel,java.lang.String)
+1776 [main] INFO - Mapped "{[/consultant/delete-education],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.f2informatica.webapp.controller.ConsultantController.deleteEducation(java.lang.String,java.lang.String)
+1776 [main] INFO - Mapped "{[/consultant/validate-education],methods=[POST],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}" onto public it.f2informatica.core.validator.utils.ValidationResponse it.f2informatica.webapp.controller.ConsultantController.validateEducation(it.f2informatica.core.model.EducationModel,org.springframework.validation.BindingResult)
+1788 [main] INFO - Initializing Spring FrameworkServlet ''
+1788 [main] INFO - FrameworkServlet '': initialization started
+1788 [main] INFO - FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+         HTTP Method = POST
+         Request URI = /consultant/save-personal-details
+          Parameters = {}
+             Headers = {}
+
+             Handler:
+                Type = it.f2informatica.webapp.controller.ConsultantController
+              Method = public java.lang.String it.f2informatica.webapp.controller.ConsultantController.savePersonalDetails(it.f2informatica.core.model.ConsultantModel)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = redirect:/consultants
+                View = null
+           Attribute = months
+               value = []
+           Attribute = consultantModel
+               value = ConsultantModel(id=null, consultantNo=null, registrationDate=null, fiscalCode=null, email=null, firstName=null, lastName=null, gender=null, phoneNumber=null, mobileNumber=null, birthDate=null, age=0, birthCity=null, birthCountry=null, nationality=null, identityCardNo=null, passportNo=null, experiences=[], educationList=[], languages=[], skills=[], interests=null, residence=null, domicile=null, curriculum=null, photo=null, submitEvent=null)
+              errors = []
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 302
+       Error message = null
+             Headers = {Pragma=[no-cache], Expires=[1], Cache-Control=[no-cache, no-store], Location=[/consultants]}
+        Content type = null
+                Body = 
+       Forwarded URL = null
+      Redirected URL = /consultants
+             Cookies = []
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec
+Running it.f2informatica.webapp.test.security.DatabaseUserDetailServiceTest
+1839 [main] INFO - DatabaseUserDetailService - Authenticating with username: 'username1', with role: 'role_admin'
+1847 [main] INFO - DatabaseUserDetailService - Authenticating with username: 'username1', with role: 'role_admin'
+1849 [main] INFO - DatabaseUserDetailService - Authenticating with username: 'username1', with role: 'role_admin'
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running it.f2informatica.webapp.test.security.CustomAuthenticationSuccessHandlerTest
+1908 [main] INFO - CustomAuthenticationSuccessHandler - User in session: [username: username, id: 1234567890]
+1909 [main] DEBUG - AbstractAuthenticationTargetUrlRequestHandler - Using default Url: /
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running it.f2informatica.webapp.test.security.AuthorityServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running it.f2informatica.webapp.test.security.SecurityAccessorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.982 sec
+
+Results :
+
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ recruiting-webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [recruiting-webapp] in [/var/lib/jenkins/workspace/recruiting/recruiting-webapp/target/recruiting]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/recruiting/recruiting-webapp/src/main/webapp]
+[INFO] Webapp assembled in [264 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/recruiting/recruiting-webapp/target/recruiting.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ recruiting-webapp ---
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-webapp/target/recruiting.war to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-webapp/0.0.1-SNAPSHOT/recruiting-webapp-0.0.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/recruiting/recruiting-webapp/pom.xml to /var/lib/jenkins/.m2/repository/it/f2informatica/recruiting-webapp/0.0.1-SNAPSHOT/recruiting-webapp-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Recruiting Project ................................. SUCCESS [  0.526 s]
+[INFO] Recruiting Pagination Services ..................... SUCCESS [  3.108 s]
+[INFO] Recruiting Datastore MongoDB ....................... SUCCESS [  2.934 s]
+[INFO] Recruiting Datastore MySQL ......................... SUCCESS [  3.009 s]
+[INFO] Recruiting Core .................................... SUCCESS [  4.913 s]
+[INFO] Recruiting Webapp .................................. SUCCESS [  7.807 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22.620 s
+[INFO] Finished at: 2017-08-28T11:02:16+05:30
+[INFO] Final Memory: 42M/690M
+[INFO] ------------------------------------------------------------------------
+[recruiting] $ /opt/sonar-runner-2.4/bin/sonar-runner -e -Dsonar.host.url=http://10.1.23.186:9000/sonar/ ******** -Dsonar.projectName=recruiting -Dsonar.projectVersion=1.0 -Dsonar.tests=/var/lib/jenkins/workspace/recruiting/recruiting-webapp/src/test -Dsonar.projectKey=recruiting -Dsonar.sources=/var/lib/jenkins/workspace/recruiting/recruiting-webapp/src/main -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/recruiting
+SonarQube Runner 2.4
+Java 1.8.0_131 Oracle Corporation (64-bit)
+Linux 3.10.0-514.26.2.el7.x86_64 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: /opt/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: NONE
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Work directory: /var/lib/jenkins/workspace/recruiting/.sonar
+INFO: SonarQube Server 6.0
+11:02:18.539 INFO  - Load global repositories
+11:02:18.778 INFO  - Load global repositories (done) | time=244ms
+11:02:18.819 WARN  - Property 'sonar.jdbc.url' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+11:02:18.824 INFO  - User cache: /var/lib/jenkins/.sonar/cache
+11:02:19.210 INFO  - Load plugins index
+11:02:19.217 INFO  - Load plugins index (done) | time=7ms
+11:02:19.821 INFO  - Process project properties
+11:02:19.955 INFO  - Load project repositories
+11:02:20.248 INFO  - Load project repositories (done) | time=293ms
+11:02:20.355 INFO  - Load quality profiles
+11:02:20.389 INFO  - Load quality profiles (done) | time=34ms
+11:02:20.399 INFO  - Load active rules
+11:02:20.808 INFO  - Load active rules (done) | time=408ms
+11:02:20.892 INFO  - Publish mode
+11:02:20.896 INFO  - -------------  Scan recruiting
+11:02:21.099 INFO  - Load server rules
+11:02:21.212 INFO  - Load server rules (done) | time=112ms
+11:02:21.378 INFO  - Base dir: /var/lib/jenkins/workspace/recruiting
+11:02:21.378 INFO  - Working dir: /var/lib/jenkins/workspace/recruiting/.sonar
+11:02:21.379 INFO  - Source paths: recruiting-webapp/src/main
+11:02:21.380 INFO  - Test paths: recruiting-webapp/src/test
+11:02:21.380 INFO  - Source encoding: UTF-8, default locale: en_US
+11:02:21.380 INFO  - Index files
+11:02:21.557 INFO  - 50 files indexed
+11:02:21.578 INFO  - Quality profile for java: Sonar way
+11:02:21.579 INFO  - Quality profile for js: Sonar way
+11:02:22.463 INFO  - Sensor Lines Sensor
+11:02:22.481 INFO  - Sensor Lines Sensor (done) | time=18ms
+11:02:22.481 INFO  - Sensor JavaSquidSensor
+11:02:22.713 INFO  - Configured Java source version (sonar.java.source): none
+11:02:22.722 INFO  - JavaClasspath initialization
+11:02:22.723 WARN  - Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+11:02:22.723 INFO  - JavaClasspath initialization (done) | time=1ms
+11:02:22.723 INFO  - JavaTestClasspath initialization
+11:02:22.723 WARN  - Bytecode of dependencies was not provided for analysis of test files, you might end up with less precise results. Bytecode can be provided using sonar.java.test.libraries property
+11:02:22.723 INFO  - JavaTestClasspath initialization (done) | time=0ms
+11:02:23.135 INFO  - Java Main Files AST scan
+11:02:23.138 INFO  - 27 source files to be analyzed
+11:02:25.971 INFO  - Java Main Files AST scan (done) | time=2836ms
+11:02:25.971 WARN  - Java bytecode has not been made available to the analyzer. The  are disabled.
+11:02:25.971 INFO  - Java Test Files AST scan
+11:02:25.972 INFO  - 9 source files to be analyzed
+11:02:25.976 INFO  - 27/27 source files have been analyzed
+11:02:26.211 INFO  - Java Test Files AST scan (done) | time=240ms
+11:02:26.211 INFO  - Sensor JavaSquidSensor (done) | time=3730ms
+11:02:26.212 INFO  - Sensor SCM Sensor
+11:02:26.215 INFO  - 9/9 source files have been analyzed
+11:02:26.221 INFO  - Sensor SCM Sensor (done) | time=9ms
+11:02:26.221 INFO  - Sensor SurefireSensor
+11:02:26.222 INFO  - parsing /var/lib/jenkins/workspace/recruiting/target/surefire-reports
+11:02:26.222 INFO  - Sensor SurefireSensor (done) | time=1ms
+11:02:26.222 INFO  - Sensor JaCoCoSensor
+11:02:26.222 INFO  - JaCoCoSensor: JaCoCo report not found : /var/lib/jenkins/workspace/recruiting/target/jacoco.exec
+11:02:26.223 INFO  - Sensor JaCoCoSensor (done) | time=1ms
+11:02:26.223 INFO  - Sensor JaCoCoItSensor
+11:02:26.223 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /var/lib/jenkins/workspace/recruiting/target/jacoco-it.exec
+11:02:26.223 INFO  - Sensor JaCoCoItSensor (done) | time=0ms
+11:02:26.223 INFO  - Sensor JaCoCoOverallSensor
+11:02:26.223 INFO  - Sensor JaCoCoOverallSensor (done) | time=0ms
+11:02:26.223 INFO  - Sensor XmlFileSensor
+11:02:26.223 INFO  - Sensor XmlFileSensor (done) | time=0ms
+11:02:26.223 INFO  - Sensor JavaScript Squid Sensor
+11:02:26.227 INFO  - 14 source files to be analyzed
+11:02:29.014 INFO  - Unit Test Coverage Sensor is started
+11:02:29.015 INFO  - Integration Test Coverage Sensor is started
+11:02:29.015 INFO  - Overall Coverage Sensor is started
+11:02:29.015 INFO  - Sensor JavaScript Squid Sensor (done) | time=2792ms
+11:02:29.015 INFO  - Sensor Zero Coverage Sensor
+11:02:29.016 INFO  - 14/14 source files have been analyzed
+11:02:29.120 INFO  - Sensor Zero Coverage Sensor (done) | time=105ms
+11:02:29.120 INFO  - Sensor Code Colorizer Sensor
+11:02:29.122 INFO  - Sensor Code Colorizer Sensor (done) | time=2ms
+11:02:29.122 INFO  - Sensor CPD Block Indexer
+11:02:29.123 INFO  - JavaCpdBlockIndexer is used for java
+11:02:29.216 INFO  - DefaultCpdBlockIndexer is used for js
+11:02:29.216 INFO  - Sensor CPD Block Indexer (done) | time=94ms
+11:02:29.234 INFO  - Calculating CPD for 28 files
+11:02:29.330 INFO  - CPD calculation finished
+11:02:29.630 INFO  - Analysis report generated in 263ms, dir size=590 KB
+11:02:29.744 INFO  - Analysis reports compressed in 114ms, zip size=259 KB
+11:02:29.775 INFO  - Analysis report uploaded in 31ms
+11:02:29.776 INFO  - ANALYSIS SUCCESSFUL, you can browse http://10.1.23.186:9000/sonar/dashboard/index/recruiting
+11:02:29.776 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+11:02:29.776 INFO  - More about the report processing at http://10.1.23.186:9000/sonar/api/ce/task?id=AV4nU7DDiT8DnR5Eg9J7
+11:02:29.847 INFO  - Task total time: 10.419 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 12.914s
+Final Memory: 18M/503M
+INFO: ------------------------------------------------------------------------
+Recording test results
+Notifying upstream projects of job completion
+Finished: SUCCESS

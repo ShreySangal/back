@@ -1,0 +1,4 @@
+[ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ@2] Running shell script
++ docker pull maven:3.3.9
+Warning: failed to get default registry endpoint from daemon (Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.31/info: dial unix /var/run/docker.sock: connect: permission denied). Using system default: https://index.docker.io/v1/
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.31/images/create?fromImage=maven&tag=3.3.9: dial unix /var/run/docker.sock: connect: permission denied

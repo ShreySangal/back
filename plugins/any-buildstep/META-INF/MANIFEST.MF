@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bap
+Build-Jdk: 1.6.0_24
+Extension-Name: any-buildstep
+Specification-Title: Use publishers as builders and builders as publis
+ hers :-/
+Implementation-Title: any-buildstep
+Implementation-Version: 0.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: any-buildstep
+Long-Name: Any Build Step Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Any+Build+Step+Plugin
+Plugin-Version: 0.1
+Hudson-Version: 1.408
+Jenkins-Version: 1.408
+Plugin-Dependencies: token-macro:1.4,run-condition:0.5,conditional-bui
+ ldstep:0.2,flexible-publish:0.7
+Plugin-Developers: Bap:bap:bap-jenkins@BapIT.co.uk
+

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: aruna
+Build-Jdk: 1.6.0_22
+Extension-Name: hudson-pview-plugin
+Specification-Title: This plugin provides every user the possibility t
+ o create its own view
+Implementation-Title: hudson-pview-plugin
+Implementation-Version: 1.8
+Plugin-Class: de.fspengler.hudson.pview.PluginImpl
+Group-Id: de.fspengler.hudson.pview
+Short-Name: hudson-pview-plugin
+Long-Name: Hudson Personal View
+Url: http://wiki.hudson-ci.org/display/HUDSON/Hudson+Personal+View
+Plugin-Version: 1.8
+Hudson-Version: 1.357
+Plugin-Developers: Thomas Spengler:tspengler:tom@fspengler.de
+

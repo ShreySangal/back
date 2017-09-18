@@ -1,0 +1,22 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Code Deploy
+[Code Deploy] $ /bin/ksh -xe /tmp/jenkins3066675757838161255.sh
++ cd /home/dryice2
++ rm -rf /home/dryice2/package
++ mkdir -p /home/dryice2/package/app
++ mkdir -p /home/dryice2/package/db
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/package/app
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_19.war
+--2017-09-12 09:04:43--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_19.war
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-09-12 09:04:43 ERROR 404: Not Found.
+
+Build step 'Execute shell' marked build as failure
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

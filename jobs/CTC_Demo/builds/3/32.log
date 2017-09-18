@@ -1,0 +1,1391 @@
+[CTC_Demo] Running shell script
++ ORACLE_BASE=/home/oracle/u02/app/oracle
++ export ORACLE_BASE
++ ORACLE_HOME=/home/oracle/u02/app/oracle/product/fmw12cr3
++ export ORACLE_HOME
++ ORACLE_SID=dryice
++ export ORACLE_SID
++ ORACLE_TERM=xterm
++ export ORACLE_TERM
++ MW_HOME=/opt/weblogic1213
++ export MW_HOME
++ WLS_HOME=/opt/weblogic1213/wlserver
++ export WLS_HOME
++ WL_HOME=/opt/weblogic1213/wlserver
++ export WL_HOME
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib:/usr/local/lib
++ export LD_LIBRARY_PATH
++ PATH=/bin:/var/lib/jenkins/.local/bin:/var/lib/jenkins/bin:/home/oracle/u02/app/oracle:/home/oracle/u02/app/oracle/product/fmw12cr3:/home/oracle/u02/app/oracle/product/fmw12cr3/bin:/sbin:/usr/sbin:/bin:/usr/bin
++ export PATH
++ cd /home/dryice2/package/db
++ /home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus -S dryice2/dryice2@dryice @game.sql
++ echo exit
+SP2-0734: unknown command beginning "<!DOCTYPE ..." - rest of line ignored.
+SP2-0734: unknown command beginning "<html lang..." - rest of line ignored.
+SP2-0042: unknown command "<head>" - rest of line ignored.
+SP2-0734: unknown command beginning "<meta char..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link cros..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<link cros..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<title>CT/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta prop..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta cont..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<meta cont..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta cont..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<meta http..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link href..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<meta cont..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<link rel=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta name..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</head>" - rest of line ignored.
+SP2-0734: unknown command beginning "<body clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="#..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div id="j..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0734: unknown command beginning "<label cla..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<input typ..." - rest of line ignored.
+SP2-0734: unknown command beginning "class="for..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-hotke..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "name="q"" - rest of line ignored.
+SP2-0042: unknown command "value=""" - rest of line ignored.
+SP2-0734: unknown command beginning "placeholde..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "data-unsco..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-scope..." - rest of line ignored.
+SP2-0734: unknown command beginning "autocapita..." - rest of line ignored.
+SP2-0734: unknown command beginning "<input typ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</label>" - rest of line ignored.
+SP2-0734: unknown command beginning "</form></d..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "Pull reque..." - rest of line ignored.
+SP2-0734: unknown command beginning "</a>      ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0042: unknown command "Issues" - rest of line ignored.
+SP2-0734: unknown command beginning "</a>      ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "Marketplac..." - rest of line ignored.
+SP2-0734: unknown command beginning "</a>      ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<li class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "aria-expan..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-haspo..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "New reposi..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "Import rep..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0042: unknown command "New gist" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "New organi..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span titl..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0042: unknown command "New issue" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<li class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-expan..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-haspo..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<img alt="..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "Signed in ..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "Your profi..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0042: unknown command "Your stars" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "Explore" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+
+ HELP
+ ----
+
+ Accesses this command line help system. Enter HELP INDEX or ? INDEX
+ for a list of topics.
+
+ You can view SQL*Plus resources at
+     http://www.oracle.com/technology/documentation/
+
+ ******************************************************************************
+ **  Top 12.2 features:                                                      **
+ **    - Fast retrieval of data as CSV for use in applications like          **
+ **      SQL*Loader. Use SQLPLUS -M "CSV ON" or SET MARKUP CSV ON            **
+ **    - Improved defaults and optimizations for reports. Use SQLPLUS -F     **
+ **    - Command recall. Use SET HISTORY ON and HISTORY to list previous     **
+ **      commands.                                                           **
+ ******************************************************************************
+
+ HELP|? [topic]
+
+
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0042: unknown command "Settings" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0042: unknown command "Sign out" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "</form>   ..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0042: unknown command "Sign out" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "</form>   ..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="s..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="j..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div role=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div items..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="j..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "class="btn..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "role="butt..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-haspo..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-expan..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Watch" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</span>" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "href="/shr..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0223: No lines in SQL buffer.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<input che..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Watch" - rest of line ignored.
+SP2-0042: unknown command "</span>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<input id=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Unwatch" - rest of line ignored.
+SP2-0042: unknown command "</span>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<input id=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "Stop ignor..." - rest of line ignored.
+SP2-0042: unknown command "</span>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</form>" - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0042: unknown command "<button" - rest of line ignored.
+SP2-0734: unknown command beginning "type="subm..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "class="btn..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "Unstar" - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0223: No lines in SQL buffer.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0042: unknown command "</form>" - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0042: unknown command "<button" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "type="subm..." - rest of line ignored.
+SP2-0734: unknown command beginning "class="btn..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-1506: START, @ or @@ command has no arguments
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0223: No lines in SQL buffer.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "</form>  <..." - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0042: unknown command "<li>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="#..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "title="For..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0734: unknown command beginning "rel="faceb..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Fork" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="f..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<h2 class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<include-f..." - rest of line ignored.
+SP2-0734: unknown command beginning "class="js-..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-url="..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<img alt="..." - rest of line ignored.
+SP2-0734: unknown command beginning "</include-..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0223: No lines in SQL buffer.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<h1 class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</h1>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<nav class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "itemscope" - rest of line ignored.
+SP2-0734: unknown command beginning "itemtype="..." - rest of line ignored.
+SP2-0734: unknown command beginning "role="navi..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-pjax=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<meta item..." - rest of line ignored.
+SP2-0734: unknown command beginning "</a>  </sp..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta item..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "</a>    </..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<meta item..." - rest of line ignored.
+SP2-0734: unknown command beginning "</a>  </sp..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Projects" - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Wiki" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Settings" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0042: unknown command "Insights" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span item..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Pulse" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "Graphs" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</nav>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- blob ..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<button cl..." - rest of line ignored.
+SP2-0734: unknown command beginning "type="butt..." - rest of line ignored.
+SP2-0734: unknown command beginning "<i>Branch:..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<input typ..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "<ul>" - rest of line ignored.
+SP2-0734: unknown command beginning "<li class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="#..." - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<li class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="#..." - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div data-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0734: unknown command beginning "href="/shr..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-name=..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-skip-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "rel="nofol..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "master" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</span>" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<input typ..." - rest of line ignored.
+SP2-0734: unknown command beginning "<input typ..." - rest of line ignored.
+SP2-0734: unknown command beginning "<input typ..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</form>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div data-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "class="js-..." - rest of line ignored.
+SP2-0042: unknown command "data-pjax" - rest of line ignored.
+SP2-0734: unknown command beginning "data-hotke..." - rest of line ignored.
+SP2-0042: unknown command "Find file" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<button ar..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0042: unknown command "86b11c3" - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<relative-..." - rest of line ignored.
+SP2-0042: unknown command "</span>" - rest of line ignored.
+SP2-0042: unknown command "<div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<img alt="..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0734: unknown command beginning "<strong>1<..." - rest of line ignored.
+SP2-0734: unknown command beginning "contributo..." - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="b..." - rest of line ignored.
+SP2-0734: unknown command beginning "<h2 class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<li class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<img alt="..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0042: unknown command "</li>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0734: unknown command beginning "<a href="/..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<a class="..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "href="x-gi..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0734: unknown command beginning "data-ga-cl..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button cl..." - rest of line ignored.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "</form>   ..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button cl..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "aria-label..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "</form>  <..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "3.27 KB" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div itemp..." - rest of line ignored.
+SP2-0734: unknown command beginning "<table cla..." - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L8..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L9..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L1..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L2..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L3..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L4..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L5..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L6..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L7..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "<tr>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<td id="L8..." - rest of line ignored.
+SP2-0734: unknown command beginning "<td id="LC..." - rest of line ignored.
+SP2-0042: unknown command "</tr>" - rest of line ignored.
+SP2-0042: unknown command "</table>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="j..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<!-- '"` -..." - rest of line ignored.
+SP2-0734: unknown command beginning "<input cla..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0734: unknown command beginning "</form>  <..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<a href="h..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</a>" - rest of line ignored.
+SP2-0734: unknown command beginning "<ul class=..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<li>&copy;..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0734: unknown command beginning "<li><a hre..." - rest of line ignored.
+SP2-0042: unknown command "</ul>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div id="a..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0734: unknown command beginning "You can't ..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<script cr..." - rest of line ignored.
+SP2-0734: unknown command beginning "<script as..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0734: unknown command beginning "<span clas..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0734: unknown command beginning "<div class..." - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0734: unknown command beginning "<button ty..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0734: unknown command beginning "<svg aria-..." - rest of line ignored.
+SP2-0042: unknown command "</button>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0042: unknown command "</div>" - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+SP2-0042: unknown command "</body>" - rest of line ignored.
+SP2-0042: unknown command "</html>" - rest of line ignored.

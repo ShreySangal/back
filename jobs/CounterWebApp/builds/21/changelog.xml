@@ -1,0 +1,11 @@
+commit c511c422e1602c23a56c653acf5357597570227b
+tree 522cb4a0637241ba73c2e831a4dec5af65b34b71
+parent e15e199b057a78e9d903e872bfe5a782fe40cb2c
+author shreys-s <shrey_s@hcl.com> 2017-07-24 18:53:54 +0530
+committer GitHub <noreply@github.com> 2017-07-24 18:53:54 +0530
+
+    Welcome added
+
+
+
+:100644 100644 54b0fe98ad2e9705fbc730ad2f5965d76a85204a 3d2ae1a020726b969e7429fb03c246f455f0f44d M	src/main/webapp/WEB-INF/pages/index.jsp

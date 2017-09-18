@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.nuget.NugetGlobalConfiguration plugin="nuget@0.6">
+  <nugetExe>/usr/lib/mono/nuget\Nuget.exe</nugetExe>
+  <publications/>
+</org.jenkinsci.plugins.nuget.NugetGlobalConfiguration>

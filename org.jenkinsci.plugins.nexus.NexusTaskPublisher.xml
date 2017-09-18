@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.nexus.NexusTaskPublisher_-DescriptorImpl plugin="nexus-task-runner@0.9.2">
+  <nexusMap>
+    <entry>
+      <string>2</string>
+      <org.jenkinsci.plugins.nexus.NexusDescriptor>
+        <name>2</name>
+        <url>http://10.1.23.186:8081/nexus</url>
+        <user>shrey_s</user>
+        <password>Unix_11</password>
+      </org.jenkinsci.plugins.nexus.NexusDescriptor>
+    </entry>
+  </nexusMap>
+</org.jenkinsci.plugins.nexus.NexusTaskPublisher_-DescriptorImpl>

@@ -1,0 +1,46 @@
+Started by upstream project "[8mha:////4OV8JQUVuAm6pOui/VXcQOzW8jt1VSTBBgIslC5pQEQfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP3QkHhnZ30A1Ps7QcAAAAA=[0mUT_CC" build number [8mha:////4Eu7nzxq1O6AE3Z8BgEBgVr89r79X05gwhBeHI0qtydDAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JP3QkHhnZ31DYwASKT8vwgAAAA==[0m13
+originally caused by:
+ Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4M2RiZlsl34WQHYLt84OAjMExqvleR+4+jDP21/0c/pcAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUMTAMiKzLTFAAAA[0m14
+ originally caused by:
+  Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4CwPZH4PWoZ3+qnqjqkBHfTr8lFKrLYSASin5bSjY7r6AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fUNTAIYcXXrFAAAA[0m15
+  originally caused by:
+   Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Artifactory
+Uploading artifact gameoflife.war started....
+GroupId: com.ctc.devops
+ArtifactId: game
+Classifier: BN_5
+Type: war
+Version: 1.0
+File: gameoflife.war
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_5.war
+10 % completed (319 kB / 3.2 MB).
+20 % completed (639 kB / 3.2 MB).
+30 % completed (958 kB / 3.2 MB).
+40 % completed (1.3 MB / 3.2 MB).
+50 % completed (1.6 MB / 3.2 MB).
+60 % completed (1.9 MB / 3.2 MB).
+70 % completed (2.2 MB / 3.2 MB).
+80 % completed (2.6 MB / 3.2 MB).
+90 % completed (2.9 MB / 3.2 MB).
+100 % completed (3.2 MB / 3.2 MB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_5.war (3.2 MB at 8.4 MB/s)
+Uploading artifact gameoflife.war completed.
+Uploading artifact create_data.sql started....
+GroupId: com.ctc.devops
+ArtifactId: game
+Classifier: BN_5
+Type: sql
+Version: 1.0
+File: create_data.sql
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_5.sql
+100 % completed (3.3 kB / 3.3 kB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_5.sql (3.3 kB at 16 kB/s)
+Uploading artifact create_data.sql completed.
+Triggering projects: [8mha:////4PbyHCuoPY6YMqESKhMLbLEgq2dViOaq7AC4MLhYEvcPAAAAmB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2EQ18/KT9J3SSxJTEosTlU1MnBJLcjJr9QHACgtl+2cAAAA[0mDatabase Deploy
+Triggering projects: [8mha:////4HWzDUGL5QwGDd87SwengIQXsyfmJgjB20rt0dawGGYBAAAAlB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLmEQ1s/KT9J3zk9JVTUycEktyMmv1AcAQv8rk5gAAAA=[0mCode Deploy
+Notifying upstream projects of job completion
+Finished: SUCCESS

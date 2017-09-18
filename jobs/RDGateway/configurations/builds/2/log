@@ -1,0 +1,51 @@
+Started by upstream project "[8mha:////4Bw2rxUNiKrtkaeoCJn1Iq98sqgh+5luW1vlMXXKd/zpAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP0gF/fEktTyxEp9ADdF/2DEAAAA[0mRDGateway" build number [8mha:////4BI1irEKJ4NvqLVuotNIzwOrBTavD6njU7SO6rOYho0DAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/SAX98SS1PLESn0jAF2YAO7FAAAA[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4CzbJeop/KsMJ/0G0snSjN3686tx4VY8CBWz/3a0W02IAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2wAOfg0qS81BL9lNS0xNKcEn0A9FwKUcwAAAA=[0mVPCSubnet/default" build number [8mha:////4LLfXe00vln4EMcsBogHekakZ1ojISOofCEx2S58BFDOAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/bAA5+DSpLzUEv2U1LTE0pwSfSMAmzxQWc0AAAA=[0m2
+ originally caused by:
+  Started by upstream project "[8mha:////4EAzgSgSWSiq0D9V4td/5u5WsOX5YCavmoiH0aaRK1fMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2wAOfg0qS81BJ9AICNRMXEAAAA[0mVPCSubnet" build number [8mha:////4P7Gn9heHbjbEXJrDI+9l4bQ45wiR6KYw4l4sUi5o9L3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/bAA5+DSpLzUEn0jALoFoLvFAAAA[0m2
+  originally caused by:
+   Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/RDGateway/default
+Determining to create or update Cloud Formation stack: RDGateway
+Stack not found: RDGateway. Reason: Detailed Message: Stack with id RDGateway does not exist (Service: AmazonCloudFormation; Status Code: 400; Error Code: ValidationError; Request ID: 4a75f604-55dc-11e7-92b1-85f797351ffd)
+Status Code: 400
+Error Code: ValidationError
+
+Creating Cloud Formation stack: RDGateway
+Stack status CREATE_IN_PROGRESS. ( 0ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 520ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 660ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 1069ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 1868ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 3461ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 6666ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 13071ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 26815ms since previous check)
+Stack status CREATE_COMPLETE. ( 52398ms since previous check)
+4b36fb30-55dc-11e7-9233-500c524294f2 - AWS::CloudFormation::Stack - CREATE_IN_PROGRESS - User Initiated
+RemoteDesktopGatewaySG-CREATE_IN_PROGRESS-2017-06-20T17:17:16.201Z - AWS::EC2::SecurityGroup - CREATE_IN_PROGRESS - null
+EIP2-CREATE_IN_PROGRESS-2017-06-20T17:17:16.351Z - AWS::EC2::EIP - CREATE_IN_PROGRESS - null
+RemoteDesktopGatewaySG-CREATE_IN_PROGRESS-2017-06-20T17:17:16.892Z - AWS::EC2::SecurityGroup - CREATE_IN_PROGRESS - Resource creation Initiated
+EIP2-CREATE_IN_PROGRESS-2017-06-20T17:17:16.977Z - AWS::EC2::EIP - CREATE_IN_PROGRESS - Resource creation Initiated
+EIP1-CREATE_IN_PROGRESS-2017-06-20T17:17:17.243Z - AWS::EC2::EIP - CREATE_IN_PROGRESS - null
+EIP1-CREATE_IN_PROGRESS-2017-06-20T17:17:17.930Z - AWS::EC2::EIP - CREATE_IN_PROGRESS - Resource creation Initiated
+RemoteDesktopGatewaySG-CREATE_COMPLETE-2017-06-20T17:17:19.005Z - AWS::EC2::SecurityGroup - CREATE_COMPLETE - null
+EIP2-CREATE_COMPLETE-2017-06-20T17:17:32.545Z - AWS::EC2::EIP - CREATE_COMPLETE - null
+EIP1-CREATE_COMPLETE-2017-06-20T17:17:33.654Z - AWS::EC2::EIP - CREATE_COMPLETE - null
+RDGWLaunchConfiguration1-CREATE_IN_PROGRESS-2017-06-20T17:17:35.236Z - AWS::EC2::Instance - CREATE_IN_PROGRESS - null
+RDGWLaunchConfiguration-CREATE_IN_PROGRESS-2017-06-20T17:17:36.593Z - AWS::EC2::Instance - CREATE_IN_PROGRESS - null
+RDGWLaunchConfiguration1-CREATE_IN_PROGRESS-2017-06-20T17:17:37.164Z - AWS::EC2::Instance - CREATE_IN_PROGRESS - Resource creation Initiated
+RDGWLaunchConfiguration-CREATE_IN_PROGRESS-2017-06-20T17:17:38.432Z - AWS::EC2::Instance - CREATE_IN_PROGRESS - Resource creation Initiated
+RDGWLaunchConfiguration1-CREATE_COMPLETE-2017-06-20T17:17:51.436Z - AWS::EC2::Instance - CREATE_COMPLETE - null
+EIPASS1-CREATE_IN_PROGRESS-2017-06-20T17:17:55.157Z - AWS::EC2::EIPAssociation - CREATE_IN_PROGRESS - null
+RDGWLaunchConfiguration-CREATE_COMPLETE-2017-06-20T17:17:55.733Z - AWS::EC2::Instance - CREATE_COMPLETE - null
+EIPASS1-CREATE_IN_PROGRESS-2017-06-20T17:17:56.744Z - AWS::EC2::EIPAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+EIPASS-CREATE_IN_PROGRESS-2017-06-20T17:18:00.817Z - AWS::EC2::EIPAssociation - CREATE_IN_PROGRESS - null
+EIPASS-CREATE_IN_PROGRESS-2017-06-20T17:18:01.739Z - AWS::EC2::EIPAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+EIPASS1-CREATE_COMPLETE-2017-06-20T17:18:12.372Z - AWS::EC2::EIPAssociation - CREATE_COMPLETE - null
+EIPASS-CREATE_COMPLETE-2017-06-20T17:18:17.273Z - AWS::EC2::EIPAssociation - CREATE_COMPLETE - null
+75d440a0-55dc-11e7-9bc5-503aca261629 - AWS::CloudFormation::Stack - CREATE_COMPLETE - null
+Successfully created stack: RDGateway
+Notifying upstream projects of job completion
+Finished: SUCCESS

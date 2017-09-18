@@ -1,0 +1,135 @@
+Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4KxFqmiSYX21yES+ghp4FpdyD9pOu0nfLIE1oKCaDIbYAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fSNjAHDqE7jFAAAA[0m23
+originally caused by:
+ Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Building
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jpetstore-6 # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jpetstore-6
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/jpetstore-6 +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 324290ce0060b3af16cf14c276530668ee467977 (refs/remotes/origin/master)
+Commit message: "date change"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 324290ce0060b3af16cf14c276530668ee467977
+ > /bin/git rev-list 65be9c33734e72fec0f1a8d3fd5afa321c28ab96 # timeout=10
+[Building] $ mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JPetStore Demo 6 6.0.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ jpetstore ---
+[INFO] Deleting /var/lib/jenkins/workspace/Building/target
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ jpetstore ---
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.9:prepare-agent (prepare-agent) @ jpetstore ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.9/org.jacoco.agent-0.7.9-runtime.jar=destfile=/var/lib/jenkins/workspace/Building/target/jacoco.exec
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- formatter-maven-plugin:2.0.1:format (default) @ jpetstore ---
+[INFO] Using 'UTF-8' encoding to format source files.
+[INFO] Number of files to be formatted: 28
+[INFO] Successfully formatted:          28 file(s)
+[INFO] Fail to format:                  0 file(s)
+[INFO] Skipped:                         0 file(s)
+[INFO] Read only skipped:               0 file(s)
+[INFO] Approximate time taken:          4s
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ jpetstore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ jpetstore ---
+[INFO] Compiling 24 source files to /var/lib/jenkins/workspace/Building/target/classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- license-maven-plugin:3.0:format (default) @ jpetstore ---
+[INFO] Updating license headers...
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Account.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/CartItem.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Category.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Cart.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Item.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/LineItem.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Product.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Sequence.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/CategoryMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/domain/Order.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/ItemMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/AccountMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/LineItemMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/OrderMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/ProductMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/mapper/SequenceMapper.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/service/AccountService.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/service/CatalogService.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/service/OrderService.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/web/actions/CartActionBean.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/web/actions/AbstractActionBean.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/web/actions/AccountActionBean.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/web/actions/OrderActionBean.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/java/org/mybatis/jpetstore/web/actions/CatalogActionBean.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/main/webapp/index.html
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/test/java/org/mybatis/jpetstore/service/AccountServiceTest.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/test/java/org/mybatis/jpetstore/service/OrderServiceTest.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/test/java/org/mybatis/jpetstore/ScreenTransitionIT.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/test/java/org/mybatis/jpetstore/service/CatalogServiceTest.java
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/src/site/xdoc/index.xml
+[INFO] Updating license header in: /var/lib/jenkins/workspace/Building/format.xml
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ jpetstore ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-bundle-plugin:3.3.0:manifest (bundle-manifest) @ jpetstore ---
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ jpetstore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ jpetstore ---
+[INFO] Compiling 4 source files to /var/lib/jenkins/workspace/Building/target/test-classes
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ jpetstore ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.mybatis.jpetstore.service.CatalogServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.944 s - in org.mybatis.jpetstore.service.CatalogServiceTest
+[INFO] Running org.mybatis.jpetstore.service.OrderServiceTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 s - in org.mybatis.jpetstore.service.OrderServiceTest
+[INFO] Running org.mybatis.jpetstore.service.AccountServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 s - in org.mybatis.jpetstore.service.AccountServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:3.1.0:war (default-war) @ jpetstore ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jpetstore] in [/var/lib/jenkins/workspace/Building/target/jpetstore]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/Building/src/main/webapp]
+[INFO] Webapp assembled in [569 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/Building/target/jpetstore.war
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-site-plugin:3.6:attach-descriptor (attach-descriptor) @ jpetstore ---
+[INFO] Skipping because packaging 'war' is not pom.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 34.045 s
+[INFO] Finished at: 2017-09-06T16:38:23+05:30
+[INFO] Final Memory: 56M/579M
+[INFO] ------------------------------------------------------------------------
+Triggering projects: [8mha:////4Gzndcwd0SdfM4zQQbIxvkIS7Z6J7pZ4CWym6Weoxjt4AAAAjB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLWHg1s/KT9IPDYl3dtYHAFWeHFaQAAAA[0mUT_CC
+Notifying upstream projects of job completion
+Warning: this build has no associated authentication, so build permissions may be lacking, and downstream projects which cannot even be seen by an anonymous user will be silently skipped
+Finished: SUCCESS

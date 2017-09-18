@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-project plugin="matrix-project@1.11">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.nullin.jenkins.spbr.SPBRConfigJobProperty plugin="simple-parameterized-builds-report@1.5">
+      <includes></includes>
+      <excludes></excludes>
+    </com.nullin.jenkins.spbr.SPBRConfigJobProperty>
+    <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.19.0">
+      <doNotScan>false</doNotScan>
+    </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>ELBSubnetAZ1</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ELBSubnetAZ2</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AppSubnetID2</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AppSubnetID1</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>DBSubnetID1</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>DBSubnetID2</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>VPCID</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AMIID</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <com.synopsys.arc.jenkins.plugins.ownership.jobs.JobOwnerJobProperty plugin="ownership@0.10.0"/>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <axes/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo $VPCID
+echo $AppSubnetID1
+echo $AppSubnetID2
+echo $DBSubnetID1
+echo $DBSubnetID2
+echo $ELBSubnetAZ1
+echo $ELBSubnetAZ2
+echo $AMIID</command>
+    </hudson.tasks.Shell>
+    <com.syncapse.jenkinsci.plugins.awscloudformationwrapper.CloudFormationBuildStep plugin="jenkins-cloudformation-plugin@1.2">
+      <stacks>
+        <com.syncapse.jenkinsci.plugins.awscloudformationwrapper.PostBuildStackBean>
+          <stackName>AppData</stackName>
+          <description>AppData</description>
+          <cloudFormationRecipe>https://s3.ap-south-1.amazonaws.com/poc-bbc-cfn/appdatabase.json</cloudFormationRecipe>
+          <parameters>AMIID=$AMIID,ELBSubnetAZ1=$ELBSubnetAZ1,ELBSubnetAZ2=$ELBSubnetAZ2,AppSubnetID2=$AppSubnetID2,AppSubnetID1=$AppSubnetID1,DBSubnetID1=$DBSubnetID1,DBSubnetID2=$DBSubnetID2,VPCID=$VPCID</parameters>
+          <timeout>72000</timeout>
+          <awsAccessKey>AKIAJGUSBOGYNE5SLKAA</awsAccessKey>
+          <awsSecretKey>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</awsSecretKey>
+          <sleep>0</sleep>
+          <awsRegion>US_East_Northern_Virginia</awsRegion>
+        </com.syncapse.jenkinsci.plugins.awscloudformationwrapper.PostBuildStackBean>
+      </stacks>
+    </com.syncapse.jenkinsci.plugins.awscloudformationwrapper.CloudFormationBuildStep>
+  </builders>
+  <publishers>
+    <hudson.tasks.Mailer plugin="mailer@1.20">
+      <recipients>shrey_s@hcl.com</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>true</sendToIndividuals>
+    </hudson.tasks.Mailer>
+  </publishers>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.8.8"/>
+  </buildWrappers>
+  <executionStrategy class="hudson.matrix.DefaultMatrixExecutionStrategyImpl">
+    <runSequentially>false</runSequentially>
+  </executionStrategy>
+</matrix-project>

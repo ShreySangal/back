@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jlf
+Build-Jdk: 1.6.0_29
+Extension-Name: job-log-logger-plugin
+Specification-Title: Write the job log to the underlying logging system.
+Implementation-Title: job-log-logger-plugin
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: job-log-logger-plugin
+Long-Name: Job Log Logger Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Job+Log+Logger+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Developers: Jesse Farinacci:jieryn:jieryn@gmail.com
+

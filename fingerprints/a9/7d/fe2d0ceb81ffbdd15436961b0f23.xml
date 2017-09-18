@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-28 10:17:44.712 UTC</timestamp>
+  <md5sum>a97dfe2d0ceb81ffbdd15436961b0f23</md5sum>
+  <fileName>net.sourceforge.nekohtml:nekohtml-1.9.22.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

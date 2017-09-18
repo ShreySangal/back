@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ikedam
+Build-Jdk: 1.7.0_79
+Extension-Name: jobcopy-builder
+Specification-Title: Jenkins plugin to copy a job in a build step.
+Implementation-Title: jobcopy-builder
+Implementation-Version: 1.4.0
+Group-Id: jp.ikedam.jenkins.plugins
+Short-Name: jobcopy-builder
+Long-Name: Jobcopy Builder plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Jobcopy+Builder+plugin
+Compatible-Since-Version: 1.4.0
+Plugin-Version: 1.4.0
+Hudson-Version: 1.532
+Jenkins-Version: 1.532
+Plugin-Developers: IKEDA Yasuyuki:ikedam:
+

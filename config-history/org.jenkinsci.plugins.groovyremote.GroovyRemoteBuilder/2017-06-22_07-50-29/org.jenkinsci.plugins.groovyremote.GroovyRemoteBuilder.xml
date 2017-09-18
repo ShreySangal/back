@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.groovyremote.GroovyRemoteBuilder_-DescriptorImpl plugin="groovy-remote@0.2">
+  <remotes/>
+</org.jenkinsci.plugins.groovyremote.GroovyRemoteBuilder_-DescriptorImpl>

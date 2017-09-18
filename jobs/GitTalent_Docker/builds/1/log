@@ -1,0 +1,45 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4HxmrJ/qJdHZ4mxLBIZaoQJph94olB3fOCLW+kOigPKzAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/eKcxLLU+GAXTwAFv9ItyAAAAA==[0mslave_SDI (slave_sdi) in workspace /home/jenkins/workspace/GitTalent_Docker
+Cloning the remote Git repository
+Cloning repository https://www.github.com/couchbaselabs/gittalent
+ > /bin/git init /home/jenkins/workspace/GitTalent_Docker # timeout=10
+Fetching upstream changes from https://www.github.com/couchbaselabs/gittalent
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress https://www.github.com/couchbaselabs/gittalent +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://www.github.com/couchbaselabs/gittalent # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://www.github.com/couchbaselabs/gittalent # timeout=10
+Fetching upstream changes from https://www.github.com/couchbaselabs/gittalent
+ > /bin/git fetch --tags --progress https://www.github.com/couchbaselabs/gittalent +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8d47255a96e63186a57dbd20caf04d706344f1fb (refs/remotes/origin/master)
+Commit message: "Remove Facebook from social media options"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 8d47255a96e63186a57dbd20caf04d706344f1fb
+First time build. Skipping changelog.
+[GitTalent_Docker] $ /bin/ksh -xe /tmp/jenkins4537948765656767231.sh
++ cd gittalent-frontend
++ npm install
+/tmp/jenkins4537948765656767231.sh[3]: npm: not found [No such file or directory]
+Build step 'Execute shell' marked build as failure
+Performing Post build task...
+Match found for : : True
+Logical operation result is TRUE
+Running script  : docker rm -f angular || true
+docker run -d -p 8000:80 --name angular frontend
+[GitTalent_Docker] $ /bin/ksh -xe /tmp/jenkins1397317406455980172.sh
++ docker rm -f angular
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete http://%2Fvar%2Frun%2Fdocker.sock/v1.30/containers/angular?force=1: dial unix /var/run/docker.sock: connect: permission denied
++ true
++ docker run -d -p 8000:80 --name angular frontend
+docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.30/containers/create?name=angular: dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.
+POST BUILD TASK : FAILURE
+END OF POST BUILD TASK : 0
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

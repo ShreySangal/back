@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: aruna
+Build-Jdk: 1.6.0_17
+Extension-Name: mysql-auth
+Implementation-Title: mysql-auth
+Implementation-Version: 1.0
+Short-Name: mysql-auth
+Long-Name: Hudson MySQL Plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/MySQL+Authentication+Plu
+ gin
+Plugin-Version: 1.0
+Hudson-Version: 1.324
+Plugin-Developers: Alex Ackerman:darkhonor:
+

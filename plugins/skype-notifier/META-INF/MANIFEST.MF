@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jbh
+Build-Jdk: 1.6.0_21
+Extension-Name: skype-notifier
+Implementation-Title: skype-notifier
+Implementation-Version: 1.1.0
+Plugin-Class: hudson.plugins.skype.im.transport.SkypePluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: skype-notifier
+Long-Name: Jenkins Skype notifier plugin
+Url: http://wiki.jenkins-ci.org/display/HUDSON/Skype+Plugin
+Plugin-Version: 1.1.0
+Hudson-Version: 1.404
+Jenkins-Version: 1.404
+Plugin-Dependencies: instant-messaging:1.16
+Plugin-Developers: Jarle Hjortland:jbh:jarlebh@gmail.com
+

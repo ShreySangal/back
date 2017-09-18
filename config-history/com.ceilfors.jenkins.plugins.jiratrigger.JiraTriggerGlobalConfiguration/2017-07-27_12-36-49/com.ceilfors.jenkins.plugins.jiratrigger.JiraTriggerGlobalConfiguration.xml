@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.ceilfors.jenkins.plugins.jiratrigger.JiraTriggerGlobalConfiguration plugin="jira-trigger@0.4.1">
+  <jiraRootUrl></jiraRootUrl>
+  <jiraUsername></jiraUsername>
+  <jiraPassword>{AQAAABAAAAAQa5K0vQ9MJmzGOGGY13ZTya5xIV8UOdDYgIQbxZqcujo=}</jiraPassword>
+  <jiraCommentReply>false</jiraCommentReply>
+</com.ceilfors.jenkins.plugins.jiratrigger.JiraTriggerGlobalConfiguration>

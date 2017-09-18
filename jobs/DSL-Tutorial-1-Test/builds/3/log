@@ -1,0 +1,67 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/DSL-Tutorial-1-Test
+Selected Git installation does not exist. Using Default
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url git://github.com/quidryan/aws-sdk-test.git # timeout=10
+Fetching upstream changes from git://github.com/quidryan/aws-sdk-test.git
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress git://github.com/quidryan/aws-sdk-test.git +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/feature1
+Seen branch in repository origin/feature2
+Seen branch in repository origin/master
+Seen 3 remote branches
+ > /bin/git tag -l # timeout=10
+Checking out Revision 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e (origin/feature1, origin/feature2, origin/master)
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git tag -a -f -m Jenkins Build #3 jenkins-DSL-Tutorial-1-Test-3 # timeout=10
+FATAL: Could not apply tag jenkins-DSL-Tutorial-1-Test-3
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mhudson.plugins.git.GitException: Command "/bin/git tag -a -f -m Jenkins Build #3 jenkins-DSL-Tutorial-1-Test-3" returned status code 128:
+stdout: 
+stderr: 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'jenkins@test186.(none)')
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1903)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1871)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1867)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:1512)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:1524)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.tag(CliGitAPIImpl.java:1403)
+Caused: hudson.plugins.git.GitException: Could not apply tag jenkins-DSL-Tutorial-1-Test-3
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.tag(CliGitAPIImpl.java:1405)
+	at hudson.plugins.git.GitAPI.tag(GitAPI.java:274)
+	at hudson.plugins.git.extensions.impl.PerBuildTag.onCheckoutCompleted(PerBuildTag.java:30)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1176)
+	at hudson.scm.SCM.checkout(SCM.java:496)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1281)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:604)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:529)
+	at hudson.model.Run.execute(Run.java:1728)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:405)
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Notifying upstream projects of job completion
+Finished: FAILURE

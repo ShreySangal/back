@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Started-By Environment Variable Plugin' groupId='org.jenkins-ci.plugins' artifactId='started-by-envvar' version='1.0' url='http://jenkins-ci.org/plugin/started-by-envvar/'>
+    <l:description />
+    <l:license name='MIT license' />
+  </l:dependency>
+</l:dependencies>

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: d036774
+Build-Jdk: 1.7.0_65
+Extension-Name: remote-jobs-view-plugin
+Specification-Title: Display jobs from remote (master) Jenkins CI serv
+ ers
+Implementation-Title: remote-jobs-view-plugin
+Implementation-Version: 0.0.3
+Group-Id: com.sap.jenkinsci
+Short-Name: remote-jobs-view-plugin
+Long-Name: remote-jobs-view-plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Remote+Jobs+View+Plugin
+Plugin-Version: 0.0.3
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: Dirk Lehmann:doergn:dirk.lehmann@sap.com
+

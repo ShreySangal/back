@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:38:42.88 UTC</timestamp>
+  <md5sum>040b4b4d8eac886f6b4a2a3bd2f31b00</md5sum>
+  <fileName>commons-logging:commons-logging-1.2.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

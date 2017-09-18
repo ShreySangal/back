@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.14">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepAtomNode" plugin="workflow-cps@2.40">
+    <parentIds>
+      <string>24</string>
+    </parentIds>
+    <id>25</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+      <charset>UTF-8</charset>
+    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.40">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>script</string>
+          <string>/opt/sonar-runner-2.4/bin/sonar-runner -Dsonar.host.url=http://10.1.23.186:9000/sonar/ -Dsonar.login=f1c4658065559b7c93df0ab8f865868dfcd859eb -Dsonar.projectName=CTC_Demo -Dsonar.projectVersion=1.0 -Dsonar.projectKey=com.wakaleo.gameoflife:gameoflife -Dsonar.sources=/var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/src/main  -Dsonar.tests=/var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/src/test</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.20">
+      <startTime>1505185423374</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.2.0">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/pipelines/</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

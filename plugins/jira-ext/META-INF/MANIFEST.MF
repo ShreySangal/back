@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: dalvizu
+Build-Jdk: 1.8.0_45
+Extension-Name: jira-ext
+Specification-Title: A plugin for Jenkins CI to update JIRA tickets in
+  an extensible way: both what to update
+     and how to up date are exposed as Extension Points
+Implementation-Title: jira-ext
+Implementation-Version: 0.7
+Group-Id: org.jenkins-ci.plugins
+Short-Name: jira-ext
+Long-Name: jira-ext Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Jira-Ext+Plugin
+Plugin-Version: 0.7
+Hudson-Version: 1.609.3
+Jenkins-Version: 1.609.3
+Plugin-Dependencies: git:2.2.3,job-dsl:1.39;resolution:=optional
+Plugin-Developers: Dan Alvizu:dalvizu:alvizu@gmail.com
+

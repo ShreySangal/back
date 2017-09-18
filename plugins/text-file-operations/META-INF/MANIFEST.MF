@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sanke
+Build-Jdk: 1.8.0_51
+Extension-Name: text-file-operations
+Specification-Title: Creates or updates text file with specified conte
+ nts.
+Specification-Vendor: ETAS GmbH
+Implementation-Vendor: ETAS GmbH
+Implementation-Title: text-file-operations
+Implementation-Version: 1.3.2
+Group-Id: com.etas.jenkins.plugins
+Short-Name: text-file-operations
+Long-Name: Text File Operations
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Text+File+Operations+
+ Plugin
+Plugin-Version: 1.3.2
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: Sanketh P B:sankethpb:
+

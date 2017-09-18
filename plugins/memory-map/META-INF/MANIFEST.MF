@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: praqma
+Build-Jdk: 1.8.0_112
+Extension-Name: memory-map
+Specification-Title: Enables the parsing of memory map files and their
+  linker scripts. Currently supports Gcc and TexasInstruments compilers
+Implementation-Title: memory-map
+Implementation-Version: 2.2.0
+Group-Id: net.praqma
+Short-Name: memory-map
+Long-Name: Memory Map Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/memory+map+plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 2.2.0 (b6c0d)
+Hudson-Version: 1.642.3
+Jenkins-Version: 1.642.3
+Plugin-Dependencies: workflow-aggregator:2.4,multiple-scms:0.6;resolut
+ ion:=optional,workflow-cps:2.21,job-dsl:1.37;resolution:=optional
+Plugin-Developers: Praqma Josra:praqma_josra:josra@praqma.net,Mads Nie
+ lsen:MadsNielsen:man@praqma.net,Jes Struck:jes-struck:jes@praqma.net,
+ Bue Petersen:buep:bue@praqma.net,Hugo Leote:hleote:hleote@praqma.net,
+ Martin Georgiev:mvgeorgiev:mvgeorgiev@praqma.net
+

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bjerre
+Build-Jdk: 1.8.0_101
+Extension-Name: violation-comments-to-github
+Specification-Title: Finds violations reported by code analyzers and c
+ omments GitHub pull requests with them.
+Implementation-Title: violation-comments-to-github
+Implementation-Version: 1.42
+Group-Id: org.jenkins-ci.plugins
+Short-Name: violation-comments-to-github
+Long-Name: Jenkins Violation Comments to GitHub Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Violation+Comments+to
+ +GitHub+Plugin
+Plugin-Version: 1.42
+Hudson-Version: 2.1
+Jenkins-Version: 2.1
+Plugin-Dependencies: maven-plugin:2.9,credentials:2.1.4,plain-credenti
+ als:1.2
+Plugin-Developers: Tomas Bjerre:tomasbjerre:tomas.bjerre85@gmail.com
+

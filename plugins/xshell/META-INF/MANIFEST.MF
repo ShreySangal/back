@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: marco
+Build-Jdk: 1.7.0_55
+Extension-Name: xshell
+Specification-Title: This plugin allows you to call shell commands usi
+ ng the right shell depending on the executing OS.
+Implementation-Title: xshell
+Implementation-Version: 0.10
+Group-Id: org.jenkins-ci.plugins
+Short-Name: xshell
+Long-Name: Jenkins cross-platform shell plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/XShell+Plugin
+Plugin-Version: 0.10
+Hudson-Version: 1.499
+Jenkins-Version: 1.499
+Plugin-Developers: Marco Ambu:mambu:marco.ambu+jenkins@gmail.com
+

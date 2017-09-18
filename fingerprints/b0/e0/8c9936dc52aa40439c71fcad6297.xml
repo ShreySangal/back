@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:38:42.62 UTC</timestamp>
+  <md5sum>b0e08c9936dc52aa40439c71fcad6297</md5sum>
+  <fileName>net.java.dev.jna:jna-4.1.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore/org.mybatis:jpetstore</string>
+      <ranges>1-17,23-30</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

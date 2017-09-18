@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-06 22:05:44.715 UTC</timestamp>
+  <original>
+    <name>CounterWebApp/com.mkyong:CounterWebApp</name>
+    <number>4</number>
+  </original>
+  <md5sum>2f0abaaa91246e7f9e7ecfd013059bc1</md5sum>
+  <fileName>com.mkyong:CounterWebApp.war</fileName>
+  <usages>
+    <entry>
+      <string>CounterWebApp/com.mkyong:CounterWebApp</string>
+      <ranges>4</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp</string>
+      <ranges>4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

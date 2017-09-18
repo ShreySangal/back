@@ -1,0 +1,109 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Code Deploy
+[Code Deploy] $ /bin/ksh -xe /tmp/jenkins3953534564625616612.sh
++ cd /home/dryice2
++ rm -rf /home/dryice2/package
++ mkdir -p /home/dryice2/package/app
++ mkdir -p /home/dryice2/package/db
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/package/app
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_31.war
+--2017-09-12 09:05:58--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_31.war
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3192497 (3.0M) [application/java-archive]
+Saving to: ‘game-1.0-BN_31.war’
+
+     0K .......... .......... .......... .......... ..........  1% 23.2M 0s
+    50K .......... .......... .......... .......... ..........  3% 16.2M 0s
+   100K .......... .......... .......... .......... ..........  4% 18.9M 0s
+   150K .......... .......... .......... .......... ..........  6% 21.9M 0s
+   200K .......... .......... .......... .......... ..........  8% 19.5M 0s
+   250K .......... .......... .......... .......... ..........  9% 4.63M 0s
+   300K .......... .......... .......... .......... .......... 11% 13.1M 0s
+   350K .......... .......... .......... .......... .......... 12% 16.3M 0s
+   400K .......... .......... .......... .......... .......... 14% 17.3M 0s
+   450K .......... .......... .......... .......... .......... 16% 14.7M 0s
+   500K .......... .......... .......... .......... .......... 17% 64.2M 0s
+   550K .......... .......... .......... .......... .......... 19% 92.7M 0s
+   600K .......... .......... .......... .......... .......... 20% 34.4M 0s
+   650K .......... .......... .......... .......... .......... 22% 82.0M 0s
+   700K .......... .......... .......... .......... .......... 24% 68.2M 0s
+   750K .......... .......... .......... .......... .......... 25% 87.6M 0s
+   800K .......... .......... .......... .......... .......... 27% 35.0M 0s
+   850K .......... .......... .......... .......... .......... 28% 21.5M 0s
+   900K .......... .......... .......... .......... .......... 30% 20.5M 0s
+   950K .......... .......... .......... .......... .......... 32% 20.9M 0s
+  1000K .......... .......... .......... .......... .......... 33% 21.3M 0s
+  1050K .......... .......... .......... .......... .......... 35% 21.2M 0s
+  1100K .......... .......... .......... .......... .......... 36% 18.2M 0s
+  1150K .......... .......... .......... .......... .......... 38% 25.0M 0s
+  1200K .......... .......... .......... .......... .......... 40% 22.2M 0s
+  1250K .......... .......... .......... .......... .......... 41% 23.5M 0s
+  1300K .......... .......... .......... .......... .......... 43% 17.8M 0s
+  1350K .......... .......... .......... .......... .......... 44% 17.3M 0s
+  1400K .......... .......... .......... .......... .......... 46% 22.2M 0s
+  1450K .......... .......... .......... .......... .......... 48% 25.8M 0s
+  1500K .......... .......... .......... .......... .......... 49% 31.7M 0s
+  1550K .......... .......... .......... .......... .......... 51%  118M 0s
+  1600K .......... .......... .......... .......... .......... 52%  133M 0s
+  1650K .......... .......... .......... .......... .......... 54%  126M 0s
+  1700K .......... .......... .......... .......... .......... 56%  112M 0s
+  1750K .......... .......... .......... .......... .......... 57%  131M 0s
+  1800K .......... .......... .......... .......... .......... 59%  187M 0s
+  1850K .......... .......... .......... .......... .......... 60%  194M 0s
+  1900K .......... .......... .......... .......... .......... 62%  174M 0s
+  1950K .......... .......... .......... .......... .......... 64%  203M 0s
+  2000K .......... .......... .......... .......... .......... 65%  198M 0s
+  2050K .......... .......... .......... .......... .......... 67%  287M 0s
+  2100K .......... .......... .......... .......... .......... 68%  263M 0s
+  2150K .......... .......... .......... .......... .......... 70%  136M 0s
+  2200K .......... .......... .......... .......... .......... 72%  131M 0s
+  2250K .......... .......... .......... .......... .......... 73%  150M 0s
+  2300K .......... .......... .......... .......... .......... 75%  122M 0s
+  2350K .......... .......... .......... .......... .......... 76%  137M 0s
+  2400K .......... .......... .......... .......... .......... 78%  149M 0s
+  2450K .......... .......... .......... .......... .......... 80%  131M 0s
+  2500K .......... .......... .......... .......... .......... 81%  147M 0s
+  2550K .......... .......... .......... .......... .......... 83%  162M 0s
+  2600K .......... .......... .......... .......... .......... 84%  120M 0s
+  2650K .......... .......... .......... .......... .......... 86%  153M 0s
+  2700K .......... .......... .......... .......... .......... 88%  147M 0s
+  2750K .......... .......... .......... .......... .......... 89%  109M 0s
+  2800K .......... .......... .......... .......... .......... 91% 36.0M 0s
+  2850K .......... .......... .......... .......... .......... 93% 44.0M 0s
+  2900K .......... .......... .......... .......... .......... 94% 23.7M 0s
+  2950K .......... .......... .......... .......... .......... 96% 32.3M 0s
+  3000K .......... .......... .......... .......... .......... 97% 17.1M 0s
+  3050K .......... .......... .......... .......... .......... 99% 82.5M 0s
+  3100K .......... .......                                    100% 39.6M=0.09s
+
+2017-09-12 09:05:58 (33.2 MB/s) - ‘game-1.0-BN_31.war’ saved [3192497/3192497]
+
++ cd /home/dryice2/package/app
++ cd /home/dryice2/package/db
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_31.sql
+--2017-09-12 09:05:58--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_31.sql
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3355 (3.3K) [text/x-sql]
+Saving to: ‘game-1.0-BN_31.sql’
+
+     0K ...                                                   100%  290M=0s
+
+2017-09-12 09:05:58 (290 MB/s) - ‘game-1.0-BN_31.sql’ saved [3355/3355]
+
++ cd /home/dryice2/package/db
++ mv game-1.0-BN_31.sql game.sql
++ cd /home/dryice2
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/webapps
++ cp -r /home/dryice2/package/app/game-1.0-BN_31.war .
++ jar -xvf game-1.0-BN_31.war game-1.0-BN_38.war
+Triggering projects: [8mha:////4I7ZkEdlFRDlHdidcZZiK7/5b8dJHE+hdavWfYbp+7qRAAAAix+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKWHg0s/KT9L3TczM0QcAZmAqHY8AAAA=[0mMail
+Notifying upstream projects of job completion
+Finished: SUCCESS

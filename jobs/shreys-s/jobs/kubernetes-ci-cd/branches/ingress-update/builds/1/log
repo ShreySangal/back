@@ -1,0 +1,51 @@
+Branch indexing
+[8mha:////4BCNIrhJZsropdF+Fx5m7WA7mJKN6QwQqMcisEXcolWXAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRsb9blWQBj5BQBjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Obtained Jenkinsfile from 370636c1e18320d1f6cfdcaa69544dc0c0f13399
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/rnetes-ci-cd_ingress-update-ZYDFGNKCGJJ5UK6NGDQKRSI3CZFV3XFMT5CUCB2XEXAKMHCVBMFA
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/kubernetes-ci-cd.git
+ > /bin/git init /var/lib/jenkins/workspace/rnetes-ci-cd_ingress-update-ZYDFGNKCGJJ5UK6NGDQKRSI3CZFV3XFMT5CUCB2XEXAKMHCVBMFA # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/kubernetes-ci-cd.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/kubernetes-ci-cd.git +refs/heads/ingress-update:refs/remotes/origin/ingress-update
+ > /bin/git config remote.origin.url https://github.com/shreys-s/kubernetes-ci-cd.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/ingress-update:refs/remotes/origin/ingress-update # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/kubernetes-ci-cd.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/kubernetes-ci-cd.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/kubernetes-ci-cd.git +refs/heads/ingress-update:refs/remotes/origin/ingress-update
+Checking out Revision 370636c1e18320d1f6cfdcaa69544dc0c0f13399 (ingress-update)
+Commit message: "revert temp yaml commands"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 370636c1e18320d1f6cfdcaa69544dc0c0f13399
+First time build. Skipping changelog.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rnetes-ci-cd_ingress-update-ZYDFGNKCGJJ5UK6NGDQKRSI3CZFV3XFMT5CUCB2XEXAKMHCVBMFA] Running shell script
++ git rev-parse --short HEAD
++ 1> commit-id
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] readFile
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build
+Proceeding
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rnetes-ci-cd_ingress-update-ZYDFGNKCGJJ5UK6NGDQKRSI3CZFV3XFMT5CUCB2XEXAKMHCVBMFA] Running shell script
++ docker build -t 127.0.0.1:30400/hello-kenzan:370636c -f applications/hello-kenzan/Dockerfile applications/hello-kenzan
+/var/lib/jenkins/workspace/rnetes-ci-cd_ingress-update-ZYDFGNKCGJJ5UK6NGDQKRSI3CZFV3XFMT5CUCB2XEXAKMHCVBMFA@tmp/durable-6268c5dd/script.sh[2]: docker: not found [No such file or directory]
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 127
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

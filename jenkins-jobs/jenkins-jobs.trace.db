@@ -1,0 +1,36 @@
+2017-08-28 12:16:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-08-28 12:16:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-08-28 12:16:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MAVEN_ARTIFACT" not found; SQL statement:
+SELECT count(*) FROM MAVEN_ARTIFACT [42102-196]
+2017-09-08 13:49:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-09-08 13:49:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-09-08 13:49:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MAVEN_ARTIFACT" not found; SQL statement:
+SELECT count(*) FROM MAVEN_ARTIFACT [42102-196]
+2017-09-11 20:14:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-09-11 20:14:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-09-11 20:14:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MAVEN_ARTIFACT" not found; SQL statement:
+SELECT count(*) FROM MAVEN_ARTIFACT [42102-196]
+2017-09-12 10:21:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-09-12 10:21:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "VERSION" not found; SQL statement:
+SELECT * FROM VERSION [42102-196]
+2017-09-12 10:21:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MAVEN_ARTIFACT" not found; SQL statement:
+SELECT count(*) FROM MAVEN_ARTIFACT [42102-196]

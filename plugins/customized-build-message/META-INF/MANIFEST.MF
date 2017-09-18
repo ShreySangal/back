@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: cash
+Build-Jdk: 1.8.0_45-internal
+Extension-Name: customized-build-message
+Specification-Title: Display the customized messages in build history 
+ and status.
+Implementation-Title: customized-build-message
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: customized-build-message
+Long-Name: Customized Build Message Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Customized+Build+Mess
+ age+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Cash Chang:cashlalala:cash924n@gmail.com
+

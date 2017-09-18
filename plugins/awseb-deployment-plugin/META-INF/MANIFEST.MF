@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: aldrin
+Build-Jdk: 1.8.0_131
+Extension-Name: awseb-deployment-plugin
+Specification-Title: The Jenkins Plugins Parent POM Project
+Specification-Vendor: ingenieux Labs
+Implementation-Vendor: ingenieux Labs
+Implementation-Title: awseb-deployment-plugin
+Implementation-Version: 0.3.19
+Group-Id: br.com.ingenieux.jenkins.plugins
+Short-Name: awseb-deployment-plugin
+Long-Name: AWS Elastic Beanstalk Deployment Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/AWSEB+Deployment+Plugin
+Compatible-Since-Version: 0.0.4
+Plugin-Version: 0.3.19
+Hudson-Version: 2.60.1
+Jenkins-Version: 2.60.1
+Plugin-Dependencies: aws-credentials:1.11,aws-java-sdk:1.11.68,token-m
+ acro:2.1
+Plugin-Developers: Aldrin Leal:aldrinleal:
+

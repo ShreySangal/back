@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tools.devnull.jenkins.plugins.buildnotifications.TelegramNotifier_-TelegramDescriptor plugin="build-notifications@1.4.3">
+  <botToken></botToken>
+</tools.devnull.jenkins.plugins.buildnotifications.TelegramNotifier_-TelegramDescriptor>

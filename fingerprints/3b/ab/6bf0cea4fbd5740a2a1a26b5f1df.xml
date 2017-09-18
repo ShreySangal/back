@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-29 09:36:33.891 UTC</timestamp>
+  <md5sum>3bab6bf0cea4fbd5740a2a1a26b5f1df</md5sum>
+  <fileName>Credential id=043578dd-2c92-4134-8d72-c6699e575361 name=kunalsingh2811@gmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>11-14</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

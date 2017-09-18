@@ -1,0 +1,60 @@
+Branch indexing
+[8mha:////4DOLISPnORZxbZ4WyyEz0Q//+L0aki+mwKFAvrhcUBWQAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcQt/zuwDuWNifjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Obtained Jenkinsfile from becb5116ab6bcea5e85fb182b88d469ec4377052
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/reys-s_docker-sample_master-A4NKFY2IAPXKBKAU3PHONFLQRMMCQXK4UHB53QHZE7A43QPZJ2DA
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] deleteDir
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Git Checkout)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/docker-sample.git
+ > /bin/git init /var/lib/jenkins/workspace/reys-s_docker-sample_master-A4NKFY2IAPXKBKAU3PHONFLQRMMCQXK4UHB53QHZE7A43QPZJ2DA # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/docker-sample.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/docker-sample.git +refs/heads/master:refs/remotes/origin/master
+ > /bin/git config remote.origin.url https://github.com/shreys-s/docker-sample.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/docker-sample.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/docker-sample.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/docker-sample.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision becb5116ab6bcea5e85fb182b88d469ec4377052 (master)
+Commit message: "teste"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f becb5116ab6bcea5e85fb182b88d469ec4377052
+First time build. Skipping changelog.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Clean)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[reys-s_docker-sample_master-A4NKFY2IAPXKBKAU3PHONFLQRMMCQXK4UHB53QHZE7A43QPZJ2DA] Running shell script
++ ./gradlew clean
+
+ERROR: JAVA_HOME is set to an invalid directory: /opt/jdk8
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

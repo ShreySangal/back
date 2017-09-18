@@ -1,0 +1,70 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/GitAntBuild
+Disk space threshold is set to :0Gb
+Checking disk space Now 
+diskspace is 35432718336
+Total Disk space in workspace is 35432718336
+Total Disk Space Available is: 32Gb
+ Node Name: master
+Running Prebuild steps
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/Dummy
+ > /bin/git init /var/lib/jenkins/workspace/GitAntBuild # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/Dummy
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/Dummy +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/Dummy # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/Dummy # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/Dummy
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/Dummy +refs/heads/master:refs/remotes/origin/master
+Seen branch in repository origin/master
+Seen 1 remote branch
+ > /bin/git tag -l # timeout=10
+Checking out Revision 721abe4e7e9dd1dffa76b5db1c40836d25856ffa (origin/master)
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 721abe4e7e9dd1dffa76b5db1c40836d25856ffa
+First time build. Skipping changelog.
+[Example2] $ /opt/ant/bin/ant -file build.xml
+Buildfile: /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/build.xml
+
+[8mha:////4FmmOMr6wkrn8P+pT0QdDgz7DtStrX+IMTjI7uWgMp5QAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+    [mkdir] Created dir: /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/build/classes
+    [mkdir] Created dir: /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/dist
+
+[8mha:////4FmmOMr6wkrn8P+pT0QdDgz7DtStrX+IMTjI7uWgMp5QAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/build.xml:10: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/build/classes
+
+[8mha:////4FmmOMr6wkrn8P+pT0QdDgz7DtStrX+IMTjI7uWgMp5QAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompress:
+      [jar] Building jar: /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/dist/HelloWorld.jar
+
+[8mha:////4OTQGfN1/VzxYrv+6TJbCkg6h3EVyBNGSHmWvRnJKrbMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 0 seconds
+HelloWorld.jar file doesn't exists
+FATAL: HelloWorld.jar file doesn't exists
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mjava.io.IOException: HelloWorld.jar file doesn't exists
+	at sp.sd.nexusartifactuploader.NexusArtifactUploader.perform(NexusArtifactUploader.java:148)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:779)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at hudson.model.Run.execute(Run.java:1728)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:405)
+Sending e-mails to: shrey_s@hcl.com
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Notifying upstream projects of job completion
+Finished: FAILURE

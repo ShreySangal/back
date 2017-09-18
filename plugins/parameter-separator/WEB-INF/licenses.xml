@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='parameter-separator' version='1.0'><l:dependency name='Parameter Separator Plugin' groupId='org.jenkins-ci.plugins' artifactId='parameter-separator' version='1.0' url='https://wiki.jenkins-ci.org/x/W4BWB'><l:description/></l:dependency></l:dependencies>

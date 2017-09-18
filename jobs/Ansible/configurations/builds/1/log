@@ -1,0 +1,57 @@
+Started by upstream project "[8mha:////4FNEcoCx1XF46BqrQspE1AL2aUjFrJH+3S9vHMVzZkmjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH3HvOLMpJxUfQBmzeh0wgAAAA==[0mAnsible" build number [8mha:////4LOlOWn1vWEbvMlzq/36ijWvBazOhfcdGyj/uHAsz5rDAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwkfce84syknFR9QwDrFXg4wwAAAA==[0m1
+originally caused by:
+ Started by upstream project "[8mha:////4LAg5aXzvzi/ARFNnzFiWQAb14SbgytLUbMt33q1urC2AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH1XZyOfxNK85Az9lNS0xNKcEn0A/dlN08wAAAA=[0mEC2Launch/default" build number [8mha:////4LI52HjT8J/YHDASCQJVQqW52I9oEJWveBvzhSy6F4SOAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwkfVdnI5/E0rzkDP2U1LTE0pwSfUMAAJIHuc0AAAA=[0m1
+ originally caused by:
+  Started by upstream project "[8mha:////4GT+PduGwXNhqGYTjqBkKb7Hi3h+RNu2YCwl6D9Jqr4mAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH1XZyOfxNK85Ax9AAaegcXEAAAA[0mEC2Launch" build number [8mha:////4MOzGV0tgBix4fXvppobBBKGlBGNy/ry4yK8l8z/rQsEAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfVdnI5/E0rzkDH1DAAa3cibFAAAA[0m1
+  originally caused by:
+   Started by upstream project "[8mha:////4CzbJeop/KsMJ/0G0snSjN3686tx4VY8CBWz/3a0W02IAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2wAOfg0qS81BL9lNS0xNKcEn0A9FwKUcwAAAA=[0mVPCSubnet/default" build number [8mha:////4MzgwIHfvAhGAiJq6UhEPqI6wlCRFkxzpVPG5TbxknhmAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/bAA5+DSpLzUEv2U1LTE0pwSfUMAIW1ZwM0AAAA=[0m1
+   originally caused by:
+    Started by upstream project "[8mha:////4EAzgSgSWSiq0D9V4td/5u5WsOX5YCavmoiH0aaRK1fMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2wAOfg0qS81BJ9AICNRMXEAAAA[0mVPCSubnet" build number [8mha:////4BaNph7tqjurebilIud1xzuQ4e4DX22z7MuSdnY2nj1rAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/bAA5+DSpLzUEn1DAABUqSLFAAAA[0m1
+    originally caused by:
+     Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/Ansible/default
+[default] $ /bin/ksh -xe /tmp/hudson96278212885259454.sh
++ echo TestHostname 10.0.5.30
+TestHostname 10.0.5.30
++ ssh test@ansibleserver sudo bash -x ./ansible_test/newserver.sh TestHostname 10.0.5.30
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Build step 'Execute shell' marked build as failure
+Performing Post build task...
+Match found for : : True
+Logical operation result is TRUE
+Running script  : export AMIID=`cat /tmp/variable.properties`
+echo ""
+echo " The new AMI ID created by AWS CLI : " $AMIID
+echo ""
+cat /tmp/variable.properties
+echo ""
+
+[default] $ /bin/ksh -xe /tmp/hudson2686491056110439726.sh
++ cat /tmp/variable.properties
+cat: /tmp/variable.properties: No such file or directory
++ AMIID=''
++ export AMIID
++ echo ''
+
++ echo ' The new AMI ID created by AWS CLI : '
+ The new AMI ID created by AWS CLI : 
++ echo ''
+
++ cat /tmp/variable.properties
+cat: /tmp/variable.properties: No such file or directory
+POST BUILD TASK : FAILURE
+END OF POST BUILD TASK : 0
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

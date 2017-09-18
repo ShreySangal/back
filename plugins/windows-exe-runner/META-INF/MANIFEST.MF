@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Y-Saito
+Build-Jdk: 1.6.0_29
+Extension-Name: windows-exe-runner
+Implementation-Title: windows-exe-runner
+Implementation-Version: 1.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: windows-exe-runner
+Long-Name: Jenkins Windows Exe Runner Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Windows+Exe+Runner+Pl
+ ugin
+Plugin-Version: 1.2
+Hudson-Version: 1.466
+Jenkins-Version: 1.466
+Plugin-Developers: Yasuyuki Saito:yasu_s:yasuyuki.saito.2012@gmail.com
+

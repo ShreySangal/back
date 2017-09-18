@@ -1,0 +1,4 @@
+[webapp] Running shell script
++ docker build -t shreys/docker-jenkins-pipeline:1 .
+time="2017-09-08T13:46:22+05:30" level=error msg="failed to dial gRPC: cannot connect to the Docker daemon. Is 'docker daemon' running on this host?: dial unix /var/run/docker.sock: connect: permission denied" 
+context canceled

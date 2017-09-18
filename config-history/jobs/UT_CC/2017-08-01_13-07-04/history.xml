@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.jobConfigHistory.HistoryDescr plugin="jobConfigHistory@2.16">
+  <user>Shrey Sangal</user>
+  <userId>shrey_s</userId>
+  <operation>Renamed</operation>
+  <timestamp>2017-08-01_13-07-04</timestamp>
+  <currentName>UT_CC</currentName>
+  <oldName>UT Code Coverage</oldName>
+</hudson.plugins.jobConfigHistory.HistoryDescr>

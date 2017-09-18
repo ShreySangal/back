@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:37:01.324 UTC</timestamp>
+  <md5sum>1f40fb782a4f2cf78f161d32670f7a3a</md5sum>
+  <fileName>junit:junit-3.8.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>GitMavenBuild/com.hcl.app:devops-dryice</string>
+      <ranges>1-4,6-8</ranges>
+    </entry>
+    <entry>
+      <string>GitMavenBuild</string>
+      <ranges>1-4,6-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

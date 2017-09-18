@@ -1,0 +1,32 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4HxmrJ/qJdHZ4mxLBIZaoQJph94olB3fOCLW+kOigPKzAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/eKcxLLU+GAXTwAFv9ItyAAAAA==[0mslave_SDI (slave_sdi) in workspace /home/jenkins/workspace/GitMavenBuild
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/devops-dryice
+ > /bin/git init /home/jenkins/workspace/GitMavenBuild # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/devops-dryice
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/devops-dryice +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/devops-dryice # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/devops-dryice # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/devops-dryice
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/devops-dryice +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0844fcbc15d58adce1290c170b8d155da0ca51ec (refs/remotes/origin/master)
+Commit message: "first commit"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 0844fcbc15d58adce1290c170b8d155da0ca51ec
+ > /bin/git rev-list 0844fcbc15d58adce1290c170b8d155da0ca51ec # timeout=10
+ERROR: Maven Home /opt/maven doesnt exist
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

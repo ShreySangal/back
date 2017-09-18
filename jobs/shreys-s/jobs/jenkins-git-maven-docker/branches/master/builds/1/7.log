@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git init /var/lib/jenkins/workspace/ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/master:refs/remotes/origin/master
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 79a74e3c44a79b39775e054c136e418f0f213116 (master)
+Commit message: "ma"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 79a74e3c44a79b39775e054c136e418f0f213116
+First time build. Skipping changelog.

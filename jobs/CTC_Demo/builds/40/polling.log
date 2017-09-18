@@ -1,0 +1,9 @@
+Started on Sep 12, 2017 10:24:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 45d91bccfc569bc44e703351eb7929b0be4b1645 (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > /bin/git ls-remote -h https://github.com/shreys-s/game-of-life # timeout=10
+Found 42 remote heads on https://github.com/shreys-s/game-of-life
+[poll] Latest remote head revision on refs/heads/master is: 972587f815c14b263dcc19196a95af3e0171de79
+Done. Took 1.5 sec
+Changes found

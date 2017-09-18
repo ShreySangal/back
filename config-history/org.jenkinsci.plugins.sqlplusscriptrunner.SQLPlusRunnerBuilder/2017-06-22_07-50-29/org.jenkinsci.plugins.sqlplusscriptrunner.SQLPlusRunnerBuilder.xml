@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.sqlplusscriptrunner.SQLPlusRunnerBuilder_-DescriptorImpl plugin="sqlplus-script-runner@1.0.6">
+  <hideSQLPlusVersion>false</hideSQLPlusVersion>
+  <tryToDetectOracleHome>false</tryToDetectOracleHome>
+  <oracleHome></oracleHome>
+</org.jenkinsci.plugins.sqlplusscriptrunner.SQLPlusRunnerBuilder_-DescriptorImpl>

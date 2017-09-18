@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: henrik
+Build-Jdk: 1.6.0_21
+Extension-Name: prereq-buildstep
+Specification-Title: This Hudson/Jenkins plugin checks the status of o
+ ther jobs as a build step
+Implementation-Title: prereq-buildstep
+Implementation-Version: 1.1
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: prereq-buildstep
+Long-Name: Prerequisite build step plugin
+Url: http://bitbucket.org/henriklynggaard/prereq-buildstep-plugin/wiki
+ /Home
+Plugin-Version: 1.1
+Hudson-Version: 1.392
+Plugin-Developers: Henrik Lynggaard:lynggaard:henrik@hlyh.dk
+

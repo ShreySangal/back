@@ -1,0 +1,463 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/CTC_Demo
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Sourcing)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/game-of-life
+ > /bin/git init /var/lib/jenkins/workspace/CTC_Demo # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/game-of-life
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/game-of-life +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/game-of-life # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/game-of-life # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/game-of-life
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/game-of-life +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e3df0d50fd8fc6c58c3bf8c5c2e1f3bdd999907b (refs/remotes/origin/master)
+Commit message: "Added DB"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f e3df0d50fd8fc6c58c3bf8c5c2e1f3bdd999907b
+ > /bin/git branch -a -v --no-abbrev # timeout=10
+ > /bin/git checkout -b master e3df0d50fd8fc6c58c3bf8c5c2e1f3bdd999907b
+First time build. Skipping changelog.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[CTC_Demo] Running shell script
++ /opt/maven/bin/mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-build:jar:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife:pom:1.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 302, column 40
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gameoflife
+[INFO] gameoflife-build
+[INFO] gameoflife-core
+[INFO] gameoflife-web
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/CTC_Demo/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/CTC_Demo/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife ---
+[INFO] /var/lib/jenkins/workspace/CTC_Demo/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-build 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-build ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-build ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/CTC_Demo/gameoflife-build/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CTC_Demo/gameoflife-build/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-build ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-build ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/CTC_Demo/gameoflife-build/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-build ---
+[INFO] /var/lib/jenkins/workspace/CTC_Demo/gameoflife-build/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gameoflife-build ---
+[INFO] Building jar: /var/lib/jenkins/workspace/CTC_Demo/gameoflife-build/target/gameoflife-build-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-core 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/src/main/resources
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-core ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.domain.WhenYouReadAGridFromAString
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 sec
+Running com.wakaleo.gameoflife.domain.WhenYouCreateAGrid
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running com.wakaleo.gameoflife.domain.WhenYouPrintAGrid
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.wakaleo.gameoflife.domain.WhenYouCreateACell
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.wakaleo.gameoflife.domain.WhenYouPlayTheGameOfLife
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.wakaleo.gameoflife.domain.WhenYouCreateANewUniverse
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+
+Results :
+
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-core ---
+[INFO] Using easyb dependency org.easyb:easyb-core:jar:1.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-composite-groovy:pom:1.2:compile
+[INFO] Using easyb dependency org.codehaus.groovy:groovy-all:jar:2.3.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-ast:jar:1.1:compile
+[INFO] Using easyb dependency commons-cli:commons-cli:jar:1.2:compile
+[INFO] Using easyb dependency commons-lang:commons-lang:jar:2.5:compile
+     [java] Running counting things story (/var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/src/test/stories/CountingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 0, Time elapsed: 2.045 sec
+     [java] Running multiplying things story (/var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/src/test/stories/MultiplyingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 1, Time elapsed: 0.148 sec
+     [java] 2 total behaviors ran with no failures
+     [java] Writing JUnit report to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] Writing JUnit report to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gameoflife-core ---
+[INFO] Building jar: /var/lib/jenkins/workspace/CTC_Demo/gameoflife-core/target/gameoflife-core-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-web ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-web ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-web ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-web ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-web ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.webtests.controllers.WhenCreatingANewGame
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.131 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenDisplayingTheHomePage
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenSpawningANewGeneration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-web ---
+[INFO] /var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ gameoflife-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [gameoflife-web] in [/var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/target/gameoflife]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/src/main/webapp]
+[INFO] Webapp assembled in [195 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/CTC_Demo/gameoflife-web/target/gameoflife.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gameoflife ......................................... SUCCESS [  7.133 s]
+[INFO] gameoflife-build ................................... SUCCESS [  2.201 s]
+[INFO] gameoflife-core .................................... SUCCESS [ 13.225 s]
+[INFO] gameoflife-web ..................................... SUCCESS [  5.068 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 28.913 s
+[INFO] Finished at: 2017-07-26T18:36:28+05:30
+[INFO] Final Memory: 32M/463M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Testing)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] junit
+Recording test results
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Code Artifactory)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] step
+Uploading artifact gameoflife.war started....
+GroupId: com.ctc.devops
+ArtifactId: game
+Classifier: BN_2
+Type: war
+Version: 1.0
+File: gameoflife.war
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.war
+10 % completed (319 kB / 3.2 MB).
+20 % completed (639 kB / 3.2 MB).
+30 % completed (958 kB / 3.2 MB).
+40 % completed (1.3 MB / 3.2 MB).
+50 % completed (1.6 MB / 3.2 MB).
+60 % completed (1.9 MB / 3.2 MB).
+70 % completed (2.2 MB / 3.2 MB).
+80 % completed (2.6 MB / 3.2 MB).
+90 % completed (2.9 MB / 3.2 MB).
+100 % completed (3.2 MB / 3.2 MB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.war (3.2 MB at 9.2 MB/s)
+Uploading artifact gameoflife.war completed.
+Uploading artifact create_data.sql started....
+GroupId: com.ctc.devops
+ArtifactId: game
+Classifier: BN_2
+Type: sql
+Version: 1.0
+File: create_data.sql
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.sql
+10 % completed (8.2 kB / 75 kB).
+21 % completed (16 kB / 75 kB).
+32 % completed (25 kB / 75 kB).
+43 % completed (33 kB / 75 kB).
+54 % completed (41 kB / 75 kB).
+65 % completed (49 kB / 75 kB).
+76 % completed (57 kB / 75 kB).
+87 % completed (66 kB / 75 kB).
+97 % completed (74 kB / 75 kB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.sql (75 kB at 801 kB/s)
+Uploading artifact create_data.sql completed.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Code Deploy)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[CTC_Demo] Running shell script
++ cd /home/dryice2
++ rm -rf /home/dryice2/package
++ mkdir -p /home/dryice2/package/app
++ mkdir -p /home/dryice2/package/db
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/package/app
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_2.war
+--2017-07-26 18:36:32--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_2.war
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3192493 (3.0M) [application/java-archive]
+Saving to: ‘game-1.0-BN_2.war’
+
+     0K .......... .......... .......... .......... ..........  1% 44.5M 0s
+    50K .......... .......... .......... .......... ..........  3% 23.7M 0s
+   100K .......... .......... .......... .......... ..........  4% 18.9M 0s
+   150K .......... .......... .......... .......... ..........  6% 7.46M 0s
+   200K .......... .......... .......... .......... ..........  8% 8.26M 0s
+   250K .......... .......... .......... .......... ..........  9% 16.2M 0s
+   300K .......... .......... .......... .......... .......... 11% 12.6M 0s
+   350K .......... .......... .......... .......... .......... 12% 16.7M 0s
+   400K .......... .......... .......... .......... .......... 14% 19.7M 0s
+   450K .......... .......... .......... .......... .......... 16% 13.7M 0s
+   500K .......... .......... .......... .......... .......... 17% 16.8M 0s
+   550K .......... .......... .......... .......... .......... 19% 21.1M 0s
+   600K .......... .......... .......... .......... .......... 20% 8.44M 0s
+   650K .......... .......... .......... .......... .......... 22% 17.4M 0s
+   700K .......... .......... .......... .......... .......... 24% 14.7M 0s
+   750K .......... .......... .......... .......... .......... 25% 14.2M 0s
+   800K .......... .......... .......... .......... .......... 27% 15.3M 0s
+   850K .......... .......... .......... .......... .......... 28% 11.5M 0s
+   900K .......... .......... .......... .......... .......... 30% 22.5M 0s
+   950K .......... .......... .......... .......... .......... 32% 39.9M 0s
+  1000K .......... .......... .......... .......... .......... 33% 27.2M 0s
+  1050K .......... .......... .......... .......... .......... 35% 25.8M 0s
+  1100K .......... .......... .......... .......... .......... 36% 22.3M 0s
+  1150K .......... .......... .......... .......... .......... 38% 25.2M 0s
+  1200K .......... .......... .......... .......... .......... 40% 25.9M 0s
+  1250K .......... .......... .......... .......... .......... 41% 33.3M 0s
+  1300K .......... .......... .......... .......... .......... 43% 27.2M 0s
+  1350K .......... .......... .......... .......... .......... 44% 16.0M 0s
+  1400K .......... .......... .......... .......... .......... 46% 17.0M 0s
+  1450K .......... .......... .......... .......... .......... 48% 20.0M 0s
+  1500K .......... .......... .......... .......... .......... 49% 26.3M 0s
+  1550K .......... .......... .......... .......... .......... 51% 18.5M 0s
+  1600K .......... .......... .......... .......... .......... 52% 22.9M 0s
+  1650K .......... .......... .......... .......... .......... 54% 17.2M 0s
+  1700K .......... .......... .......... .......... .......... 56% 30.6M 0s
+  1750K .......... .......... .......... .......... .......... 57% 32.2M 0s
+  1800K .......... .......... .......... .......... .......... 59% 33.5M 0s
+  1850K .......... .......... .......... .......... .......... 60% 31.7M 0s
+  1900K .......... .......... .......... .......... .......... 62% 19.5M 0s
+  1950K .......... .......... .......... .......... .......... 64% 14.9M 0s
+  2000K .......... .......... .......... .......... .......... 65% 11.8M 0s
+  2050K .......... .......... .......... .......... .......... 67% 24.3M 0s
+  2100K .......... .......... .......... .......... .......... 68% 28.3M 0s
+  2150K .......... .......... .......... .......... .......... 70% 39.4M 0s
+  2200K .......... .......... .......... .......... .......... 72% 27.0M 0s
+  2250K .......... .......... .......... .......... .......... 73% 18.3M 0s
+  2300K .......... .......... .......... .......... .......... 75% 18.0M 0s
+  2350K .......... .......... .......... .......... .......... 76% 26.7M 0s
+  2400K .......... .......... .......... .......... .......... 78% 27.5M 0s
+  2450K .......... .......... .......... .......... .......... 80% 27.1M 0s
+  2500K .......... .......... .......... .......... .......... 81% 30.1M 0s
+  2550K .......... .......... .......... .......... .......... 83% 35.2M 0s
+  2600K .......... .......... .......... .......... .......... 84% 20.4M 0s
+  2650K .......... .......... .......... .......... .......... 86% 13.8M 0s
+  2700K .......... .......... .......... .......... .......... 88% 23.7M 0s
+  2750K .......... .......... .......... .......... .......... 89% 9.00M 0s
+  2800K .......... .......... .......... .......... .......... 91% 32.9M 0s
+  2850K .......... .......... .......... .......... .......... 93% 22.3M 0s
+  2900K .......... .......... .......... .......... .......... 94% 14.0M 0s
+  2950K .......... .......... .......... .......... .......... 96% 40.6M 0s
+  3000K .......... .......... .......... .......... .......... 97% 6.44M 0s
+  3050K .......... .......... .......... .......... .......... 99% 23.8M 0s
+  3100K .......... .......                                    100% 70.5M=0.2s
+
+2017-07-26 18:36:32 (18.5 MB/s) - ‘game-1.0-BN_2.war’ saved [3192493/3192493]
+
++ cd /home/dryice2/package/app
++ mv game-1.3-BN_2.war game.war
+mv: cannot stat ‘game-1.3-BN_2.war’: No such file or directory
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Database Deploy )
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[CTC_Demo] Running shell script
++ ORACLE_BASE=/home/oracle/u02/app/oracle
++ export ORACLE_BASE
++ ORACLE_HOME=/home/oracle/u02/app/oracle/product/fmw12cr3
++ export ORACLE_HOME
++ ORACLE_SID=dryice
++ export ORACLE_SID
++ ORACLE_TERM=xterm
++ export ORACLE_TERM
++ MW_HOME=/opt/weblogic1213
++ export MW_HOME
++ WLS_HOME=/opt/weblogic1213/wlserver
++ export WLS_HOME
++ WL_HOME=/opt/weblogic1213/wlserver
++ export WL_HOME
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib:/usr/local/lib
++ export LD_LIBRARY_PATH
++ PATH=/bin:/var/lib/jenkins/.local/bin:/var/lib/jenkins/bin:/home/oracle/u02/app/oracle:/home/oracle/u02/app/oracle/product/fmw12cr3:/home/oracle/u02/app/oracle/product/fmw12cr3/bin:/sbin:/usr/sbin:/bin:/usr/bin
++ export PATH
++ cd /home/dryice2/package/db
++ /home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus -S dryice2/dryice2@dryice @game.sql
++ echo exit
+SP2-0310: unable to open file "game.sql"
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Mail)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] mail
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

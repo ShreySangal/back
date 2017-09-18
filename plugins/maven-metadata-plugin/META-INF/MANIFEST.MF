@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mrro
+Build-Jdk: 1.8.0_77
+Extension-Name: maven-metadata-plugin
+Implementation-Title: maven-metadata-plugin
+Implementation-Version: 1.5.0
+Group-Id: eu.markov.jenkins.plugin.mvnmeta
+Short-Name: maven-metadata-plugin
+Long-Name: Maven Metadata Plugin for Jenkins CI server
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Maven+Metadata+Plugin
+Plugin-Version: 1.5.0
+Hudson-Version: 1.481
+Jenkins-Version: 1.481
+Plugin-Dependencies: rebuild:1.25;resolution:=optional,credentials:1.9.1
+Plugin-Developers: Georgi "Gesh" Markov:markov:gesh@markov.eu,Marc Roh
+ lfs:marcrohlfs:rohlfs@silpion.de
+

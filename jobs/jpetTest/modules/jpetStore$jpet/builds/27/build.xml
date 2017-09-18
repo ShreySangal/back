@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.17">
+  <actions>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.2.0">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/jpetTest%2FjpetStore%3Ajpet/detail/jpetStore%3Ajpet/27</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction plugin="build-failure-analyzer@1.19.0">
+      <foundFailureCauses class="java.util.Collections$SynchronizedList" serialization="custom">
+        <java.util.Collections_-SynchronizedCollection>
+          <default>
+            <c class="linked-list"/>
+            <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedCollection>
+        <java.util.Collections_-SynchronizedList>
+          <default>
+            <list class="linked-list" reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+          </default>
+        </java.util.Collections_-SynchronizedList>
+      </foundFailureCauses>
+      <build class="hudson.maven.MavenBuild" reference="../../.."/>
+    </com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.25"/>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1504003123856</timestamp>
+  <startTime>1504003513600</startTime>
+  <result>ABORTED</result>
+  <duration>3</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn>Windows Slave</builtOn>
+  <workspace>C:\Users\Administrator\workspace\jpet</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.5</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>837</duration>
+      <digest>9a18e4d3f6e6495ed92b7d4694b41e66</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-resources-plugin</artifactId>
+      <version>2.6</version>
+      <goal>resources</goal>
+      <executionId>default-resources</executionId>
+      <duration>856</duration>
+      <digest>e7cc4bbb6888e6c9dd5acdad08cf4bd3</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.1</version>
+      <goal>compile</goal>
+      <executionId>default-compile</executionId>
+      <duration>1293</duration>
+      <digest>4a14a33ab69db9dadfb4d41449ebc651</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-resources-plugin</artifactId>
+      <version>2.6</version>
+      <goal>testResources</goal>
+      <executionId>default-testResources</executionId>
+      <duration>37</duration>
+      <digest>e7cc4bbb6888e6c9dd5acdad08cf4bd3</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.1</version>
+      <goal>testCompile</goal>
+      <executionId>default-testCompile</executionId>
+      <duration>4297</duration>
+      <digest>4a14a33ab69db9dadfb4d41449ebc651</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

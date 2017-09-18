@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.authorizeproject.strategy.SystemAuthorizationStrategy_-DescriptorImpl plugin="authorize-project@1.3.0">
+  <permitReconfiguration>true</permitReconfiguration>
+</org.jenkinsci.plugins.authorizeproject.strategy.SystemAuthorizationStrategy_-DescriptorImpl>

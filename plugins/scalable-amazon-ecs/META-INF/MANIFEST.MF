@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jroehrich
+Build-Jdk: 1.8.0_91
+Extension-Name: scalable-amazon-ecs
+Specification-Title: Jenkins plugin to run dynamic slaves in a Amazon 
+ ECS/Docker environment
+Implementation-Title: scalable-amazon-ecs
+Implementation-Version: 1.0
+Group-Id: com.cloudbees.jenkins.plugins
+Short-Name: scalable-amazon-ecs
+Long-Name: Amazon EC2 Container Service plugin with autoscaling capabi
+ lities
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Container+
+ Service+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.609
+Jenkins-Version: 1.609
+Plugin-Dependencies: aws-java-sdk:1.10.45,aws-credentials:1.15
+Plugin-Developers: Jan Roehrich:roehrijn:jan@roehrich.info,Nicolas De 
+ Loof:ndeloof:nicolas.deloof@gmail.com
+

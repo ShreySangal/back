@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-09 02:13:18.971 UTC</timestamp>
+  <original>
+    <name>CI_CD/com.mkyong:CounterWebApp</name>
+    <number>5</number>
+  </original>
+  <md5sum>f2df47541a4ccb9c8f407a800ee58c52</md5sum>
+  <fileName>com.mkyong:CounterWebApp.war</fileName>
+  <usages>
+    <entry>
+      <string>CI_CD</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD/com.mkyong:CounterWebApp</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

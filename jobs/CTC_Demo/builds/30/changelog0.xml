@@ -1,0 +1,11 @@
+commit 59bc099653cd1bd88329c601f1628c6caca4d40b
+tree 5404d3c614301efbf0c0cceab9fc0d959cd89df7
+parent a873166aef4c211d68edbb8606efadf492e622e8
+author shreys-s <shrey_s@hcl.com> 2017-08-24 14:18:51 +0530
+committer GitHub <noreply@github.com> 2017-08-24 14:18:51 +0530
+
+    Data changed as per req ID: RITM100052
+
+    Data changed as per req ID: RITM100052
+
+:100644 100644 95395ad70efe799db88fb28755f4eee2c7ef5066 753c39800505f201b4616031c5950b39178c70c1 M	DB/create_data.sql

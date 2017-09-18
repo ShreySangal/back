@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Job StrongAuthSimple Plugin' groupId='org.jenkins-ci.plugins' artifactId='job-strongauth-simple' version='0.5' url='http://wiki.jenkins-ci.org/display/JENKINS/Job+StrongAuthSimple+Plugin'>
+    <l:description />
+    <l:license name='The MIT license' url='http://www.opensource.org/licenses/mit-license.php' />
+  </l:dependency>
+</l:dependencies>

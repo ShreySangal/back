@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.sqlplusscriptrunner.SQLPlusRunnerBuilder_-DescriptorImpl plugin="sqlplus-script-runner@1.0.8">
+  <hideSQLPlusVersion>false</hideSQLPlusVersion>
+  <tryToDetectOracleHome>true</tryToDetectOracleHome>
+  <debug>true</debug>
+  <oracleHome>/home/oracle/u02/app/oracle/product/fmw12cr3</oracleHome>
+</org.jenkinsci.plugins.sqlplusscriptrunner.SQLPlusRunnerBuilder_-DescriptorImpl>

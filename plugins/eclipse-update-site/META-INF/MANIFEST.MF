@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kohsuke
+Build-Jdk: 1.7.0_03
+Extension-Name: eclipse-update-site
+Specification-Title: Aggregates update sites from all the plugins and 
+ expose it as a single update site
+Implementation-Title: eclipse-update-site
+Implementation-Version: 1.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: eclipse-update-site
+Long-Name: Eclipse Update Site plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Eclipse+Update+Site+P
+ lugin
+Plugin-Version: 1.2
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Developers: 
+

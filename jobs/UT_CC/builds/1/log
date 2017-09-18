@@ -1,0 +1,55 @@
+Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4Bqsyq5o0sjLDWTuimbwCa6mJNip6fHY1OfmGm33AfgFAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwkfafSzJwUoH59IwBZAcyaxAAAAA==[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4HBtF4DAmPVKSxmjc9TGGRDcrM2UMi0SRBQ4qJv7oJQoAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwk/eD80qJkoH59YwC54LkdxAAAAA==[0m3
+ originally caused by:
+  Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/UT Code Coverage
+[UT Code Coverage] $ /opt/sonar-runner-2.4/bin/sonar-runner -e -Dsonar.host.url=http://10.1.23.186:9000/sonar/ ******** "-Dsonar.projectName=UT Code Coverage" -Dsonar.projectVersion=1.0 "-Dsonar.tests=/var/lib/jenkins/workspace/UT Code Coverage/gameoflife-web/src/test" "-Dsonar.projectKey=UT Code Coverage" "-Dsonar.sources=/var/lib/jenkins/workspace/UT Code Coverage/gameoflife-web/src/main" "-Dsonar.projectBaseDir=/var/lib/jenkins/workspace/UT Code Coverage"
+SonarQube Runner 2.4
+Java 1.8.0_131 Oracle Corporation (64-bit)
+Linux 3.10.0-514.26.2.el7.x86_64 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: /opt/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: NONE
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Work directory: /var/lib/jenkins/workspace/UT Code Coverage/.sonar
+INFO: SonarQube Server 6.0
+12:11:32.169 INFO  - Load global repositories
+12:11:32.959 INFO  - Load global repositories (done) | time=799ms
+12:11:33.168 WARN  - Property 'sonar.jdbc.url' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+12:11:33.177 INFO  - User cache: /var/lib/jenkins/.sonar/cache
+12:11:34.692 INFO  - Load plugins index
+12:11:34.753 INFO  - Load plugins index (done) | time=60ms
+12:11:37.647 INFO  - Process project properties
+12:11:37.672 ERROR - Invalid value of sonar.tests for UT Code Coverage
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+Total time: 10.988s
+Final Memory: 9M/303M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during Sonar runner execution
+org.sonar.runner.impl.RunnerException: Unable to execute Sonar
+	at org.sonar.runner.impl.BatchLauncher$1.delegateExecution(BatchLauncher.java:91)
+	at org.sonar.runner.impl.BatchLauncher$1.run(BatchLauncher.java:75)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.sonar.runner.impl.BatchLauncher.doExecute(BatchLauncher.java:69)
+	at org.sonar.runner.impl.BatchLauncher.execute(BatchLauncher.java:50)
+	at org.sonar.runner.api.EmbeddedRunner.doExecute(EmbeddedRunner.java:102)
+	at org.sonar.runner.api.Runner.execute(Runner.java:100)
+	at org.sonar.runner.Main.executeTask(Main.java:70)
+	at org.sonar.runner.Main.execute(Main.java:59)
+	at org.sonar.runner.Main.main(Main.java:53)
+Caused by: The folder '/var/lib/jenkins/workspace/UT Code Coverage/gameoflife-web/src/test' does not exist for 'UT Code Coverage' (base directory = /var/lib/jenkins/workspace/UT Code Coverage)
+ERROR: 
+ERROR: Re-run SonarQube Runner using the -X switch to enable full debug logging.
+ERROR: SonarQube scanner exited with non-zero code: 1
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mRecording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Warning: ‘Access Control for Builds’ in global security configuration is empty, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Finished: FAILURE

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: escoem
+Build-Jdk: 1.8.0_60
+Extension-Name: job-import-plugin
+Specification-Title: Import jobs from another Jenkins instance.
+Implementation-Title: job-import-plugin
+Implementation-Version: 1.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: job-import-plugin
+Long-Name: Job Import Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Job+Import+Plugin
+Plugin-Version: 1.8
+Hudson-Version: 1.609.1
+Jenkins-Version: 1.609.1
+Plugin-Dependencies: cloudbees-folder:5.12,credentials:1.24
+Plugin-Developers: Jesse Farinacci:jieryn:jieryn@gmail.com,Emilio Esco
+ bar:escoem:escoem@gmail.com
+

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ant__in__workspace.AntInWorkspace_-DescriptorImpl plugin="ant-in-workspace@0.0.3">
+  <installations/>
+  <antWorkspaceFolder>/</antWorkspaceFolder>
+</org.jenkinsci.plugins.ant__in__workspace.AntInWorkspace_-DescriptorImpl>

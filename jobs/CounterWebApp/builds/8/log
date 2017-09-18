@@ -1,0 +1,31 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4BF4o9XSr3S9Hje6GldTpLxFdL5BzTP3HXRr80/grqweAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/cS84syknNTi1KKy1CIAuB1EsMwAAAA=[0mansibleserver in workspace /home/jenkins/workspace/CounterWebApp
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/CounterWebApp
+ > /bin/git init /home/jenkins/workspace/CounterWebApp # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/CounterWebApp
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/CounterWebApp +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/CounterWebApp # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/CounterWebApp # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/CounterWebApp
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/CounterWebApp +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1a3146611d7bbbbe4dd9404eebd9dbaeff3eaeab (refs/remotes/origin/master)
+Commit message: "first commit"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 1a3146611d7bbbbe4dd9404eebd9dbaeff3eaeab
+ > /bin/git rev-list 1a3146611d7bbbbe4dd9404eebd9dbaeff3eaeab # timeout=10
+Parsing POMs
+Build was aborted
+Aborted by [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: ABORTED

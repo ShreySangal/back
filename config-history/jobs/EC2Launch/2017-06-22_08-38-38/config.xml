@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-project plugin="matrix-project@1.11">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.nullin.jenkins.spbr.SPBRConfigJobProperty plugin="simple-parameterized-builds-report@1.5">
+      <includes></includes>
+      <excludes></excludes>
+    </com.nullin.jenkins.spbr.SPBRConfigJobProperty>
+    <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.19.0">
+      <doNotScan>false</doNotScan>
+    </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>AMIID</name>
+          <description></description>
+          <defaultValue>ami-17f3b001</defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>KeyName</name>
+          <description></description>
+          <defaultValue>testingvpc</defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>SubnetID</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>VPCID</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ELBSubnetAZ1</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ELBSubnetAZ2</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AppSubnetID2</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>AppSubnetID1</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>DBSubnetID1</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>DBSubnetID2</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <axes/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>sleep 1000s</command>
+    </hudson.tasks.Shell>
+    <hudson.plugins.parameterizedtrigger.TriggerBuilder plugin="parameterized-trigger@2.34">
+      <configs>
+        <hudson.plugins.parameterizedtrigger.BlockableBuildTriggerConfig>
+          <configs>
+            <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+              <properties>HostName=$HostName
+IP=$IP
+SubnetID=$SubnetID
+VPCID=$VPCID
+AppSubnetID1=$AppSubnetID1
+AppSubnetID2=$AppSubnetID2
+DBSubnetID1=$DBSubnetID1
+DBSubnetID2=$DBSubnetID2
+ELBSubnetAZ1=$ELBSubnetAZ1
+ELBSubnetAZ2=$ELBSubnetAZ2
+InstanceID=$InstanceID</properties>
+            </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+          </configs>
+          <projects>Ansible</projects>
+          <condition>ALWAYS</condition>
+          <triggerWithNoParameters>false</triggerWithNoParameters>
+          <triggerFromChildProjects>false</triggerFromChildProjects>
+          <buildAllNodesWithLabel>false</buildAllNodesWithLabel>
+        </hudson.plugins.parameterizedtrigger.BlockableBuildTriggerConfig>
+      </configs>
+    </hudson.plugins.parameterizedtrigger.TriggerBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers>
+    <hudson.plugins.timestamper.TimestamperBuildWrapper plugin="timestamper@1.8.8"/>
+    <com.syncapse.jenkinsci.plugins.awscloudformationwrapper.CloudFormationBuildWrapper plugin="jenkins-cloudformation-plugin@1.2">
+      <stacks>
+        <com.syncapse.jenkinsci.plugins.awscloudformationwrapper.StackBean>
+          <stackName>EC2Launch</stackName>
+          <description>EC2Launch</description>
+          <cloudFormationRecipe>https://s3.ap-south-1.amazonaws.com/poc-bbc-cfn/ec2updated.txt</cloudFormationRecipe>
+          <parameters>AMIID=ami-17f3b001,KeyName=testingvpc,SubnetID=$SubnetID,VPCID=$VPCID</parameters>
+          <timeout>72000</timeout>
+          <awsAccessKey>AKIAJGUSBOGYNE5SLKAA</awsAccessKey>
+          <awsSecretKey>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</awsSecretKey>
+          <autoDeleteStack>false</autoDeleteStack>
+          <awsRegion>US_East_Northern_Virginia</awsRegion>
+        </com.syncapse.jenkinsci.plugins.awscloudformationwrapper.StackBean>
+      </stacks>
+    </com.syncapse.jenkinsci.plugins.awscloudformationwrapper.CloudFormationBuildWrapper>
+    <EnvInjectBuildWrapper plugin="envinject@2.1">
+      <info>
+        <propertiesContent>HostName=$EC2Launch_Hostname
+IP=$EC2Launch_PrivateIP
+InstanceID=$EC2Launch_InstanceID</propertiesContent>
+        <secureGroovyScript plugin="script-security@1.29">
+          <script></script>
+          <sandbox>false</sandbox>
+        </secureGroovyScript>
+        <loadFilesFromMaster>false</loadFilesFromMaster>
+      </info>
+    </EnvInjectBuildWrapper>
+  </buildWrappers>
+  <executionStrategy class="hudson.matrix.DefaultMatrixExecutionStrategyImpl">
+    <runSequentially>false</runSequentially>
+  </executionStrategy>
+</matrix-project>

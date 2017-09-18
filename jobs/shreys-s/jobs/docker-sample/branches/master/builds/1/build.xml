@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.12.2">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.11"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.2.0">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/shreys-s%2Fdocker-sample/detail/master/1</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@3.1.2.10">
+      <queuingDurationMillis>15</queuingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.1">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.5.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.2.3">
+          <name>master</name>
+        </head>
+        <hash>becb5116ab6bcea5e85fb182b88d469ec4377052</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.5.1">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.5.0">
+              <sha1>becb5116ab6bcea5e85fb182b88d469ec4377052</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/shreys-s/docker-sample.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.5.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/reys-s_docker-sample_master-A4NKFY2IAPXKBKAU3PHONFLQRMMCQXK4UHB53QHZE7A43QPZJ2DA</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/shreys-s/docker-sample.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction plugin="build-failure-analyzer@1.19.0">
+      <foundFailureCauses class="java.util.Collections$SynchronizedList" serialization="custom">
+        <java.util.Collections_-SynchronizedCollection>
+          <default>
+            <c class="linked-list"/>
+            <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedCollection>
+        <java.util.Collections_-SynchronizedList>
+          <default>
+            <list class="linked-list" reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+          </default>
+        </java.util.Collections_-SynchronizedList>
+      </foundFailureCauses>
+      <build class="flow-build" reference="../../.."/>
+    </com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.25"/>
+  </actions>
+  <queueId>776</queueId>
+  <timestamp>1504858530284</timestamp>
+  <startTime>1504858530286</startTime>
+  <result>FAILURE</result>
+  <duration>10243</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>#!groovy
+
+node {
+
+    withEnv([&quot;JAVA_HOME=/opt/jdk8&quot;]) {
+
+        deleteDir()
+
+        def gradle = &quot;./gradlew&quot;
+
+        stage(name: &quot;Git Checkout&quot;){
+            checkout scm
+        }
+
+
+        stage(name: &quot;Clean&quot;){
+            sh &quot;${gradle} clean&quot;
+        }
+
+
+        stage(name: &quot;Build&quot;){
+            sh &quot;${gradle} build&quot;
+        }
+
+
+        stage(name: &quot;Tests&quot;){
+            sh &quot;${gradle} test&quot;
+        }
+
+
+        def version = getVersion()
+
+        stage(name: &quot;Docker Build Imagem API&quot;){
+            sh &quot;docker build docker-sample-api -t docker-sample-api:${version}&quot;
+            sh &quot;docker build docker-sample-api -t docker-sample-api&quot;
+        }
+
+
+        stage(name: &quot;Docker Push Image API&quot;){
+            docker.withRegistry(&apos;https://registry.hub.docker.com&apos;, &apos;docker-hub-credentials&apos;) {
+                sh &quot;docker tag docker-sample-api registry.hub.docker.com/rudolfoborges/docker-sample-api:${version}&quot;
+                sh &quot;docker push registry.hub.docker.com/rudolfoborges/docker-sample-api:${version}&quot;
+
+                sh &quot;docker tag docker-sample-api registry.hub.docker.com/rudolfoborges/docker-sample-api&quot;
+                sh &quot;docker push registry.hub.docker.com/rudolfoborges/docker-sample-api&quot;
+            }
+        }
+
+        stage(name: &quot;Docker Build Imagem WEB&quot;){
+            sh &quot;docker build docker-sample-web -t docker-sample-web:${version}&quot;
+            sh &quot;docker build docker-sample-web -t docker-sample-web&quot;
+        }
+
+        stage(name: &quot;Docker Push Image WEB&quot;){
+            docker.withRegistry(&apos;https://registry.hub.docker.com&apos;, &apos;docker-hub-credentials&apos;) {
+                sh &quot;docker tag docker-sample-web registry.hub.docker.com/rudolfoborges/docker-sample-web:${version}&quot;
+                sh &quot;docker push registry.hub.docker.com/rudolfoborges/docker-sample-web:${version}&quot;
+
+                sh &quot;docker tag docker-sample-web registry.hub.docker.com/rudolfoborges/docker-sample-web&quot;
+                sh &quot;docker push registry.hub.docker.com/rudolfoborges/docker-sample-web&quot;
+            }
+        }
+
+
+        stage(name: &quot;Docker Deploy&quot;){
+            sh &quot;docker stack deploy --compose-file docker-compose.yml docker-sample&quot;
+        }
+    }
+
+}
+
+
+
+def getVersion() {
+    def content = readFile(pwd() + &quot;/gradle.properties&quot;)
+    for (def line in content.split(&apos;\n&apos;)) {
+        if (line =~ /version/) {
+            return line.split(&apos;=&apos;)[1]
+        }
+    }
+
+    return &apos;&apos;
+}</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>98044754</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>69270891</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>466889558</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>142432892</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>52530744</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>22</iota>
+    <head>1:22</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.5.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+            <url>https://github.com/shreys-s/docker-sample.git</url>
+            <credentialsId>github</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/shreys-s/docker-sample</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/reys-s_docker-sample_master-A4NKFY2IAPXKBKAU3PHONFLQRMMCQXK4UHB53QHZE7A43QPZJ2DA</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/shreys-s/jobs/docker-sample/branches/master/builds/1/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

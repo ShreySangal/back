@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Backup and interrupt job pluign' groupId='jenkins.ci.plugins.backup' artifactId='backup-interrupt-plugin' version='1.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Backup+and+interrupt+running+job+plugin'>
+    <l:description>Back up and restore runing jobs</l:description>
+  </l:dependency>
+</l:dependencies>

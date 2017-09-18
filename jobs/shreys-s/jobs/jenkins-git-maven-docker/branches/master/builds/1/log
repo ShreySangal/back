@@ -1,0 +1,115 @@
+Branch indexing
+[8mha:////4GXZ347wrnlvYx35Rk7GmvimoeEQxO2lB0rCNTCLKWtiAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcQv/y+QBgXbH2jgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Obtained Jenkinsfile from 79a74e3c44a79b39775e054c136e418f0f213116
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git init /var/lib/jenkins/workspace/ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/master:refs/remotes/origin/master
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 79a74e3c44a79b39775e054c136e418f0f213116 (master)
+Commit message: "ma"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 79a74e3c44a79b39775e054c136e418f0f213116
+First time build. Skipping changelog.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Pull code from github)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 79a74e3c44a79b39775e054c136e418f0f213116 (refs/remotes/origin/master)
+Commit message: "ma"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 79a74e3c44a79b39775e054c136e418f0f213116
+ > /bin/git branch -a -v --no-abbrev # timeout=10
+ > /bin/git checkout -b master 79a74e3c44a79b39775e054c136e418f0f213116
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Check env)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ] Running shell script
++ echo 'PATH = /sbin:/usr/sbin:/bin:/usr/bin'
+PATH = /sbin:/usr/sbin:/bin:/usr/bin
++ echo 'M2_HOME = '
+M2_HOME = 
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build app)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ@2
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git init /var/lib/jenkins/workspace/ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ@2 # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/master:refs/remotes/origin/master
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jenkins-git-maven-docker.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/jenkins-git-maven-docker.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/jenkins-git-maven-docker.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 79a74e3c44a79b39775e054c136e418f0f213116 (master)
+Commit message: "ma"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 79a74e3c44a79b39775e054c136e418f0f213116
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ@2] Running shell script
++ docker inspect -f . maven:3.3.9
+
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.31/containers/maven:3.3.9/json: dial unix /var/run/docker.sock: connect: permission denied
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ@2] Running shell script
++ docker pull maven:3.3.9
+Warning: failed to get default registry endpoint from daemon (Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.31/info: dial unix /var/run/docker.sock: connect: permission denied). Using system default: https://index.docker.io/v1/
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.31/images/create?fromImage=maven&tag=3.3.9: dial unix /var/run/docker.sock: connect: permission denied
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build docker image)
+Stage 'Build docker image' skipped due to earlier failure(s)
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

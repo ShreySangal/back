@@ -1,0 +1,46 @@
+Started by upstream project "[8mha:////4OV8JQUVuAm6pOui/VXcQOzW8jt1VSTBBgIslC5pQEQfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP3QkHhnZ30A1Ps7QcAAAAA=[0mUT_CC" build number [8mha:////4MiJJL0vxKhUD+3qedWDf/Z4o9er6Clp0jLJXv/5pKbMAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JP3QkHhnZ31DAwCoeDa2wgAAAA==[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4Ps4c3dJX1EKokCgBrHNtOSS21u3GlgExzq+i9uUzkfSAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUNDAEd+psTFAAAA[0m11
+ originally caused by:
+  Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4Kj7iHu7My7W3WZpL7J8nliUHNgGCvSQn/45097gLVrDAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fUMjACWJOeTFAAAA[0m12
+  originally caused by:
+   Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Artifactory
+Uploading artifact gameoflife.war started....
+GroupId: com.ctc.devops
+ArtifactId: game
+Classifier: BN_2
+Type: war
+Version: 1.0
+File: gameoflife.war
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.war
+10 % completed (319 kB / 3.2 MB).
+20 % completed (639 kB / 3.2 MB).
+30 % completed (958 kB / 3.2 MB).
+40 % completed (1.3 MB / 3.2 MB).
+50 % completed (1.6 MB / 3.2 MB).
+60 % completed (1.9 MB / 3.2 MB).
+70 % completed (2.2 MB / 3.2 MB).
+80 % completed (2.6 MB / 3.2 MB).
+90 % completed (2.9 MB / 3.2 MB).
+100 % completed (3.2 MB / 3.2 MB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.war (3.2 MB at 4.5 MB/s)
+Uploading artifact gameoflife.war completed.
+Uploading artifact create_data.sql started....
+GroupId: com.ctc.devops
+ArtifactId: game
+Classifier: BN_2
+Type: sql
+Version: 1.0
+File: create_data.sql
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.sql
+100 % completed (3.3 kB / 3.3 kB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/com/ctc/devops/game/1.0/game-1.0-BN_2.sql (3.3 kB at 4.9 kB/s)
+Uploading artifact create_data.sql completed.
+Triggering projects: [8mha:////4PbyHCuoPY6YMqESKhMLbLEgq2dViOaq7AC4MLhYEvcPAAAAmB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2EQ18/KT9J3SSxJTEosTlU1MnBJLcjJr9QHACgtl+2cAAAA[0mDatabase Deploy
+Triggering projects: [8mha:////4HWzDUGL5QwGDd87SwengIQXsyfmJgjB20rt0dawGGYBAAAAlB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLmEQ1s/KT9J3zk9JVTUycEktyMmv1AcAQv8rk5gAAAA=[0mCode Deploy
+Notifying upstream projects of job completion
+Finished: SUCCESS

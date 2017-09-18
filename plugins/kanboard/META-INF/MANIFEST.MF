@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: f.masurel
+Build-Jdk: 1.8.0_111-1-redhat
+Extension-Name: kanboard
+Specification-Title: A plugin that allows to create or update a Kanboa
+ rd task as a post-build action, to trigger a build when a task is cre
+ ated or moved, and to fetch a task and its attachments as a build step.
+Implementation-Title: kanboard
+Implementation-Version: 1.5.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: kanboard
+Long-Name: Kanboard Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Kanboard+Plugin
+Plugin-Version: 1.5.8
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Dependencies: token-macro:2.0,credentials:1.25,plain-credential
+ s:1.1
+Plugin-Developers: Francois Masurel:mably:masurel@mably.com
+

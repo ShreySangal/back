@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='com.sap.jenkinsci' artifactId='remote-jobs-view-plugin' version='0.0.3'><l:dependency name='remote-jobs-view-plugin' groupId='com.sap.jenkinsci' artifactId='remote-jobs-view-plugin' version='0.0.3' url='https://wiki.jenkins-ci.org/display/JENKINS/Remote+Jobs+View+Plugin'><l:description>Display jobs from remote (master) Jenkins CI servers</l:description><l:license name='Apache License 2.0' url='http://www.apache.org/licenses/LICENSE-2.0'/></l:dependency></l:dependencies>

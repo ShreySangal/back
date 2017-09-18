@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/sharedspace/build/test-results/test/TEST-com.dslexample.GradleCiJobBuilderSpec.xml</file>
+      <name>com.dslexample.GradleCiJobBuilderSpec</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.646</duration>
+      <timestamp>2017-06-21T22:22:48</timestamp>
+      <time>0.646</time>
+      <cases>
+        <case>
+          <duration>0.626</duration>
+          <className>com.dslexample.GradleCiJobBuilderSpec</className>
+          <testName>test XML output</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.02</duration>
+          <className>com.dslexample.GradleCiJobBuilderSpec</className>
+          <testName>test XML output - with overrides</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/sharedspace/build/test-results/test/TEST-com.dslexample.GrailsCiJobBuilderSpec.xml</file>
+      <name>com.dslexample.GrailsCiJobBuilderSpec</name>
+      <stdout>Warning: (GrailsCiJobBuilder.groovy, line 32) grails is deprecated
+Warning: (GrailsCiJobBuilder.groovy, line 32) grails is deprecated
+</stdout>
+      <stderr></stderr>
+      <duration>0.085</duration>
+      <timestamp>2017-06-21T22:22:49</timestamp>
+      <time>0.085</time>
+      <cases>
+        <case>
+          <duration>0.067</duration>
+          <className>com.dslexample.GrailsCiJobBuilderSpec</className>
+          <testName>test XML output</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.018</duration>
+          <className>com.dslexample.GrailsCiJobBuilderSpec</className>
+          <testName>test XML output - with overrides</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/sharedspace/build/test-results/test/TEST-com.dslexample.JobScriptsSpec.xml</file>
+      <name>com.dslexample.JobScriptsSpec</name>
+      <stdout>Exploding /var/lib/jenkins/.gradle/caches/modules-2/files-2.1/org.jenkins-ci.main/jenkins-war/1.651/ebc3206dd90152c1a2ebe1545cec2ba7b593f9f7/jenkins-war-1.651.war into /var/lib/jenkins/sharedspace/build/jenkins-for-test
+=== Starting com.dslexample.JobScriptsSpec
+Processing provided DSL script
+Warning: (script, line 10) plugin &apos;git&apos; needs to be updated to version 2.5.3 or later
+Warning: (script, line 16) grails is deprecated
+Warning: (script, line 16) plugin &apos;grails&apos; needs to be installed
+Warning
+...[truncated 4602 chars]...
+rails&apos; needs to be installed
+Warning: (script, line 47) grails is deprecated
+Warning: (script, line 47) plugin &apos;grails&apos; needs to be installed
+Processing provided DSL script
+Warning: (script, line 6) plugin &apos;git&apos; needs to be updated to version 2.5.3 or later
+Warning: (script, line 12) plugin &apos;gradle&apos; needs to be installed
+Warning: (script, line 12) version 1.23 or later of plugin &apos;gradle&apos; needs to be installed
+Warning: (script, line 19) plugin &apos;junit&apos; needs to be updated to version 1.10 or later
+</stdout>
+      <stderr>Jun 22, 2017 3:52:49 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @2112ms
+Jun 22, 2017 3:52:51 AM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Jun 22, 2017 3:52:51 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Jun 22, 2017 3:52:51 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@3df97443{/jenk
+...[truncated 14673 chars]...
+9 AM javaposse.jobdsl.plugin.JenkinsJobManagement createOrUpdateConfig
+INFO: createOrUpdateConfig for seed
+Jun 22, 2017 3:53:09 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@2a4dd323{HTTP/1.1}{localhost:0}
+Jun 22, 2017 3:53:09 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@3df97443{/jenkins,file:/var/lib/jenkins/sharedspace/build/jenkins-for-test/,UNAVAILABLE}{/var/lib/jenkins/sharedspace/build/jenkins-for-test}
+</stderr>
+      <duration>6.07</duration>
+      <timestamp>2017-06-21T22:23:03</timestamp>
+      <time>6.07</time>
+      <cases>
+        <case>
+          <duration>1.354</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example1Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.616</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example2Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.127</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example3Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.318</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example4Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.232</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example5Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.269</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example6Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.188</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example7Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.512</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example8Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.356</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example9Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.096</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script seed.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/sharedspace/build/test-results/test/TEST-com.dslexample.rest.RestApiJobManagementSpec.xml</file>
+      <name>com.dslexample.rest.RestApiJobManagementSpec</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.006</duration>
+      <timestamp>2017-06-21T22:23:09</timestamp>
+      <time>0.006</time>
+      <cases>
+        <case>
+          <duration>0.006</duration>
+          <className>com.dslexample.rest.RestApiJobManagementSpec</className>
+          <testName>getPath</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>6.807</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

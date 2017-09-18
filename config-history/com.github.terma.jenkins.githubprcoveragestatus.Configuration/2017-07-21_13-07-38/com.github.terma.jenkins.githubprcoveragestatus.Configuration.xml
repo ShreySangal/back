@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.github.terma.jenkins.githubprcoveragestatus.Configuration_-ConfigurationDescriptor plugin="github-pr-coverage-status@1.8.2">
+  <coverageByRepo class="concurrent-hash-map"/>
+  <privateJenkinsPublicGitHub>false</privateJenkinsPublicGitHub>
+  <useSonarForMasterCoverage>false</useSonarForMasterCoverage>
+  <yellowThreshold>80</yellowThreshold>
+  <greenThreshold>90</greenThreshold>
+</com.github.terma.jenkins.githubprcoveragestatus.Configuration_-ConfigurationDescriptor>

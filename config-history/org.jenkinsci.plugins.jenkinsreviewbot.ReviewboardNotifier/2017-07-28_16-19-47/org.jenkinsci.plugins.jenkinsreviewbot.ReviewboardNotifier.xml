@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.jenkinsreviewbot.ReviewboardDescriptor plugin="jenkins-reviewbot@2.4.6">
+  <reviewboardURL></reviewboardURL>
+  <reviewboardUsername></reviewboardUsername>
+  <reviewboardPassword>{AQAAABAAAAAQfnbi/IXI1DsLcRGxQh91O/QtP/UkGti+OJLU4Ry1osk=}</reviewboardPassword>
+  <disableRepoCache>false</disableRepoCache>
+  <disableAutoApply>false</disableAutoApply>
+</org.jenkinsci.plugins.jenkinsreviewbot.ReviewboardDescriptor>

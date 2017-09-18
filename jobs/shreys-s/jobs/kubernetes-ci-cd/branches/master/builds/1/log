@@ -1,0 +1,51 @@
+Branch indexing
+[8mha:////4GqewNUVR4YAdxM88o426ETee3tB1XVDS4UxBqLMXkMEAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRsb9bjjwBAajIEjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Obtained Jenkinsfile from 7cc73f42c7061bfbdbb83f72414fec716b7d3adb
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/lib/jenkins/workspace/s-s_kubernetes-ci-cd_master-SAQEELSJPEGK2ICWXK4K45BU2I6YCCAX5W666YGX7OO6Q7EJRHIA
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/kubernetes-ci-cd.git
+ > /bin/git init /var/lib/jenkins/workspace/s-s_kubernetes-ci-cd_master-SAQEELSJPEGK2ICWXK4K45BU2I6YCCAX5W666YGX7OO6Q7EJRHIA # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/kubernetes-ci-cd.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/kubernetes-ci-cd.git +refs/heads/master:refs/remotes/origin/master
+ > /bin/git config remote.origin.url https://github.com/shreys-s/kubernetes-ci-cd.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/kubernetes-ci-cd.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/kubernetes-ci-cd.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/kubernetes-ci-cd.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 7cc73f42c7061bfbdbb83f72414fec716b7d3adb (master)
+Commit message: "Issue 25 add apache 2 license 1 (#28)"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 7cc73f42c7061bfbdbb83f72414fec716b7d3adb
+First time build. Skipping changelog.
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[s-s_kubernetes-ci-cd_master-SAQEELSJPEGK2ICWXK4K45BU2I6YCCAX5W666YGX7OO6Q7EJRHIA] Running shell script
++ git rev-parse --short HEAD
++ 1> commit-id
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] readFile
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build
+Proceeding
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[s-s_kubernetes-ci-cd_master-SAQEELSJPEGK2ICWXK4K45BU2I6YCCAX5W666YGX7OO6Q7EJRHIA] Running shell script
++ docker build -t 127.0.0.1:30400/hello-kenzan:7cc73f4 -f applications/hello-kenzan/Dockerfile applications/hello-kenzan
+/var/lib/jenkins/workspace/s-s_kubernetes-ci-cd_master-SAQEELSJPEGK2ICWXK4K45BU2I6YCCAX5W666YGX7OO6Q7EJRHIA@tmp/durable-84820c37/script.sh[2]: docker: not found [No such file or directory]
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AqeDh23zRsbcF2//t5kPVvzZ8I+WbXCykFG0D3Wb4dJAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 127
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

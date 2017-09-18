@@ -1,0 +1,22 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/game-of-life
+ > /bin/git init /var/lib/jenkins/workspace/CTC_Demo # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/game-of-life
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/game-of-life +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/game-of-life # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/game-of-life # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/game-of-life
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/game-of-life +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e3df0d50fd8fc6c58c3bf8c5c2e1f3bdd999907b (refs/remotes/origin/master)
+Commit message: "Added DB"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f e3df0d50fd8fc6c58c3bf8c5c2e1f3bdd999907b
+ > /bin/git branch -a -v --no-abbrev # timeout=10
+ > /bin/git checkout -b master e3df0d50fd8fc6c58c3bf8c5c2e1f3bdd999907b
+First time build. Skipping changelog.

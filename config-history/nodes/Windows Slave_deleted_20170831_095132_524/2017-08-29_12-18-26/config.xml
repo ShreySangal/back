@@ -1,0 +1,14 @@
+<slave>
+  <name>Windows Slave</name>
+  <description></description>
+  <remoteFS>C:\Jenkins</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="com.nirima.jenkins.plugins.docker.launcher.DockerComputerJNLPLauncher" plugin="docker-plugin@0.16.2">
+    <launchTimeout>120</launchTimeout>
+    <user>administrator</user>
+  </launcher>
+  <label></label>
+  <nodeProperties/>
+</slave>

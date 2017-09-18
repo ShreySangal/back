@@ -1,0 +1,10 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='job-log-logger-plugin' version='1.0'>
+  <l:dependency name='Job Log Logger Plugin' groupId='org.jenkins-ci.plugins' artifactId='job-log-logger-plugin' version='1.0' url='http://wiki.jenkins-ci.org/display/JENKINS/Job+Log+Logger+Plugin'>
+    <l:description>Write the job log to the underlying logging system.</l:description>
+    <l:license name='The MIT license' url='https://github.com/jenkinsci/job-log-logger-plugin/raw/master/LICENSE.txt' />
+  </l:dependency>
+  <l:dependency name='Commons IO' groupId='commons-io' artifactId='commons-io' version='2.1' url='http://commons.apache.org/io/'>
+    <l:description>The Commons IO library contains utility classes, stream implementations, file filters, file comparators and endian classes.</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt' />
+  </l:dependency>
+</l:dependencies>

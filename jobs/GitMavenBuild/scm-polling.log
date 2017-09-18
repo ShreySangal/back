@@ -1,0 +1,9 @@
+Started on Sep 18, 2017 10:47:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 0844fcbc15d58adce1290c170b8d155da0ca51ec (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > /bin/git ls-remote -h https://github.com/shreys-s/devops-dryice # timeout=10
+Found 1 remote heads on https://github.com/shreys-s/devops-dryice
+[poll] Latest remote head revision on refs/heads/master is: 0844fcbc15d58adce1290c170b8d155da0ca51ec - already built by 8
+Done. Took 1.3 sec
+No changes

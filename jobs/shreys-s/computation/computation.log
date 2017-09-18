@@ -1,0 +1,1115 @@
+Started by timer
+[Sat Sep 16 13:45:00 IST 2017] Starting organization scan...
+[Sat Sep 16 13:45:00 IST 2017] Updating actions...
+Looking up details of shreys-s...
+Organization URL: [8mha:////4IQdBzPfkUBVIGVV5S2JhXyFedzLaKOOUER93jQdaF3MAAAAmx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLmGQzigpKSi20tdPzyzJKE0C6srVL84oSq0s1i0GAG6EdWmgAAAA[0mhttps://github.com/shreys-s
+[Sat Sep 16 13:45:01 IST 2017] Consulting GitHub Organization
+[8mha:////4PIvbL2sN9TzWQLRcec5/i+t1RnOZeWLQrevQQ9ZI/eIAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRc58Gg/QAoxmd1jgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+[8mha:////4OCUdc2EZWDYwaE+70jSBpmE5VCC1hUEI2lASVLNebhkAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRc58GQywDdTDlnjgAAAA==[0mLooking up repositories of myself shreys-s
+Proposing aws-sdk-test
+Examining [8mha:////4BCt3MNLMklkcvDPIKLESPd4rBEG/tF9eldRYIF7/2KOAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLWHQyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WTywHkinZuiWpxSUAblfiIa0AAAA=[0mshreys-s/aws-sdk-test
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4KMbiInRzCTCyjJr7/vAWJefnL+VpfmUOgYYKXqrUjhUAAAAsh+LCAAAAAAAAP9djLENwjAQRY8gEDUlYoXEokkBSkUDUkTDBIYccYixLd8ZkjVYAxqGYBx2ICgdv/j/Nf89PzAiD3MVCrImOVpDVmOyaR16XZl6ZxnT7PHK7u4dQbSFsUZTssphGLxmmOZneZVCS1OKPfvKlKvGw+xPt+73J4M+gwigcR1MGFLF7GgpRFmxCofudRGkPLYUk5C3ros6ZiQW7BHFCSUHj4svm6PbnbsAAAA=[0mfeature1
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Fzi64ji4XVA7UZhDxK99IudTZekS35nAt4fbss9+imFAAAAsx+LCAAAAAAAAP9djLENwjAQRY8gEDUlYoXEEkUKUCoakCIaJjDkiEOMbfnOkKzBGtAwBOOwA0Hp+MX/r/nv+YEReZirUJA1ydEashqTTevQ68rUO8uYZo9XdnfvCKItjDWaklUOw+A1wzQ/y6sUWppS7NlXplw1HmZ/unW/Pxn0GUQAjetgwpAqZkdLIcqKVTh0r4sg5bGlmIS8dV3UMSOxYI8oTig5eFx8ASHy0gS7AAAA[0mfeature2
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4K+Z3RG6u1jXoXcL2WnIh2dMIUvF6kV+52AaG9Q4VsnxAAAAsB+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoXEDaIApaIBKaJhAkNOcYhjW3cXSNZgDWgYgnHYgSA6fvH/a/57vGHCBHPTFuxdevKOvcV02wckW7l67wWX2f2Z3cIrgmgHsUVXislh3JIVmOZnfdHKaleqg1DlynVHMPvTbX77lcEvowigCwPEAgsjEnilVFmJaY/Dq1FsCHtOWOnr0EWdCLIoIUTVaBakD4iwaXS5AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  3 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/aws-sdk-test
+
+Proposing AWSCodePipeline-Jenkins-AWSCodeDeploy_Windows
+Examining [8mha:////4CsvXTyBJhvGJZyqjFxhHAG/ljoGyxo0y1l3EGdD+uJPAAAAwh+LCAAAAAAAAP9djjEKwkAURL8RPYCleIW4XQolhWihIiKkSCnRfLKr699l/0bNNbyGNh7C43gHI7FymhkG5jGPN3TYwUCWORsa7g2x0TicVxadVnRcG49RfH/GN/sKIFhAVyMVXq6gXTrtobc6ZOdM6IwKkXinqBhfHfT/cNPGvzBo1AoArrYOkYeF9N7ySIhCeVnu6tVJsHRYcchikiZTk+NGWaz/YLhEOiri8NfP0GpTbVNFubnwB7i14/bOAAAA[0mshreys-s/AWSCodePipeline-Jenkins-AWSCodeDeploy_Windows
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4PYgjpslTPdlrapbfcuDqWZVLjcONWuJXirZTiL/XdhbAAAAyB+LCAAAAAAAAP9djkEOAUEURL8RDmAprjB6Z0EshAUiIhGxlGF+ppv2u9P/D+YarsHGIRzHHYywUpuqVFIvdX9BjQO0dJ6yo/bOETuL7XHhMVhDh7kT7PRvj/7VPyOIJlC3SJnoGVTzYAUas31ySpRNKFNLCYay3iVA8w83/PoHBl9VIoCLL0NdYKVFPHeVyozofFuujop1wIJjVoP1cuhSXBiP5R+Mp0gHQxz/+hF664rN2lDqzqwkIKpjwoLhDaAg3zPaAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/AWSCodePipeline-Jenkins-AWSCodeDeploy_Windows
+
+Proposing content-jenkins-java-project
+Examining [8mha:////4Bigj8Wq2eJfv1Vof5TDNKsDUZnVNSXDsfDf3DcWuJaIAAAAsx+LCAAAAAAAAP9djbENwjAQRY8gGIAS0VI67hACpaIBKaJhghAs24k5W74LStZgDWgYgnHYgUR0/Ob/5r3//MCEIixMcyGPaemRvFPpvgsqOov10bNaZY9Xdg/vBJIDTJ1CzSaHcRMdwyyvilshXYFanjha1Ns2wvxPt/v1IINfRglAG/qxZFgb5kAbKbVl05x76irJRNWRINkrWCGLSmFtkcRwJ0L0lSr5C5NDo2O9AAAA[0mshreys-s/content-jenkins-java-project
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4AjEfXk1PeQS+UsSr+FZN9I00QarqLI/MZbxPshSZ8IqAAAAuR+LCAAAAAAAAP9djTEOgkAQRUeMHMDSeAXczkJDpYUmxMYToE5YYJndzAwGr+E1tPEQHsc7CLHzN/837/3nBybCMLftRTwtzp7EO1zsbgHZlVQfvOIyfbzSe3hHEO0hdkiF2gzGLTuFaVbl19y4nApzVC6pWHcMsz/d5teDDH4ZRQBd6EessLWqQVbGFKXa9tRTjRHLeJNETK9QJE0qpLokSYa7JLCv8KxGGdE0uSjyF7bSb4jJAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/content-jenkins-java-project
+
+Proposing CounterWebApp
+Examining [8mha:////4AfdRoMz0T1PPRTinoK+kok431T9H7ENFe7Th1YgbnpfAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wd84vzStJLQpPTXIsKAAAAjEwga4AAAA=[0mshreys-s/CounterWebApp
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4ObN3FoulG0UPMdidOSKkuEyFcQ10v/AUtSa3KrS9/EEAAAAsx+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgXiCgpQCpQGpIiGgtqBkx1wbMt3RskarAENQzAOOxBEx2/+15P+e7xhRAGmOp7I2ezoLDmD2abzGExtLzvHuMjvz/zmXwkkW0gNWsW6hGEMhmFcnuVVCiOtEnsOtVWrNsDkT1f8+iuDXwYJQOv7kTLMNbOnpRCqZh2r/tUI0gE7mpEoXLSM4YDV2nvBAVE0knryAXgbydq6AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FMrqBVEDwvmOOSGtqTfLRDl/1ogvUC1QWu/Rk2tTiwCAAAAtx+LCAAAAAAAAP9djLENwjAQRY8gaOgoESskFg1FUAqUBqSIhoLaCSc7YGxjn1GyBmtAwxCMww4EpeM1/zX/PT8w8g7mMhy90UlltDcKk01r0alan3eGcJk9XtndviOItjBWqAXJAobBKYJpceI3zhTXgu3J1VqsGgezv1ze7y8GPYMIoLGdTAhSSWR9ypioSYaye12Ylw5bH3uWm6AJ3QHLtbWMHCLzVxVbTpWMF1/kXSKnvwAAAA==[0msql-patch-1
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/CounterWebApp
+
+Proposing crm
+Examining [8mha:////4OIKZV0XeEFknodCkG+nrXg1St+zkDUV0YT7zRoLoSoQAAAAnx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKWGQzygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WTy7KBQBlR1TbpAAAAA==[0mshreys-s/crm
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4Lwrc4CgeyUBQlZ0xAOrnPGWXYuUcGK2xyqLAtZ1sH4NAAAAqh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgNErqMApaIBKaJhAhMsO+DY1t0FJWuwBjQMwTjsQFA6XvNf89/zAxMmmNvmzMFnZfAcnM52XdTkKn89BNGr/PHK7/GdQLKH1GlvxBYwbsgJTIuLuil0yhs8ClXebFqC2V9uO+wvBgOjBKCNvaQCCysSeY1oKrHNqX/VyJZ0x0vGkmoU0hprxaLpCygK4eKwAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/crm
+
+Proposing CT
+Examining [8mha:////4JfkRgtLIlCJX6w8kRiCV+aRcYmpfMAorfn3aAsZCa22AAAAnh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLmGQyygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wdw4BAG09BVajAAAA[0mshreys-s/CT
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4NTdURyvF1WUwqJ82lgHyy8Md/Vd357w1F41fEtw3Zu2AAAAqh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQyigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wdw7RLylKTdXPTSwuSS0CAHE5wMWvAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/CT
+
+Proposing CTC
+Examining [8mha:////4P5OIPbuDoSh9b9ONQUIBlKm0TYf4BwWpgSYJsDKZpYOAAAAnx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKWGQzygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wdw5xBgBujxH8pAAAAA==[0mshreys-s/CTC
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4EitS82u/E6ckRpKQMdYO+/epJ4KW3OnGBUD2u3usdLfAAAAqx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQzigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wdw5x1i8pSk3Vz00sLkktAgCdQBoWsAAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/CTC
+
+Proposing cucumberbasic
+Examining [8mha:////4Dd7K6RnnfNrPlHHKz9TbHVStMc5dQeBOasiz3SwjBV9AAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WTy5NLs1NSi1KSizOTAYAzWoWKq4AAAA=[0mshreys-s/cucumberbasic
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4H0sRz3Fzmf2AW5bF62v/PyX1tMCKQgw4KpnvzC3m47fAAAAsB+LCAAAAAAAAP9djLENwjAQRY8gGIASsQJxBQUoFQ1IEQ0TOOZkBxwnujujZA3WgIYhGIcdCErHa/5r/nt+YMIECxfPXIfU1IFrj+m+a5B8Ga7HWnCdPV7ZvXknkBxg6jFYcTmMI3mBWX7RN628DladhMpgty3B/C+3G/YXg4FRAtA2vUwFVk6k4Y1SthQXi/5VKXaEHS9ZmWhiVSAVmkujhBBVpVmQvt9p1Ie6AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/cucumberbasic
+
+Proposing DemoSite
+Examining [8mha:////4COiL0xjsNkcjNyWzEs9mckZYWNSenrg/1X02QZOBoFhAAAApB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wd0nNzQ/OLEkFAAmBBeupAAAA[0mshreys-s/DemoSite
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4NW9U6kBdadHf9UbRODC92GlpmKJsL4Zs0sbBpZjfEYPAAAArR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVyVBSgVFCAFNFkAgOn2ODY1vmCkjVYAxqGYBx2IIiO1/zX/Pd4wygyTHVzit5lR++it5Rtu0BsjbvsvdAivz/zW3glkOwgteQq0QUMG7YC4+KsrgqtchWWwsZVq5Zh8pdb//Ybgx+DBKANvaQCcy0S4hKxMqKbQ/+qMWqmLs4ibqj2pRFCYSKsVRTiD7+UW9e1AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/DemoSite
+
+Proposing devops-dryice
+Examining [8mha:////4CydwsuzmVcs7cEJL8MsOxiAHBeolIvkFaLts+IXliZTAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT0ktyy8o1k0pqsxMTgUAITXVDK4AAAA=[0mshreys-s/devops-dryice
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4KxCCWUEli1P0qcEH3Iolxh3qZ6A31C6GpkcdK7iQtGfAAAAsR+LCAAAAAAAAP9djDEOgkAQRUeMHsDSeAXYSgsNlY0mxMYTrDBh0WV3MzMQuIbX0MZDeBzvIIbO1/zX/Pf8wIwJVqYp2Lsk9469xeTQByRbudvJC27Sxyu9h3cE0RHmFl0pJoNpQ1ZgkV11q5XVrlRnocqVu45g+Zfbj/uLwcgkAujCIHOBtREJvFWqrMQ0l+FVKzaEPcesCmx94LigvspRCSGqWrMgfQHfQG5DugAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/devops-dryice
+
+Proposing docker-jenkins-pipeline
+Examining [8mha:////4PGrSH36BsNbvioM3SMFFtWhNtC1xlil+vUbHyb7ZiSJAAAAsh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQKGEwzigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT8lPzk4t0s1KzcvOzCvWLcgsSAW6KxUA61wQS7gAAAA=[0mshreys-s/docker-jenkins-pipeline
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4LhByrH3VHse23Jv2nldgf6i99zo1CuWNH9aNwosj8RTAAAAuB+LCAAAAAAAAP9djjEOgkAQRUeMHsDSeAXYzkJDLGw0ITaeAHHCLiy7m5nBwDW8hjYewuN4BzF0/ub/5r385wdmTLDS7ZW9Swrv2FtMDn1AssbVJy+4Th+v9B7eEURHmFt0pegMpi1ZgUVW5bdc2dyV6ixkXLntCJZ/uv3YPxmMmUQAXRjGXGCnRQJvlCqN6PYyUI1iTdhzzOrqixoprtDVxnEcTMDhFyohRNXkLEhfAWSldcQAAAA=[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/docker-jenkins-pipeline
+
+Proposing docker-sample
+Examining [8mha:////4Cw2XMAu+9bXQ5fYgmzdcFgb2c7tuaJ/3ZhTLhKI5/a5AAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT8lPzk4t0i1OzC3ISQUAmonSaK4AAAA=[0mshreys-s/docker-sample
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4GkShsU9Y4E+nEXpbPtFUFcoG6P2GrQFGeuZPZBiSc/2AAAAsB+LCAAAAAAAAP9djDEOgkAQRUeMHsDSeAXYSgsNlY0mxMYTrDBhkWV3MzMYuIbX0MZDeBzvIIbO1/zX/Pf8wIwJVqYt2Lsk9469xeTQByRbufrkBTfp45XewzuC6Ahzi64Uk8G0JSuwyK76ppXVrlRnocqVu45g+Zfbj/uLwcgkAujCIHOBtREJvFWqrMS0l+HVKDaEPcesCp/XSDHrJlhUQoiq0SxIX6Ca0PC6AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/docker-sample
+
+Proposing dontforget
+Examining [8mha:////4L0QX6Z4DYfN+VtDqOieAbHdevG/Jr8Asdl9T8HRW2ntAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLmFQyygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT8nPK0nLL0pPLQEAmG1rjasAAAA=[0mshreys-s/dontforget
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4MgTC953em1HqzGhHWlK6ARKsqxlXIttwvanmkGPI7KEAAAArh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVyEgUFKBUNSBENExhy2AHHts4XlKzBGtAwBOOwA0F0vOa/5r/HG0aRYWqaMnqXHb2L3lK26QKxrdxl54UW+f2Z38IrgWQLqSWnxRQwbNgKjIuzuiq0ymncC1dOr1qGyV9u/dtvDH4MEoA29JIKzI1IiEtEXYlpDv2rxmiYujiLWHonJ8+aBIWJsFZRiD9/t/xftwAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/dontforget
+
+Proposing Dummy
+Examining [8mha:////4NKc5dyber9qE8ZftcgMniFcbiT0Gg4g5PGvZNP1MDHoAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgK2FQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WdynNza0EAHr+cjamAAAA[0mshreys-s/Dummy
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4BH6TtcjHhWpOL19gLy1y8be6VkNxRJHlWkIb25Z70w2AAAAqx+LCAAAAAAAAP9djL0NwjAQRo8gMgAlYoXEHQUoFRQgRTRMYOBkB/wn3xkla7AGNAzBOOxAUDpe873me88PTCjCXKczeVeevCNvsNx2AaNp3HXvGRfV41XdwzuDbAe5QadY1zBO0TBM64u8SWGkU+LAsXFq1UaY/eXWw/5iMDDKANrQS85QaOZASyFUwzod+5cVpCN2VJDYJGs7wRFRWEmM8QsNy7fxsgAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/Dummy
+
+Proposing easyleave
+Examining [8mha:////4BiHhkLpr6QRvukHF7tseGZnfSL9UxNW/nliYZPurlWLAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKmFQzSgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT00srsxJTSxLBQDWoycZqgAAAA==[0mshreys-s/easyleave
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DGsji6opLw0f3VBMCd8YEaq3sU8+rgX1Lj4psYYoh1KAAAAth+LCAAAAAAAAP9djLENwjAQRY8g6KFErJC4owBSRDQgRTSZwISTHTCOdT5HCWOwBjQMwTjsQBAdr/mv+e/xhpEnmOtw9LVNytr62mCy7RySqex5XzMu0vszvblXBNEOxgatYp3DMJBhmOYn2UhhpFWiYKqsWrUEs7/c5rffGPwYRACt62XCsNbMzi+FUBXrcOhfF+E1YedjL1D6zqBsUDAhiuwaCOPMubhAaqoSP4KRBjnBAAAA[0mAzure-App-Service
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4JuImBiHkLDR/p5itls+8sULw9nX+y/r9iLGYnHkqABqAAAArh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVi0VCAUtGAFNEwgYFTHGJs6+4cJWuwBjQMwTjsQFA6XvNf89/zAxMmmJt4Ye+ys3fsLWa7LiDZytUHL7jKH6/8Ht4JJHtILbpSTAHjSFZgWlx1o5XVrlRHocqVm5Zg9pfbDvuLwcAoAWhDL6nA0ogEXitVVmLiqX/dFBvCjhesUHNnUTeohBCVQfJ1/AJh1kgOtgAAAA==[0mheroku
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Ho4xFgTb8SsYp4fiPQ5Qy+nRrHLsWn6M4YylBg8oYo9AAAArR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVi0VCAUtGAFNEwgYGTHXBs6+4SJWuwBjQMwTjsQFA6XvNf89/zAxMmmNv6wsFn5+A5OMx2XURypb8dguAqf7zye3wnkOwhdeiN2ALGNTmBaXHVjVZOe6OOQqU3m5Zg9pfbDvuLwcAoAWhjL6nA0opEXitlSrH1qX9Vii1hxwtWqLlzqBtUQoiq0ixIX8tyLQO2AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  3 branches were processed (query completed)
+
+  3 branches were processed
+
+Finished examining shreys-s/easyleave
+
+Proposing ELibrary
+Examining [8mha:////4Pu2qbGPzJ/ANCrbKwzxztbyFBRqmD/C/rcVV/B+Uz3RAAAApB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wd/XJTCpKLKoEAFUZTUqpAAAA[0mshreys-s/ELibrary
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4BiWvo/LnaDIu0lh7vfQ7OfzO98BZrUZ1JwOnsXySrLUAAAArh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVyVBSgVAgJpIiGCRw42QbHjs4XlKzBGtAwBOOwA0F0vOa/5r/HG0aRYWqaUww+OwYfg6Ns29XEzvrLPggt8vszv9WvBJIdpI68FlPAsGEnMC7O6qrQKa/xIGy9XrUMk7/c+rffGPwYJABt3UsqMDcidVwiaiumKftXhdEwdXEWcVPYkhV3KEyElYpC/AHYQkzztQAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/ELibrary
+
+Proposing Example2
+Examining [8mha:////4LAifgQ+8cieLz+RLIanTDHNym56Gf8GkLy6ZlnmVcVYAAAApB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wd61IzC3ISTUCAP7KPj6pAAAA[0mshreys-s/Example2
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4CJupNEw9DPQ6MzwOU2UpmKhXjjqLsWqphhYeHjnkOmsAAAArx+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgViREEBSoWQQIpomMDAyQ44tnV3QckarAENQzAOOxBEx2v+a/57vGHABGNbnzj47Bg8B4fZpo1IrvSXXRCc5/dnfouvBJItpA69EVtAvyYnMCzO+qqV096ovVDpzbIhGP3lVr/9xuBHLwFoYiepwNSKRF4oZUqx9aF7VYotYcsTVutGV9HhTAkhqkqzIH0ANnCk3LUAAAA=[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/Example2
+
+Proposing ExecuteAutomationWebApp
+Examining [8mha:////4DYE8ijURlbktJ7zlfd4ragFfaJ+sdXXqtN/fc1HXEZVAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQKGEwzigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wd61ITS4tSXUsLcnPTSzJzM8LT01yLCgAAMrmSEq4AAAA[0mshreys-s/ExecuteAutomationWebApp
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DOI5KmbtSGMLrjnN6bJqKUqCRnM9ldrH23OxNAF3fYLAAAAuR+LCAAAAAAAAP9djDEKwjAUhp8VewBH8Qo2m4NSpIigUFwcnNP6SKJpEpIXaa/hNXTxEB7HO1hx81v+b/m/xxtGwcNUxlOwJqutCVZjtu0ceq3MZW8J5/n9md/cK4FkB6lGI0iWMIxeE4zLM79yprkR7EBeGbFsPUz+cuvffmPwY5AAtK6XlGAliVxYMCYUyVj1r4YF6bELs8A2LdaRsIhkG07KmiNWhXOMPCJreCD0H24HrfbEAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/ExecuteAutomationWebApp
+
+Proposing game-of-life
+Examining [8mha:////4PZmrKUixtRSFwFx8UAy6fHXMAadSNptvKC9NwoAJujaAAAAqB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLWHQyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT0/MTdXNT9PNyUxLBQBgCjbrrQAAAA==[0mshreys-s/game-of-life
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4Jsu/FbTMr764mS9pRyVN2GyqSD1tin02uUHVloBeYVwAAAAuh+LCAAAAAAAAP9dzLENwjAUBNBPEAwAHWIFxx0FKAWiASmiYYJAfmyDY1v2d5SswRrQMATjsANB6bjmrrn3/MAkeFjKWAZr0os1wWpM951Dr5W5HS3hKnu8srt7J5AcYKrRCJI5jKPXBLP8WjQF14UR/EReGbFpPSz+uN3QPwyGjBKA1vVjTrCVRC6sOReKZDz3r5oH6bELLHBR1MhsxbSqkJNH5D1KykQbAytRqwZ99wXi9PEfxgAAAA==[0mcontinuous-delivery
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4J59MASu+M0Iux1je239xd8zMEtu7J+WkiUqkW93wOH7AAAAvB+LCAAAAAAAAP9djLENwjAQRY8gGIAKIVZI3FGAUiEhkCIaJjDkYhsc27LPUbIGa0DDEIzDDgSl4zf/Ne89PzAJHpYylsGa7GJNsBqzfefQa2VuR0u4yh+v/O7eCSQHmGo0gmQB4+g1way48oYzzY1gJ/LKiE3rYfGX2w7/i8GwUQLQuh7mBDtJ5MKaMaFIxnNv1SxIj11IAxO8xtRWqVYVMvKIrI+SMtHGkJaoVYO+66G2Xwk6HeTLAAAA[0mcontinuous-delivery-demo
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4GhCIKr51jltUyuRRTZNX5kvSkxAWMuy91gTA4JwMZ6VAAAAtR+LCAAAAAAAAP9djLENwjAQRY8gaJEoESs47ihAqWhAimiYwMDFNjh2dD6jZA3WgIYhGIcdCKLjNf81/z3eMIoEc5NOMfj8GHwMDvNN1yA56y+7wLgo7s/i1rwyyLYwdug1mxKGiRzDtDyrq5JOeS33TNbrVUsw+8utf/uNwY9BBtA2vUwYCsPcxKWU2rJJh/5Vy2gIuyii1KpGESrhbIWSCVFWqDgRCmMjB+o+7rS20cIAAAA=[0mfeature-history
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4AIxfaERP2NdvpOngmutU7bh77Aq/FM/TywWKqqfZ9kJAAAAvR+LCAAAAAAAAP9djLENwjAQRY8gGIAOxAqOOwpQKgpAimiYwJCzHeLYln2BZA3WgIYhGIcdCKLjNf81/z3eMIoB5roporPpydnoDKbbzmMwpa32jnCR3Z/Zzb8SSHYwNmgV6RyGTTAEk/wsLoIbYRU/UCitWrUBZn+59W+/MfgxSABa38uUYKOJfFxyrkrSzbF/1TzqgF1kkStRI3OSmVIip4DIJQpqAjKLV2acq5iwBZOI5gP/um8IzAAAAA==[0mfeature-new-look-and-feel
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4HQjVTwW9pK1cx5bZBKCRhKfAoWW+H45FU/qqfTekqcJAAAAuB+LCAAAAAAAAP9djLENwjAQRY8gGABRIVZw3FGA0kADUkTDBAYutsGxo/MFJWuwBjQMwTjsQFA6fvO/nvTf8wOjSDA39TkGn56Cj8Fhum0rJGf9dR8YF9njld2rdwLJDsYOvWaTw7AmxzDJL+qmpFNeywOT9XrVEMz+dJu+fzLoM0gAmqobU4a1Ya7iUkpt2dTH7lXKaAjbKKLUqkQRCuFsgZIJsSfGRg7UigIV14RftLNSfccAAAA=[0mgame-history-feature
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4BhCEAi7euY4dPJhxwPaJr74xolAOcSv2Hr1ijFvq93/AAAAuh+LCAAAAAAAAP9djL0NwjAQhY8gGACJBrGCY9FQgFKlASmiYQIDF9vg2JZ9QckarAENQzAOO5BAx2vej/S+xxtGMcBc1afobHp0NjqD6ab1GIy2l50jXGb3Z3bzrwSSLYwNWkmqgGEdDMGkOIur4EZYyfcUtJXrJsDsD5f/vIfBT4MEoPFdmBLkisjHFedSk6oP3aviUQVsI4tcigqZK5nRJXIKiN/FlX1nAQ2KiCxdfABBN0eRyAAAAA==[0mgameoflife-release-.1
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4AsKq4gSrK6h6AifBzAsjaLdwt/VfTLOwfMEMC0R6zNGAAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAKIVZwDA0FKBUSAimiYQIDF9vg2JF9QckarAENQzAOO5CQjte8H+l9zw8MgoepKs/B2fjkbHAG421doDfaXveOcJE8Xsm9eEcQ7WBo0EpSKfRLbwhG6UXcBDfCSn4gr61cVR4mf7h15y0MOvUigKpowphgo4iKsORcalLlsXnlPCiPdWCBS5EjcxkzOkNOHvG3uKztzKNBEZDN41k8/wLMM8v9ywAAAA==[0mgameoflife-release-1.0.1
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4AoxEf4m+H93iSB+NkZlTjCMeYLJHyC/OIhgtA3DY8YCAAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOk4YClIoCkCIaJjBwsQOOHdkXlKzBGtAwBOOwAwnpeM37kd73/MDIO5ir6uytCU/WeKsx3DYlOp2b694SLpLHK7mX7wCCHYw1GkkqhWHlNMEkvYib4FoYyQ/kciNXtYPZH27deweDXoMAoC7bMCXYKKLSLzmXOanq2L4K7pXDxjPPpSiQ2YzpPENODvG32KzrzKFG4ZHFYRTG0ReADqE0zAAAAA==[0mgameoflife-release-1.0.10
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4KNUs9110zDNKQdAJTZruCmlgywkdKS6KBFL6iNIvb97AAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOSUMBSkUBSBENExi42AbHjuwLStZgDWgYgnHYgQQ6XvN+pPc93jAIHqaqOgVn46OzwRmMN02J3mh72TnCeXp/prfyFUG0haFBK0ll0K+8IRhlZ3EV3Agr+Z68tnJZe5j84VY/72DwUy8CqMs2jAnWiqgMC86lJlUd2lfBg/LYBBa4FAUylzOjc+TkEb+Ly7vOPBoUAVkSz+Ik+QAWPqZDzAAAAA==[0mgameoflife-release-1.0.11
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4KwHKV9gICrc2fjgfhGkWINwsUIwzUryyeesOT994P51AAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOCQUFKBUFIEU0TGDgYgccO7IvKFmDNaBhCMZhBxLS8Zr3I73v+YGBdzBV5dlbE56s8VZjuK0LdDoz170lXMSPV3wv3gEEOxhqNJJUAv3SaYJRchE3wbUwkh/IZUauKgeTP9y68xYGnXoBQFU0YUywUUSFX3IuM1LlsXnl3CuHtWeeS5EjsynTWYqcHOJvsWnbmUONwiOLwlkYzb+sb6/azAAAAA==[0mgameoflife-release-1.0.12
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Gypqa/G1hm+DMUwLBF+dAh8EHY+qSzck37PLBP+0+rOAAAAvh+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOiZAoQKkoACmiYQIDFzvg2JF9QckarAENQzAOO5CQjte8H+l9zw8MvIOpKs/emvBkjbcaw21doNOZue4t4SJ+vOJ78Q4g2MFQo5GkEuiXThOMkou4Ca6FkfxALjNyVTmY/OHWnbcw6NQLAKqiCWOCjSIq/JJzmZEqj80r5145rD3zXIocmU2ZzlLk5BB/i03bzhxqFB5ZFM7CaP4FOl+orcwAAAA=[0mgameoflife-release-1.0.13
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4PLu5Zj67rahex2RFcx70Up18r/nunTD4sN9KvmwJnrCAAAAvh+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOiYQoQKkoACmiYQIDFzvg2JF9QckarAENQzAOO5CQjte8H+l9zw8MvIOpKs/emvBkjbcaw21doNOZue4t4SJ+vOJ78Q4g2MFQo5GkEuiXThOMkou4Ca6FkfxALjNyVTmY/OHWnbcw6NQLAKqiCWOCjSIq/JJzmZEqj80r5145rD3zXIocmU2ZzlLk5BB/i03bzhxqFB5ZFM7CaP4FmcrMM8wAAAA=[0mgameoflife-release-1.0.14
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4GoRRaDIHWoEIXX5H0L36EtpI5rMBfyvqcIy/UHotXG6AAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOSQEFKBUFIEU0TGDgYgccO7IvKFmDNaBhCMZhBxLS8Zr3I73v+YGBdzBV5dlbE56s8VZjuK0LdDoz170lXMSPV3wv3gEEOxhqNJJUAv3SaYJRchE3wbUwkh/IZUauKgeTP9y68xYGnXoBQFU0YUywUUSFX3IuM1LlsXnl3CuHtWeeS5EjsynTWYqcHOJvsWnbmUONwiOLwlkYzb8P+stEzAAAAA==[0mgameoflife-release-1.0.15
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4D4Rew4gbeD8Pc2Uwup4T1f53wCJiN/Ukw12Tsm9crvmAAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOSZMClIoCkCIaJjBwsQOOHdkXlKzBGtAwBOOwAwnpeM37kd73/MDIO5ir6uytCU/WeKsx3DYlOp2b694SxsnjldzLdwDBDsYajSSVwrBymmCSXsRNcC2M5AdyuZGr2sHsD7fuvYNBr0EAUJdtmBJsFFHpl5zLnFR1bF8F98ph45nnUhTIbMZ0niEnh/hbbNZ15lCj8MiicBFG8Re1q8LdzAAAAA==[0mgameoflife-release-1.0.16
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4PAKrHsc3cYGApxo7aYsYM0sVLtsQwjHFRunuHkrg9y3AAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOSYMEKBUFIEU0TGDgYgccO7IvKFmDNaBhCMZhBxLS8Zr3I73v+YGBdzBV5dlbE56s8VZjuK0LdDoz170lnMePV3wv3gEEOxhqNJJUAv3SaYJRchE3wbUwkh/IZUauKgeTP9y68xYGnXoBQFU0YUywUUSFX3IuM1LlsXnl3CuHtWeeS5EjsynTWYqcHOJvsWnbmUONwiOLwlkYLb4ktn1NzAAAAA==[0mgameoflife-release-1.0.19
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4A1W/ZKbFxfhd2mNcYP1VAYusmK6zd9/zsA3xHFMVPhDAAAAvR+LCAAAAAAAAP9djE8OwUAUxp8KB7AScYXpYGFBupIISWPjBIPXmWE608y8SnsN12DjEI7jDlp2vs33J/l+jzf0goexKk/B2fjobHAG401doDfaXnaOcJ7cn8mteEUQbaFv0EpSKXRLbwgG6VlcBTfCSr4nr61cVh5Gf7jVz1sY/NSJAKqiCUOCtSIqwoJzqUmVh+aV86A81oEFLkWOzGXM6Aw5ecTv4rK2M48GRUA2jSfx7AN2YsJkywAAAA==[0mgameoflife-release-1.0.2
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4A4J8VC0KK4PNz11JylVzHz5ZS0AV667F/dpWnO//UofAAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOAwUFKBUFIEU0TGDgYgccO7IvKFmDNaBhCMZhBxLS8Zr3I73v+YGBdzBV5dlbE56s8VZjuK0LdDoz170lXMSPV3wv3gEEOxhqNJJUAv3SaYJRchE3wbUwkh/IZUauKgeTP9y68xYGnXoBQFU0YUywUUSFX3IuM1LlsXnl3CuHtWeeS5EjsynTWYqcHOJvsWnbmUONwiObhVE4j75DXYwfzAAAAA==[0mgameoflife-release-1.0.20
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FxxeAqjgLST3W0O4snN+KKgZcq2gDHlSJ5ey2VHUH64AAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOIQUFKBUFIEU0TGDgYgccO7IvKFmDNaBhCMZhBxLS8Zr3I73v+YGBdzBV5dlbE56s8VZjuK0LdDoz170lXMSPV3wv3gEEOxhqNJJUAv3SaYJRchE3wbUwkh/IZUauKgeTP9y68xYGnXoBQFU0YUywUUSFX3IuM1LlsXnl3CuHtWeeS5EjsynTWYqcHOJvsWnbmUONwiObh7Mwir5vPILxzAAAAA==[0mgameoflife-release-1.0.22
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4P6zdUPq/V3dNu0UiCzNgitn88t62a2nw52gOhNgfMQEAAAAvh+LCAAAAAAAAP9djLsNwjAURR9BMAAdiBUc85EoQKkoACmiYQIDL3bAsSP7BSVrsAY0DME47EBCOm5zP9I9zw/0vIOxKs7emvBkjbcaw22Vo9Opue4t4SJ6vKJ7/g4g2EFfo5GkYugWThMM4ou4Ca6FkfxALjVyVToY/eHWrTcwaNUJAMq8DkOCjSLK/ZJzmZIqjvUr4145rDzzXIoMmU2YThPk5BB/i02azhxqFB7ZNJyEs/kX+QyFhswAAAA=[0mgameoflife-release-1.0.23
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FaDicMSEvs18ARVozCheXySsczCTvaZR8ch2wi9naU4AAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdRCxIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SLqLHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4m38BWpnhGMwAAAA=[0mgameoflife-release-1.0.24
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FqqxAAoK6Ys9SgquVuTQCf7zWHeOPBMvgV6lUqBSZEkAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdJCxIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SLqLHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4m38BzKnmb8wAAAA=[0mgameoflife-release-1.0.25
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4BtkM06xEmZ3nt+1qMjeRhM9ipqN8ecDaCSp2bGcMa3QAAAAvR+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOgSIFKBUFIEU0TGDgYgccO7IvKFmDNaBhCMZhBxLS8Zr3I73v+YGBdzBV5dlbE56s8VZjuK0LdDoz170ljOLHK74X7wCCHQw1GkkqgX7pNMEouYib4FoYyQ/kMiNXlYPJH27deQuDTr0AoCqaMCbYKKLCLzmXGany2Lxy7pXD2jPPpciR2ZTpLEVODvG32LTtzKFG4ZHNw1m4iL52+O/2zAAAAA==[0mgameoflife-release-1.0.26
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4M5UtEeX08nR5MlELOYThTm7jKHQxkwXuzp0OGtRjU4IAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdLEhIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SzqPHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4W3wB4MjogcwAAAA=[0mgameoflife-release-1.0.27
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Bz2ow5+exOAoxgbWdOmaEr+pjwr49c0uoqod+oziS0RAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdLERIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SzqPHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4W3wBcdVXEcwAAAA=[0mgameoflife-release-1.0.28
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Il+SiwmJIf9ApJV8zxdfRZ74xAcYFVTmzzzyQuafNjSAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdLCRIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SzqPHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4W3wB5+VQZswAAAA=[0mgameoflife-release-1.0.29
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4IUzzoXuiec0nJilinScIy9sYfegRPMis5ejUW8EwbEnAAAAvR+LCAAAAAAAAP9djE0KwjAQhceKHsCViFdIowgulK4EUShuPEHUaRJNk5JMpb2G19CNh/A43sFWd77N+4H3Pd7QCx7GqjwFZ+Ojs8EZjDd1gd5oe9k5wnlyfya34hVBtIW+QStJpdAtvSEYpGdxFdwIK/mevLZyWXkY/eFWP29h8FMnAqiKJgwJ1oqoCAvOpSZVHppXzoPyWAcWuBQ5MpcxozPk5BG/i8vazjwaFAHZNJ7Esw/gUsUTywAAAA==[0mgameoflife-release-1.0.3
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Oqc3K+KxASTOiEWOogYZ3vKQStCjCGyHCeiDPq9tS7bAAAAvh+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOg5AoQKkoACmiYQIDFzvg2JF9QckarAENQzAOO5CQjte8H+l9zw8MvIOpKs/emvBkjbcaw21doNOZue4t4SJ+vOJ78Q4g2MFQo5GkEuiXThOMkou4Ca6FkfxALjNyVTmY/OHWnbcw6NQLAKqiCWOCjSIq/JJzmZEqj80r5145rD3zXIocmU2ZzlLk5BB/i03bzhxqFB7ZLIzCefQFAmyXBswAAAA=[0mgameoflife-release-1.0.30
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4C6yrPEvfne31ycrFqKSQOimryxNiJZQpegOJ8XhTqKlAAAAvh+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOiZAoQKkoACmiYQIDFzvg2JF9QckarAENQzAOO5CQjte8H+l9zw8MvIOpKs/emvBkjbcaw21doNOZue4t4SJ+vOJ78Q4g2MFQo5GkEuiXThOMkou4Ca6FkfxALjNyVTmY/OHWnbcw6NQLAKqiCWOCjSIq/JJzmZEqj80r5145rD3zXIocmU2ZzlLk5BB/i03bzhxqFB5ZFM7CefQFlFyQccwAAAA=[0mgameoflife-release-1.0.31
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4H4cJPqsUGznq8k0a1fzXLShrQa0HiDQGpxSjtLPrCcVAAAAvh+LCAAAAAAAAP9djLsNwjAURR9BMAAdiBUc85EoQKkoACmiYQIDL3bAsSP7BSVrsAY0DME47EBCOm5zP9I9zw/0vIOxKs7emvBkjbcaw22Vo9Opue4t4SJ6vKJ7/g4g2EFfo5GkYugWThMM4ou4Ca6FkfxALjVyVToY/eHWrTcwaNUJAMq8DkOCjSLK/ZJzmZIqjvUr4145rDzzXIoMmU2YThPk5BB/i02azhxqFB7ZNJyE89kXLg2Z6MwAAAA=[0mgameoflife-release-1.0.32
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4HxP1VIP8dlrl8PzrogQYXYQH1hgeW0MHQYxd+JAilYFAAAAvh+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOQZEoQKkoACmiYQIDFzvg2JF9QckarAENQzAOO5CQjte8H+l9zw8MvIOpKs/emvBkjbcaw21doNOZue4t4SJ+vOJ78Q4g2MFQo5GkEuiXThOMkou4Ca6FkfxALjNyVTmY/OHWnbcw6NQLAKqiCWOCjSIq/JJzmZEqj80r5145rD3zXIocmU2ZzlLk5BB/i03bzhxqFB7ZPJyFUfQFuD2en8wAAAA=[0mgameoflife-release-1.0.33
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4DLsz9iA//kcPhnR9S22OLOTHr4IYyo+0Gii5Iw+rP+gAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdQixIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SLqLHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4m38BG6j6AcwAAAA=[0mgameoflife-release-1.0.34
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4OWkCqOqsGddQyIXAtcNfqKKOauCgqjGlDluQ1S0/gmDAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdIixIVxZIGhsnGLzOlOlMM/Mq7TVcg41DOI47aHXn23x/ku/3/EDPOxir4uytCU/WeKsx3FY5Op2a694SLqLHK7rn7wCCHfQ1Gkkqhm7hNMEgvoib4FoYyQ/kUiNXpYPRH27degODVp0AoMzrMCTYKKLcLzmXKaniWL8y7pXDyjPPpciQ2YTpNEFODvG32KTpzKFG4ZFNw0k4m38BjZj9dswAAAA=[0mgameoflife-release-1.0.35
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4LNFNP0H8kt7p2oRQPdTsbkPJjayU/alZpV9084rt1SRAAAAvh+LCAAAAAAAAP9djL0NwjAQhY8gGIAOxAqOQUgpQKkoACmiYQIDFzvg2JF9QckarAENQzAOO5CQjte8H+l9zw8MvIOpKs/emvBkjbcaw21doNOZue4tYRQ/XvG9eAcQ7GCo0UhSCfRLpwlGyUXcBNfCSH4glxm5qhxM/nDrzlsYdOoFAFXRhDHBRhEVfsm5zEiVx+aVc68c1p55LkWOzKZMZylycoi/xaZtZw41Co9sHs7CRfQFN8n078wAAAA=[0mgameoflife-release-1.0.36
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4KuMdP3Wk+xi0WsaTvjVSSsSlMcyrecVxIITXU8fEeFhAAAAvh+LCAAAAAAAAP9djE8OwUAUxp8KB7AjrjAdIiEhXVkgaWycYPA6U6YzzcyrtNdwDTYO4TjuoNWdb/P9Sb7f8wM972CsirO3JjxZ463GcFvl6HRqrntLOI8er+ievwMIdtDXaCSpGLqF0wSD+CJugmthJD+QS41clQ5Gf7h16w0MWnUCgDKvw5Bgo4hyv+RcpqSKY/3KuFcOK888lyJDZhOm0wQ5OcTfYpOmM4cahUc2DSfhbPEFofnzmMwAAAA=[0mgameoflife-release-1.0.37
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4M+O6tnKqne7ecUxvG5Aab2X5Yyar9Dr6S6d8daNk+XdAAAAvR+LCAAAAAAAAP9djE0KwjAQhceKHsCViFdIoyAulK4EUShuPEHUaRJNk5JMpb2G19CNh/A43sFWd77N+4H3Pd7QCx7GqjwFZ+Ojs8EZjDd1gd5oe9k5wnlyfya34hVBtIW+QStJpdAtvSEYpGdxFdwIK/mevLZyWXkY/eFWP29h8FMnAqiKJgwJ1oqoCAvOpSZVHppXzoPyWAcWuBQ5MpcxozPk5BG/i8vazjwaFAHZNJ7Esw9Dx6GNywAAAA==[0mgameoflife-release-1.0.4
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4KzWd6mUP85GcoRfBP2uKh9kRn1arbMnQMXWDGeWKX8vAAAAvR+LCAAAAAAAAP9djE8OwUAUxp8KB7AScYXpsBEhXUmEpLFxgsHrzDCdaWZepb2Ga7BxCMdxBy073+b7k3y/xxt6wcNYlafgbHx0NjiD8aYu0BttLztHOEvuz+RWvCKIttA3aCWpFLqlNwSD9CyughthJd+T11YuKw+jP9zq5y0MfupEAFXRhCHBWhEVYcG51KTKQ/PKeVAe68AClyJH5jJmdIacPOJ3cVnbmUeDIiCbxpN4/gFoixeEywAAAA==[0mgameoflife-release-1.0.8
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4LMhtKl6YwhOEFUYeqBDiHDwv8tzUjj2SEvCgfwod3uMAAAAvR+LCAAAAAAAAP9djE8OwUAUxp8KB7AScYXpsJEgXUmEpLFxgsHrzDCdaWZepb2Ga7BxCMdxBy073+b7k3y/xxt6wcNYlafgbHx0NjiD8aYu0BttLztHOEvuz+RWvCKIttA3aCWpFLqlNwSD9CyughthJd+T11YuKw+jP9zq5y0MfupEAFXRhCHBWhEVYcG51KTKQ/PKeVAe68AClyJH5jJmdIacPOJ3cVnbmUeDIiCbxpN4/gH+uxDzywAAAA==[0mgameoflife-release-1.0.9
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FNWRyFNKwbTJ7bmhmtTiZ2RE8Q/L5iw8M6km1pTS824AAAAtx+LCAAAAAAAAP9djEEOAUEQRcsIB5iluELrnQWZRGJDIjZO0KjpbnqqO9U1wjVcg41DOI47IHbe5r/Nf/cX9DLD0LX7HGm0i5RjwNHikpCDp+M6Co6r26O6pmcBxRL6AcmKW0G35SBQrg7mZHQwZPVG2JOdnhkGf7n5b78x+NEpAM7pI6XAzImkPNHaenHt9vNqdHaMl6yytqZBFWsVfI1aGFF7ErRsxEdSWza0c28bn4BjxQAAAA==[0mintegration-branch
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4ARRMWwFVvFWGd2YCzyKqbYsXVSj8p6gKVLFr2Qnc5igAAAAsB+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoXEDaIApaIBKaJhAgMX2+DYlu+CkjVYAxqGYBx2ICgdr/mv+e/5gQlFmOvmTN7lJ+/IW8y3XcBojbvuPeOyeLyKe3gnkOwgtegU6xLGTbQM0/Iib1JY6ZQ4cDROrdsIs7/cZthfDAZGCUAbekkZFpo50EoIZVg3x/5VC9IRO8pIKFlj5qvMmgoFR0RRS2KMX1BVYVW5AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Aq7Ovhr+tpTUBRNc7eBdwskzA4uwFf3VmZOzlNMgqVUAAAAsR+LCAAAAAAAAP9djLENwjAQRY8gEDUlYoXEXQpQKhqQIhomMHCxDY5t+S4oWYM1oGEIxmEHgtLxmv+a/54fmFCEpW7O5F128o68xWzbBYzWuOveM+bF41XcwzuBZAdTi06xLmHcRMswLy/yJoWVTokDR+PUuo2w+Mtthv3FYGCUALShlxlDrpkDrYRQhnVz7F+1IB2xo5SEkjWmvkqtqVBwRBQRLUpC+gINw95buwAAAA==[0mreleases
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4JXh1M+9r1Tt9OTPqkXZDE/Cyqzz4Z1WSvbCJDZxTKCBAAAAsh+LCAAAAAAAAP9djLENwjAURD9BIGpKxAqOuxSgVDQgRTRM4BDHNji25f+DkjVYAxqGYBx2ICgdV9y95t7zAzOMsNZthd6lZ+/QW5nu+yCjNe569CSz/PHK7+GdQHKAuZVOkS5g2kZLsCwu4ia4FU7xE0Xj1LaLsPrT7cb9yWDMJAHowgALgkwTBdxwrgzpthxeDUcdZY8MuRKNZL5m1tSSU5RDVRWzosQv32mfHbsAAAA=[0mtdd-labs
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4GjNfmJCHX378k55eL2WdXL5/b6dzTSjmpOrMkxAzw8lAAAAtR+LCAAAAAAAAP9djbENwjAURD9BUFFRIlZw3FGAUtGAFNEwgSGObXBs6/sHJWuwBjQMwTjsgFE6rri75t49PzCJCEvdVtG7/Oxd9Fbmuz5ItMZdD57kqni8int4Z5DtYWqlU6RLGLdoCeblRdwEt8IpfiQ0Tm06hMUfbjvkDwaDRhlAF1KZEaw1UYhrzpUh3Z7SquFRo+wji1yJRjJfM2tqyQllsqpihMK4dPYF8VZuW78AAAA=[0mtdd-training
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  42 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/game-of-life
+
+Proposing GitTalent
+Examining [8mha:////4NoO145ZCSeUI9EAVOi4rLWPSjPjl4HOFezvb6PKOjXiAAAApB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKmFQzSgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wd88sCUkE2lkCAGyhanKqAAAA[0mshreys-s/GitTalent
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4KC/HNib+86Nllfa6FL/EoLDVEnqBu5b9FSy5EQMAp50AAAArx+LCAAAAAAAAP9djbENwjAQRY8gMgAlYgVyoqEApaIApIgGFjBgxQbHtu4uKFmDNaBhCMZhB4Lo+M3/zXv/8YYBE4xNfeLgs2PwHJzO1m3U5Ky/bIPoWX5/5rf4SiDZQOq0L8UU0K/JCQyLs7oqdMqXuBOyvlw0BKM/3fLXXxn80ksAmtiNVGBqRCLPEUsrpj50VIVsSLc8YVxZ2avuU1BIa6wUi6YP5unqcLYAAAA=[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/GitTalent
+
+Proposing goCubsGo
+Examining [8mha:////4MVbiS1qKmLDROOASeEy/8kfIIEwM63PQ4ZkpKy6MofRAAAApB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT893Lk0qds8HANtl4mKpAAAA[0mshreys-s/goCubsGo
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4CDW4VZ2Hd9gHmah8pCRfwO0kYid5ZW7nSFTDuGfKW3FAAAArh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgViKgpQqhSAFNEwgQOWHXBs6+6MkjVYAxqGYBx2ICgdr/mv+e/5gQkhzE08k3fZyTvyVmW7Lii0tbsePKtV/njl9/BOINlDapXTbEoYR7QM0/Iib1JY6bQ4MtZOb1qE2V+uGPYXg4FRAtCGXlKGpWEOtBZC12xi1b8aQQZVRwsS2hexoq0XjEqJRhIr/AL1T/jvtQAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/goCubsGo
+
+Proposing hello_jenkins
+Examining [8mha:////4CgPJVEijEjtVNWD3YHmcBFDXAoO8gFaMD29nmqtisb+AAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz0jNycmPz0rNy87MKwYA9ucruK4AAAA=[0mshreys-s/hello_jenkins
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4P7mhEI8qwTZmYZB6UJLyX0hbJnnVKIFbDkIFolUPj/QAAAAsR+LCAAAAAAAAP9djLENwjAQRY+gMAAlYgXiBlGAUtGAFNEwADJwip2Ys3W+oGQN1oCGIRiHHQii4zX/Nf893pBGhqlpztFTdvIUvcNs0wVkZ6neecFFfn/mt/BKINnCyCGVYgoYNuwExkWlr1o5TaXaC1sqVy3D5C+3/u03Bj8GCUAbekkF5kYkxKVSpRXTHPvXRUXD2MVZVAad84cKqbYUlTCi0po9fQA5tnrbuQAAAA==[0maaron
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4H3qFdUljZHsZY3VfMW53UpoTVLSdKrbiu9ApjZtp6gBAAAAsR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgXiCgpQKhqQIhoGQAZOthPHtnwXlKzBGtAwBOOwA0HpeM1/zX/PD0wowlw3V/Iuu3hH3mK26wJGa1x18Iyr/PHK7+GdQLKH1KJTrAsYN9EyTItS3qSw0ilx5Gic2rQRZn+57bC/GAyMEoA29JIyLDVzoLUQyrBuzv2rFqQjdrQgodFafyrRVcaR4IgoakmM8Qt94HQnugAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/hello_jenkins
+
+Proposing Hygieia
+Examining [8mha:////4BdAuxtKsunjkLvNiiwu3QBQDzmC5Kryh6+UTXoHbHqHAAAAox+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKGFQzigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3W96hMz0zNTAQAZvywh6gAAAA=[0mshreys-s/Hygieia
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4AtXRU9nIypyDKyJgrlkQPM42y/i6a6FLnD55w5E0aoOAAAAsx+LCAAAAAAAAP9djLENwjAQRY8gGCAlYoXkOgqiVDRBimiYwMDJNhg7Ol9QsgZrQMMQjMMOBKXjNf81/z0/MIsMS9OeYvD5MfgYHOVV3xA76y+7ILQqH6/y3rwTSLYwd+S1mBqmLTuBtD6rm0KnvMa9sPW66BgWf7nNuL8YjEwSgK4ZJBUojEgT14jaimkPw+uK0TD1MYtY9dqSVShMhJqYrWTWC2lWYoP/ArgNyMfAAAAA[0mgerrit-integration
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FVz12mBmawG6G99r7iS4QYZJyWg53N3XBWhShBqrDWIAAAArh+LCAAAAAAAAP9djLENwjAQRY8gEDUlYoXkREMBSkUTpIiGCQycbINxLN8FJWuwBjQMwTjsQFA6XvNf89/zAyOOMDf1iSufHSvPlaOsaANFZ/1lVwkt88crv4d3AskWxo68FlPCsI5OYFqe1U2hU17jXqL1et1EmP3lNv3+YtAzSACa0MlEYGFEAq8QtRVTH7rXFdlEajllLFptySqUSITapEFp4i9j4jlvtgAAAA==[0mgh-pages
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4DL+nDmhvTIfhcAjxq4U+3frF5fyDRhwYd/lPrj3LuhkAAAAqx+LCAAAAAAAAP9djLENwjAQRY8gGIASsQK5jgKUiiZIEQ0TGDjZBse2fBeUrMEa0DAE47ADQel4zX/Nf88PTDjBwjRnDj4/Bc/BUV52kZKz/roPQqvi8Sru8Z1BtoOpI6/FVDBukhOYVRd1U+iU13iQZL3etAnmf7ntsL8YDIwygDb2MhVAIxJ5jaitmObYv2pkk6jjJWPZaUtWoSQirBULpS95/FpKtAAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  3 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/Hygieia
+
+Proposing jenkins-docker-maven-example
+Examining [8mha:////4Ap8/lxTyGxlPhTZzSxZA5LDQ+U/GUd8xtI6FMNtVIgMAAAAtB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VI67hACpaIBKaJhAhNOthPnbNlOlKzBGtAwBOOwA0HpeM1/zX/PD8yCh5VqbsFSWlgK1mB67B16o6k624ib7PHK7u6dQHKCuUGSUeUwbbyJsMhL0QpuBEl+iV6T3Hceln+5w7i/GIxMEoDODbKOsFUxurDjXOqomuvwqnlQHvvAAi+RKk2B3WxRoWe1aJEYdqJ2Br+e3HPQvQAAAA==[0mshreys-s/jenkins-docker-maven-example
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4LII1SR/4Oiwx+RtD8qR4IspdCzeUyJP0qB6MUJYFMxJAAAAuh+LCAAAAAAAAP9djLENwkAMRU0QDECJWCFcRwGiggKkiIYJjmDlQi6+k+1EYQ3WgIYhGIcdCKLjNf81/z3eMBKGmWvOEmieB5Lgcb67RmRfUnUIiov1/bm+xVcCyR7GHqlQl8GwYa8wyS62tcZbKsxRuaRi1TFM/3Kb335j8GOQAHSxl7HC1qlGWRpTlOqaU/+qjTjGq6RiLkhVSZKeQ14hp7VtkVLsbB09GmVEU1tR5A/bpddyyQAAAA==[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/jenkins-docker-maven-example
+
+Proposing jenkins-git-maven-docker
+Examining [8mha:////4L8ubqzKKyBxKfI5wo6WSyTRNqddFH6YvXC9tUoYOjXhAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGEwySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz0rNy87MK9YFyunmJpal5umm5CdnpxYBAHhIk5K5AAAA[0mshreys-s/jenkins-git-maven-docker
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4LT5xlPVnumIfOJ2xU3RaBJ7lSP+PI7bCVHD0LvAnnJpAAAAuR+LCAAAAAAAAP9djDEKwkAQRceIHsBSvEKynYUiCDYKwcYTrHHIxmxmw8wkJNfwGtp4CI/jHYzY+Zv/4fHf4w0TYVi45iKBkiyQBI/Jvq+RfUHlMSguN/fn5la/IogOMPVIuboUxg17hVl6ta013lJuTsoF5euOYf6n2/36K4NfRhFAVw9jqrB1qrWsjMkLdc15eFVGHGMvsZgrUlmQxAOLK9sixZeQlchGGdFUVhT5Awk9LmjFAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/jenkins-git-maven-docker
+
+Proposing jenkins_backup
+Examining [8mha:////4DLR2zdplOGEzre+zXeNALQ6xRPWM5fOdcsr1iqMhymVAAAAqh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQL2HQyigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz0rNy87MK45PSkzOLi0AAEkEHx2vAAAA[0mshreys-s/jenkins_backup
+
+  Checking branches...
+
+  Getting remote branches...
+
+  0 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/jenkins_backup
+
+Proposing job-dsl-gradle-example
+Examining [8mha:////4BbuoPx7hTzQWRSXugml+jwvZ2zcG7AUzktaUmo/eSusAAAAsR+LCAAAAAAAAP9djLENwjAQRY8gGIASITGBY4mCApSKBqSIhgkccrITLrblc1CyBmtAwxCMww4E0fGa/5r/Hm+YcICFaUt2Nj07y44w3fceA1X2cnQR19n9md38K4HkAFNCq6PJYdwGijDLa3VVkpTV8hRDZfW2CzD/y+1++43Bj1EC0PlBlhFWJkbPGyl1FU1bDK9GsgnYs2BZu0KUTEIHVRIK7FTjCT/LS+GetwAAAA==[0mshreys-s/job-dsl-gradle-example
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4HxzXCQyDT+5dELyNdndEZ9GZAcZ2becEuELn5JbhqSKAAAAuR+LCAAAAAAAAP9djDESAUEQRdsqEplQucKaTECJJFQpiRMM22Z29c5MdfeqdQ3XIHEIx3EHlMxL/kv+u7+gJwxj3xQSw+QQg0TCyeqSkKkMp21UnC5uj8U1PTPI1tAnDE79BroNk8JwU9mzNWSDMzvlMrh5yzD6yy1/+43Bj04G0KaPDBSWXjXJzBhXqm/2n1dtxDNeJBdTxX1eCOWObUGYY2vrRGiUEc2BrMgxcm31DSXOMDPIAAAA[0mclassformat
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FZRlXWcZQcMWAGDyvamvLuAK+6og0lcwXPQ8f1wa2lYAAAAth+LCAAAAAAAAP9djLENwjAQRY8gGIASsULijgIUGhqQIhomcMjJTnBs6+6CkjVYAxqGYBx2AETHa/5r/ru/YMIEC9tVHHx2Cp6Dw2w3RCRX+/MhCC7z2yO/xmcCyR6mDr0RW8C4IycwKxp90cppb9RRqPZm3RPM/3Lb335j8GOUAPTxI1OBjRWJvFLK1GK78vNqFVvCgVNWTSjTil1qSFcOU+x1Gx0qIUTVahakNxAw4dfDAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/job-dsl-gradle-example
+
+Proposing job-dsl-plugin
+Examining [8mha:////4P8lSHgDwXlrmYt68UATTl+X8sqCmrJfAyQkveyly6ivAAAAqh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQL2HQyigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz8pP0k0pztEtyClNz8wDAGnGNLyvAAAA[0mshreys-s/job-dsl-plugin
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4JNbrWY2nsMlNGsiu5fasSZlhnBbkNPJ9HvrnP6pW4RGAAAAsx+LCAAAAAAAAP9djLENwjAQRY8gEDUlYgXHHUKgVDQgRTRM4BDLdjC25TujZA3WgIYhGIcdCErHa/5r/nt+YIIRljrV6F1+9g69lfm+CzJa4y5HT3JVPF7FPbwzyA4wtdIp0iWMU7QE87IRN8GtcIqfKBqntm2ExV9uN+wvBgOjDKANvcwI1poo4IZzZUinqn9dOeooO2TIG1+xGi0LNinjOEUpudIsCCXxC5rNfNO9AAAA[0mgh-pages
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4LZPDA7pqO7XACeo09G/hL1iQ6M13ukeJX7RrgsIK25rAAAAsR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoXEXQpQKhqQIhomcMjJDji25TujZA3WgIYhGIcdCErHa/5r/nt+YEEB1jo25Gx+dpacwXw/eAymtdejYyzKx6u8+3cCyQFSg1axrmAeg2FYVhd5k8JIq8SJQ2vVtg+w+svtpv3FYGKWAPR+lJSh0MyeNkKolnWsx1cnSAccKCNxcXXWkMm8iaq1ggOi6CQxhi8A/AKGuwAAAA==[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  2 branches were processed (query completed)
+
+  2 branches were processed
+
+Finished examining shreys-s/job-dsl-plugin
+
+Proposing jpet
+Examining [8mha:////4PGkSHp5ohdWfYDBeAZbqx29E4miG7SLI4OVPxcJyMFTAAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWFQyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WzypILQEA1i9YxqUAAAA=[0mshreys-s/jpet
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4OAbASS4Ubg43ahavG/mRs4y9ZXIk0DykQy+mJaTz4a7AAAAqh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgSIOwpQKhqQIhomMHCyExzburugZA3WgIYhGIcdCErHa/5r/nt+YMIEc9tcOPjsHDwHh9mui0iu9NdDEFzlj1d+j+8Ekj2kDr0RW8C4IScwLSp908ppb9RRqPRm0xLM/nLbYX8xGBglAG3sJRVYWJHIa6VMKbY59a9asSXseMmqiihKCFHVmgXpC/QvDM6xAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/jpet
+
+Proposing jpetstore-6
+Examining [8mha:////4I5qtWCnk4k9qVYhXjoRPLjBPH9GMZEVpjLiTfOrvEQpAAAApx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WzypILSkuyS9K1TUDAORiEIysAAAA[0mshreys-s/jpetstore-6
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4BfW59KcZqasZXY7Idn46MA7X5hcLgvaD2MweS1RofN2AAAAsB+LCAAAAAAAAP9djLENwjAQRY8gEDUlYoXEFRSgVDQgRTRMYOBkJxjburugZA3WgIYhGIcdCErHa/5r/nt+YMQEc1ufOfjsFDwHh9m2jUiu9Jd9EFzmj1d+j+8Ekh2MHXojtoBhTU5gWlT6ppXT3qiDUOnNuiGY/eU2/f5i0DNIAJrYyURgYUUir5Qypdj62L2uii1hyymrKqKwBMJ0qYQQlbFp1Ab5C9BTH2q6AAAA[0mgh-pages
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4HzpnGvNtucdq2FrZIDzwjnsdi5PfuVx4+BIhVl1kxTYAAAArx+LCAAAAAAAAP9djDEOgkAQRUeMHMDSeAXYwoRCQ2WjCbHxBKtOWHDZ3cwMBq7hNbTxEB7HO4ih8zX/Nf89PzBjgqVpL+xdevaOvcV01wckW7nrwQtm+eOV38M7gmgPsUVXiilg2pIVmBe1vmlltSvVUahy5aYjWPzltuP+YjAyiQC6MEgssDIigddKlZWY9jS8GsWGsOeEVR1QWDxhkikhRNVoFqQv2MaFPbgAAAA=[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/jpetstore-6
+
+Proposing kubernetes-ci-cd
+Examining [8mha:////4G379kw28KxPmeOpAklFXhbqCAfSJzw8mrewJtIXHxgXAAAArB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGHQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wzy5NSi3KSy1JLdZNztRNTgEAVJNGS7EAAAA=[0mshreys-s/kubernetes-ci-cd
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4OhHbKMtC1f05LpRiYdrLuMhEfUD0OgX7y9XRpYq90lUAAAAuh+LCAAAAAAAAP9djbsNwkAQRBcjCAkIES3YlxGALCGRgGSRUIE/K9/h43za3UN2G7QBCUVQDj1gRMYkM8l783jDhAmWOlTcuqRsHbcWk33vkaxxzbEVXKX3Z3rzrwiiA0wtulp0BuNAVmCenfNrrmzuanUSMq7edASLP93u118Z/DKKADo/jJnAVot4XitVG9GhGKiLYk3Yc8yqCQWSQ0GOSxOXlRJCVMMPIXMcfJULfgBQ+DOTxQAAAA==[0mingress-update
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/kubernetes-ci-cd
+
+Proposing new1
+Examining [8mha:////4B8PxWfNYNiXijk4lS1Xxp8C9WxEZap0ZGCdK0ouKZIFAAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWFQyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz0stNwQA1hyVLaUAAAA=[0mshreys-s/new1
+
+  Checking branches...
+
+  Getting remote branches...
+
+  0 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/new1
+
+Proposing phone-directory
+Examining [8mha:////4Ik9lM8AFSwUsk+Y0SzDaagZGNxdQIsLqsTRDqEECN10AAAAqx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQKGHQzigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WL8jIz0vVTcksSk0uyS+qBAATI14UsAAAAA==[0mshreys-s/phone-directory
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4BrSZhBbxP0BkwKm90BjkO4W884oZnl+o7ujrGXsE15bAAAAsR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoXEHUigVDQgRTRMYJKTbXBs63xByRqsAQ1DMA47EJSO1/zX/Pf8wCwSLHVbR+/yyrvoLeb7PiBZ465Hz7gqHq/iHt4JJAdILTrFuoRpS5ZhXl7kTQornRInJuPUtiNY/OV24/5iMDJJALowSMqw1swhboRQhnV7Hl6NiJqwj1kUQXuHWW0IK/bUCyZE0cjISF+3Nw1evAAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/phone-directory
+
+Proposing poc-jenkins-pipeline
+Examining [8mha:////4H8P21kfmNZdqHD3Dz5+AC4sWrXk4Phzq/lDN36QDhSvAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLWEwyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WL8hP1s1KzcvOzCvWLcgsSAU6KhUA4eD1/bUAAAA=[0mshreys-s/poc-jenkins-pipeline
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4Oe88kMFDv2mnt4B/SSyuQ76kdHGAdT//P8NIGs19IFlAAAAth+LCAAAAAAAAP9djrENwjAQRY8gGIASsULijgJIRQNSRMMEJpxsJ45t+S4oWYM1oGEIxmEHgtLxm/+b9/SfH5hRhJVur+RdVnpH3mJ26ANGa1x98ozr/PHK7+GdQHKEuUWnWBcwbaNlWBSVvElhpVPizNE4te0iLP90+7F/MhgzSQC6MIw5w04zB9oIoQzr9jJQjSAdsaeURPBlWqGrjaM0mIDDKRQcEUUjiTF+ATzyLeHBAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+  1 branches were processed
+
+Finished examining shreys-s/poc-jenkins-pipeline
+
+Proposing recruiting-old-style
+Examining [8mha:////4LQUZTLzS+6WfoG88twgxbF4W8bHHhS8CjfjUEyLJ6NlAAAArh+LCAAAAAAAAP9dzLENwjAQBdAjCAagRDBCYioKUCoakCIaJgiJZTsY27o7o2QN1oCGIRiHHQhKx2/+b/57fmBCCAsda/Iuq7wjb2W274JEa9zl6Fmu88crv4d3AskBplY6xbqAcUTLMCua8lYKWzolTozGqW2LMP/jdkP/MBgySgDa0I8lw0ozB9oIoQzreO5fV0EaZUcpCZQVRsM9nHpbp8SdlV/kKfjJtQAAAA==[0mshreys-s/recruiting-old-style
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4HJOFnEpaR7IfQ97ats3NMAx9SoUnceXTcNVYCtPveShAAAAtB+LCAAAAAAAAP9dzDEOgkAQBdARIwewNF4BtrNQqWw0ITaeAGGyiy67m5nBwDW8hjYewuN4BzF0/ub/5r/nB2ZMsDRtxd6lpXfsLab7PiDZ2l2PXnCVPV7ZPbwjiA4QW3RaTA7TlqzAPL8Ut0LZwml1Eqqd3nQEiz9uN/YPgzGTCKALw4gFtkYk8FopXYtpz8OrUWwIe05YEZbU1jLAibdVwtJbVEKIqilYkL63jUklwQAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/recruiting-old-style
+
+Proposing sample-war
+Examining [8mha:////4GqAjq6h8/EvEMHAR+Kpkebs7Ufz48VziFRkv9nZpe1pAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLmFQyygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WL07MLchJ1S1PLAIAGeh3E6sAAAA=[0mshreys-s/sample-war
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4PXjvGFk09/5YqcgMjcMRu06ijtglS/FVfOGwnO3XNKCAAAArx+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoXEEgUFKBUNSBENExg42QHHtu4ukKzBGtAwBOOwA0F0vOa/5r/HG0ZMMLXNkYPPD8FzcJivu4jkKn/eBsF5cX8Wt/hKINlA6tAbsSUMG3IC4/KkL1o57Y3aCVXeLFuCyV9u9dtvDH4MEoA29pIKzKxI5IVSphLb7PtXrdgSdpyxYl1Hh9lVkxJCVLVmQfoA5/XtnbcAAAA=[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/sample-war
+
+Proposing SeleniumNUnitParam
+Examining [8mha:////4FgeQjveJbgzvSANTDuTlcIuYD3fii0XShVuyBoY3kkzAAAArR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLmHQyygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WD04FWphZmusXmpdZEpBYlJgLABhFYEqzAAAA[0mshreys-s/SeleniumNUnitParam
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4Isxo8vYXEp3Ydvtmyk4zpsnw6/TUqTwzMETnc1xutVpAAAAth+LCAAAAAAAAP9djbENwjAQRY8gMgAlYgXijgKUigakKEKKGMDAKTbYjnU+o2QN1oCGIRiHHQhKx2/+b977zw9MAsFcxXNoXHZqXGgMZtvOIxntrmXDuMwfr/zu3wkkO0gNuppVAeNIhmFaXORNCiNdLSom7ep1SzD7022G/slgyCgBaH0/UoaVYvZhJUStWcVjT1kRFGEXFkFU2B/qaMuD07yXJK1gQhRWBkb6Amt4nOS/AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/SeleniumNUnitParam
+
+Proposing SeleniumWithCucucumber
+Examining [8mha:////4NpgmLrSIwF5iVzXLHQ1qo2slUm3nvULMaQW50G+GO7SAAAArh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQL2EwyigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WD04FWphZmhsOlHMuTQbC3KTUIgCPIv7VtwAAAA==[0mshreys-s/SeleniumWithCucucumber
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4HkkgLjIXFf6UOZ7RN3WZSv177YZjIVtH81747XCbFuGAAAAtx+LCAAAAAAAAP9dTTEOwjAQO4roAxgRX6DZGEBl6QJSxdKBOS2nppAm1eWC2m/wDVh4BM/hDwR1wx5sybL9/MDMESyVPztrksoaZzUm+6FD0o25Hi3jOn280nv3jiA6QKzR1KxymHrSDPP8Im9SaGlqUTA1pt72BIu/uWzU3xiMmEQAfRdMzLBTzJ3bCFE3rHwZWq1winBwKycKDIeNb08hy3wV2JZIgglRtNIx0hedU39FwwAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/SeleniumWithCucucumber
+
+Proposing shreys.github.io
+Examining [8mha:////4CI4RQC0CBQNR0jMlM2XP4JyexpEDfdoQKaUXYVBjJukAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGHQySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i2GMvSgUpn5AO2WDH2xAAAA[0mshreys-s/shreys.github.io
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4MqLaJdJLRpyjrre8orFQMfFWU5ihHiwSyb5+oA5BnxeAAAArR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2GwyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i2GMvSgUpn5+iVFqan6uYnFJalFAOJbaqu9AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/shreys.github.io
+
+Proposing Speculative_PLSQL_CI
+Examining [8mha:////4FjsCwk7BuWzwCwTAi9gxD5tHWqljAHQCO6KA/dQcww+AAAAsB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLWEwyCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WDy5ITS7NSSzJLEuND/AJDvSJd/YEAADaoxK1AAAA[0mshreys-s/Speculative_PLSQL_CI
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4BwnsnykQMIw0PEZc6iNu0VA5+LihVUlFhk4yN4FsMSdAAAAux+LCAAAAAAAAP9djDEOgjAUhp8YdXc0XkG6aaJhYpGkIRoGR4L60qK1NO0rgWt4DV08hMfxDmLY/Jb/W/7v+YGRszCX/uwqHZ4q7SqF4bY1aFWpr2lFuIwer+hu3gEECYwVakGSw9BbRTDll6IumCq0YBnZUotNY2H2l4v7/cWgZxAANKaTCUEkiYxbMyZKkv7YvW7MSYutWziWGTx5VVBZY77j2Z7nccLIIrI4yQ9JuvoCZ9FcKMIAAAA=[0mCI_WIN7
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4PB7DiryHh3e6KBEK7X3jdsAcXupCCXfJTNsxA5sX83dAAAAuR+LCAAAAAAAAP9djDsOgkAURZ/4WYClcQsynSYYKhpJJkRDYUkQXxh0HCYzbwhsw21o4yJcjnsQQ+dp7mnueX5gag0shTvbWvlFrWwt0d91Go2s1DWpCdfh4xXe9dsDL4aZRFWS4DB2RhLM+SVvciZzVbKUTKXKbWtg8ZeLhv3FYGDkAbS6lwlBIIi0DRgrKxLu1L9uzAqDnV1ZlmosnMypajDb8/TAsyhmZBDZMU42X45vVOS/AAAA[0mWIN7
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4CmmVcxmhobPYd5v2UB3P20qxlyufQxFbOXzrpvouq/dAAAAuB+LCAAAAAAAAP9djDEOgjAUhp8YOYCj8QrSzUFlYpGkMRoOQCq+ULS0TfsgcA2voYuH8DjeQQyb3/J/y/89PzDzDpayuXijo8JobxRG+96iU5W+HQzhOn684rt9BxCkECrUJUkO08Ypgjm/ilYwJXTJMnKVLredg8VfLhn3F4ORSQDQ2UFCgp0ksn7DWFmRbM7Dq2ZeOuz9yrPMYtEoQVWL+ZFnJ54nKSOHyGrhCd0XFhZdqcEAAAA=[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  3 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/Speculative_PLSQL_CI
+
+Proposing spring-boot-docker
+Examining [8mha:////4I2iHCs01BnO16X7TB1JP/7/RaPc4mNBbPMy7ym/0b+SAAAArB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLmHQyygpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WLy4AGaqblJ9fopuSn5ydWgQA7tZiErMAAAA=[0mshreys-s/spring-boot-docker
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4PoOykjWkeWILMah5OZY6KayNoKMCOKYD3nfjd6hPgnrAAAAsx+LCAAAAAAAAP9dzD0OgkAQBeARIwewNF4BtrPQUNloQmw8AT8TFll2NzODgWt4DW08hMfxDkLofM17zfteX1gxwVZ3JTsbF86yMxifBo9kattcnOAueb6Th/8EEJwhNGgr0SksOzIC6/SW3TNlMlupq1Btq0NPsPnjjnNPGMxZBAC9H0cosNcinvdKVbXoLh9frWJNOHDEiv2ERrlzEpWuaJCUEKJqMxakH5mXpsK/AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/spring-boot-docker
+
+Proposing SpringExample
+Examining [8mha:////4E/Px7DkGYLzh+swbXZay1wFi9eqPr0HwmPN/dSy08sQAAAApx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WDy4AGepakZhbkJMKAIWISWOuAAAA[0mshreys-s/SpringExample
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DNVT0ML8tSSjBENYk0QK45/xb4HzIXSPo7VUvukclDZAAAAsR+LCAAAAAAAAP9dzLENwjAQBdAjiAxAiViBXAUFKBVCAimiyQQGTnHAsS3fBSVrsAY0DME47ECidPzm/+a/1xcmHGCu6ws7m5ydZWco2beegint7eiEVunznT78J4LoALEhW4jOYFwHIzDNruqu0ChbYC6htMWmCTD747ZD9xgMGUUAje9GLLDUIp7XiEUpuj51rwpZB2p5wZj7Ht01qvKGUAIRVoqFwg8u2sz0ugAAAA==[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/SpringExample
+
+Proposing trial
+Examining [8mha:////4HxVwJqqwJ10v+1jD0NQkumynypcCrDHwxRb3MVy7Ko6AAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgK2FQzCgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WB5qZmAMAfn3lzKYAAAA=[0mshreys-s/trial
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DLBakH+aDB9ZfxKUPiwscRAKl8Ygpu8jeYJTvqA6plHAAAAqh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQzSgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WB5qZmAMkU1P1cxOLS1KLAHh5HTyyAAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/trial
+
+Proposing tutorials
+Examining [8mha:////4DToI5G6TXz94Xdtrs67DXY/NmU/wRrUJRrM/UCLx5FEAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKmFQzSgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WLyktyS/KTMwpBgDszLqbqgAAAA==[0mshreys-s/tutorials
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4F7PwbOr9AhzySK/sWgr+ykbMv0smxBg7MNKImPEY1n9AAAAqR+LCAAAAAAAAP9djLENwjAQRQ8jGIASsULijgKUigakiIYJDFi2g7GtuzNK1mANaBiCcdiBoHT85r/mvecHJoSwsPlMMZSnGCh6XW67pNG7cNlH1svq8aru6S1A7GDqdTBsaxhn9AyzulE3Jb0KRh4YXTDrFmH+l9sM/4vBsJEAaFMPgqGwzIlWUhrHNh976yrJou6oIMmZIzrle0KtZUNfv0XIMbIAAAA=[0mjs
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4HKLe1YzFIhPN8hyhJ+zZz1MQyrArwqKYmpHtDXL4H2mAAAArR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVi0VCAUtGAFNEwgYGTHXBs6+6MkjVYAxqGYBx2IIiO3/zXvPd4w4gJpjadOPjiGDwHh8Wmi0iu9pddEFyU92d5i68Msi3kDr0RW8EwkRMYV2d91cppb9ReqPZm1RJM/nLr339j8NsgA2hjD7nA3IpEXiplarHp0FuNYkvY8YyVJAlUa9cTIapGsyB9AMDl6UK2AAAA[0mmaster
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4DW2wgsJ6RRgOUXaBsCXSewze5VyU8DhTSIsrjcD/fwvAAAArR+LCAAAAAAAAP9djDEOAUEUhp8V9EpxBTuJQkG20pBsNE4weHaGMTN5743sXsM1aBzCcdzBis7f/F/zfY839JhgbNKBg8/3wXNwmK+aiOSsP2+C4Ky4P4tbfGWQraHv0FdiSugmcgLD8qSvWjntK7UVsr5a1ASjv9zy998Y/NbJAOrYwkBgakQiz5WqrJi0a62LYkPY8ISVJAlktWuJEBUhyzG5D0bUt863AAAA[0mrestful
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  3 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/tutorials
+
+[8mha:////4HgE/VJs/HvUj0uEfJ211ayhcSfVpb/yOD17/qlerWA0AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRc56FjLwA48wOXjgAAAA==[0m44 repositories were processed
+[Sat Sep 16 13:46:37 IST 2017] Finished organization scan. Scan took 1 min 36 sec
+Finished: SUCCESS

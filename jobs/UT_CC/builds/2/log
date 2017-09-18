@@ -1,0 +1,96 @@
+Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4BgZwjwP5/Vc6LlfCzIaHQJ6zDFY7kffprHncLZLtT1VAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwkfafSzJwUoH59YwDPMcvtxAAAAA==[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4CvdakNBFjUaUOm+69gL7h4aUr8JxXRBVLBwQwi/befNAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwk/eD80qJkoH59EwAadd2DxAAAAA==[0m4
+ originally caused by:
+  Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/UT Code Coverage
+[UT Code Coverage] $ /opt/sonar-runner-2.4/bin/sonar-runner -e -Dsonar.host.url=http://10.1.23.186:9000/sonar/ ******** -Dsonar.projectName=Building -Dsonar.projectVersion=1.0 -Dsonar.tests=/var/lib/jenkins/workspace/Building/gameoflife-web/src/test -Dsonar.projectKey=Building -Dsonar.sources=/var/lib/jenkins/workspace/Building/gameoflife-web/src/main "-Dsonar.projectBaseDir=/var/lib/jenkins/workspace/UT Code Coverage"
+SonarQube Runner 2.4
+Java 1.8.0_131 Oracle Corporation (64-bit)
+Linux 3.10.0-514.26.2.el7.x86_64 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: /opt/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: NONE
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Work directory: /var/lib/jenkins/workspace/UT Code Coverage/.sonar
+INFO: SonarQube Server 6.0
+12:17:20.503 INFO  - Load global repositories
+12:17:21.042 INFO  - Load global repositories (done) | time=554ms
+12:17:21.114 WARN  - Property 'sonar.jdbc.url' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+12:17:21.123 INFO  - User cache: /var/lib/jenkins/.sonar/cache
+12:17:22.104 INFO  - Load plugins index
+12:17:22.134 INFO  - Load plugins index (done) | time=30ms
+12:17:23.606 INFO  - Process project properties
+12:17:24.240 INFO  - Load project repositories
+12:17:24.320 INFO  - Load project repositories (done) | time=80ms
+12:17:24.550 INFO  - Load quality profiles
+12:17:25.006 INFO  - Load quality profiles (done) | time=455ms
+12:17:25.041 INFO  - Load active rules
+12:17:27.229 INFO  - Load active rules (done) | time=2188ms
+12:17:27.370 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+12:17:27.371 INFO  - Publish mode
+12:17:27.377 INFO  - -------------  Scan Building
+12:17:27.797 INFO  - Load server rules
+12:17:28.547 INFO  - Load server rules (done) | time=750ms
+12:17:28.995 INFO  - Base dir: /var/lib/jenkins/workspace/UT Code Coverage
+12:17:28.996 INFO  - Working dir: /var/lib/jenkins/workspace/UT Code Coverage/.sonar
+12:17:28.996 INFO  - Source paths: /var/lib/jenkins/workspace/Building/gameoflife-web/src/main
+12:17:28.997 INFO  - Test paths: /var/lib/jenkins/workspace/Building/gameoflife-web/src/test
+12:17:28.997 INFO  - Source encoding: UTF-8, default locale: en_US
+12:17:28.999 INFO  - Index files
+12:17:29.185 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/GameController.java' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.190 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/java/com/wakaleo/gameoflife/webtests/controllers/HomePageController.java' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.191 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/resources/system.properties' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.192 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/META-INF/MANIFEST.MF' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.193 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/WEB-INF/gameoflife-servlet.xml' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.194 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/WEB-INF/jsp/game/edit.jsp' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.194 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/WEB-INF/jsp/game/show.jsp' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.195 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/WEB-INF/jsp/home.jsp' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.195 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/WEB-INF/web.xml' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.195 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/main/webapp/index.jsp' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.197 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/java/com/wakaleo/gameoflife/webtests/controllers/WhenCreatingANewGame.java' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.213 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/java/com/wakaleo/gameoflife/webtests/controllers/WhenDisplayingTheHomePage.java' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.221 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/java/com/wakaleo/gameoflife/webtests/controllers/WhenSpawningANewGeneration.java' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.224 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/jmeter/gameoflife-100-users.jmx' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.225 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/jmeter/gameoflife-1000-users.jmx' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.226 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/jmeter/gameoflife-200-users.jmx' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.231 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/jmeter/gameoflife-500-users.jmx' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.232 WARN  - File '/var/lib/jenkins/workspace/Building/gameoflife-web/src/test/jmeter/gameoflife.jmx' is ignored. It is not located in module basedir '/var/lib/jenkins/workspace/UT Code Coverage'.
+12:17:29.234 INFO  - 0 files indexed
+12:17:31.903 INFO  - Sensor Lines Sensor
+12:17:31.905 INFO  - Sensor Lines Sensor (done) | time=2ms
+12:17:31.905 INFO  - Sensor SCM Sensor
+12:17:31.905 INFO  - No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+12:17:31.906 INFO  - Sensor SCM Sensor (done) | time=1ms
+12:17:31.906 INFO  - Sensor XmlFileSensor
+12:17:31.906 INFO  - Sensor XmlFileSensor (done) | time=0ms
+12:17:31.906 INFO  - Sensor Zero Coverage Sensor
+12:17:31.906 INFO  - Sensor Zero Coverage Sensor (done) | time=0ms
+12:17:31.906 INFO  - Sensor Code Colorizer Sensor
+12:17:31.906 INFO  - Sensor Code Colorizer Sensor (done) | time=0ms
+12:17:31.906 INFO  - Sensor CPD Block Indexer
+12:17:31.907 INFO  - Sensor CPD Block Indexer (done) | time=1ms
+12:17:31.910 INFO  - Calculating CPD for 0 files
+12:17:31.923 INFO  - CPD calculation finished
+12:17:32.158 INFO  - Analysis report generated in 229ms, dir size=12 KB
+12:17:32.179 INFO  - Analysis reports compressed in 19ms, zip size=4 KB
+12:17:32.840 INFO  - Analysis report uploaded in 660ms
+12:17:32.842 INFO  - ANALYSIS SUCCESSFUL, you can browse http://10.1.23.186:9000/sonar/dashboard/index/Building
+12:17:32.843 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+12:17:32.843 INFO  - More about the report processing at http://10.1.23.186:9000/sonar/api/ce/task?id=AV2cjLKIiT8DnR5Eg9JO
+12:17:32.877 INFO  - Task total time: 10.271 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 15.982s
+Final Memory: 15M/288M
+INFO: ------------------------------------------------------------------------
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Warning: ‘Access Control for Builds’ in global security configuration is empty, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Finished: FAILURE

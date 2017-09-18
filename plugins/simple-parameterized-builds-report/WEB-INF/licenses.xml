@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Simple Parameterized Builds Report Plugin' groupId='org.jenkins-ci.plugins' artifactId='simple-parameterized-builds-report' version='1.5' url='https://wiki.jenkins-ci.org/display/JENKINS/Simple+Parameterized+Builds+Report+plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

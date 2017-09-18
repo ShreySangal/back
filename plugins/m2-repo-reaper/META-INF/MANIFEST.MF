@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: benson
+Build-Jdk: 1.6.0_15
+Extension-Name: m2-repo-reaper
+Implementation-Title: m2-repo-reaper
+Implementation-Version: 1.0
+Short-Name: m2-repo-reaper
+Long-Name: M2 Repository Cleanup Plugin
+Url: https://hudson.dev.java.net/plugin/m2-repo-reaper
+Plugin-Version: 1.0
+Hudson-Version: 1.326
+Plugin-Dependencies: maven-plugin:1.326
+Plugin-Developers: Benson Margulies:bimargulies:bimargulies@gmail.com
+

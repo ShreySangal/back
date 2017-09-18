@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='git-chooser-alternative' version='1.1'><l:dependency name='Alternative build chooser' groupId='org.jenkins-ci.plugins' artifactId='git-chooser-alternative' version='1.1' url='http://wiki.jenkins-ci.org/display/JENKINS/Git+Chooser+Alternative+Plugin'><l:description>Use git branches as an ordered priority list</l:description></l:dependency></l:dependencies>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-01 05:57:10.475 UTC</timestamp>
+  <md5sum>d3df604a143fbbc10178f03b0093b208</md5sum>
+  <fileName>Credential id=6a9698e9-2a42-44db-9bfe-6f2f02906472 name=shreys-s/******</fileName>
+  <usages>
+    <entry>
+      <string>Building</string>
+      <ranges>2-23</ranges>
+    </entry>
+    <entry>
+      <string>Sourcing</string>
+      <ranges>1-24</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

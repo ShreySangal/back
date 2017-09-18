@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nhn
+Build-Jdk: 1.6.0_24
+Extension-Name: simpleupdatesite
+Implementation-Title: simpleupdatesite
+Implementation-Version: 1.1.2
+Plugin-Class: hudson.plugins.simpleupdatesite.SimpleUpdateSitePlugIn
+Group-Id: org.jenkins-ci.plugins
+Short-Name: simpleupdatesite
+Long-Name: SimpleUpdateSite Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/SimpleUpdateSite+Plugin
+Plugin-Version: 1.1.2
+Hudson-Version: 1.399
+Plugin-Developers: JunHo Yoon:junoyoon:junoyoon@gmail.com
+

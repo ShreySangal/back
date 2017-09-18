@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.58">
+  <smtpHost>10.1.23.186</smtpHost>
+  <useSsl>false</useSsl>
+  <smtpPort>1025</smtpPort>
+  <charset>UTF-8</charset>
+  <defaultContentType>text/html</defaultContentType>
+  <defaultSubject>$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!</defaultSubject>
+  <defaultBody>$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:&#xd;
+&#xd;
+Check console output at $BUILD_URL to view the results.&#xd;
+&#xd;
+Changes:&#xd;
+${CHANGES}&#xd;
+&#xd;
+Changes Since Last Success&#xd;
+${CHANGES_SINCE_LAST_SUCCESS}&#xd;
+&#xd;
+Failed Tests:&#xd;
+${FAILED_TESTS}&#xd;
+&#xd;
+Build Log:&#xd;
+${BUILD_LOG}&#xd;
+&#xd;
+Total Amount of Tests:&#xd;
+${TEST_COUNTS, var}&#xd;
+&#xd;
+Total = $TEST_COUNTS&#xd;
+Failed = ${TEST_COUNTS,var=&quot;fail&quot;}&#xd;
+&#xd;
+Total = $TEST_COUNTS&#xd;
+Passed = ${TEST_COUNTS,var=&quot;pass&quot;}&#xd;
+&#xd;
+Job Description:&#xd;
+${JOB_DESCRIPTION}</defaultBody>
+  <defaultPresendScript></defaultPresendScript>
+  <defaultPostsendScript></defaultPostsendScript>
+  <defaultClasspath/>
+  <defaultTriggerIds>
+    <string>hudson.plugins.emailext.plugins.trigger.FailureTrigger</string>
+  </defaultTriggerIds>
+  <maxAttachmentSize>-1</maxAttachmentSize>
+  <recipientList>shrey_s@hcl.com</recipientList>
+  <defaultReplyTo>shrey_s@hcl.com</defaultReplyTo>
+  <excludedCommitters></excludedCommitters>
+  <overrideGlobalSettings>true</overrideGlobalSettings>
+  <precedenceBulk>false</precedenceBulk>
+  <debugMode>false</debugMode>
+  <requireAdminForTemplateTesting>false</requireAdminForTemplateTesting>
+  <enableWatching>false</enableWatching>
+</hudson.plugins.emailext.ExtendedEmailPublisherDescriptor>

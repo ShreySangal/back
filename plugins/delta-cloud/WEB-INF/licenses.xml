@@ -1,0 +1,26 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='delta-cloud' groupId='org.jenkins-ci.plugins' artifactId='delta-cloud' version='1.0.1' url='https://wiki.jenkins-ci.org/display/JENKINS/Delta+Cloud+API+plugin'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='Java Client for DeltaCloud API' groupId='org.deltacloud' artifactId='deltacloudclient' version='2.1.1' url='http://deltacloud.org/'>
+    <l:description />
+  </l:dependency>
+  <l:dependency name='Apache Log4j' groupId='log4j' artifactId='log4j' version='1.2.15' url='http://logging.apache.org:80/log4j/1.2/'>
+    <l:description>Apache Log4j 1.2</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt' />
+  </l:dependency>
+  <l:dependency name='HttpClient' groupId='org.apache.httpcomponents' artifactId='httpclient' version='4.0.1' url='http://hc.apache.org/httpcomponents-client'>
+    <l:description>HttpComponents Client (base module)</l:description>
+    <l:license name='Apache License' url='../LICENSE.txt' />
+  </l:dependency>
+  <l:dependency name='JDOM' groupId='org.jdom' artifactId='jdom' version='1.1' url='http://www.jdom.org/'>
+    <l:description>JDOM is, quite simply, a Java representation of an XML document. JDOM provides a way to represent that document for
+    easy and efficient reading, manipulation, and writing. It has a straightforward API, is a lightweight and fast, and
+    is optimized for the Java programmer. It's an alternative to DOM and SAX, although it integrates well with both DOM
+    and SAX.</l:description>
+  </l:dependency>
+  <l:dependency name='HttpCore' groupId='org.apache.httpcomponents' artifactId='httpcore' version='4.0.1' url='http://hc.apache.org/httpcomponents-core/'>
+    <l:description>HttpComponents Core (Java 1.3 compatible)</l:description>
+    <l:license name='Apache License' url='http://www.apache.org/licenses/LICENSE-2.0.html' />
+  </l:dependency>
+</l:dependencies>

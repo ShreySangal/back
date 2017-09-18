@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.12.1">
+  <actions>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.1.5">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/CTC_Demo</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.19.0">
+      <doNotScan>false</doNotScan>
+    </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
+    <com.suryagaddipati.jenkins.SlaveUtilizationProperty plugin="slave-utilization-plugin@1.8">
+      <needsExclusiveAccessToNode>false</needsExclusiveAccessToNode>
+      <singleInstancePerSlave>false</singleInstancePerSlave>
+      <slaveUtilizationPercentage>0</slaveUtilizationPercentage>
+    </com.suryagaddipati.jenkins.SlaveUtilizationProperty>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.25">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.27.0">
+          <spec></spec>
+        </com.cloudbees.jenkins.GitHubPushTrigger>
+        <hudson.triggers.SCMTrigger>
+          <spec>* * * * *</spec>
+          <ignorePostCommitHooks>false</ignorePostCommitHooks>
+        </hudson.triggers.SCMTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.37">
+    <script>node(&apos;master&apos;) 
+{
+    timestamps 
+    {
+        stage(&apos;Sourcing&apos;) 
+        {
+            git credentialsId: &apos;ad2670a9-afea-4cf7-9108-d6e8b9ef5f87&apos;, url: &apos;https://github.com/shreys-s/game-of-life&apos;
+        }
+        stage(&apos;Build&apos;) 
+        {
+            sh &quot;&apos;/opt/maven/bin/mvn&apos; clean package&quot;
+        }
+        stage(&apos;Testing&apos;) 
+        {
+            junit testDataPublishers: [[$class: &apos;AttachmentPublisher&apos;], [$class: &apos;StabilityTestDataPublisher&apos;]], testResults: &apos;**/target/surefire-reports/*.xml&apos;
+        }
+        stage(&apos;Code Artifactory&apos;)
+        {
+            step([$class: &apos;NexusArtifactUploader&apos;, artifacts: [[artifactId: &apos;game&apos;, classifier: &apos;BN_${BUILD_NUMBER}&apos;, file: &apos;/var/lib/jenkins/workspace/CTC_game/gameoflife-web/target/gameoflife.war&apos;, type: &apos;war&apos;], [artifactId: &apos;game&apos;, classifier: &apos;BN_${BUILD_NUMBER}&apos;, file: &apos;/var/lib/jenkins/workspace/CTC_game/DB/create_data.sql&apos;, type: &apos;sql&apos;]], credentialsId: &apos;bfd5555c-67be-4d82-9f04-b0b1350979af&apos;, groupId: &apos;com.ctc.devops&apos;, nexusUrl: &apos;10.1.23.186:8081/nexus&apos;, nexusVersion: &apos;nexus2&apos;, protocol: &apos;http&apos;, repository: &apos;DryiCE&apos;, version: &apos;1.0&apos;])
+        }
+        stage(&apos;Code Deploy&apos;)
+        {
+            sh returnStatus: true, script: &apos;&apos;&apos;cd /home/dryice2;rm -rf /home/dryice2/package;mkdir -p /home/dryice2/package/app;mkdir -p /home/dryice2/package/db;chmod -R 777 /home/dryice2/package;cd /home/dryice2/package/app;
+wget --user=shrey_s --password=Unix_11 &quot;http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_${BUILD_NUMBER}.war&quot;
+cd /home/dryice2/package/app;mv game-1.0-BN_${BUILD_NUMBER}.war game.war;cd /home/dryice2/package/db;
+wget --user=shrey_s --password=Unix_11 &quot;http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_${BUILD_NUMBER}.sql&quot;
+cd /home/dryice2/package/db;mv game-1.0-BN_${BUILD_NUMBER}.sql game.sql;
+cd /home/dryice2;chmod -R 777 /home/dryice2/package;cd /home/dryice2/webapps;cp -r /home/dryice2/package/app/game.war .;jar -xvf game.war&apos;&apos;&apos;
+        }
+        stage(&apos;Database Deploy &apos;)
+        {
+            sh returnStatus: true, script: &apos;&apos;&apos;export ORACLE_BASE=/home/oracle/u02/app/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/fmw12cr3
+export ORACLE_SID=dryice
+export ORACLE_TERM=xterm
+export MW_HOME=/opt/weblogic1213
+export WLS_HOME=$MW_HOME/wlserver
+export WL_HOME=$WLS_HOME
+LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export LD_LIBRARY_PATH
+export PATH=$JAVA_HOME/bin:$HOME/.local/bin:$HOME/bin:$ORACLE_BASE:$ORACLE_HOME:$ORACLE_HOME/bin:$PATH
+cd /home/dryice2/package/db;
+echo exit | /home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus -S dryice2/dryice2@dryice @game.sql&apos;&apos;&apos;
+        }
+        stage(&apos;Mail&apos;)
+        {
+            emailext body: &apos;${JELLY_SCRIPT,template=&quot;html&quot;}&apos;, mimeType: &apos;text/html&apos;, recipientProviders: [[$class: &apos;RequesterRecipientProvider&apos;]], replyTo: &apos;shrey_s@hcl.com&apos;, subject: &apos;$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!&apos;, to: &apos;shrey_s@hcl.com&apos;
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

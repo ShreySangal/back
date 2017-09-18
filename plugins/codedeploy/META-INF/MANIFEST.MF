@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ubuntu
+Build-Jdk: 1.7.0_80
+Extension-Name: codedeploy
+Specification-Title: Adds a post-build step to integrate Jenkins with 
+ AWS CodeDeploy
+Implementation-Title: codedeploy
+Implementation-Version: 1.17
+Group-Id: com.amazonaws
+Short-Name: codedeploy
+Long-Name: AWS CodeDeploy Plugin for Jenkins
+Url: https://wiki.jenkins-ci.org/display/JENKINS/AWS+Codedeploy+plugin
+Plugin-Version: 1.17
+Hudson-Version: 1.612
+Jenkins-Version: 1.612
+Plugin-Dependencies: aws-java-sdk:1.11.119
+Plugin-Developers: Josh Mcfarlane:jmcfar:jmcfar@amazon.com
+

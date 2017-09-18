@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>4</counter>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.SCMTrigger_-SCMTriggerCause>
+                <pollingLog>Started on Jun 22, 2017 1:56:00 AM
+No existing build. Scheduling a new one.
+Done. Took 1 ms
+Changes found
+</pollingLog>
+              </hudson.triggers.SCMTrigger_-SCMTriggerCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+        <com.datalex.jenkins.plugins.nodestalker.wrapper.MyNodeAssignmentAction plugin="job-node-stalker@1.0.5"/>
+        <jenkins.scm.cvs.QuietPeriodCompleted plugin="cvs@2.13">
+          <timestamp>1498076769344</timestamp>
+        </jenkins.scm.cvs.QuietPeriodCompleted>
+      </actions>
+      <id>4</id>
+      <task class="hudson.maven.MavenModuleSet">DemoSite</task>
+      <inQueueSince>1498076760983</inQueueSince>
+      <buildableStartMilliseconds>1498076769344</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+</hudson.model.Queue_-State>

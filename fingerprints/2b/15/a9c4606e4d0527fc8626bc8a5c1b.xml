@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:37:01.323 UTC</timestamp>
+  <original>
+    <name>GitMavenBuild/com.hcl.app:devops-dryice</name>
+    <number>1</number>
+  </original>
+  <md5sum>2b15a9c4606e4d0527fc8626bc8a5c1b</md5sum>
+  <fileName>com.hcl.app:devops-dryice:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>GitMavenBuild/com.hcl.app:devops-dryice</string>
+      <ranges>1-4,6-8</ranges>
+    </entry>
+    <entry>
+      <string>GitMavenBuild</string>
+      <ranges>1-4,6-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

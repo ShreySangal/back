@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: michaelfazio
+Build-Jdk: 1.8.0_73
+Extension-Name: hp-quality-center
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: hp-quality-center
+Implementation-Version: 1.2
+Group-Id: org.jenkins-ci.plugins.qc
+Short-Name: hp-quality-center
+Long-Name: HP ALM Quality Center Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/HP+ALM+Quality+Center
+ +Plugin
+Plugin-Version: 1.2
+Hudson-Version: 1.565.3
+Jenkins-Version: 1.565.3
+Plugin-Developers: Michael Fazio::michaelfazio@me.com
+

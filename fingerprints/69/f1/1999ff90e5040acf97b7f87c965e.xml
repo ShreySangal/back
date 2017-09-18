@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-28 10:17:44.730 UTC</timestamp>
+  <md5sum>69f11999ff90e5040acf97b7f87c965e</md5sum>
+  <fileName>org.seleniumhq.selenium:selenium-leg-rc-2.52.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

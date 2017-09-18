@@ -1,0 +1,92 @@
+Started by upstream project "[8mha:////4FNEcoCx1XF46BqrQspE1AL2aUjFrJH+3S9vHMVzZkmjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JH3HvOLMpJxUfQBmzeh0wgAAAA==[0mAnsible" build number [8mha:////4P+QlcjHWwLyE+qUQFf7tYtT/0fMFdFNYWqBAwpNtHk7AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwkfce84syknFR9IwBRRHGhwwAAAA==[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4LAg5aXzvzi/ARFNnzFiWQAb14SbgytLUbMt33q1urC2AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH1XZyOfxNK85Az9lNS0xNKcEn0A/dlN08wAAAA=[0mEC2Launch/default" build number [8mha:////4Kr973LZqY1y28e6p/atBT93/MHw7nsAajjzfnLsKATpAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwkfVdnI5/E0rzkDP2U1LTE0pwSfSMAusMOIM0AAAA=[0m2
+ originally caused by:
+  Started by upstream project "[8mha:////4GT+PduGwXNhqGYTjqBkKb7Hi3h+RNu2YCwl6D9Jqr4mAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH1XZyOfxNK85Ax9AAaegcXEAAAA[0mEC2Launch" build number [8mha:////4DdI1HE07TaBwDT9QJ616fUpGFjlAY53vNJ4Wno5m5XfAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfVdnI5/E0rzkDH0jALzme7/FAAAA[0m2
+  originally caused by:
+   Started by upstream project "[8mha:////4CzbJeop/KsMJ/0G0snSjN3686tx4VY8CBWz/3a0W02IAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP2wAOfg0qS81BL9lNS0xNKcEn0A9FwKUcwAAAA=[0mVPCSubnet/default" build number [8mha:////4LLfXe00vln4EMcsBogHekakZ1ojISOofCEx2S58BFDOAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgn9rPwk/bAA5+DSpLzUEv2U1LTE0pwSfSMAmzxQWc0AAAA=[0m2
+   originally caused by:
+    Started by upstream project "[8mha:////4EAzgSgSWSiq0D9V4td/5u5WsOX5YCavmoiH0aaRK1fMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2wAOfg0qS81BJ9AICNRMXEAAAA[0mVPCSubnet" build number [8mha:////4P7Gn9heHbjbEXJrDI+9l4bQ45wiR6KYw4l4sUi5o9L3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/bAA5+DSpLzUEn0jALoFoLvFAAAA[0m2
+    originally caused by:
+     Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/Ansible/default
+[default] $ /bin/ksh -xe /tmp/hudson1725907551137917702.sh
++ echo TestHostname 10.0.5.91
+TestHostname 10.0.5.91
++ ssh test@ansibleserver bash -x ./ansible_test/newserver.sh TestHostname 10.0.5.91
++ servername=TestHostname
++ serverip=10.0.5.91
++ hostsfile=/etc/hosts
+++ grep -e 10.0.5.91 /etc/hosts
++ testhost=
++ '[' '!' -z '' -a '!= ' ']'
++ echo 10.0.5.91 TestHostname
+./ansible_test/newserver.sh: line 9: /etc/hosts: Permission denied
++ inventoryfile=/home/test/ansible_test/host
+++ grep -e 10.0.5.91 /home/test/ansible_test/host
++ testinventory=
++ '[' '!' -z '' -a '!= ' ']'
++ echo 10.0.5.91
++ port=5985
++ grep -q Escape
++ telnet -c 10.0.5.91 5985
++ echo '5985 : no connection'
+5985 : no connection
+++ /usr/bin/ansible-playbook /home/test/playbooks/iis.yml --limit 10.0.5.91 -vvvvv
+ [WARNING]: provided hosts list is empty, only localhost is available
++ output='Using /etc/ansible/ansible.cfg as config file
+Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc
+
+PLAYBOOK: iis.yml **************************************************************
+1 plays in /home/test/playbooks/iis.yml
+
+PLAY [Install IIS] *************************************************************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************'
+Using /etc/ansible/ansible.cfg as config file Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc PLAYBOOK: iis.yml AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 1 plays in /home/test/playbooks/iis.yml PLAY [Install IIS] AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip skipping: no hosts matched PLAY RECAP AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip
++ echo Using /etc/ansible/ansible.cfg as config file Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc PLAYBOOK: iis.yml AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 1 plays in /home/test/playbooks/iis.yml PLAY '[Install' 'IIS]' AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip skipping: no hosts matched PLAY RECAP AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip
++ echo Using /etc/ansible/ansible.cfg as config file Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc PLAYBOOK: iis.yml AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip 1 plays in /home/test/playbooks/iis.yml PLAY '[Install' 'IIS]' AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip skipping: no hosts matched PLAY RECAP AddSSHEnv.ksh ansible_test database fmw_12.1.3.0.0_wls.jar id_rsa.pub.hotfix jenkins_slave playbooks rpmbuild ssh-copy-id supportRpms test.sh V47115-01_1of2.zip V47115-01_2of2.zip weblogic1213.zip
+++ sed -n '/ok=/{s/.*ok=//;p;}' newfile
+++ cut -d ' ' -f1
++ result=
++ rm -rf newfile
+Failed
++ '[' -eq 1 ']'
++ echo Failed
++ sed -ie '\|^10.0.5.91  TestHostname$|d' /etc/hosts
+sed: couldn't open temporary file /etc/sedtaodgN: Permission denied
++ sed -ie '\|^10.0.5.91$|d' /home/test/ansible_test/host
++ exit 1
+Build step 'Execute shell' marked build as failure
+Performing Post build task...
+Match found for : : True
+Logical operation result is TRUE
+Running script  : export AMIID=`cat /tmp/variable.properties`
+echo ""
+echo " The new AMI ID created by AWS CLI : " $AMIID
+echo ""
+cat /tmp/variable.properties
+echo ""
+
+[default] $ /bin/ksh -xe /tmp/hudson1266668439809353336.sh
++ cat /tmp/variable.properties
+cat: /tmp/variable.properties: No such file or directory
++ AMIID=''
++ export AMIID
++ echo ''
+
++ echo ' The new AMI ID created by AWS CLI : '
+ The new AMI ID created by AWS CLI : 
++ echo ''
+
++ cat /tmp/variable.properties
+cat: /tmp/variable.properties: No such file or directory
+POST BUILD TASK : FAILURE
+END OF POST BUILD TASK : 0
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

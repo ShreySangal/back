@@ -1,0 +1,19 @@
+Started on Sep 18, 2017 10:41:00 AM
+Polling SCM changes on master
+Using strategy: Default
+[poll] Last Built Revision: Revision 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e (origin/master, origin/feature1, origin/feature2, refs/tags/jenkins-DSL-Tutorial-1-Test-7, refs/tags/jenkins-DSL-Tutorial-1-Test-8, refs/tags/jenkins-DSL-Tutorial-1-Test-9)
+Selected Git installation does not exist. Using Default
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repositories
+ > /bin/git config remote.origin.url git://github.com/quidryan/aws-sdk-test.git # timeout=10
+Fetching upstream changes from git://github.com/quidryan/aws-sdk-test.git
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress git://github.com/quidryan/aws-sdk-test.git +refs/heads/*:refs/remotes/origin/*
+Polling for changes in
+Seen branch in repository origin/feature1
+Seen branch in repository origin/feature2
+Seen branch in repository origin/master
+Seen 3 remote branches
+ > /bin/git tag -l # timeout=10
+Done. Took 0.65 sec
+No changes

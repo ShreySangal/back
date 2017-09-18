@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='exclusive-execution' version='0.8'><l:dependency name='Jenkins Exclusive Execution Plugin' groupId='org.jenkins-ci.plugins' artifactId='exclusive-execution' version='0.8' url='http://wiki.jenkins-ci.org/display/JENKINS/Exclusive+Execution+Plugin'><l:description>This plugin allows for the execution of a job when no other jobs are running.</l:description><l:license name='MIT license' url=''/></l:dependency></l:dependencies>

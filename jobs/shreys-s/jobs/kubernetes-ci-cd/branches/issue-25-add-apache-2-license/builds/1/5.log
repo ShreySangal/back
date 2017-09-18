@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/shreys-s/kubernetes-ci-cd.git
+ > /bin/git init /var/lib/jenkins/workspace/sue-25-add-apache-2-license-M77CIJFSTBXNVGK3PJRR3IJFE3GJUWHXXEUKD3EL3JAX4AENTPQA # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/kubernetes-ci-cd.git
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/kubernetes-ci-cd.git +refs/heads/issue-25-add-apache-2-license:refs/remotes/origin/issue-25-add-apache-2-license
+ > /bin/git config remote.origin.url https://github.com/shreys-s/kubernetes-ci-cd.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/issue-25-add-apache-2-license:refs/remotes/origin/issue-25-add-apache-2-license # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/kubernetes-ci-cd.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/shreys-s/kubernetes-ci-cd.git
+using GIT_ASKPASS to set credentials Github Access Token
+ > /bin/git fetch --no-tags --progress https://github.com/shreys-s/kubernetes-ci-cd.git +refs/heads/issue-25-add-apache-2-license:refs/remotes/origin/issue-25-add-apache-2-license
+Checking out Revision 85ccaa6c3d9ca1277f1b407609d98d3ec64e9fe5 (issue-25-add-apache-2-license)
+Commit message: "Add license footer to README.md"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 85ccaa6c3d9ca1277f1b407609d98d3ec64e9fe5
+First time build. Skipping changelog.

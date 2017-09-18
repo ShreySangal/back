@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: arnau
+Build-Jdk: 1.7.0_79
+Extension-Name: nuget
+Specification-Title: NuGet package updates trigger Jenkins builds
+Implementation-Title: nuget
+Implementation-Version: 0.6
+Plugin-Class: org.jenkinsci.plugins.nuget.NugetPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: nuget
+Long-Name: Jenkins Nuget Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Nuget+Plugin
+Plugin-Version: 0.6
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Arnaud TAMAILLON:greybird:arnaud.dev@gmail.com,Bria
+ n Gregg:baritonehands:biscuitalmighty@gmail.com
+

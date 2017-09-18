@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: 1
+Build-Jdk: 1.6.0_21
+Extension-Name: storable-configs-plugin
+Specification-Title: This plugin allows you to save and load set of jo
+ b parameters.
+Implementation-Title: storable-configs-plugin
+Implementation-Version: 1.0
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: storable-configs-plugin
+Long-Name: Storable Configs plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Storable+Configs+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.366
+Plugin-Dependencies: selection-tasks-plugin:1.0;resolution:=optional
+Plugin-Developers: Nikita Zhelyakov:nzhelyakov:nzhelyakov@gmail.com
+

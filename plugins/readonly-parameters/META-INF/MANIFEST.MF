@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: main
+Build-Jdk: 1.6.0_32
+Extension-Name: readonly-parameters
+Specification-Title: Integrates Jenkins to build with readonly parameter
+Specification-Vendor: wangyin
+Implementation-Vendor: wangyin
+Implementation-Title: readonly-parameters
+Implementation-Version: 1.0.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: readonly-parameters
+Long-Name: Readonly Parameter plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Readonly+Parameter+Pl
+ ugin
+Plugin-Version: 1.0.0
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+PluginFirstClassLoader: true
+Plugin-Developers: wy-scm:wy-scm:
+

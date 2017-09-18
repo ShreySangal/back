@@ -1,0 +1,360 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/sharedspace
+Disk space threshold is set to :0Gb
+Checking disk space Now 
+diskspace is 35150241792
+Total Disk space in workspace is 35150241792
+Total Disk Space Available is: 32Gb
+ Node Name: master
+Running Prebuild steps
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/job-dsl-gradle-example # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/job-dsl-gradle-example
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/job-dsl-gradle-example +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9c78ce7851d982470439cbd8cc638a69efb1dbb9 (refs/remotes/origin/master)
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 9c78ce7851d982470439cbd8cc638a69efb1dbb9
+ > /bin/git rev-list 9c78ce7851d982470439cbd8cc638a69efb1dbb9 # timeout=10
+No emails were triggered.
+[Gradle] - Launching build.
+[sharedspace] $ /opt/gradle/gradle-3.4.1/bin/gradle clean test
+Starting a Gradle Daemon (subsequent builds will be faster)
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:clean UP-TO-DATE
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:compileJava NO-SOURCE
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:compileGroovy
+Download https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-all/2.4.7/groovy-all-2.4.7.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/job-dsl-core/1.63/job-dsl-core-1.63.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.pom
+Download https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.7/ant-1.9.7.pom
+Download https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.7/ant-parent-1.9.7.pom
+Download https://repo1.maven.org/maven2/xmlunit/xmlunit/1.4/xmlunit-1.4.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.1/httpcomponents-client-4.2.1.pom
+Download https://repo1.maven.org/maven2/net/sf/json-lib/json-lib/2.3/json-lib-2.3.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.pom
+Download https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.pom
+Download https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.1/httpcomponents-core-4.2.1.pom
+Download https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-all/2.4.7/groovy-all-2.4.7.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/job-dsl-core/1.63/job-dsl-core-1.63.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.jar
+Download https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.7/ant-1.9.7.jar
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+Download https://repo1.maven.org/maven2/xmlunit/xmlunit/1.4/xmlunit-1.4.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar
+Download https://repo1.maven.org/maven2/net/sf/json-lib/json-lib/2.3/json-lib-2.3-jdk15.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar
+Download https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
+Download https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
+Download https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:processResources
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:classes
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:resolveTestPlugins
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/ghprb/1.31.4/ghprb-1.31.4.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.596.1/plugin-1.596.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.34/jenkins-1.34.pom
+Download http://repo.jenkins-ci.org/releases/com/coravy/hudson/plugins/github/github/1.19.0/github-1.19.0.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/plugin/2.6/plugin-2.6.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/cloudbees-folder/5.0/cloudbees-folder-5.0.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.609.1/plugin-1.609.1.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/matrix-project/1.6/matrix-project-1.6.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.609/plugin-1.609.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/github-api/1.72.1/github-api-1.72.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.424/plugin-1.424.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.21/jenkins-1.21.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/git/2.2.4/git-2.2.4.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.509/plugin-1.509.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.30/jenkins-1.30.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/ssh-agent/1.3/ssh-agent-1.3.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.466/plugin-1.466.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/credentials/1.21/credentials-1.21.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.520/plugin-1.520.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.31/jenkins-1.31.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plain-credentials/1.1/plain-credentials-1.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.580.1/plugin-1.580.1.pom
+Download https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/3.0.0/annotations-3.0.0.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/junit/1.2/junit-1.2.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.577/plugin-1.577.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/script-security/1.13/script-security-1.13.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.509.4/plugin-1.509.4.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/github-api/1.72/github-api-1.72.pom
+Download https://repo1.maven.org/maven2/com/squareup/okhttp/okhttp-urlconnection/2.5.0/okhttp-urlconnection-2.5.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/okhttp/parent/2.5.0/parent-2.5.0.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.4.1.201406201815-r/org.eclipse.jgit-3.4.1.201406201815-r.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/3.4.1.201406201815-r/org.eclipse.jgit-parent-3.4.1.201406201815-r.pom
+Download https://repo1.maven.org/maven2/joda-time/joda-time/2.4/joda-time-2.4.pom
+Download https://repo1.maven.org/maven2/com/infradna/tool/bridge-method-annotation/1.12/bridge-method-annotation-1.12.pom
+Download https://repo1.maven.org/maven2/com/infradna/tool/bridge-method-injector-parent/1.12/bridge-method-injector-parent-1.12.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/git-client/1.10.1/git-client-1.10.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/ssh-credentials/1.7.1/ssh-credentials-1.7.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/scm-api/0.2/scm-api-0.2.pom
+Download https://repo1.maven.org/maven2/org/apache/sshd/sshd-core/0.8.0/sshd-core-0.8.0.pom
+Download https://repo1.maven.org/maven2/org/apache/sshd/sshd/0.8.0/sshd-0.8.0.pom
+Download https://repo1.maven.org/maven2/tomcat/tomcat-apr/5.5.23/tomcat-apr-5.5.23.pom
+Download https://repo1.maven.org/maven2/tomcat/tomcat-parent/5.5.23/tomcat-parent-5.5.23.pom
+Download https://repo1.maven.org/maven2/org/slf4j/slf4j-jdk14/1.6.6/slf4j-jdk14-1.6.6.pom
+Download https://repo1.maven.org/maven2/com/cloudbees/util/jnr-unixsocket-nodep/0.1/jnr-unixsocket-nodep-0.1.pom
+Download https://repo1.maven.org/maven2/com/cloudbees/cloudbees-oss-parent/2/cloudbees-oss-parent-2.pom
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.7/commons-codec-1.7.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/26/commons-parent-26.pom
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.pom
+Download https://repo1.maven.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom
+Download https://repo1.maven.org/maven2/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/project/5/project-5.pom
+Download https://repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.pom
+Download https://repo1.maven.org/maven2/org/apache/mina/mina-core/2.0.5/mina-core-2.0.5.pom
+Download https://repo1.maven.org/maven2/org/apache/mina/mina-parent/2.0.5/mina-parent-2.0.5.pom
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.pom
+Download https://repo1.maven.org/maven2/com/fasterxml/oss-parent/10/oss-parent-10.pom
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.pom
+Download https://repo1.maven.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/okio/okio-parent/1.6.0/okio-parent-1.6.0.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/token-macro/1.11/token-macro-1.11.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.565.3/plugin-1.565.3.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.33/jenkins-1.33.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/credentials/1.22/credentials-1.22.pom
+Download https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/git/2.4.0/git-2.4.0.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.580/plugin-1.580.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/mailer/1.15/mailer-1.15.pom
+Download https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/git-client/1.18.0/git-client-1.18.0.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.532.2/plugin-1.532.2.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/3.7.1.201504261725-r/org.eclipse.jgit-parent-3.7.1.201504261725-r.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/ssh-credentials/1.11/ssh-credentials-1.11.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/ghprb/1.31.4/ghprb-1.31.4.hpi
+Download http://repo.jenkins-ci.org/releases/com/coravy/hudson/plugins/github/github/1.19.0/github-1.19.0.hpi
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/cloudbees-folder/5.0/cloudbees-folder-5.0.hpi
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/matrix-project/1.6/matrix-project-1.6.hpi
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/github-api/1.72.1/github-api-1.72.1.hpi
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/ssh-agent/1.3/ssh-agent-1.3.hpi
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plain-credentials/1.1/plain-credentials-1.1.hpi
+Download https://repo1.maven.org/maven2/com/google/code/findbugs/annotations/3.0.0/annotations-3.0.0.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/junit/1.2/junit-1.2.hpi
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/script-security/1.13/script-security-1.13.hpi
+Download https://repo1.maven.org/maven2/org/kohsuke/github-api/1.72/github-api-1.72.jar
+Download https://repo1.maven.org/maven2/com/squareup/okhttp/okhttp-urlconnection/2.5.0/okhttp-urlconnection-2.5.0.jar
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/scm-api/0.2/scm-api-0.2.hpi
+Download https://repo1.maven.org/maven2/org/apache/sshd/sshd-core/0.8.0/sshd-core-0.8.0.jar
+Download https://repo1.maven.org/maven2/tomcat/tomcat-apr/5.5.23/tomcat-apr-5.5.23.jar
+Download https://repo1.maven.org/maven2/com/cloudbees/util/jnr-unixsocket-nodep/0.1/jnr-unixsocket-nodep-0.1.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+Download https://repo1.maven.org/maven2/com/squareup/okhttp/okhttp/2.5.0/okhttp-2.5.0.jar
+Download https://repo1.maven.org/maven2/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar
+Download https://repo1.maven.org/maven2/org/apache/mina/mina-core/2.0.5/mina-core-2.0.5.jar
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+Download https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar
+Download https://repo1.maven.org/maven2/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/token-macro/1.11/token-macro-1.11.hpi
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/credentials/1.22/credentials-1.22.hpi
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/git/2.4.0/git-2.4.0.hpi
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/mailer/1.15/mailer-1.15.hpi
+Download https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+Download https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/git-client/1.18.0/git-client-1.18.0.hpi
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/ssh-credentials/1.11/ssh-credentials-1.11.hpi
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:compileTestJava NO-SOURCE
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:compileTestGroovy
+Download https://repo1.maven.org/maven2/org/spockframework/spock-core/1.0-groovy-2.4/spock-core-1.0-groovy-2.4.pom
+Download https://repo1.maven.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-test-harness/2.8/jenkins-test-harness-2.8.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/jenkins/1.35/jenkins-1.35.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-war/1.651/jenkins-war-1.651.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/pom/1.651/pom-1.651.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/job-dsl/1.63/job-dsl-1.63.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.2/structs-1.2.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs-parent/1.2/structs-parent-1.2.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/plugin/2.4/plugin-2.4.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.15.v20160210/jetty-webapp-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.2.15.v20160210/jetty-project-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/23/jetty-parent-23.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.15.v20160210/jetty-security-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.pom
+Download https://repo1.maven.org/maven2/org/jvnet/hudson/hudson/1.7/hudson-1.7.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/lib/lib-jenkins-maven-embedder/3.11/lib-jenkins-maven-embedder-3.11.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.32/jenkins-1.32.pom
+Download https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.1.0/org.eclipse.sisu.plexus-0.1.0.pom
+Download https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.1.0/sisu-plexus-0.1.0.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core/1.651/jenkins-core-1.651.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/remoting/2.53.3/remoting-2.53.3.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/modules/instance-identity/1.5.1/instance-identity-1.5.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/modules/ssh-cli-auth/1.2/ssh-cli-auth-1.2.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.417/plugin-1.417.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/modules/slave-installer/1.5/slave-installer-1.5.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.498/plugin-1.498.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.29/jenkins-1.29.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/modules/windows-slave-installer/1.5.1/windows-slave-installer-1.5.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/modules/launchd-slave-installer/1.2/launchd-slave-installer-1.2.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/modules/upstart-slave-installer/1.1/upstart-slave-installer-1.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/plugins/plugin/1.523/plugin-1.523.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/modules/sshd/1.6/sshd-1.6.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/symbol-annotation/1.1/symbol-annotation-1.1.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/script-security/1.25/script-security-1.25.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.2.15.v20160210/jetty-xml-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.15.v20160210/jetty-servlet-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.15.v20160210/jetty-server-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5/httpcomponents-client-4.5.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.2.12.v20150709/jetty-project-9.2.12.v20150709.pom
+Download https://repo1.maven.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/icon-shim/icon-shim-pom/1.0.5/icon-shim-pom-1.0.5.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/cli/1.651/cli-1.651.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/version-number/1.1/version-number-1.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.24/jenkins-1.24.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/crypto-util/1.1/crypto-util-1.1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jenkins/1.12/jenkins-1.12.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/trilead-ssh2/build217-jenkins-8/trilead-ssh2-build217-jenkins-8.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-groovy/1.239/stapler-groovy-1.239.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-parent/1.239/stapler-parent-1.239.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-jrebel/1.239/stapler-jrebel-1.239.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-adjunct-zeroclipboard/1.3.5-1/stapler-adjunct-zeroclipboard-1.3.5-1.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/bytecode-compatibility-transformer/1.8/bytecode-compatibility-transformer-1.8.pom
+Download http://repo.jenkins-ci.org/releases/org/jvnet/localizer/localizer-parent/1.23/localizer-parent-1.23.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.10/commons-compress-1.10.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/38/commons-parent-38.pom
+Download https://repo1.maven.org/maven2/com/sun/mail/all/1.4.4/all-1.4.4.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/commons-jexl/1.1-jenkins-20111212/commons-jexl-1.1-jenkins-20111212.pom
+Download https://repo1.maven.org/maven2/org/acegisecurity/acegi-security-parent/1.0.7/acegi-security-parent-1.0.7.pom
+Download https://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0.pom
+Download https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom
+Download https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.pom
+Download https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/memory-monitor/1.9/memory-monitor-1.9.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/jmdns/3.4.0-jenkins-3/jmdns-3.4.0-jenkins-3.pom
+Download https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.1/jna-4.2.1.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/akuma/1.10/akuma-1.10.pom
+Download https://repo1.maven.org/maven2/org/jvnet/libzfs/libzfs/0.5/libzfs-0.5.pom
+Download https://repo1.maven.org/maven2/com/sun/solaris/embedded_su4j/1.1/embedded_su4j-1.1.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/jinterop/j-interop-parent/2.0.6-kohsuke-1/j-interop-parent-2.0.6-kohsuke-1.pom
+Download https://jcenter.bintray.com/org/jvnet/robust-http-client/robust-http-client/1.2/robust-http-client-1.2.pom
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.54/bcpkix-jdk15on-1.54.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.15.v20160210/jetty-http-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom
+Download https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+Download https://repo1.maven.org/maven2/cglib/cglib/3.0/cglib-3.0.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-jelly/1.239/stapler-jelly-1.239.pom
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler/1.239/stapler-1.239.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/commons-jelly/1.1-jenkins-20120928/commons-jelly-1.1-jenkins-20120928.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.6/structs-1.6.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs-parent/1.6/structs-parent-1.6.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/plugin/2.14/plugin-2.14.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.pom
+Download https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.pom
+Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom
+Download https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.pom
+Download https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.1.0/org.eclipse.sisu.inject-0.1.0.pom
+Download https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.1.0/sisu-inject-0.1.0.pom
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.54/bcprov-jdk15on-1.54.pom
+Download https://jcenter.bintray.com/org/jenkins-ci/annotation-indexer/1.9/annotation-indexer-1.9.pom
+Download https://repo1.maven.org/maven2/org/jvnet/tiger-types/1.3/tiger-types-1.3.pom
+Download https://repo1.maven.org/maven2/xom/xom/1.0b3/xom-1.0b3.pom
+Download https://repo1.maven.org/maven2/xerces/xmlParserAPIs/2.6.1/xmlParserAPIs-2.6.1.pom
+Download https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.pom
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/symbol-annotation/1.6/symbol-annotation-1.6.pom
+Download https://repo1.maven.org/maven2/org/spockframework/spock-core/1.0-groovy-2.4/spock-core-1.0-groovy-2.4.jar
+Download https://repo1.maven.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-test-harness/2.8/jenkins-test-harness-2.8.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-war/1.651/jenkins-war-1.651.war
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-war/1.651/jenkins-war-1.651-war-for-test.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/job-dsl/1.63/job-dsl-1.63.hpi
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/job-dsl/1.63/job-dsl-1.63.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/cloudbees-folder/5.0/cloudbees-folder-5.0.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.15.v20160210/jetty-webapp-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.15.v20160210/jetty-security-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar
+Download https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.1.0/org.eclipse.sisu.plexus-0.1.0.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/jenkins-core/1.651/jenkins-core-1.651.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/remoting/2.53.3/remoting-2.53.3.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/modules/instance-identity/1.5.1/instance-identity-1.5.1.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/modules/windows-slave-installer/1.5.1/windows-slave-installer-1.5.1.jar
+Download https://jcenter.bintray.com/org/jenkins-ci/modules/sshd/1.6/sshd-1.6.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/script-security/1.25/script-security-1.25.hpi
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.2.15.v20160210/jetty-xml-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.15.v20160210/jetty-servlet-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.15.v20160210/jetty-server-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar
+Download https://repo1.maven.org/maven2/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar
+Download https://repo1.maven.org/maven2/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar
+Download https://repo1.maven.org/maven2/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/main/cli/1.651/cli-1.651.jar
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-groovy/1.239/stapler-groovy-1.239.jar
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-jrebel/1.239/stapler-jrebel-1.239.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/bytecode-compatibility-transformer/1.8/bytecode-compatibility-transformer-1.8.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.10/commons-compress-1.10.jar
+Download https://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0.jar
+Download https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar
+Download https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar
+Download https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.1/jna-4.2.1.jar
+Download https://repo1.maven.org/maven2/org/kohsuke/akuma/1.10/akuma-1.10.jar
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.54/bcpkix-jdk15on-1.54.jar
+Download https://repo1.maven.org/maven2/org/kohsuke/groovy-sandbox/1.10/groovy-sandbox-1.10.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.15.v20160210/jetty-util-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.15.v20160210/jetty-http-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.15.v20160210/jetty-io-9.2.15.v20160210.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar
+Download https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar
+Download https://repo1.maven.org/maven2/cglib/cglib/3.0/cglib-3.0.jar
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler-jelly/1.239/stapler-jelly-1.239.jar
+Download https://repo1.maven.org/maven2/org/kohsuke/stapler/stapler/1.239/stapler-1.239.jar
+Download https://repo1.maven.org/maven2/xerces/xerces/2.2.1/xerces-2.2.1.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-beans/2.5.6.SEC03/spring-beans-2.5.6.SEC03.jar
+Download https://repo1.maven.org/maven2/org/springframework/spring-context/2.5.6.SEC03/spring-context-2.5.6.SEC03.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.6/structs-1.6.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/structs/1.6/structs-1.6.hpi
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar
+Download https://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar
+Download https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar
+Download https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.1.0/org.eclipse.sisu.inject-0.1.0.jar
+Download https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.54/bcprov-jdk15on-1.54.jar
+Download https://jcenter.bintray.com/org/jenkins-ci/annotation-indexer/1.9/annotation-indexer-1.9.jar
+Download https://repo1.maven.org/maven2/xom/xom/1.0b3/xom-1.0b3.jar
+Download https://repo1.maven.org/maven2/xerces/xmlParserAPIs/2.6.1/xmlParserAPIs-2.6.1.jar
+Download https://repo1.maven.org/maven2/com/ibm/icu/icu4j/2.6.1/icu4j-2.6.1.jar
+Download https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/0.9.7/tagsoup-0.9.7.jar
+Download http://repo.jenkins-ci.org/releases/org/jenkins-ci/symbol-annotation/1.6/symbol-annotation-1.6.jar
+Download https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.jar
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:processTestResources NO-SOURCE
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:testClasses
+[8mha:////4JKpyBasZPg8OPwq6VkPonTVNregEPJVQHXu3a+CboQnAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:test
+
+[8mha:////4AFomBkPgX5WT1RvQSKHC96Vk98ZfXTOXQjRjUBQB/7oAAAAYx+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUz5l5Yk5+em+uWXpBabBRd0uewzZWJgqChikILqSs7PK84HKneG0CCFDBDACFJYAAAMk/XNZQAAAA==[0mBUILD SUCCESSFUL
+
+Total time: 9 mins 8.494 secs
+Build step 'Invoke Gradle script' changed build result to SUCCESS
+Recording test results
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Notifying upstream projects of job completion
+No emails were triggered.
+Finished: SUCCESS

@@ -1,0 +1,4 @@
+[docker-maven-example_master-72WYOSDNMDBPG634BL7BMBNRQQN3HCGRM4CMULRI5WODJUPBYZRA] Running shell script
++ docker inspect -f . jimschubert/8-jdk-alpine-mvn
+
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.31/containers/jimschubert/8-jdk-alpine-mvn/json: dial unix /var/run/docker.sock: connect: permission denied

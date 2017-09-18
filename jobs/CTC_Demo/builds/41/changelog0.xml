@@ -1,0 +1,12 @@
+commit 2db9127f2c7658dad731edd0de0e7a4e13174cda
+tree 3b4e027849a9bb6ee4add8d491412b64ca61a18c
+parent 972587f815c14b263dcc19196a95af3e0171de79
+author shreys-s <shrey_s@hcl.com> 2017-09-15 19:51:48 +0530
+committer GitHub <noreply@github.com> 2017-09-15 19:51:48 +0530
+
+    updated header file, added CTC demo name
+
+    updated header file, added CTC demo name
+     Ticket # RITM0004025
+
+:100644 100644 1de627a0a2caa9d76a5a97615198373e5b1d71d6 076ed0d023f2151fb325e0f60dfc3c30a821e5f6 M	gameoflife-web/src/main/webapp/WEB-INF/jsp/home.jsp

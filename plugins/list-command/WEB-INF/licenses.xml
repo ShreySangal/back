@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='List Command Plugin' groupId='org.jenkins-ci.plugins' artifactId='list-command' version='0.2' url='https://wiki.jenkins-ci.org/display/JENKINS/List+Command+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sikakura
+Build-Jdk: 1.6.0_24
+Extension-Name: mailcommander
+Specification-Title: This plug-in provides function that read a mail s
+ ubject as a CLI Command.
+Implementation-Title: mailcommander
+Implementation-Version: 1.0.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: mailcommander
+Long-Name: Mail Commander Plugin for Jenkins-ci
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Mail+Commander+Plugin
+Plugin-Version: 1.0.0
+Hudson-Version: 1.399
+Plugin-Developers: Naoto Shikakura:sikakura:sikakura@gmail.com
+

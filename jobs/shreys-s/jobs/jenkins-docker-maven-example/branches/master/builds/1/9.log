@@ -1,0 +1,5 @@
+[docker-maven-example_master-72WYOSDNMDBPG634BL7BMBNRQQN3HCGRM4CMULRI5WODJUPBYZRA] Running shell script
++ docker pull jimschubert/8-jdk-alpine-mvn
+Using default tag: latest
+Warning: failed to get default registry endpoint from daemon (Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.31/info: dial unix /var/run/docker.sock: connect: permission denied). Using system default: https://index.docker.io/v1/
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.31/images/create?fromImage=jimschubert%2F8-jdk-alpine-mvn&tag=latest: dial unix /var/run/docker.sock: connect: permission denied

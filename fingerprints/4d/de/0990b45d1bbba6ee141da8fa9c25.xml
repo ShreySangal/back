@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:27:43.269 UTC</timestamp>
+  <md5sum>4dde0990b45d1bbba6ee141da8fa9c25</md5sum>
+  <fileName>org.slf4j:jcl-over-slf4j-1.7.5.jar</fileName>
+  <usages>
+    <entry>
+      <string>CounterWebApp/com.mkyong:CounterWebApp</string>
+      <ranges>1-7,10,12-28</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD</string>
+      <ranges>1-20</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD/com.mkyong:CounterWebApp</string>
+      <ranges>1-20</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp</string>
+      <ranges>1-7,10,12-28</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

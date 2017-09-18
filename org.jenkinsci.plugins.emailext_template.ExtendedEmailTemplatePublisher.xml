@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.emailext__template.ExtendedEmailTemplatePublisher_-DescriptorImpl plugin="emailext-template@1.0">
+  <templates/>
+</org.jenkinsci.plugins.emailext__template.ExtendedEmailTemplatePublisher_-DescriptorImpl>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sites>
+  <hudson.plugins.simpleupdatesite.SimpleUpdateSite plugin="simpleupdatesite@1.1.2">
+    <id>simpleupdatesite</id>
+  </hudson.plugins.simpleupdatesite.SimpleUpdateSite>
+</sites>

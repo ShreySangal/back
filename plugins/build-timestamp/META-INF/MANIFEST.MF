@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hao
+Build-Jdk: 1.8.0_66
+Extension-Name: build-timestamp
+Implementation-Title: build-timestamp
+Implementation-Version: 1.0.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: build-timestamp
+Long-Name: Build Timestamp Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Build+Timestamp+Plugin
+Plugin-Version: 1.0.1
+Hudson-Version: 1.565.3
+Jenkins-Version: 1.565.3
+Plugin-Developers: Hao CHEN:orctom:orctom@gmail.com
+

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rmpestano
+Build-Jdk: 1.8.0_131
+Extension-Name: last-changes
+Specification-Title: Shows build last changes via VCS diff between lat
+ est revisions.
+Implementation-Title: last-changes
+Implementation-Version: 1.0.10
+Group-Id: org.jenkins-ci.plugins
+Short-Name: last-changes
+Long-Name: Last Changes Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Last+Changes+Plugin
+Plugin-Version: 1.0.10
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Dependencies: workflow-job:2.8,scm-api:0.2,subversion:2.5,git:2
+ .3.5
+Plugin-Developers: Rafael M. Pestano:rmpestano:rmpestano@gmail.com
+

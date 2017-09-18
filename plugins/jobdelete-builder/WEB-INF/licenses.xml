@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='jobdelete-builder' version='1.0'><l:dependency name='JobDelete Builder Plugin' groupId='org.jenkins-ci.plugins' artifactId='jobdelete-builder' version='1.0' url='https://wiki.jenkins-ci.org/display/JENKINS/JobDelete+Builder+Plugin'><l:description>Jenkins plugin to delete jobs in a build step.</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

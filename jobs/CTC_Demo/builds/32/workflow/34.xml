@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.14">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepAtomNode" plugin="workflow-cps@2.39">
+    <parentIds>
+      <string>33</string>
+    </parentIds>
+    <id>34</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+      <charset>UTF-8</charset>
+    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.39">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>returnStatus</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>script</string>
+          <string>export ORACLE_BASE=/home/oracle/u02/app/oracle
+export ORACLE_HOME=$ORACLE_BASE/product/fmw12cr3
+export ORACLE_SID=dryice
+export ORACLE_TERM=xterm
+export MW_HOME=/opt/weblogic1213
+export WLS_HOME=$MW_HOME/wlserver
+export WL_HOME=$WLS_HOME
+LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export LD_LIBRARY_PATH
+export PATH=$JAVA_HOME/bin:$HOME/.local/bin:$HOME/bin:$ORACLE_BASE:$ORACLE_HOME:$ORACLE_HOME/bin:$PATH
+cd /home/dryice2/package/db;
+echo exit | /home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus -S dryice2/dryice2@dryice @game.sql</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.20">
+      <startTime>1503569630688</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

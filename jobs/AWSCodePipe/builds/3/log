@@ -1,0 +1,15 @@
+Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/AWSCodePipe
+[AWS CodePipeline Plugin] Job '953a3783-6130-4e32-814a-3a7188535b61' received
+[AWS CodePipeline Plugin] Acknowledged job with ID: 953a3783-6130-4e32-814a-3a7188535b61
+[AWS CodePipeline Plugin] Clearing workspace '/var/lib/jenkins/workspace/AWSCodePipe' before download
+[AWS CodePipeline Plugin] Detected compression type: Zip
+[AWS CodePipeline Plugin] Successfully downloaded artifact from AWS CodePipeline
+[AWS CodePipeline Plugin] Extracting '/var/lib/jenkins/workspace/AWSCodePipe/cBZTT97.zip' to '/var/lib/jenkins/workspace/AWSCodePipe'
+[AWS CodePipeline Plugin] Artifact uncompressed successfully
+[AWSCodePipe] $ /bin/ksh -xe /tmp/jenkins7032400982799010906.sh
++ echo hello
+hello
+Notifying upstream projects of job completion
+Finished: SUCCESS

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kkkon
+Build-Jdk: 1.6.0_35
+Extension-Name: job-strongauth-simple
+Implementation-Title: job-strongauth-simple
+Implementation-Version: 0.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: job-strongauth-simple
+Long-Name: Job StrongAuthSimple Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Job+StrongAuthSimple+P
+ lugin
+Plugin-Version: 0.5
+Hudson-Version: 1.409
+Jenkins-Version: 1.409
+Plugin-Developers: KK.Kon:kkkon:
+

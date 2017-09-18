@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: slide
+Build-Jdk: 1.7.0_80
+Extension-Name: nunit
+Specification-Title: Allows handling NUnit results similar to how JUni
+ t results are handled
+Implementation-Title: nunit
+Implementation-Version: 0.21
+Group-Id: org.jenkins-ci.plugins
+Short-Name: nunit
+Long-Name: Jenkins NUnit plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/NUnit+Plugin
+Plugin-Version: 0.21
+Hudson-Version: 1.642.3
+Jenkins-Version: 1.642.3
+Plugin-Dependencies: junit:1.20,structs:1.2
+Plugin-Developers: Erik Ramfelt:redsolo:eramfelt@gmail.com,Alex Earl:s
+ lide_o_mix:slide.o.mix@gmail.com
+

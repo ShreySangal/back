@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: _jenkins
+Build-Jdk: 1.6.0_31
+Extension-Name: script-realm
+Specification-Title: Supports authentication by exeuting a custom scri
+ pt, to resolve groups for a user, a second script can be defined.
+Implementation-Title: script-realm
+Implementation-Version: 1.5
+Short-Name: script-realm
+Long-Name: Security Realm by custom script
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Script+Security+Realm
+Plugin-Version: 1.5
+Hudson-Version: 1.330
+Plugin-Developers: Dominik Bartholdi:imod:-
+

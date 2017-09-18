@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.amazonaws.codedeploy.AWSCodeDeployPublisher_-DescriptorImpl plugin="codedeploy@1.17">
+  <externalId>09df714e-0060-4817-807e-8d96b28a7874</externalId>
+  <awsAccessKey></awsAccessKey>
+  <awsSecretKey></awsSecretKey>
+  <proxyHost></proxyHost>
+  <proxyPort>0</proxyPort>
+</com.amazonaws.codedeploy.AWSCodeDeployPublisher_-DescriptorImpl>

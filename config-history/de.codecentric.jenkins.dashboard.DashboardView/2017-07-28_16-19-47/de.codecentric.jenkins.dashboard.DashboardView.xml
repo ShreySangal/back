@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<de.codecentric.jenkins.dashboard.DashboardViewDescriptor plugin="ec2-deployment-dashboard@1.0.10">
+  <repositoryType>nexus</repositoryType>
+  <repositoryRestUri>http://10.1.23.186:8081/nexus/</repositoryRestUri>
+  <username>shrey_s</username>
+  <password>Unix_11</password>
+</de.codecentric.jenkins.dashboard.DashboardViewDescriptor>

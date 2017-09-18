@@ -1,0 +1,3 @@
+[sue-25-add-apache-2-license-M77CIJFSTBXNVGK3PJRR3IJFE3GJUWHXXEUKD3EL3JAX4AENTPQA] Running shell script
++ git rev-parse --short HEAD
++ 1> commit-id

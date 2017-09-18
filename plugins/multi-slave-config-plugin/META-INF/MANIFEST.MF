@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: 23052130
+Build-Jdk: 1.6.0_38
+Extension-Name: multi-slave-config-plugin
+Specification-Title: This plugin allows administrators to configure, a
+ dd and delete several dumb slaves at the same time.
+Implementation-Title: multi-slave-config-plugin
+Implementation-Version: 1.2.0
+Group-Id: com.sonyericsson.hudson.plugins.multi-slave-config-plugin
+Short-Name: multi-slave-config-plugin
+Long-Name: Multi slave config plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Multi+slave+config+plu
+ gin
+Plugin-Version: 1.2.0
+Hudson-Version: 1.554
+Jenkins-Version: 1.554
+Plugin-Dependencies: lenientshutdown:1.0.0;resolution:=optional,window
+ s-slaves:1.0
+Plugin-Developers: Nicklas Nilsson:nilsi:nicklas3.nilsson@sonymobile.c
+ om,Fredrik Persson:fredrikpersson:fredrik6.persson@sonymobile.com,Rob
+ ert Sandell:rsandell:robert.sandell@sonymobile.com,Joakim Ahle:joakim
+ _ahle:joakim.ahle@sonymobile.com
+

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: adrien
+Build-Jdk: 1.7.0_72
+Extension-Name: binary-deployer
+Implementation-Title: binary-deployer
+Implementation-Version: 0.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: binary-deployer
+Long-Name: Binary Deployer Plugin
+Url: http://jenkins-ci.org/plugin/binary-deployer/
+Plugin-Version: 0.1
+Hudson-Version: 1.609.1
+Jenkins-Version: 1.609.1
+Plugin-Developers: Adrien Lecharpentier:alecharp:
+

@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Sounds plugin' groupId='org.jenkins-ci.plugins' artifactId='sounds' version='0.5' url='http://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Sounds+plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: praqma
+Build-Jdk: 1.7.0_65
+Extension-Name: pretested-integration
+Implementation-Title: pretested-integration
+Implementation-Version: 2.4.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: pretested-integration
+Long-Name: Pretested Integration Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+
+ Plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 2.4.1 (409ae)
+Hudson-Version: 1.580
+Jenkins-Version: 1.580
+Plugin-Dependencies: git-client:1.19.1,job-dsl:1.37;resolution:=option
+ al,multiple-scms:0.3;resolution:=optional,git:2.4.1
+Plugin-Developers: Praqma Josra:praqma_josra:josra@praqma.net
+

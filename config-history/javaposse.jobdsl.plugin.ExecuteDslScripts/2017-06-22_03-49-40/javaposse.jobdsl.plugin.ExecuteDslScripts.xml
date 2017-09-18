@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<javaposse.jobdsl.plugin.DescriptorImpl plugin="job-dsl@1.63">
+  <templateJobMap class="com.google.common.collect.HashMultimap" serialization="custom">
+    <com.google.common.collect.HashMultimap>
+      <default/>
+      <int>8</int>
+      <int>0</int>
+    </com.google.common.collect.HashMultimap>
+  </templateJobMap>
+  <generatedJobMap class="concurrent-hash-map">
+    <entry>
+      <string>DSL-Tutorial-1-Test</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>GradleSeed</seedJobName>
+        <digest>3a67cac55363ba62c858962a7285342e</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>quidryan-aws-sdk-test-feature1</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>GradleSeed</seedJobName>
+        <digest>f1a8a7d9ebba033e399aaf865945a9e0</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>quidryan-aws-sdk-test-feature2</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>GradleSeed</seedJobName>
+        <digest>a0bb58480cc33cbd4533976ae6b140c2</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>quidryan-aws-sdk-test-master</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>GradleSeed</seedJobName>
+        <digest>f15d71a0a39965b6afdb053ef949db89</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+  </generatedJobMap>
+</javaposse.jobdsl.plugin.DescriptorImpl>

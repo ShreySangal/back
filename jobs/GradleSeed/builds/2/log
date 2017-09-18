@@ -1,0 +1,37 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/sharedspace@2
+Disk space threshold is set to :0Gb
+Checking disk space Now 
+diskspace is 32966549504
+Total Disk space in workspace is 32966549504
+Total Disk Space Available is: 30Gb
+ Node Name: master
+Running Prebuild steps
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/job-dsl-plugin # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/job-dsl-plugin
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/job-dsl-plugin +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 405a95c70974a2179447adfdd8c74bfb741d837b (refs/remotes/origin/master)
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 405a95c70974a2179447adfdd8c74bfb741d837b
+ > /bin/git rev-list 405a95c70974a2179447adfdd8c74bfb741d837b # timeout=10
+No emails were triggered.
+Processing provided DSL script
+Existing items:
+    GeneratedJob{name='DSL-Tutorial-1-Test'}
+    GeneratedJob{name='quidryan-aws-sdk-test-feature1'}
+    GeneratedJob{name='quidryan-aws-sdk-test-feature2'}
+    GeneratedJob{name='quidryan-aws-sdk-test-master'}
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in  1 second
+Notifying upstream projects of job completion
+No emails were triggered.
+Finished: SUCCESS

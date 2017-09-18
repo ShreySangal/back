@@ -1,0 +1,17 @@
+Starting Selenium Grid
+[jenkins] $ /usr/java/jdk1.8.0_131/jre/bin/java -cp /var/cache/jenkins/war/WEB-INF/lib/remoting-3.7.jar hudson.remoting.Launcher -cp /var/lib/jenkins/plugins/selenium/WEB-INF/lib/selenium-server-standalone-3.1.0.jar:/var/lib/jenkins/plugins/selenium/WEB-INF/lib/htmlunit-driver-standalone-2.20.jar -connectTo localhost:39982
+Starting Selenium Grid
+channel started
+Jun 22, 2017 7:35:31 AM hudson.plugins.selenium.HubLauncher call
+OFF: Grid hub starting with log level INFO
+Jun 22, 2017 7:35:31 AM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub preparing to start on port 4444
+2017-06-22 07:35:32.796:INFO::pool-1-thread-1 for channel id=0: Logging initialized @2779ms
+Jun 22, 2017 7:35:32 AM org.openqa.grid.web.Hub initServer
+INFO: Will listen on 4444
+2017-06-22 07:35:32.915:INFO:osjs.Server:pool-1-thread-1 for channel id=0: jetty-9.2.15.v20160210
+2017-06-22 07:35:32.979:INFO:osjsh.ContextHandler:pool-1-thread-1 for channel id=0: Started o.s.j.s.ServletContextHandler@d508763{/,null,AVAILABLE}
+2017-06-22 07:35:32.988:INFO:osjs.ServerConnector:pool-1-thread-1 for channel id=0: Started ServerConnector@4dd29113{HTTP/1.1}{0.0.0.0:4444}
+2017-06-22 07:35:32.988:INFO:osjs.Server:pool-1-thread-1 for channel id=0: Started @2971ms
+Jun 22, 2017 7:35:32 AM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub started on port 4444 with args: -maxSession 5 -timeout 300 -browserTimeout 0 -host 10.1.23.186

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.21">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/GradleExample/build/test-results/test/TEST-com.dslexample.GradleCiJobBuilderSpec.xml</file>
+      <name>com.dslexample.GradleCiJobBuilderSpec</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>1.779</duration>
+      <timestamp>2017-09-06T13:46:11</timestamp>
+      <time>1.779</time>
+      <cases>
+        <case>
+          <duration>1.69</duration>
+          <className>com.dslexample.GradleCiJobBuilderSpec</className>
+          <testName>test XML output</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.088</duration>
+          <className>com.dslexample.GradleCiJobBuilderSpec</className>
+          <testName>test XML output - with overrides</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/GradleExample/build/test-results/test/TEST-com.dslexample.GrailsCiJobBuilderSpec.xml</file>
+      <name>com.dslexample.GrailsCiJobBuilderSpec</name>
+      <stdout>Warning: (GrailsCiJobBuilder.groovy, line 32) grails is deprecated
+Warning: (GrailsCiJobBuilder.groovy, line 32) grails is deprecated
+</stdout>
+      <stderr></stderr>
+      <duration>0.329</duration>
+      <timestamp>2017-09-06T13:46:13</timestamp>
+      <time>0.329</time>
+      <cases>
+        <case>
+          <duration>0.226</duration>
+          <className>com.dslexample.GrailsCiJobBuilderSpec</className>
+          <testName>test XML output</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.103</duration>
+          <className>com.dslexample.GrailsCiJobBuilderSpec</className>
+          <testName>test XML output - with overrides</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/GradleExample/build/test-results/test/TEST-com.dslexample.JobScriptsSpec.xml</file>
+      <name>com.dslexample.JobScriptsSpec</name>
+      <stdout>Exploding /var/lib/jenkins/.gradle/caches/modules-2/files-2.1/org.jenkins-ci.main/jenkins-war/1.651/ebc3206dd90152c1a2ebe1545cec2ba7b593f9f7/jenkins-war-1.651.war into /var/lib/jenkins/workspace/GradleExample/build/jenkins-for-test
+=== Starting com.dslexample.JobScriptsSpec
+Processing provided DSL script
+Warning: (script, line 10) plugin &apos;git&apos; needs to be updated to version 2.5.3 or later
+Warning: (script, line 16) grails is deprecated
+Warning: (script, line 16) plugin &apos;grails&apos; needs to be insta
+...[truncated 4614 chars]...
+rails&apos; needs to be installed
+Warning: (script, line 47) grails is deprecated
+Warning: (script, line 47) plugin &apos;grails&apos; needs to be installed
+Processing provided DSL script
+Warning: (script, line 6) plugin &apos;git&apos; needs to be updated to version 2.5.3 or later
+Warning: (script, line 12) plugin &apos;gradle&apos; needs to be installed
+Warning: (script, line 12) version 1.23 or later of plugin &apos;gradle&apos; needs to be installed
+Warning: (script, line 19) plugin &apos;junit&apos; needs to be updated to version 1.10 or later
+</stdout>
+      <stderr>Sep 06, 2017 7:16:14 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @5311ms
+Sep 06, 2017 7:16:18 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Sep 06, 2017 7:16:18 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Sep 06, 2017 7:16:18 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@64d9a7ea{/jenk
+...[truncated 16906 chars]...
+current.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+
+</stderr>
+      <duration>14.836</duration>
+      <timestamp>2017-09-06T13:46:45</timestamp>
+      <time>14.836</time>
+      <cases>
+        <case>
+          <duration>4.415</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example1Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.407</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example2Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.47</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example3Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.913</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example4Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.613</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example5Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.571</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example6Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.63</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example7Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.548</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example8Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.892</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script example9Jobs.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.372</duration>
+          <className>com.dslexample.JobScriptsSpec</className>
+          <testName>test script seed.groovy</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/GradleExample/build/test-results/test/TEST-com.dslexample.rest.RestApiJobManagementSpec.xml</file>
+      <name>com.dslexample.rest.RestApiJobManagementSpec</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.026</duration>
+      <timestamp>2017-09-06T13:47:02</timestamp>
+      <time>0.026</time>
+      <cases>
+        <case>
+          <duration>0.026</duration>
+          <className>com.dslexample.rest.RestApiJobManagementSpec</className>
+          <testName>getPath</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>16.97</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

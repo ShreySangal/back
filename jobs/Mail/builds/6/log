@@ -1,0 +1,31 @@
+Started by upstream project "[8mha:////4PI0F/KpvxDXl7JnWrMXlTUL76EQuNf28ByB/iNqSPMeAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2sgtSS4pL8olR9AOlxjMvEAAAA[0mjpetstore" build number [8mha:////4HBRLCQC1Hy97wyYwvt3RhVnbJInHU7ZMLJXnCrinfTzAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/ayC1JLikvyiVH1LADLNEhjFAAAA[0m9
+originally caused by:
+ Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Mail
+Checking for pre-build
+Executing pre-build step
+Checking if email needs to be generated
+Email was triggered for: Before Build
+Sending email for trigger: Before Build
+messageContentType = text/html; charset=UTF-8
+Request made to attach build log
+Adding recipients from project recipient list
+Adding recipients from trigger recipient list
+Successfully created MimeMessage
+Sending email to: shrey_s@hcl.com
+Notifying upstream projects of job completion
+Checking for post-build
+Performing post-build step
+Checking if email needs to be generated
+Email was triggered for: Always
+Sending email for trigger: Always
+messageContentType = text/html; charset=UTF-8
+Request made to attach build log
+  Collecting change authors...
+    build: 6
+Adding recipients from project recipient list
+Adding recipients from trigger recipient list
+Successfully created MimeMessage
+Sending email to: shrey_s@hcl.com
+Finished: SUCCESS

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-11 22:34:59.62 UTC</timestamp>
+  <original>
+    <name>CI_CD/com.mkyong:CounterWebApp</name>
+    <number>7</number>
+  </original>
+  <md5sum>71f5c0b46d5f0d06f37832b207541aba</md5sum>
+  <fileName>com.mkyong:CounterWebApp:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>CI_CD</string>
+      <ranges>7-8</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp/com.mkyong:CounterWebApp</string>
+      <ranges>10,12</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD/com.mkyong:CounterWebApp</string>
+      <ranges>7-8</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp</string>
+      <ranges>10,12</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tools.devnull.jenkins.plugins.buildnotifications.PushoverNotifier_-PushoverDescriptor plugin="build-notifications@1.4.3">
+  <appToken></appToken>
+</tools.devnull.jenkins.plugins.buildnotifications.PushoverNotifier_-PushoverDescriptor>

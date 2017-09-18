@@ -1,0 +1,20 @@
+Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/AWSCodePipe
+[WS-CLEANUP] Deleting project workspace...
+Disk space threshold is set to :0Gb
+Checking disk space Now 
+diskspace is 41594540032
+Total Disk space in workspace is 41594540032
+Total Disk Space Available is: 38Gb
+ Node Name: master
+Running Prebuild steps
+[AWSCodePipe] $ /bin/sh -xe /tmp/hudson440313017150146153.sh
++ echo hello
+hello
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Notifying upstream projects of job completion
+Finished: SUCCESS

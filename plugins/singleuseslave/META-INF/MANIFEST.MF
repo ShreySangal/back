@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: 0.4.0
+Build-Ruby-Platform: java
+Build-Ruby-Version: 1.9.3
+Built-By: claytononeill
+Group-Id: org.jenkins-ci.plugins
+Short-Name: singleuseslave
+Long-Name: Single Use Slave Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Single+Use+Slave+Plugin
+Plugin-Class: ruby.RubyPlugin
+Plugin-Version: 1.0.0
+Jenkins-Version: 1.432
+Plugin-Dependencies: ruby-runtime:0.12
+Bundle-Path: vendor/gems

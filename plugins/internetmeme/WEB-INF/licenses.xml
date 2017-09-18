@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='InternetMeme Plugin' groupId='org.jenkins-ci.plugins' artifactId='internetmeme' version='1.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Internet+Meme+Plugin'>
+    <l:description>Displays an Internet Meme on each build page. Inspired by Chuck Norris plugin</l:description>
+    <l:license name='MIT License' url='LICENSE.txt' />
+  </l:dependency>
+</l:dependencies>

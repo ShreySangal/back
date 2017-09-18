@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.12.2">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.11"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.2.0">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/shreys-s%2Fdocker-jenkins-pipeline/detail/master/1</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@3.1.2.10">
+      <queuingDurationMillis>17</queuingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.1">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.5.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.2.3">
+          <name>master</name>
+        </head>
+        <hash>732688fab6ebd1fb928b01fc740efefed775a31e</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.5.1">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.5.0">
+              <sha1>732688fab6ebd1fb928b01fc740efefed775a31e</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/shreys-s/docker-jenkins-pipeline.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.5.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/shreys-s/docker-jenkins-pipeline.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.39">
+      <env class="tree-map">
+        <entry>
+          <string>PATH</string>
+          <string>/opt/maven/bin:/sbin:/usr/sbin:/bin:/usr/bin</string>
+        </entry>
+      </env>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction plugin="build-failure-analyzer@1.19.0">
+      <foundFailureCauses class="java.util.Collections$SynchronizedList" serialization="custom">
+        <java.util.Collections_-SynchronizedCollection>
+          <default>
+            <c class="linked-list"/>
+            <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedCollection>
+        <java.util.Collections_-SynchronizedList>
+          <default>
+            <list class="linked-list" reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+          </default>
+        </java.util.Collections_-SynchronizedList>
+      </foundFailureCauses>
+      <build class="flow-build" reference="../../.."/>
+    </com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.25"/>
+  </actions>
+  <queueId>775</queueId>
+  <timestamp>1504858528351</timestamp>
+  <startTime>1504858528385</startTime>
+  <result>FAILURE</result>
+  <duration>54881</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node (&apos;master&apos;) {
+  checkout scm
+  env.PATH = &quot;${tool &apos;Maven3&apos;}/bin:${env.PATH}&quot;
+  stage(&apos;Package&apos;) {
+    dir(&apos;webapp&apos;) {
+      sh &apos;mvn clean package -DskipTests&apos;
+    }
+  }
+
+  stage(&apos;Create Docker Image&apos;) {
+    dir(&apos;webapp&apos;) {
+      docker.build(&quot;shreys/docker-jenkins-pipeline:${env.BUILD_NUMBER}&quot;)
+    }
+  }
+
+  stage (&apos;Run Application&apos;) {
+    try {
+      // Start database container here
+      // sh &apos;docker run -d --name db -p 8091-8093:8091-8093 -p 11210:11210 arungupta/oreilly-couchbase:latest&apos;
+
+      // Run application using Docker image
+      sh &quot;DB=`docker inspect --format=&apos;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&apos; db`&quot;
+      sh &quot;docker run -e DB_URI=$DB shreys/docker-jenkins-pipeline:${env.BUILD_NUMBER}&quot;
+
+      // Run tests using Maven
+      //dir (&apos;webapp&apos;) {
+      //  sh &apos;mvn exec:java -DskipTests&apos;
+      //}
+    } catch (error) {
+    } finally {
+      // Stop and remove database container here
+      //sh &apos;docker-compose stop db&apos;
+      //sh &apos;docker-compose rm db&apos;
+    }
+  }
+
+  stage(&apos;Run Tests&apos;) {
+    try {
+      dir(&apos;webapp&apos;) {
+        sh &quot;mvn test&quot;
+        docker.build(&quot;shreys/docker-jenkins-pipeline:${env.BUILD_NUMBER}&quot;).push()
+      }
+    } catch (error) {
+
+    } finally {
+      junit &apos;**/target/surefire-reports/*.xml&apos;
+    }
+  }
+}
+</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>225006542</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>3734551438</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1004256444</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>1929824835</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>101158478</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>27</iota>
+    <head>1:27</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.5.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+            <url>https://github.com/shreys-s/docker-jenkins-pipeline.git</url>
+            <credentialsId>github</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/shreys-s/docker-jenkins-pipeline</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/ker-jenkins-pipeline_master-QDHPRWTGJ6SQZXX4K5UWHGNSDWMDDUZUX6UVGL2X7LCM5RU2HENQ</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/shreys-s/jobs/docker-jenkins-pipeline/branches/master/builds/1/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

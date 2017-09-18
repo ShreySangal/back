@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.7.0_75
+Extension-Name: ownership
+Specification-Title: Provides explicit ownership of jobs and nodes
+Implementation-Title: ownership
+Implementation-Version: 0.10.0
+Plugin-Class: com.synopsys.arc.jenkins.plugins.ownership.OwnershipPlugin
+Group-Id: com.synopsys.jenkinsci
+Short-Name: ownership
+Long-Name: Job and Node ownership plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Ownership+Plugin
+Plugin-Version: 0.10.0
+Hudson-Version: 1.651.3
+Jenkins-Version: 1.651.3
+Plugin-Dependencies: job-restrictions:0.1;resolution:=optional,workflo
+ w-cps:1.14,authorize-project:1.1.0;resolution:=optional,cloudbees-fol
+ der:5.1;resolution:=optional,mailer:1.9,matrix-auth:1.2,matrix-projec
+ t:1.6,role-strategy:2.1.0;resolution:=optional,script-security:1.20;r
+ esolution:=optional,security-inspector:0.4;resolution:=optional,token
+ -macro:1.6;resolution:=optional
+Plugin-Developers: Oleg Nenashev:oleg_nenashev:o.v.nenashev@gmail.com
+

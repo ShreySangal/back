@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='com.suryagaddipati.jenkins' artifactId='slave-utilization-plugin' version='1.8'><l:dependency name='Slave Utilization Plugin' groupId='com.suryagaddipati.jenkins' artifactId='slave-utilization-plugin' version='1.8' url='https://wiki.jenkins-ci.org/display/JENKINS/Slave+Utilization+Plugin'><l:description>Plugin that lets you specify how much of Node Capacity a job wants to use</l:description></l:dependency></l:dependencies>

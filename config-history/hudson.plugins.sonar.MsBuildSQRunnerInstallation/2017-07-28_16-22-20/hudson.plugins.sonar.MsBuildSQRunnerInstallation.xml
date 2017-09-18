@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.sonar.MsBuildSQRunnerInstallation_-DescriptorImpl plugin="sonar@2.6.1">
+  <installations class="hudson.plugins.sonar.MsBuildSQRunnerInstallation-array">
+    <hudson.plugins.sonar.MsBuildSQRunnerInstallation>
+      <name>Sonarqube_MS</name>
+      <home>/opt/sonarqube-6.0</home>
+      <properties/>
+    </hudson.plugins.sonar.MsBuildSQRunnerInstallation>
+  </installations>
+</hudson.plugins.sonar.MsBuildSQRunnerInstallation_-DescriptorImpl>

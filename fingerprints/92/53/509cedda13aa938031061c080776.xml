@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-08-31 04:27:06.396 UTC</timestamp>
+  <original>
+    <name>jpetTest/jpetStore:jpet</name>
+    <number>42</number>
+  </original>
+  <md5sum>9253509cedda13aa938031061c080776</md5sum>
+  <fileName>jpetStore:jpet:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>jpetTest</string>
+      <ranges>42-47</ranges>
+    </entry>
+    <entry>
+      <string>jpetTest/jpetStore:jpet</string>
+      <ranges>42-47</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

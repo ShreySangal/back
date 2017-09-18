@@ -1,0 +1,39 @@
+Started by upstream project "[8mha:////4By0JVPgH92y9DR05Cnoq0cBF5ihBtL6kyeimhsU3G6kAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH3HopLMtMTkkvyiSn0Ayw3LOcYAAAA=[0mArtifactory" build number [8mha:////4MEpLQj+ZeQfQOtTDm/nYtDAVFVMCT2b+v4slDR/0Y81AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6jkUlmWmJySX5RZX65gCe83VSxwAAAA==[0m7
+originally caused by:
+ Started by upstream project "[8mha:////4OV8JQUVuAm6pOui/VXcQOzW8jt1VSTBBgIslC5pQEQfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP3QkHhnZ30A1Ps7QcAAAAA=[0mUT_CC" build number [8mha:////4MxmSlgGyL0Jl3uwKLz4awiCWq3/Xfy5DYP1OvjMz2NmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JP3QkHhnZ31DUwAnjFzGwgAAAA==[0m15
+ originally caused by:
+  Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4CC+Oo4jIRSa1mS1TtUi/zB0/vERJorp8NpSP7L5G9p+AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUMzAOTrwlrFAAAA[0m16
+  originally caused by:
+   Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4DhdkH4A49tntS15pV1t8mgoUZfpeCIp4Amg9a7G1G/0AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fUNzAKp9U5TFAAAA[0m17
+   originally caused by:
+    Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Database Deploy
+[Database Deploy] $ /bin/ksh -xe /tmp/jenkins1042209809800549555.sh
++ ORACLE_BASE=/home/oracle/u02/app/oracle
++ export ORACLE_BASE
++ ORACLE_HOME=/home/oracle/u02/app/oracle/product/fmw12cr3
++ export ORACLE_HOME
++ ORACLE_SID=dryice
++ export ORACLE_SID
++ ORACLE_TERM=xterm
++ export ORACLE_TERM
++ MW_HOME=/opt/weblogic1213
++ export MW_HOME
++ WLS_HOME=/opt/weblogic1213/wlserver
++ export WLS_HOME
++ WL_HOME=/opt/weblogic1213/wlserver
++ export WL_HOME
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib:/usr/local/lib
++ export LD_LIBRARY_PATH
++ PATH=/usr/java/jdk1.8.0_131/bin:/var/lib/jenkins/.local/bin:/var/lib/jenkins/bin:/home/oracle/u02/app/oracle:/home/oracle/u02/app/oracle/product/fmw12cr3:/home/oracle/u02/app/oracle/product/fmw12cr3/bin:/usr/java/jdk1.8.0_131/bin:/sbin:/usr/sbin:/bin:/usr/bin
++ export PATH
++ cd /home/dryice2/package/db
+/tmp/jenkins1042209809800549555.sh[13]: cd: /home/dryice2/package/db: [No such file or directory]
+Build step 'Execute shell' marked build as failure
+[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

@@ -1,0 +1,10 @@
+Started on Jul 25, 2017 1:09:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 833ac9fa6c7deb1c0e165e74c424c12d9f591b09 (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > /bin/git ls-remote -h https://github.com/shreys-s/CounterWebApp # timeout=10
+Found 2 remote heads on https://github.com/shreys-s/CounterWebApp
+Ignoring refs/heads/sql-patch-1 as it doesn't match any of the configured refspecs
+[poll] Latest remote head revision on refs/heads/master is: d39b3d888ce8e0baa19a7b014172f8875d61b882
+Done. Took 1.6 sec
+Changes found

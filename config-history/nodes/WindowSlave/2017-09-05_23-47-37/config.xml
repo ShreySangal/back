@@ -1,0 +1,11 @@
+<slave>
+  <name>WindowSlave</name>
+  <description></description>
+  <remoteFS>c:\jenkins</remoteFS>
+  <numExecutors>2</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.JNLPLauncher"/>
+  <label>windows</label>
+  <nodeProperties/>
+</slave>

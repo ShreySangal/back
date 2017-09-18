@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.12.2">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.11"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.2.0">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/shreys-s%2Fjenkins-docker-maven-example/detail/master/1</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@3.1.2.10">
+      <queuingDurationMillis>40</queuingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.1">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.5.1">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.2.3">
+          <name>master</name>
+        </head>
+        <hash>c5709dedabf6c1f6ccb607b9259ef1a9a1be8725</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.5.1">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.5.0">
+              <sha1>c5709dedabf6c1f6ccb607b9259ef1a9a1be8725</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/shreys-s/jenkins-docker-maven-example.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.5.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/docker-maven-example_master-72WYOSDNMDBPG634BL7BMBNRQQN3HCGRM4CMULRI5WODJUPBYZRA</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/shreys-s/jenkins-docker-maven-example.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.39">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction plugin="build-failure-analyzer@1.19.0">
+      <foundFailureCauses class="java.util.Collections$SynchronizedList" serialization="custom">
+        <java.util.Collections_-SynchronizedCollection>
+          <default>
+            <c class="linked-list"/>
+            <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedCollection>
+        <java.util.Collections_-SynchronizedList>
+          <default>
+            <list class="linked-list" reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+          </default>
+        </java.util.Collections_-SynchronizedList>
+      </foundFailureCauses>
+      <build class="flow-build" reference="../../.."/>
+    </com.sonyericsson.jenkins.plugins.bfa.model.FailureCauseBuildAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.25"/>
+  </actions>
+  <queueId>784</queueId>
+  <timestamp>1504858577345</timestamp>
+  <startTime>1504858577347</startTime>
+  <result>FAILURE</result>
+  <duration>9736</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>
+def applicationName = &quot;jenkins-docker-maven-example&quot;
+def beanstalkRegion = &quot;us-east-1&quot;
+def beanstalkInstanceProfile = &quot;&quot;
+def beanstalkServiceRole = &quot;&quot;
+
+node (&apos;master&apos;) {
+    
+  stage &apos;Checkout&apos;
+  //git &apos;https://github.com/kulinski/jenkins-docker-maven-example.git&apos;
+  // shortcut to checkout from where this Jenkinsfile is hosted
+  checkout scm
+
+  stage &apos;Build and Test&apos;
+  // Build using a plain docker container, not our local Dockerfile
+  def mvnContainer = docker.image(&apos;jimschubert/8-jdk-alpine-mvn&apos;)
+  mvnContainer.inside(&apos;-v /m2repo:/m2repo&apos;) {
+      // Set up a shared Maven repo so we don&apos;t need to download all dependencies on every build.
+      writeFile file: &apos;settings.xml&apos;,
+         text: &apos;&lt;settings&gt;&lt;localRepository&gt;/m2repo&lt;/localRepository&gt;&lt;/settings&gt;&apos;
+      
+      // Build with maven settings.xml file that specs the local Maven repo.
+      sh &apos;mvn -B -s settings.xml package&apos;
+   }
+        
+  stage &apos;Package Docker image&apos;
+  // Build final releasable image using our Dockerfile and the docker.build cmd
+  // This container only contains the packaged jar, not the source or interim build steps
+  def img = docker.build(&apos;jenkins-docker-maven-example:latest&apos;, &apos;.&apos;)
+    
+  stage name: &apos;Push Image&apos;, concurrency: 1
+  // All the tests passed. We can now retag and push the &apos;latest&apos; image
+  docker.withRegistry(&apos;https://nexus.doyouevenco.de&apos;, &apos;nexus-admin&apos;) {
+     img.push(&apos;latest&apos;)
+  }
+    
+  stage &apos;Pull Image&apos;
+  // Now let&apos;s pull it, just to test that a pull from Nexus works correctly
+  docker.withRegistry(&apos;https://nexus.doyouevenco.de&apos;, &apos;nexus-admin&apos;) {
+     docker.image(&quot;jenkins-docker-maven-example:latest&quot;).pull()
+  }
+  
+  stage &apos;Pull EB deploy container&apos;
+   // Check to ensure that we can access the EB deploy commands container
+   def ebcliDocker = docker.image(&quot;coxauto/aws-ebcli&quot;)
+   ebcliDocker.pull()
+   
+   //Now we deploy
+  stage &apos;Deploy Production to Beanstalk&apos;
+  
+    createBeanstalkEnvironmentsIfUnavailable(applicationName, applicationName, applicationName,
+       beanstalkRegion, beanstalkInstanceProfile, beanstalkServiceRole)
+    
+    deployToEnvironment(applicationName)
+    
+}
+
+
+def createBeanstalkEnvironmentsIfUnavailable(appName, env, cnamePrefix, region, ip, role) {
+    echo &apos;Verifying availability of beanstalk app: &apos; + appName + &apos; and env: &apos; + env + &apos; in region &apos; + region
+
+    def ebcliDocker = docker.image(&quot;coxauto/aws-ebcli&quot;)
+
+    ebcliDocker.inside() {
+        sh &apos;aws elasticbeanstalk describe-environments --region &apos; + region + &apos; --application-name &apos; + appName + &apos; --query \&apos;Environments[?EnvironmentName==`&apos; + env + &apos;`]\&apos; &gt; env.available&apos;
+    }
+
+    def ebEnvStatus = readFile(&apos;env.available&apos;);
+
+    if (ebEnvStatus.contains(env) &amp;&amp; ! ebEnvStatus.contains(&apos;Terminated&apos;)) {
+        echo &apos;Environment &apos; + env + &apos; is available for deployment&apos;
+    } else {
+        echo &apos;Environment&apos; + env + &apos; is not available.  Creating beanstalk environment...&apos;
+        ebcliDocker.inside() {
+            sh &apos;eb create &apos; + env + &apos; -c &apos; + cnamePrefix + &apos; --sample &apos; //--instance_profile &apos; + ip + &apos; --service-role &apos; + role
+        }
+    }
+}
+
+def deployToEnvironment(env) {
+    echo &apos;Deploying to &apos; + env
+
+    def ebcliDocker = docker.image(&quot;coxauto/aws-ebcli&quot;)
+    ebcliDocker.inside() {
+        sh &apos;eb deploy &apos; + env
+    }
+
+    echo &apos;Completed deployment&apos;
+}
+</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>41774038</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>227472669</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>456180969</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>134612191</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>29074930</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>12</iota>
+    <head>1:12</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.5.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+            <url>https://github.com/shreys-s/jenkins-docker-maven-example.git</url>
+            <credentialsId>github</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/shreys-s/jenkins-docker-maven-example</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/docker-maven-example_master-72WYOSDNMDBPG634BL7BMBNRQQN3HCGRM4CMULRI5WODJUPBYZRA</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/shreys-s/jobs/jenkins-docker-maven-example/branches/master/builds/1/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

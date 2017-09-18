@@ -1,0 +1,92 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>info.bluefloyd.jenkins</groupId>
+    <artifactId>jenkins-jira-issue-updater</artifactId>
+    <version>1.18</version>
+    <packaging>hpi</packaging>
+    <name>Jenkins Jira Issue Updater</name>
+    <description>Jenkins plugin which can update Jira issues in a maven or a freestyle job.</description>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Jira+Issue+Updater+Plugin</url>
+
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>1.600</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.6.1</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+
+    <!-- Crazy stuff to avoid problems when running the maven release procedure,
+    http://stackoverflow.com/questions/15886209/maven-is-not-working-in-java-8-when-javadoc-tags-are-incomplete -->
+    <profiles>
+        <profile>
+            <id>doclint-java8-disable</id>
+            <activation>
+                <jdk>[1.8,)</jdk>
+            </activation>
+            <properties>
+                <javadoc.opts>-Xdoclint:none</javadoc.opts>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <configuration>
+                            <additionalparam>${javadoc.opts}</additionalparam>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <scm>
+        <connection>scm:git:ssh://github.com/jenkinsci/jira-issue-updater-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/jira-issue-updater-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/jira-issue-updater-plugin</url>
+        <tag>jenkins-jira-issue-updater-1.18</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>laszlomiklosik</id>
+            <name>Laszlo Miklosik</name>
+            <email>laszlo.miklosik@gmail.com</email>
+        </developer>
+        <developer>
+            <id>isparkes</id>
+            <name>Ian Sparkes</name>
+            <email>ian.sparks@swisscom.com</email>
+        </developer>
+    </developers>
+
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

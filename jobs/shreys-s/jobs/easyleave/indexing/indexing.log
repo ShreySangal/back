@@ -1,0 +1,35 @@
+Started by timer
+[Mon Sep 18 05:06:00 IST 2017] Starting branch indexing...
+[8mha:////4F1oaq87dXycUhqOpHWAder1QUb+Ik563hLGkZNCoZnEAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTcJKMHNgCfxb/njgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+[8mha:////4NSKdc2A6bzOt48+IVSwI2iWBkn1yCQPxiVqbVC+V6aPAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTcJKPH/gDatp4FjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Examining [8mha:////4BiHhkLpr6QRvukHF7tseGZnfSL9UxNW/nliYZPurlWLAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKmFQzSgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3WT00srsxJTSxLBQDWoycZqgAAAA==[0mshreys-s/easyleave
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DGsji6opLw0f3VBMCd8YEaq3sU8+rgX1Lj4psYYoh1KAAAAth+LCAAAAAAAAP9djLENwjAQRY8g6KFErJC4owBSRDQgRTSZwISTHTCOdT5HCWOwBjQMwTjsQBAdr/mv+e/xhpEnmOtw9LVNytr62mCy7RySqex5XzMu0vszvblXBNEOxgatYp3DMJBhmOYn2UhhpFWiYKqsWrUEs7/c5rffGPwYRACt62XCsNbMzi+FUBXrcOhfF+E1YedjL1D6zqBsUDAhiuwaCOPMubhAaqoSP4KRBjnBAAAA[0mAzure-App-Service
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4JuImBiHkLDR/p5itls+8sULw9nX+y/r9iLGYnHkqABqAAAArh+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVi0VCAUtGAFNEwgYFTHGJs6+4cJWuwBjQMwTjsQFA6XvNf89/zAxMmmJt4Ye+ys3fsLWa7LiDZytUHL7jKH6/8Ht4JJHtILbpSTAHjSFZgWlx1o5XVrlRHocqVm5Zg9pfbDvuLwcAoAWhDL6nA0ogEXitVVmLiqX/dFBvCjhesUHNnUTeohBCVQfJ1/AJh1kgOtgAAAA==[0mheroku
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4Ho4xFgTb8SsYp4fiPQ5Qy+nRrHLsWn6M4YylBg8oYo9AAAArR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgVi0VCAUtGAFNEwgYGTHXBs6+4SJWuwBjQMwTjsQFA6XvNf89/zAxMmmNv6wsFn5+A5OMx2XURypb8dguAqf7zye3wnkOwhdeiN2ALGNTmBaXHVjVZOe6OOQqU3m5Zg9pfbDvuLwcAoAWhjL6nA0opEXitlSrH1qX9Vii1hxwtWqLlzqBtUQoiq0ixIX8tyLQO2AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at d0fff559871b7bfbedb8f8684c6d9a264bc657d1)
+
+  3 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/easyleave
+
+[Mon Sep 18 05:06:04 IST 2017] Finished branch indexing. Indexing took 4.4 sec
+Finished: SUCCESS

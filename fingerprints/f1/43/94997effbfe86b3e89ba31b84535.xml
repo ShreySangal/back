@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:37:57.457 UTC</timestamp>
+  <md5sum>f14394997effbfe86b3e89ba31b84535</md5sum>
+  <fileName>Credential id=ad2670a9-afea-4cf7-9108-d6e8b9ef5f87 name=shreys-s/******</fileName>
+  <usages>
+    <entry>
+      <string>recruiting</string>
+      <ranges>2-4</ranges>
+    </entry>
+    <entry>
+      <string>GradleExample</string>
+      <ranges>1-17</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD</string>
+      <ranges>6-20</ranges>
+    </entry>
+    <entry>
+      <string>GitAntBuild</string>
+      <ranges>1-7</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp</string>
+      <ranges>1-28</ranges>
+    </entry>
+    <entry>
+      <string>GradleSeed</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>CTC_Demo</string>
+      <ranges>2-33</ranges>
+    </entry>
+    <entry>
+      <string>Recruiting</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>DSL-Tutorial-1-Test</string>
+      <ranges>4-9</ranges>
+    </entry>
+    <entry>
+      <string>docker</string>
+      <ranges>1-2,4</ranges>
+    </entry>
+    <entry>
+      <string>GitMavenBuild</string>
+      <ranges>1-8</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>1-28</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498077477451</timestamp>
+      <itemFullName>CounterWebApp</itemFullName>
+      <timestamp0>1498077477451</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498080662150</timestamp>
+      <itemFullName>GitMavenBuild</itemFullName>
+      <timestamp0>1498080653010</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498081928550</timestamp>
+      <itemFullName>GitAntBuild</itemFullName>
+      <timestamp0>1498081608343</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498081929195</timestamp>
+      <itemFullName>Dummy</itemFullName>
+      <timestamp0>1498081692312</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498083196875</timestamp>
+      <itemFullName>GradleSeed</itemFullName>
+      <timestamp0>1498083187505</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498083434499</timestamp>
+      <itemFullName>GradleExample</itemFullName>
+      <timestamp0>1498080712325</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498084031938</timestamp>
+      <itemFullName>DemoSite</itemFullName>
+      <timestamp0>1498083201115</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498084409390</timestamp>
+      <itemFullName>DSL-Tutorial-1-Test</itemFullName>
+      <timestamp0>1498084273372</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1498151833452</timestamp>
+      <itemFullName>Helloworld</itemFullName>
+      <timestamp0>1498080771943</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.15">
+      <timestamp>1504635478884</timestamp>
+      <itemFullName>Docker-Jenkins</itemFullName>
+      <timestamp0>1504635131417</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

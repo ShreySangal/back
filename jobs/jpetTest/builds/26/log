@@ -1,0 +1,17 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4P0Edm1qOx6bkpknxQaskj3cPDrZSuVDbSOOY8bnTrprAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/fDMvJT88mKF4JzEslQAFMGkyMwAAAA=[0mWindows Slave (windows) in workspace C:\Jenkins\workspace\jpetTest
+[EnvInject] - Executing scripts and injecting environment variables after the SCM step.
+[EnvInject] - Injecting as environment variables the properties content 
+M2_HOME=C:UsersAdministratorDocumentsapache-maven-3.5.0binMAVEN_HOME=C:UsersAdministratorDocumentsapache-maven-3.5.0bin
+JAVA_HOME=C:Program FilesJavajdk1.8.0_131
+
+[EnvInject] - Variables injected successfully.
+Parsing POMs
+Established TCP socket on 64494
+ERROR: No classworlds*.jar found in C:\Users\Administrator\Documents\apache-maven-3.5.0\bin -- Is this a valid maven directory?
+[8mha:AAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Finished: FAILURE

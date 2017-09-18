@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: alex
+Build-Jdk: 1.7.0_25
+Extension-Name: filesystem-list-parameter-plugin
+Specification-Title: This plugin reads folder, file or symbolic link n
+ ames from filesystem path as parameter value.
+Implementation-Title: filesystem-list-parameter-plugin
+Implementation-Version: 0.0.3
+Group-Id: aendter.jenkins.plugins
+Short-Name: filesystem-list-parameter-plugin
+Long-Name: Jenkins Filesystem List Parameter Plug-in
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Filesystem+List+Param
+ eter+Plug-in
+Plugin-Version: 0.0.3
+Hudson-Version: 1.520
+Jenkins-Version: 1.520
+Plugin-Developers: Alexander Endter:aendter:aendter83@gmail.com
+

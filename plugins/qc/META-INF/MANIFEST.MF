@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: F276977
+Build-Jdk: 1.6.0_24
+Extension-Name: qc
+Implementation-Title: qc
+Implementation-Version: 1.2.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: qc
+Long-Name: Quality Center Plugin
+Url: http://wiki.jenkins-ci.org/display/HUDSON/Quality+Center+Plugin
+Plugin-Version: 1.2.1
+Hudson-Version: 1.409
+Jenkins-Version: 1.409
+Plugin-Developers: Thomas Maurel:tmaurel:,Romain Seguy:rseguy:
+

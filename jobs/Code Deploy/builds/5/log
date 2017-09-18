@@ -1,0 +1,158 @@
+Started by upstream project "[8mha:////4By0JVPgH92y9DR05Cnoq0cBF5ihBtL6kyeimhsU3G6kAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH3HopLMtMTkkvyiSn0Ayw3LOcYAAAA=[0mArtifactory" build number [8mha:////4DxZPsG12h9D1Ol8vG01T1qJ+EbtqMkIzlp9r2MoAyYvAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6jkUlmWmJySX5RZX6pgCyknu8xwAAAA==[0m5
+originally caused by:
+ Started by upstream project "[8mha:////4OV8JQUVuAm6pOui/VXcQOzW8jt1VSTBBgIslC5pQEQfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP3QkHhnZ30A1Ps7QcAAAAA=[0mUT_CC" build number [8mha:////4Eu7nzxq1O6AE3Z8BgEBgVr89r79X05gwhBeHI0qtydDAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JP3QkHhnZ31DYwASKT8vwgAAAA==[0m13
+ originally caused by:
+  Started by upstream project "[8mha:////4OX7rKzTozYWuFQnxMoASWErhf1Jj0T01+0drJZ/jtLmAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JH2n0sycFKB+fQCQXCA9wwAAAA==[0mBuilding" build number [8mha:////4M2RiZlsl34WQHYLt84OAjMExqvleR+4+jDP21/0c/pcAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JH2n0sycFKB+fUMTAMiKzLTFAAAA[0m14
+  originally caused by:
+   Started by upstream project "[8mha:////4Or0Neg6j6JfocigXPXyOiAtm0mX8IaCx6GLtNqV4+dkAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3g/NKiZKB+fQAAbmJAwwAAAA==[0mSourcing" build number [8mha:////4CwPZH4PWoZ3+qnqjqkBHfTr8lFKrLYSASin5bSjY7r6AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP3g/NKiZKB+fUNTAIYcXXrFAAAA[0m15
+   originally caused by:
+    Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Code Deploy
+[Code Deploy] $ /bin/ksh -xe /tmp/jenkins200023839133428211.sh
++ cd /home/dryice2
++ rm -rf /home/dryice2/package
++ mkdir -p /home/dryice2/package/app
++ mkdir -p /home/dryice2/package/db
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/package/app
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_5.war
+--2017-08-14 11:29:52--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_5.war
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3192491 (3.0M) [application/java-archive]
+Saving to: ‘game-1.0-BN_5.war’
+
+     0K .......... .......... .......... .......... ..........  1%  104M 0s
+    50K .......... .......... .......... .......... ..........  3%  169M 0s
+   100K .......... .......... .......... .......... ..........  4%  157M 0s
+   150K .......... .......... .......... .......... ..........  6%  217M 0s
+   200K .......... .......... .......... .......... ..........  8%  177M 0s
+   250K .......... .......... .......... .......... ..........  9% 97.0M 0s
+   300K .......... .......... .......... .......... .......... 11% 22.6M 0s
+   350K .......... .......... .......... .......... .......... 12% 17.3M 0s
+   400K .......... .......... .......... .......... .......... 14%  124M 0s
+   450K .......... .......... .......... .......... .......... 16%  197M 0s
+   500K .......... .......... .......... .......... .......... 17%  197M 0s
+   550K .......... .......... .......... .......... .......... 19% 30.0M 0s
+   600K .......... .......... .......... .......... .......... 20% 27.6M 0s
+   650K .......... .......... .......... .......... .......... 22% 23.6M 0s
+   700K .......... .......... .......... .......... .......... 24% 19.6M 0s
+   750K .......... .......... .......... .......... .......... 25%  170M 0s
+   800K .......... .......... .......... .......... .......... 27% 15.5M 0s
+   850K .......... .......... .......... .......... .......... 28%  179M 0s
+   900K .......... .......... .......... .......... .......... 30% 96.2M 0s
+   950K .......... .......... .......... .......... .......... 32%  106M 0s
+  1000K .......... .......... .......... .......... .......... 33% 9.28M 0s
+  1050K .......... .......... .......... .......... .......... 35%  164M 0s
+  1100K .......... .......... .......... .......... .......... 36%  144M 0s
+  1150K .......... .......... .......... .......... .......... 38%  188M 0s
+  1200K .......... .......... .......... .......... .......... 40%  212M 0s
+  1250K .......... .......... .......... .......... .......... 41%  182M 0s
+  1300K .......... .......... .......... .......... .......... 43%  159M 0s
+  1350K .......... .......... .......... .......... .......... 44%  156M 0s
+  1400K .......... .......... .......... .......... .......... 46%  108M 0s
+  1450K .......... .......... .......... .......... .......... 48%  225M 0s
+  1500K .......... .......... .......... .......... .......... 49%  207M 0s
+  1550K .......... .......... .......... .......... .......... 51%  264M 0s
+  1600K .......... .......... .......... .......... .......... 52%  123M 0s
+  1650K .......... .......... .......... .......... .......... 54%  142M 0s
+  1700K .......... .......... .......... .......... .......... 56% 13.1M 0s
+  1750K .......... .......... .......... .......... .......... 57% 40.6M 0s
+  1800K .......... .......... .......... .......... .......... 59% 44.5M 0s
+  1850K .......... .......... .......... .......... .......... 60%  135M 0s
+  1900K .......... .......... .......... .......... .......... 62%  132M 0s
+  1950K .......... .......... .......... .......... .......... 64% 34.8M 0s
+  2000K .......... .......... .......... .......... .......... 65% 31.3M 0s
+  2050K .......... .......... .......... .......... .......... 67% 49.1M 0s
+  2100K .......... .......... .......... .......... .......... 68% 62.6M 0s
+  2150K .......... .......... .......... .......... .......... 70% 34.1M 0s
+  2200K .......... .......... .......... .......... .......... 72% 30.1M 0s
+  2250K .......... .......... .......... .......... .......... 73% 32.4M 0s
+  2300K .......... .......... .......... .......... .......... 75% 32.3M 0s
+  2350K .......... .......... .......... .......... .......... 76% 42.8M 0s
+  2400K .......... .......... .......... .......... .......... 78% 72.1M 0s
+  2450K .......... .......... .......... .......... .......... 80% 58.0M 0s
+  2500K .......... .......... .......... .......... .......... 81% 62.4M 0s
+  2550K .......... .......... .......... .......... .......... 83% 50.7M 0s
+  2600K .......... .......... .......... .......... .......... 84% 79.0M 0s
+  2650K .......... .......... .......... .......... .......... 86% 79.1M 0s
+  2700K .......... .......... .......... .......... .......... 88% 34.8M 0s
+  2750K .......... .......... .......... .......... .......... 89% 33.4M 0s
+  2800K .......... .......... .......... .......... .......... 91% 36.1M 0s
+  2850K .......... .......... .......... .......... .......... 93% 35.9M 0s
+  2900K .......... .......... .......... .......... .......... 94% 34.9M 0s
+  2950K .......... .......... .......... .......... .......... 96% 46.4M 0s
+  3000K .......... .......... .......... .......... .......... 97% 36.9M 0s
+  3050K .......... .......... .......... .......... .......... 99% 21.0M 0s
+  3100K .......... .......                                    100% 19.9M=0.07s
+
+2017-08-14 11:29:52 (46.5 MB/s) - ‘game-1.0-BN_5.war’ saved [3192491/3192491]
+
++ cd /home/dryice2/package/app
++ mv game-1.0-BN_5.war game.war
++ cd /home/dryice2/package/db
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_5.sql
+--2017-08-14 11:29:52--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_5.sql
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3342 (3.3K) [text/x-sql]
+Saving to: ‘game-1.0-BN_5.sql’
+
+     0K ...                                                   100%  220M=0s
+
+2017-08-14 11:29:52 (220 MB/s) - ‘game-1.0-BN_5.sql’ saved [3342/3342]
+
++ cd /home/dryice2/package/db
++ mv game-1.0-BN_5.sql game.sql
++ cd /home/dryice2
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/webapps
++ cp -r /home/dryice2/package/app/game.war .
++ jar -xvf game.war
+  created: META-INF/
+ inflated: META-INF/MANIFEST.MF
+  created: WEB-INF/
+  created: WEB-INF/jsp/
+  created: WEB-INF/jsp/game/
+  created: WEB-INF/classes/
+  created: WEB-INF/classes/com/
+  created: WEB-INF/classes/com/wakaleo/
+  created: WEB-INF/classes/com/wakaleo/gameoflife/
+  created: WEB-INF/classes/com/wakaleo/gameoflife/webtests/
+  created: WEB-INF/classes/com/wakaleo/gameoflife/webtests/controllers/
+  created: WEB-INF/lib/
+ inflated: WEB-INF/gameoflife-servlet.xml
+ inflated: WEB-INF/jsp/game/edit.jsp
+ inflated: WEB-INF/jsp/game/show.jsp
+ inflated: WEB-INF/jsp/home.jsp
+ inflated: WEB-INF/web.xml
+ inflated: WEB-INF/classes/system.properties
+ inflated: WEB-INF/classes/com/wakaleo/gameoflife/webtests/controllers/GameController.class
+ inflated: WEB-INF/classes/com/wakaleo/gameoflife/webtests/controllers/HomePageController.class
+ inflated: WEB-INF/lib/gameoflife-core-1.0-SNAPSHOT.jar
+ inflated: WEB-INF/lib/spring-webmvc-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-asm-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-beans-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-context-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-aop-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-context-support-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-expression-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-core-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/commons-logging-1.1.1.jar
+ inflated: WEB-INF/lib/spring-web-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/aopalliance-1.0.jar
+ inflated: WEB-INF/lib/jstl-1.2.jar
+ inflated: WEB-INF/lib/fest-assert-1.4.jar
+ inflated: WEB-INF/lib/fest-util-1.1.6.jar
+ inflated: WEB-INF/lib/slf4j-simple-1.6.1.jar
+ inflated: WEB-INF/lib/slf4j-api-1.6.1.jar
+ inflated: index.jsp
+  created: META-INF/maven/
+  created: META-INF/maven/com.wakaleo.gameoflife/
+  created: META-INF/maven/com.wakaleo.gameoflife/gameoflife-web/
+ inflated: META-INF/maven/com.wakaleo.gameoflife/gameoflife-web/pom.xml
+ inflated: META-INF/maven/com.wakaleo.gameoflife/gameoflife-web/pom.properties
+Triggering projects: [8mha:////4I7ZkEdlFRDlHdidcZZiK7/5b8dJHE+hdavWfYbp+7qRAAAAix+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKWHg0s/KT9L3TczM0QcAZmAqHY8AAAA=[0mMail
+Notifying upstream projects of job completion
+Finished: SUCCESS

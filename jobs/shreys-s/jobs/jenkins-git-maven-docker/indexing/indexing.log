@@ -1,0 +1,27 @@
+Started by timer
+[Sun Sep 17 14:52:00 IST 2017] Starting branch indexing...
+[8mha:////4LBN4O7Tp68GSRePux6rYGtNsFnAT7tTQJYXgNTXi16ZAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcvyqLIgAZpbEFjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+[8mha:////4AqweQhKYPqf5kUEh0fi1QfZIFmsrqvjdYpM4hbtko4AAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRcvyq7IgDa9pwujgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Examining [8mha:////4L8ubqzKKyBxKfI5wo6WSyTRNqddFH6YvXC9tUoYOjXhAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLGEwySgpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz0rNy87MK9YFyunmJpal5umm5CdnpxYBAHhIk5K5AAAA[0mshreys-s/jenkins-git-maven-docker
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4LT5xlPVnumIfOJ2xU3RaBJ7lSP+PI7bCVHD0LvAnnJpAAAAuR+LCAAAAAAAAP9djDEKwkAQRceIHsBSvEKynYUiCDYKwcYTrHHIxmxmw8wkJNfwGtp4CI/jHYzY+Zv/4fHf4w0TYVi45iKBkiyQBI/Jvq+RfUHlMSguN/fn5la/IogOMPVIuboUxg17hVl6ta013lJuTsoF5euOYf6n2/36K4NfRhFAVw9jqrB1qrWsjMkLdc15eFVGHGMvsZgrUlmQxAOLK9sixZeQlchGGdFUVhT5Awk9LmjFAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 79a74e3c44a79b39775e054c136e418f0f213116)
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/jenkins-git-maven-docker
+
+[Sun Sep 17 14:52:03 IST 2017] Finished branch indexing. Indexing took 3.3 sec
+Finished: SUCCESS

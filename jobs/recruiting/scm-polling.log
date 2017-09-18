@@ -1,0 +1,9 @@
+Started on Sep 18, 2017 10:48:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 9de7cf6a60b4b478b65477f8b79b179a0e0eea06 (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > /bin/git ls-remote -h https://github.com/shreys-s/recruiting-old-style # timeout=10
+Found 1 remote heads on https://github.com/shreys-s/recruiting-old-style
+[poll] Latest remote head revision on refs/heads/master is: 9de7cf6a60b4b478b65477f8b79b179a0e0eea06 - already built by 4
+Done. Took 1.3 sec
+No changes

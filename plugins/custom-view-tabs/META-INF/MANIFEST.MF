@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Alistair
+Build-Jdk: 1.8.0_40
+Extension-Name: custom-view-tabs
+Specification-Title: Allows custom labels and colours on view tabs
+Implementation-Title: custom-view-tabs
+Implementation-Version: 1.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: custom-view-tabs
+Long-Name: Custom View Tabs Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/custom-view-tabs
+Plugin-Version: 1.3
+Hudson-Version: 1.580
+Jenkins-Version: 1.580
+Plugin-Dependencies: nested-view:1.5
+Plugin-Developers: Alistair Todd:Todderz:ringracer@gmail.com
+

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.database.GlobalDatabaseConfiguration plugin="database@1.5">
+  <database class="org.jenkinsci.plugins.database.mysql.MySQLDatabase" plugin="database-mysql@1.1">
+    <hostname>10.1.23.186</hostname>
+    <database>dryice</database>
+    <username>jenkins</username>
+    <password>{AQAAABAAAAAQ0GTNyU4Nqk8mhI4bPlfCW4+vdw/ZeHF711YuErksOK8=}</password>
+    <validationQuery>SELECT table_name FROM information_schema.tables where table_schema=&apos;dryice&apos;;</validationQuery>
+    <properties></properties>
+  </database>
+</org.jenkinsci.plugins.database.GlobalDatabaseConfiguration>

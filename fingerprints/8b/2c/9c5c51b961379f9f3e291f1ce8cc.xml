@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-09-11 14:12:00.475 UTC</timestamp>
+  <md5sum>8b2c9c5c51b961379f9f3e291f1ce8cc</md5sum>
+  <fileName>Credential id=ad2670a9-afea-4cf7-9108-d6e8b9ef5f87 name=shreys-s/******</fileName>
+  <usages>
+    <entry>
+      <string>recruiting</string>
+      <ranges>4</ranges>
+    </entry>
+    <entry>
+      <string>GradleExample</string>
+      <ranges>17</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD</string>
+      <ranges>20</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp</string>
+      <ranges>28</ranges>
+    </entry>
+    <entry>
+      <string>GradleSeed</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>CTC_Demo</string>
+      <ranges>34-41</ranges>
+    </entry>
+    <entry>
+      <string>GitMavenBuild</string>
+      <ranges>8</ranges>
+    </entry>
+    <entry>
+      <string>jpetstore</string>
+      <ranges>28-30</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

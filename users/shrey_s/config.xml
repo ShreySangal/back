@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<user>
+  <fullName>Shrey Sangal</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <apiToken>{AQAAABAAAAAwm0NbQ+uvUTNYEllvz5pixk/F52F8l+4X+J1e+zdC8K7WyO04u2YinY3fviDWJ7/mHf6M/jrtmWVg2n1mOdvMgg==}</apiToken>
+    </jenkins.security.ApiTokenProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.15">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <name>blueocean-github-domain</name>
+            <description>blueocean-github-domain to store credentials by BlueOcean</description>
+            <specifications>
+              <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanDomainSpecification plugin="blueocean-pipeline-scm-api@1.2.0"/>
+            </specifications>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <list>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+              <scope>USER</scope>
+              <id>github</id>
+              <description>Github Access Token</description>
+              <username>shrey_s</username>
+              <password>{AQAAABAAAAAwp0Ol0sfK+SOMU6XPoGEm1aPpQURK7A38lVhMuHZ6shAs+6a7H5sQbkLKzvVvvzfFl/x8LNMSVcZXIWv8mD7Pzw==}</password>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+          </list>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.58">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.0">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed>
+        <string>next-exec</string>
+      </collapsed>
+    </hudson.model.PaneStatusProperties>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>false</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$C3z8Yxt7dT3H6ftsV/IF5eh3A3hzE0yo7azNS7M9G.mbIi0FSxNn2</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
+      <emailAddress>shrey_s@hcl.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.plugins.favoriteview.FavoriteViewsUserProperty plugin="favorite-view@1.0">
+      <favoriteViews class="java.util.Collections$SynchronizedSet" serialization="custom">
+        <java.util.Collections_-SynchronizedCollection>
+          <default>
+            <c class="set"/>
+            <mutex class="java.util.Collections$SynchronizedSet" reference="../../.."/>
+          </default>
+        </java.util.Collections_-SynchronizedCollection>
+      </favoriteViews>
+    </hudson.plugins.favoriteview.FavoriteViewsUserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.0">
+      <data class="concurrent-hash-map">
+        <entry>
+          <string>jpetstore</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>shreys-s/poc-jenkins-pipeline/patch-1</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>shreys-s/jenkins-git-maven-docker/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CI_CD</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>shreys-s/jenkins-docker-maven-example/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>EC2Launch</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>AppData</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>UT_CC</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>shreys-s/docker-jenkins-pipeline/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Ansible</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>recruiting</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>VPCSubnet</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pipe</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CTC_Demo</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>RDGateway</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>mavn</string>
+          <boolean>true</boolean>
+        </entry>
+      </data>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <hudson.plugins.perforce.PerforceUserProperty plugin="perforce@1.3.36"/>
+    <org.jenkinsci.plugins.readonly.UserConfiguration plugin="read-only-configurations@1.10">
+      <displayForReadOnlyPermission>true</displayForReadOnlyPermission>
+    </org.jenkinsci.plugins.readonly.UserConfiguration>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1498069413758</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>

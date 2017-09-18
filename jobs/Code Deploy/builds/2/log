@@ -1,0 +1,150 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Code Deploy
+[Code Deploy] $ /bin/ksh -xe /tmp/jenkins5845139619676903652.sh
++ cd /home/dryice2
++ rm -rf /home/dryice2/package
++ mkdir -p /home/dryice2/package/app
++ mkdir -p /home/dryice2/package/db
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/package/app
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_2.war
+--2017-08-01 13:53:58--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_2.war
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3192493 (3.0M) [application/java-archive]
+Saving to: ‘game-1.0-BN_2.war’
+
+     0K .......... .......... .......... .......... ..........  1% 73.0M 0s
+    50K .......... .......... .......... .......... ..........  3%  124M 0s
+   100K .......... .......... .......... .......... ..........  4% 20.8M 0s
+   150K .......... .......... .......... .......... ..........  6% 21.3M 0s
+   200K .......... .......... .......... .......... ..........  8% 20.2M 0s
+   250K .......... .......... .......... .......... ..........  9% 18.4M 0s
+   300K .......... .......... .......... .......... .......... 11% 20.0M 0s
+   350K .......... .......... .......... .......... .......... 12% 23.6M 0s
+   400K .......... .......... .......... .......... .......... 14% 21.7M 0s
+   450K .......... .......... .......... .......... .......... 16% 20.3M 0s
+   500K .......... .......... .......... .......... .......... 17% 20.6M 0s
+   550K .......... .......... .......... .......... .......... 19% 25.7M 0s
+   600K .......... .......... .......... .......... .......... 20% 19.4M 0s
+   650K .......... .......... .......... .......... .......... 22% 21.4M 0s
+   700K .......... .......... .......... .......... .......... 24% 26.4M 0s
+   750K .......... .......... .......... .......... .......... 25% 17.9M 0s
+   800K .......... .......... .......... .......... .......... 27% 8.53M 0s
+   850K .......... .......... .......... .......... .......... 28% 19.5M 0s
+   900K .......... .......... .......... .......... .......... 30% 22.2M 0s
+   950K .......... .......... .......... .......... .......... 32% 11.4M 0s
+  1000K .......... .......... .......... .......... .......... 33% 53.3M 0s
+  1050K .......... .......... .......... .......... .......... 35% 17.4M 0s
+  1100K .......... .......... .......... .......... .......... 36% 24.1M 0s
+  1150K .......... .......... .......... .......... .......... 38% 22.7M 0s
+  1200K .......... .......... .......... .......... .......... 40% 23.5M 0s
+  1250K .......... .......... .......... .......... .......... 41% 24.3M 0s
+  1300K .......... .......... .......... .......... .......... 43% 15.5M 0s
+  1350K .......... .......... .......... .......... .......... 44% 24.3M 0s
+  1400K .......... .......... .......... .......... .......... 46% 28.2M 0s
+  1450K .......... .......... .......... .......... .......... 48% 24.4M 0s
+  1500K .......... .......... .......... .......... .......... 49% 28.5M 0s
+  1550K .......... .......... .......... .......... .......... 51% 26.5M 0s
+  1600K .......... .......... .......... .......... .......... 52% 26.7M 0s
+  1650K .......... .......... .......... .......... .......... 54% 32.0M 0s
+  1700K .......... .......... .......... .......... .......... 56% 29.6M 0s
+  1750K .......... .......... .......... .......... .......... 57% 38.8M 0s
+  1800K .......... .......... .......... .......... .......... 59% 22.4M 0s
+  1850K .......... .......... .......... .......... .......... 60% 23.2M 0s
+  1900K .......... .......... .......... .......... .......... 62% 12.9M 0s
+  1950K .......... .......... .......... .......... .......... 64% 19.6M 0s
+  2000K .......... .......... .......... .......... .......... 65% 22.5M 0s
+  2050K .......... .......... .......... .......... .......... 67% 18.5M 0s
+  2100K .......... .......... .......... .......... .......... 68% 18.2M 0s
+  2150K .......... .......... .......... .......... .......... 70% 25.1M 0s
+  2200K .......... .......... .......... .......... .......... 72% 20.0M 0s
+  2250K .......... .......... .......... .......... .......... 73% 16.5M 0s
+  2300K .......... .......... .......... .......... .......... 75% 17.2M 0s
+  2350K .......... .......... .......... .......... .......... 76% 22.4M 0s
+  2400K .......... .......... .......... .......... .......... 78% 9.98M 0s
+  2450K .......... .......... .......... .......... .......... 80% 71.9M 0s
+  2500K .......... .......... .......... .......... .......... 81% 21.1M 0s
+  2550K .......... .......... .......... .......... .......... 83% 32.1M 0s
+  2600K .......... .......... .......... .......... .......... 84% 23.4M 0s
+  2650K .......... .......... .......... .......... .......... 86% 21.0M 0s
+  2700K .......... .......... .......... .......... .......... 88% 22.1M 0s
+  2750K .......... .......... .......... .......... .......... 89% 33.0M 0s
+  2800K .......... .......... .......... .......... .......... 91% 27.0M 0s
+  2850K .......... .......... .......... .......... .......... 93% 34.4M 0s
+  2900K .......... .......... .......... .......... .......... 94% 27.5M 0s
+  2950K .......... .......... .......... .......... .......... 96% 26.2M 0s
+  3000K .......... .......... .......... .......... .......... 97% 30.8M 0s
+  3050K .......... .......... .......... .......... .......... 99% 32.6M 0s
+  3100K .......... .......                                    100% 27.8M=0.1s
+
+2017-08-01 13:53:58 (22.2 MB/s) - ‘game-1.0-BN_2.war’ saved [3192493/3192493]
+
++ cd /home/dryice2/package/app
++ mv game-1.0-BN_2.war game.war
++ cd /home/dryice2/package/db
++ wget '--user=shrey_s' '--password=Unix_11' http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_2.sql
+--2017-08-01 13:53:58--  http://10.1.23.186:8081/nexus/service/local/repositories/DryiCE/content/com/ctc/devops/game/1.0/game-1.0-BN_2.sql
+Connecting to 10.1.23.186:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3343 (3.3K) [text/x-sql]
+Saving to: ‘game-1.0-BN_2.sql’
+
+     0K ...                                                   100%  254M=0s
+
+2017-08-01 13:53:58 (254 MB/s) - ‘game-1.0-BN_2.sql’ saved [3343/3343]
+
++ cd /home/dryice2/package/db
++ mv game-1.0-BN_2.sql game.sql
++ cd /home/dryice2
++ chmod -R 777 /home/dryice2/package
++ cd /home/dryice2/webapps
++ cp -r /home/dryice2/package/app/game.war .
++ jar -xvf game.war
+  created: META-INF/
+ inflated: META-INF/MANIFEST.MF
+  created: WEB-INF/
+  created: WEB-INF/jsp/
+  created: WEB-INF/jsp/game/
+  created: WEB-INF/classes/
+  created: WEB-INF/classes/com/
+  created: WEB-INF/classes/com/wakaleo/
+  created: WEB-INF/classes/com/wakaleo/gameoflife/
+  created: WEB-INF/classes/com/wakaleo/gameoflife/webtests/
+  created: WEB-INF/classes/com/wakaleo/gameoflife/webtests/controllers/
+  created: WEB-INF/lib/
+ inflated: WEB-INF/gameoflife-servlet.xml
+ inflated: WEB-INF/jsp/game/edit.jsp
+ inflated: WEB-INF/jsp/game/show.jsp
+ inflated: WEB-INF/jsp/home.jsp
+ inflated: WEB-INF/web.xml
+ inflated: WEB-INF/classes/system.properties
+ inflated: WEB-INF/classes/com/wakaleo/gameoflife/webtests/controllers/GameController.class
+ inflated: WEB-INF/classes/com/wakaleo/gameoflife/webtests/controllers/HomePageController.class
+ inflated: WEB-INF/lib/gameoflife-core-1.0-SNAPSHOT.jar
+ inflated: WEB-INF/lib/spring-webmvc-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-asm-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-beans-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-context-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-aop-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-context-support-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-expression-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/spring-core-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/commons-logging-1.1.1.jar
+ inflated: WEB-INF/lib/spring-web-3.0.2.RELEASE.jar
+ inflated: WEB-INF/lib/aopalliance-1.0.jar
+ inflated: WEB-INF/lib/jstl-1.2.jar
+ inflated: WEB-INF/lib/fest-assert-1.4.jar
+ inflated: WEB-INF/lib/fest-util-1.1.6.jar
+ inflated: WEB-INF/lib/slf4j-simple-1.6.1.jar
+ inflated: WEB-INF/lib/slf4j-api-1.6.1.jar
+ inflated: index.jsp
+  created: META-INF/maven/
+  created: META-INF/maven/com.wakaleo.gameoflife/
+  created: META-INF/maven/com.wakaleo.gameoflife/gameoflife-web/
+ inflated: META-INF/maven/com.wakaleo.gameoflife/gameoflife-web/pom.xml
+ inflated: META-INF/maven/com.wakaleo.gameoflife/gameoflife-web/pom.properties
+Triggering projects: [8mha:////4I7ZkEdlFRDlHdidcZZiK7/5b8dJHE+hdavWfYbp+7qRAAAAix+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKWHg0s/KT9L3TczM0QcAZmAqHY8AAAA=[0mMail
+Notifying upstream projects of job completion
+Finished: SUCCESS

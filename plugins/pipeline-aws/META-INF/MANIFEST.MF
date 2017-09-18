@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hoegertn
+Build-Jdk: 1.8.0_121
+Extension-Name: pipeline-aws
+Specification-Title: The Jenkins Plugins Parent POM Project
+Specification-Vendor: Taimos GmbH
+Implementation-Vendor: Taimos GmbH
+Implementation-Title: pipeline-aws
+Implementation-Version: 1.13
+Group-Id: de.taimos
+Short-Name: pipeline-aws
+Long-Name: Pipeline: AWS Steps
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+AWS+Plugin
+Plugin-Version: 1.13
+Hudson-Version: 2.7.4
+Jenkins-Version: 2.7.4
+Plugin-Dependencies: workflow-step-api:2.4,credentials:1.25,plain-cred
+ entials:1.1,workflow-cps:2.21,aws-java-sdk:1.11.119
+Plugin-Developers: Thorsten Hoeger:hoegertn:thorsten.hoeger@taimos.de
+

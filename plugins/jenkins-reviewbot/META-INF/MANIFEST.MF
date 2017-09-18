@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ymeymann
+Build-Jdk: 1.6.0_33
+Extension-Name: jenkins-reviewbot
+Implementation-Title: jenkins-reviewbot
+Implementation-Version: 2.4.6
+Group-Id: org.jenkins-ci.plugins
+Short-Name: jenkins-reviewbot
+Long-Name: jenkins-reviewbot
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Jenkins-Reviewbot
+Plugin-Version: 2.4.6
+Hudson-Version: 1.528
+Jenkins-Version: 1.528
+Plugin-Dependencies: patch-parameter:1.2
+Plugin-Developers: Yardena Meymann:yardena:
+

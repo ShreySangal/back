@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.7.0_75
+Extension-Name: run-condition-extras
+Specification-Title: Provides additional run conditions and integratio
+ ns for Run Conditions Plugin
+Implementation-Title: run-condition-extras
+Implementation-Version: 0.2
+Group-Id: com.synopsys.arc.jenkinsci.plugins
+Short-Name: run-condition-extras
+Long-Name: Jenkins Run Condition Extras Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Run+Condition+Extras+
+ Plugin
+Plugin-Version: 0.2
+Hudson-Version: 1.509.3
+Jenkins-Version: 1.509.3
+Plugin-Dependencies: build-timeout:1.12;resolution:=optional,email-ext
+ :2.38;resolution:=optional,run-condition:1.0
+Plugin-Developers: Oleg Nenashev:oleg_nenashev:o.v.nenashev@gmail.com
+

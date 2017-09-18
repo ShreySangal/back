@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-29 08:16:29.880 UTC</timestamp>
+  <md5sum>38268539f6a9557f611618d519b9c784</md5sum>
+  <fileName>Credential id=github name=shrey_s/****** (Github Access Token)</fileName>
+  <usages>
+    <entry>
+      <string>shreys-s/kubernetes-ci-cd/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/jenkins-git-maven-docker/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/poc-jenkins-pipeline/patch-1</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/kubernetes-ci-cd/ingress-update</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/docker-jenkins-pipeline/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/kubernetes-ci-cd/issue-25-add-apache-2-license</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/jenkins-docker-maven-example/master</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>shreys-s/docker-sample/master</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

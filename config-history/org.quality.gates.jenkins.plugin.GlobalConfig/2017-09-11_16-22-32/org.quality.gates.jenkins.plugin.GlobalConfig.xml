@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.quality.gates.jenkins.plugin.GlobalConfig plugin="sonar-quality-gates@1.1.1">
+  <listOfGlobalConfigData>
+    <org.quality.gates.jenkins.plugin.GlobalConfigDataForSonarInstance>
+      <name>sonarqube</name>
+      <username>shrey_s</username>
+      <sonarUrl>http://10.1.23.186:9000/sonar/</sonarUrl>
+      <secretPass>{AQAAABAAAAAQYRSXBI9OGZSDucuHvAwAXu91frWmBrifbZwXNLj/AGM=}</secretPass>
+      <timeToWait>0</timeToWait>
+    </org.quality.gates.jenkins.plugin.GlobalConfigDataForSonarInstance>
+  </listOfGlobalConfigData>
+  <globalConfigurationService>
+    <listOfGlobalConfigInstances reference="../../listOfGlobalConfigData"/>
+  </globalConfigurationService>
+</org.quality.gates.jenkins.plugin.GlobalConfig>

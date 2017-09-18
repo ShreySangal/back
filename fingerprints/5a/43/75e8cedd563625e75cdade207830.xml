@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-07-07 17:41:57.484 UTC</timestamp>
+  <original>
+    <name>GitMavenBuild/com.hcl.app:devops-dryice</name>
+    <number>4</number>
+  </original>
+  <md5sum>5a4375e8cedd563625e75cdade207830</md5sum>
+  <fileName>com.hcl.app:devops-dryice-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>GitMavenBuild/com.hcl.app:devops-dryice</string>
+      <ranges>4,6-8</ranges>
+    </entry>
+    <entry>
+      <string>GitMavenBuild</string>
+      <ranges>4,6-8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

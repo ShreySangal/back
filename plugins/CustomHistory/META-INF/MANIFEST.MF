@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ryg
+Build-Jdk: 1.7.0
+Extension-Name: CustomHistory
+Implementation-Title: CustomHistory
+Implementation-Version: 1.6
+Group-Id: org.jenkins-ci.plugins
+Short-Name: CustomHistory
+Long-Name: CustomHistory
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Custom+History
+Plugin-Version: 1.6
+Hudson-Version: 1.495
+Jenkins-Version: 1.495
+Plugin-Dependencies: parameterized-trigger:2.10;resolution:=optional
+Plugin-Developers: Roman Grigoryev:ryg_:rgrigoryev@gmail.com
+

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuild_-DescriptorImpl plugin="sonargraph-integration@2.1.0">
+  <installations class="com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuild-array">
+    <com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuild>
+      <name>Sonargraph</name>
+      <home></home>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuildInstaller>
+              <id>newest</id>
+            </com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuildInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuild>
+  </installations>
+</com.hello2morrow.sonargraph.integration.jenkins.tool.SonargraphBuild_-DescriptorImpl>

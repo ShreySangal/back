@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jholusa
+Build-Jdk: 1.8.0_66
+Extension-Name: database-sqlite
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: database-sqlite
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: database-sqlite
+Long-Name: SQLite Database plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/SQLite+Database+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.625.2
+Jenkins-Version: 1.625.2
+Plugin-Dependencies: database:1.1
+Plugin-Developers: Jiri Holusa:jholusa:jholusa@redhat.com
+

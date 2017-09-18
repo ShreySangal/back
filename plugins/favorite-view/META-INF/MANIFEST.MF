@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: tom
+Build-Jdk: 1.6.0_30
+Extension-Name: favorite-view
+Implementation-Title: favorite-view
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: favorite-view
+Long-Name: Favorite View Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Favorite+View+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.399
+Plugin-Developers: 
+

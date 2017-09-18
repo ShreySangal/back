@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Slave Prerequisites plugin' groupId='org.jenkins-ci.plugins' artifactId='slave-prerequisites' version='1.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Slave+Prerequisites+Plugin'>
+    <l:description>Run a script on slave node before letting a Job run on it, to check for prerequisites.</l:description>
+    <l:license name='LGPL 3' url='http://www.gnu.org/licenses/lgpl.html' />
+  </l:dependency>
+</l:dependencies>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: laci
+Build-Jdk: 1.8.0_60
+Extension-Name: jenkins-jira-issue-updater
+Specification-Title: Jenkins plugin which can update Jira issues in a 
+ maven or a freestyle job.
+Implementation-Title: jenkins-jira-issue-updater
+Implementation-Version: 1.18
+Group-Id: info.bluefloyd.jenkins
+Short-Name: jenkins-jira-issue-updater
+Long-Name: Jenkins Jira Issue Updater
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Jira+Issue+Updater+Pl
+ ugin
+Plugin-Version: 1.18
+Hudson-Version: 1.600
+Jenkins-Version: 1.600
+Plugin-Developers: Laszlo Miklosik:laszlomiklosik:laszlo.miklosik@gmai
+ l.com,Ian Sparkes:isparkes:ian.sparks@swisscom.com
+

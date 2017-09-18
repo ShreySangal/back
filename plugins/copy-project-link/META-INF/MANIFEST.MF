@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ogondza
+Build-Jdk: 1.7.0_91
+Extension-Name: copy-project-link
+Implementation-Title: copy-project-link
+Implementation-Version: 1.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: copy-project-link
+Long-Name: Copy project link plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Copy+project+link+plugin
+Plugin-Version: 1.5
+Hudson-Version: 1.480.3
+Jenkins-Version: 1.480.3
+Plugin-Dependencies: cloudbees-folder:4.0;resolution:=optional
+Plugin-Developers: Vojtech Juranek:vjuranek:,Vincent Latombe:vlatombe:
+ ,Oliver Gondža:olivergondza:ogondza@gmail.com
+

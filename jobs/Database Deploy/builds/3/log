@@ -1,0 +1,29 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Database Deploy
+[Database Deploy] $ /bin/ksh -xe /tmp/jenkins3222667638844086019.sh
++ ORACLE_BASE=/home/oracle/u02/app/oracle
++ export ORACLE_BASE
++ ORACLE_HOME=/home/oracle/u02/app/oracle/product/fmw12cr3
++ export ORACLE_HOME
++ ORACLE_SID=dryice
++ export ORACLE_SID
++ ORACLE_TERM=xterm
++ export ORACLE_TERM
++ MW_HOME=/opt/weblogic1213
++ export MW_HOME
++ WLS_HOME=/opt/weblogic1213/wlserver
++ export WLS_HOME
++ WL_HOME=/opt/weblogic1213/wlserver
++ export WL_HOME
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib
++ LD_LIBRARY_PATH=/home/oracle/u02/app/oracle/product/fmw12cr3/lib:/lib:/usr/lib:/usr/local/lib
++ export LD_LIBRARY_PATH
++ PATH=/usr/java/jdk1.8.0_131/bin:/var/lib/jenkins/.local/bin:/var/lib/jenkins/bin:/home/oracle/u02/app/oracle:/home/oracle/u02/app/oracle/product/fmw12cr3:/home/oracle/u02/app/oracle/product/fmw12cr3/bin:/usr/java/jdk1.8.0_131/bin:/sbin:/usr/sbin:/bin:/usr/bin
++ export PATH
++ cd /home/dryice2/package/db
++ /home/oracle/u02/app/oracle/product/fmw12cr3/bin/sqlplus -S dryice2/dryice2@dryice @game.sql
++ echo exit
+SP2-0310: unable to open file "game.sql"
+Notifying upstream projects of job completion
+Finished: SUCCESS

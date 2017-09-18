@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty plugin="build-failure-analyzer@1.19.0">
+      <doNotScan>false</doNotScan>
+    </com.sonyericsson.jenkins.plugins.bfa.model.ScannerJobProperty>
+    <com.suryagaddipati.jenkins.SlaveUtilizationProperty plugin="slave-utilization-plugin@1.8">
+      <needsExclusiveAccessToNode>false</needsExclusiveAccessToNode>
+      <singleInstancePerSlave>false</singleInstancePerSlave>
+      <slaveUtilizationPercentage>0</slaveUtilizationPercentage>
+    </com.suryagaddipati.jenkins.SlaveUtilizationProperty>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.25">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>zip ${WORKSPACE}/data.zip /tmp/3.0/JPetStore.war</command>
+    </hudson.tasks.Shell>
+    <com.urbancode.jenkins.plugins.ucdeploy.UCDeployPublisher plugin="ibm-ucdeploy-build-steps@2.5.923266">
+      <siteName>udeploy-server</siteName>
+      <component>
+        <componentName>JPetStore-APP</componentName>
+        <componentTag></componentTag>
+        <delivery class="com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push">
+          <deliveryType>Push</deliveryType>
+          <pushVersion>3.0</pushVersion>
+          <baseDir>C:</baseDir>
+          <fileIncludePatterns>**/*</fileIncludePatterns>
+          <fileExcludePatterns></fileExcludePatterns>
+          <pushProperties></pushProperties>
+          <pushDescription></pushDescription>
+          <pushIncremental>false</pushIncremental>
+        </delivery>
+      </component>
+      <deploy>
+        <deployApp>JPetStore</deployApp>
+        <deployEnv>DEV</deployEnv>
+        <deployProc></deployProc>
+        <createSnapshot>
+          <snapshotName>JEN</snapshotName>
+        </createSnapshot>
+        <deployVersions></deployVersions>
+        <deployReqProps></deployReqProps>
+        <deployDesc>Requested from Jenkins</deployDesc>
+        <deployOnlyChanged>true</deployOnlyChanged>
+      </deploy>
+    </com.urbancode.jenkins.plugins.ucdeploy.UCDeployPublisher>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

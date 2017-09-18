@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='job-poll-action-plugin' version='1.0'>
+  <l:dependency name='Job Poll Action Plugin' groupId='org.jenkins-ci.plugins' artifactId='job-poll-action-plugin' version='1.0' url='http://wiki.jenkins-ci.org/display/JENKINS/Job+Poll+Action+Plugin'>
+    <l:description>Provides an easy mechanism to force a job to poll for SCM changes.</l:description>
+    <l:license name='The MIT license' url='https://github.com/jenkinsci/job-poll-action-plugin/raw/master/LICENSE.txt' />
+  </l:dependency>
+</l:dependencies>

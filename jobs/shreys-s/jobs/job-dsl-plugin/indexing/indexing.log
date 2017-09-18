@@ -1,0 +1,31 @@
+Started by timer
+[Sun Sep 17 22:33:00 IST 2017] Starting branch indexing...
+[8mha:////4DvSRmYE87hukX1kTbFFcWl4GdBx4GqPrkUy/dwR6vanAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTchNPCMgD911zzjgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+[8mha:////4AxgAl3VFzhGo3zEbDt9e0TlfELQx9SpGweo4crocWogAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTchNNiNgBwA0W1jgAAAA==[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Examining [8mha:////4P8lSHgDwXlrmYt68UATTl+X8sqCmrJfAyQkveyly6ivAAAAqh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQL2HQyigpKSi20tdPzyzJKE0C6srVL84oSq0s1i3Wz8pP0k0pztEtyClNz8wDAGnGNLyvAAAA[0mshreys-s/job-dsl-plugin
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4JNbrWY2nsMlNGsiu5fasSZlhnBbkNPJ9HvrnP6pW4RGAAAAsx+LCAAAAAAAAP9djLENwjAQRY8gEDUlYgXHHUKgVDQgRTRM4BDLdjC25TujZA3WgIYhGIcdCErHa/5r/nt+YIIRljrV6F1+9g69lfm+CzJa4y5HT3JVPF7FPbwzyA4wtdIp0iWMU7QE87IRN8GtcIqfKBqntm2ExV9uN+wvBgOjDKANvcwI1poo4IZzZUinqn9dOeooO2TIG1+xGi0LNinjOEUpudIsCCXxC5rNfNO9AAAA[0mgh-pages
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4LZPDA7pqO7XACeo09G/hL1iQ6M13ukeJX7RrgsIK25rAAAAsR+LCAAAAAAAAP9djLENwjAQRY8gMgAlYoXEXQpQKhqQIhomcMjJDji25TujZA3WgIYhGIcdCErHa/5r/nt+YEEB1jo25Gx+dpacwXw/eAymtdejYyzKx6u8+3cCyQFSg1axrmAeg2FYVhd5k8JIq8SJQ2vVtg+w+svtpv3FYGKWAPR+lJSh0MyeNkKolnWsx1cnSAccKCNxcXXWkMm8iaq1ggOi6CQxhi8A/AKGuwAAAA==[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 405a95c70974a2179447adfdd8c74bfb741d837b)
+
+  2 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/job-dsl-plugin
+
+[Sun Sep 17 22:33:04 IST 2017] Finished branch indexing. Indexing took 4 sec
+Finished: SUCCESS

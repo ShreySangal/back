@@ -1,0 +1,61 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/DSL-Tutorial-1-Test
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/aws-sdk-test # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/aws-sdk-test
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/aws-sdk-test +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/feature1
+Seen branch in repository origin/feature2
+Seen branch in repository origin/master
+Seen 3 remote branches
+ > /bin/git tag -l # timeout=10
+ > /bin/git rev-parse refs/tags/jenkins-DSL-Tutorial-1-Test-7^{commit} # timeout=10
+ > /bin/git rev-parse refs/tags/jenkins-DSL-Tutorial-1-Test-8^{commit} # timeout=10
+Checking out Revision 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e (origin/master, origin/feature1, origin/feature2, refs/tags/jenkins-DSL-Tutorial-1-Test-7, refs/tags/jenkins-DSL-Tutorial-1-Test-8)
+Commit message: "initial checkin"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git rev-list 49cbee9cd5abae2a377d4deb1a943c93bd1edf7e # timeout=10
+ > /bin/git tag -a -f -m Jenkins Build #9 jenkins-DSL-Tutorial-1-Test-9 # timeout=10
+[DSL-Tutorial-1-Test] $ mvn -e clean test
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building aws-sdk-test Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ aws-sdk-test ---
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ aws-sdk-test ---
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/DSL-Tutorial-1-Test/src/main/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ aws-sdk-test ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ aws-sdk-test ---
+[8mha:////4PxrSnS4R2SYv13RN3lZbDBpOujsQFid6f4I6WTS5sLuAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/DSL-Tutorial-1-Test/src/test/resources
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ aws-sdk-test ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IqOkgoIqF7vtCTucSKloWYZyBSI5ctfylmV994JBuOwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ aws-sdk-test ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.054 s
+[INFO] Finished at: 2017-07-22T00:52:48+05:30
+[INFO] Final Memory: 10M/303M
+[INFO] ------------------------------------------------------------------------
+Notifying upstream projects of job completion
+Finished: SUCCESS

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mikec
+Build-Jdk: 1.7.0_80
+Extension-Name: parameter-separator
+Implementation-Title: parameter-separator
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: parameter-separator
+Long-Name: Parameter Separator Plugin
+Url: https://wiki.jenkins-ci.org/x/W4BWB
+Plugin-Version: 1.0
+Hudson-Version: 1.532.2
+Jenkins-Version: 1.532.2
+Plugin-Developers: Mike Chmielewski:olhado:code@mikec.123mail.org
+

@@ -1,0 +1,54 @@
+Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:////4HxmrJ/qJdHZ4mxLBIZaoQJph94olB3fOCLW+kOigPKzAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/eKcxLLU+GAXTwAFv9ItyAAAAA==[0mslave_SDI (slave_sdi) in workspace /home/jenkins/workspace/jpetstore
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/jpetstore-6 # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/jpetstore-6
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/jpetstore-6 +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67d6272705d07eea48cb83072103b8cca657c692 (refs/remotes/origin/master)
+Commit message: "change index.xml"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 67d6272705d07eea48cb83072103b8cca657c692
+ > /bin/git rev-list b805c5f06243fb0d6e3d8353c8097a00d05c5aa9 # timeout=10
+ERROR: Maven Home /opt/maven doesnt exist
+[8mha:////4Owt+nPWY0DoD8KVAniklFo5RNKeFLIewm1axEdOriXkAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m[BFA] Scanning build for known causes...
+[BFA] No failure causes found
+[BFA] Done. 0s
+Notifying upstream projects of job completion
+Checking for post-build
+Performing post-build step
+Checking if email needs to be generated
+Email was triggered for: Always
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+messageContentType = text/html; charset=UTF-8
+Request made to attach build log
+Request made to compress build log
+  Collecting change authors...
+    build: 19
+      adding author: noreply
+Not sending mail to unregistered user noreply@github.com because your SCM claimed this was associated with a user ID ‘[8mha:////4HT7eUnuxcoRIX7OQtciDeFpDXSZjaRdD4bpTzaupZw1AAAAjh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgL2Hg1S8tTi3Sz8svSi3IqQQAmoRtrZIAAAA=[0mnoreply' which your security realm does not recognize; you may need changes in your SCM plugin
+Adding recipients from trigger recipient list
+Setting In-Reply-To since last build was not successful
+Successfully created MimeMessage
+Sending email to: shrey_s@hcl.com
+Sending email for trigger: Always
+messageContentType = text/html; charset=UTF-8
+Request made to attach build log
+Request made to compress build log
+  Collecting change authors...
+    build: 19
+      adding author: noreply
+Not sending mail to unregistered user noreply@github.com because your SCM claimed this was associated with a user ID ‘[8mha:////4HT7eUnuxcoRIX7OQtciDeFpDXSZjaRdD4bpTzaupZw1AAAAjh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgL2Hg1S8tTi3Sz8svSi3IqQQAmoRtrZIAAAA=[0mnoreply' which your security realm does not recognize; you may need changes in your SCM plugin
+Adding recipients from project recipient list
+Adding recipients from trigger recipient list
+Setting In-Reply-To since last build was not successful
+Successfully created MimeMessage
+Sending email to: shrey_s@hcl.com
+Warning: ‘Access Control for Builds’ in global security configuration is empty, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Finished: FAILURE

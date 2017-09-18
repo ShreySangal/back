@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ed
+Build-Jdk: 1.6.0_07
+Extension-Name: speaks
+Implementation-Title: speaks
+Implementation-Version: 0.1.1
+Short-Name: speaks
+Long-Name: Hudson Speaks! Plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/Hudson+Speaks!+Plugin
+Plugin-Version: 0.1.1
+Hudson-Version: 1.324
+Plugin-Developers: Edward Hurst-Frost:oxcafebabe:edward@hurst-frost.net
+

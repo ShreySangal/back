@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jenkins
+Build-Jdk: 1.8.0_102
+Extension-Name: artifactory
+Specification-Title: Integrates Artifactory to Jenkins
+Specification-Vendor: JFrog
+Implementation-Vendor: JFrog
+Implementation-Title: artifactory
+Implementation-Version: 2.12.2
+Plugin-Class: org.jfrog.hudson.ArtifactoryPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: artifactory
+Long-Name: Jenkins Artifactory Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Artifactory+Plugin
+Plugin-Version: 2.12.2
+Hudson-Version: 1.521
+Jenkins-Version: 1.521
+Plugin-Dependencies: jira:2.3;resolution:=optional,maven-plugin:2.15.1
+ ,flexible-publish:0.12;resolution:=optional,workflow-step-api:2.3,wor
+ kflow-cps:2.13,subversion:2.5;resolution:=optional,credentials:1.22,p
+ erforce:1.3.7;resolution:=optional,p4:1.3.3;resolution:=optional,git:
+ 2.5.0;resolution:=optional,gradle:1.15,ant:1.2,ivy:1.17,jenkins-multi
+ job-plugin:1.13;resolution:=optional
+Plugin-Developers: Yossi Shaul:yossis:yossis@jfrog.org
+

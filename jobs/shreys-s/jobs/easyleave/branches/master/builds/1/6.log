@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/sumitsaiwal/easyleave.git
+ > /bin/git init /var/lib/jenkins/workspace/shreys-s_easyleave_master-YFO3DTUAVRFVGJNX325XRALVL6WDT74FV6RB5W6BMLFM6GMVHORQ # timeout=10
+Fetching upstream changes from https://github.com/sumitsaiwal/easyleave.git
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress https://github.com/sumitsaiwal/easyleave.git +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/sumitsaiwal/easyleave.git # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/sumitsaiwal/easyleave.git # timeout=10
+Fetching upstream changes from https://github.com/sumitsaiwal/easyleave.git
+ > /bin/git fetch --tags --progress https://github.com/sumitsaiwal/easyleave.git +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d0fff559871b7bfbedb8f8684c6d9a264bc657d1 (refs/remotes/origin/master)
+Commit message: "Update README.md"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f d0fff559871b7bfbedb8f8684c6d9a264bc657d1
+ > /bin/git branch -a -v --no-abbrev # timeout=10
+ > /bin/git checkout -b master d0fff559871b7bfbedb8f8684c6d9a264bc657d1
+First time build. Skipping changelog.

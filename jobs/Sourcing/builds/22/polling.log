@@ -1,0 +1,9 @@
+Started on Aug 31, 2017 11:33:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 67d6272705d07eea48cb83072103b8cca657c692 (refs/remotes/origin/master)
+using GIT_ASKPASS to set credentials 
+ > /bin/git ls-remote -h https://github.com/shreys-s/jpetstore-6 # timeout=10
+Found 2 remote heads on https://github.com/shreys-s/jpetstore-6
+[poll] Latest remote head revision on refs/heads/master is: 65be9c33734e72fec0f1a8d3fd5afa321c28ab96
+Done. Took 1.3 sec
+Changes found

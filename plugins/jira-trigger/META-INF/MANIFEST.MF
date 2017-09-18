@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Jenkins-Version: 1.651.3
+Group-Id: org.jenkins-ci.plugins
+Plugin-Class: com.ceilfors.jenkins.plugins.jiratrigger.JiraTriggerPlug
+ in
+Plugin-Developers: Wisen Tanasa:ceilfors:wisen@ceilfors.com
+Short-Name: jira-trigger
+Compatible-Since-Version: 0.2.0
+Plugin-Version: 0.5.1
+Long-Name: JIRA Trigger Plugin
+Extension-Name: jira-trigger
+Url: http://wiki.jenkins-ci.org/display/JENKINS/JIRA+Trigger+Plugin
+

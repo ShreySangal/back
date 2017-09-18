@@ -1,0 +1,41 @@
+Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/GradleSeed
+Disk space threshold is set to :0Gb
+Checking disk space Now 
+diskspace is 39977783296
+Total Disk space in workspace is 39977783296
+Total Disk Space Available is: 37Gb
+ Node Name: master
+Running Prebuild steps
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/job-dsl-plugin
+ > /bin/git init /var/lib/jenkins/workspace/GradleSeed # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/job-dsl-plugin
+ > /bin/git --version # timeout=10
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/job-dsl-plugin +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/job-dsl-plugin # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/job-dsl-plugin # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/job-dsl-plugin
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/job-dsl-plugin +refs/heads/master:refs/remotes/origin/master
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 405a95c70974a2179447adfdd8c74bfb741d837b (refs/remotes/origin/master)
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 405a95c70974a2179447adfdd8c74bfb741d837b
+First time build. Skipping changelog.
+No emails were triggered.
+Processing provided DSL script
+Added items:
+    GeneratedJob{name='DSL-Tutorial-1-Test'}
+    GeneratedJob{name='quidryan-aws-sdk-test-feature1'}
+    GeneratedJob{name='quidryan-aws-sdk-test-feature2'}
+    GeneratedJob{name='quidryan-aws-sdk-test-master'}
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in 0 seconds
+Notifying upstream projects of job completion
+No emails were triggered.
+Finished: SUCCESS

@@ -1,0 +1,27 @@
+Started by timer
+[Mon Sep 18 08:19:00 IST 2017] Starting branch indexing...
+[8mha:////4GBZtNb2w7NWXp8X3yNqrnZRQUTOOwMGcTIn3wHpxU5dAAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTcpMeT9gIAWjJC7I4AAAA=[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+[8mha:////4HYw2S/7EgyO8ReylARyuyOBXBV4W8XcPrQKoKSzzk0SAAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTcpMdTrwMA2yxkDo4AAAA=[0mConnecting to https://api.github.com using shrey_s/****** (Github Access Token)
+Examining [8mha:////4Bigj8Wq2eJfv1Vof5TDNKsDUZnVNSXDsfDf3DcWuJaIAAAAsx+LCAAAAAAAAP9djbENwjAQRY8gGIAS0VI67hACpaIBKaJhghAs24k5W74LStZgDWgYgnHYgUR0/Ob/5r3//MCEIixMcyGPaemRvFPpvgsqOov10bNaZY9Xdg/vBJIDTJ1CzSaHcRMdwyyvilshXYFanjha1Ns2wvxPt/v1IINfRglAG/qxZFgb5kAbKbVl05x76irJRNWRINkrWCGLSmFtkcRwJ0L0lSr5C5NDo2O9AAAA[0mshreys-s/content-jenkins-java-project
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4AjEfXk1PeQS+UsSr+FZN9I00QarqLI/MZbxPshSZ8IqAAAAuR+LCAAAAAAAAP9djTEOgkAQRUeMHMDSeAXczkJDpYUmxMYToE5YYJndzAwGr+E1tPEQHsc7CLHzN/837/3nBybCMLftRTwtzp7EO1zsbgHZlVQfvOIyfbzSe3hHEO0hdkiF2gzGLTuFaVbl19y4nApzVC6pWHcMsz/d5teDDH4ZRQBd6EessLWqQVbGFKXa9tRTjRHLeJNETK9QJE0qpLokSYa7JLCv8KxGGdE0uSjyF7bSb4jJAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 846ae3783c5830c2b6cd8a2c0aa1d5654913edc3)
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining shreys-s/content-jenkins-java-project
+
+[Mon Sep 18 08:19:03 IST 2017] Finished branch indexing. Indexing took 3.3 sec
+Finished: SUCCESS

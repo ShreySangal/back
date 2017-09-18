@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.emailext__template.ExtendedEmailTemplatePublisher_-DescriptorImpl plugin="emailext-template@1.0">
+  <templates>
+    <org.jenkinsci.plugins.emailext__template.ExtendedEmailPublisherTemplate>
+      <id>emailext-template-1501135880363</id>
+      <name>test</name>
+      <description></description>
+      <publisher plugin="email-ext@2.58">
+        <recipientList>shrey_s@hcl.com</recipientList>
+        <configuredTriggers>
+          <hudson.plugins.emailext.plugins.trigger.FailureTrigger>
+            <email>
+              <recipientList>shrey_s@hcl.com</recipientList>
+              <subject>$PROJECT_DEFAULT_SUBJECT</subject>
+              <body>&lt;?jelly escape-by-default=&apos;true&apos;?&gt;
+&lt;!DOCTYPE html [
+    &lt;!ENTITY nbsp &quot;&amp;#38;#38;nbsp&amp;#59;&quot;&gt;
+]&gt;
+&lt;j:jelly xmlns:j=&quot;jelly:core&quot; xmlns:st=&quot;jelly:stapler&quot; xmlns:d=&quot;jelly:define&quot;&gt;
+
+&lt;STYLE&gt;
+BODY, TABLE, TD, TH, P {
+  font-family:Verdana,Helvetica,sans serif;
+  font-size:11px;
+  color:black;
+}
+h1 { color:black; }
+h2 { color:black; }
+h3 { color:black; }
+TD.bg1 { color:white; background-color:#0000C0; font-size:120% }
+TD.bg2 { color:white; background-color:#4040FF; font-size:110% }
+TD.bg3 { color:white; background-color:#8080FF; }
+TD.test_passed { color:blue; }
+TD.test_failed { color:red; }
+TD.console { font-family:Courier New; }
+&lt;/STYLE&gt;
+&lt;BODY&gt;
+
+
+&lt;!-- GENERAL INFO --&gt;
+
+&lt;TABLE&gt;
+  &lt;TR&gt;&lt;TD align=&quot;right&quot;&gt;
+    &lt;j:choose&gt;
+      &lt;j:when test=&quot;${build.result==&apos;SUCCESS&apos;}&quot;&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/blue.gif&quot; /&gt;
+      &lt;/j:when&gt;
+	  &lt;j:when test=&quot;${build.result==&apos;FAILURE&apos;}&quot;&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/red.gif&quot; /&gt;
+      &lt;/j:when&gt;
+      &lt;j:otherwise&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/yellow.gif&quot; /&gt;
+      &lt;/j:otherwise&gt;
+    &lt;/j:choose&gt;
+  &lt;/TD&gt;&lt;TD valign=&quot;center&quot;&gt;&lt;B style=&quot;font-size: 200%;&quot;&gt;BUILD ${build.result}&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Build URL&lt;/TD&gt;&lt;TD&gt;&lt;A href=&quot;${rooturl}${build.url}&quot;&gt;${rooturl}${build.url}&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Project:&lt;/TD&gt;&lt;TD&gt;${project.name}&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Date of build:&lt;/TD&gt;&lt;TD&gt;${it.timestampString}&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Build duration:&lt;/TD&gt;&lt;TD&gt;${build.durationString}&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;BR/&gt;
+
+
+&lt;!-- CHANGE SET --&gt;
+
+&lt;j:set var=&quot;changeSet&quot; value=&quot;${build.changeSet}&quot; /&gt;
+&lt;j:if test=&quot;${changeSet!=null}&quot;&gt;
+  &lt;j:set var=&quot;hadChanges&quot; value=&quot;false&quot; /&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;CHANGES&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;j:forEach var=&quot;cs&quot; items=&quot;${changeSet}&quot; varStatus=&quot;loop&quot;&gt;
+      &lt;j:set var=&quot;hadChanges&quot; value=&quot;true&quot; /&gt;
+      &lt;j:set var=&quot;aUser&quot; value=&quot;${cs.hudsonUser}&quot;/&gt;
+      &lt;TR&gt;
+        &lt;TD colspan=&quot;2&quot; class=&quot;bg2&quot;&gt;&amp;nbsp;&amp;nbsp;Revision &lt;B&gt;${cs.commitId?:cs.revision?:cs.changeNumber}&lt;/B&gt; by
+          &lt;B&gt;${aUser!=null?aUser.displayName:cs.author.displayName}: &lt;/B&gt;
+          &lt;B&gt;(${cs.msgAnnotated})&lt;/B&gt;
+         &lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;j:forEach var=&quot;p&quot; items=&quot;${cs.affectedFiles}&quot;&gt;
+        &lt;TR&gt;
+          &lt;TD width=&quot;10%&quot;&gt;&amp;nbsp;&amp;nbsp;${p.editType.name}&lt;/TD&gt;
+          &lt;TD&gt;${p.path}&lt;/TD&gt;
+        &lt;/TR&gt;
+      &lt;/j:forEach&gt;
+    &lt;/j:forEach&gt;
+    &lt;j:if test=&quot;${!hadChanges}&quot;&gt;
+      &lt;TR&gt;&lt;TD colspan=&quot;2&quot;&gt;No Changes&lt;/TD&gt;&lt;/TR&gt;
+    &lt;/j:if&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- ARTIFACTS --&gt;
+
+&lt;j:set var=&quot;artifacts&quot; value=&quot;${build.artifacts}&quot; /&gt;
+&lt;j:if test=&quot;${artifacts!=null and artifacts.size()&amp;gt;0}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;BUILD ARTIFACTS&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;TR&gt;
+      &lt;TD&gt;
+        &lt;j:forEach var=&quot;f&quot; items=&quot;${artifacts}&quot;&gt;
+      	  &lt;li&gt;
+      	    &lt;a href=&quot;${rooturl}${build.url}artifact/${f}&quot;&gt;${f}&lt;/a&gt;
+      	  &lt;/li&gt;
+      	&lt;/j:forEach&gt;
+      &lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;  
+&lt;/j:if&gt;
+
+
+&lt;!-- MAVEN ARTIFACTS --&gt;
+
+&lt;j:set var=&quot;mbuilds&quot; value=&quot;${build.moduleBuilds}&quot; /&gt;
+&lt;j:if test=&quot;${mbuilds!=null}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+      &lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;BUILD ARTIFACTS&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+      &lt;j:forEach var=&quot;m&quot; items=&quot;${mbuilds}&quot;&gt;
+        &lt;TR&gt;&lt;TD class=&quot;bg2&quot;&gt;&lt;B&gt;${m.key.displayName}&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;j:forEach var=&quot;mvnbld&quot; items=&quot;${m.value}&quot;&gt;
+        &lt;j:set var=&quot;artifacts&quot; value=&quot;${mvnbld.artifacts}&quot; /&gt;
+        &lt;j:if test=&quot;${artifacts!=null and artifacts.size()&amp;gt;0}&quot;&gt;
+      &lt;TR&gt;
+        &lt;TD&gt;
+      	  &lt;j:forEach var=&quot;f&quot; items=&quot;${artifacts}&quot;&gt;
+      	    &lt;li&gt;
+      	      &lt;a href=&quot;${rooturl}${mvnbld.url}artifact/${f}&quot;&gt;${f}&lt;/a&gt;
+      	    &lt;/li&gt;
+      	  &lt;/j:forEach&gt;
+      	&lt;/TD&gt;
+      &lt;/TR&gt;
+        &lt;/j:if&gt;
+        &lt;/j:forEach&gt;
+      &lt;/j:forEach&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;  
+&lt;/j:if&gt;
+
+
+&lt;!-- JUnit TEMPLATE --&gt;
+
+&lt;j:set var=&quot;junitResultList&quot; value=&quot;${it.JUnitTestResult}&quot; /&gt;
+&lt;j:if test=&quot;${junitResultList.isEmpty()!=true}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;JUnit Tests&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;j:forEach var=&quot;junitResult&quot; items=&quot;${it.JUnitTestResult}&quot;&gt;
+      &lt;j:forEach var=&quot;packageResult&quot; items=&quot;${junitResult.getChildren()}&quot;&gt;
+        &lt;TR&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt; Name: ${packageResult.getName()} Failed: ${packageResult.getFailCount()} test(s), Passed: ${packageResult.getPassCount()} test(s), Skipped: ${packageResult.getSkipCount()} test(s), Total: ${packageResult.getPassCount()+packageResult.getFailCount()+packageResult.getSkipCount()} test(s)&lt;/TD&gt;&lt;/TR&gt;
+        &lt;j:forEach var=&quot;failed_test&quot; items=&quot;${packageResult.getFailedTests()}&quot;&gt;
+          &lt;TR bgcolor=&quot;white&quot;&gt;&lt;TD class=&quot;test_failed&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;&lt;li&gt;Failed: ${failed_test.getFullName()} &lt;/li&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;/j:forEach&gt;
+      &lt;/j:forEach&gt; 
+    &lt;/j:forEach&gt;  
+  &lt;/TABLE&gt;	
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- COBERTURA TEMPLATE --&gt;
+
+&lt;j:set var=&quot;coberturaAction&quot; value=&quot;${it.coberturaAction}&quot; /&gt;
+&lt;j:if test=&quot;${coberturaAction!=null}&quot;&gt;
+  &lt;j:set var=&quot;coberturaResult&quot; value=&quot;${coberturaAction.result}&quot; /&gt;
+  &lt;j:if test=&quot;${coberturaResult!=null}&quot;&gt;
+  	&lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;Cobertura Report&lt;/B&gt;&lt;/TD&gt;&lt;/table&gt;
+	&lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;Project Coverage Summary&lt;/B&gt;&lt;/TD&gt;&lt;/table&gt;
+            &lt;table border=&quot;1px&quot; class=&quot;pane&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Name&lt;/td&gt;
+                    &lt;j:forEach var=&quot;metric&quot; items=&quot;${coberturaResult.metrics}&quot;&gt;
+                        &lt;td&gt;${metric.name}&lt;/td&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;${coberturaResult.name}&lt;/td&gt;
+                    &lt;j:forEach var=&quot;metric&quot; items=&quot;${coberturaResult.metrics}&quot;&gt;
+                        &lt;td data=&quot;${coberturaResult.getCoverage(metric).percentageFloat}&quot;&gt;${coberturaResult.getCoverage(metric).percentage}%
+                            (${coberturaResult.getCoverage(metric)})
+                        &lt;/td&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+            &lt;j:if test=&quot;${coberturaResult.sourceCodeLevel}&quot;&gt;
+                &lt;h2&gt;Source&lt;/h2&gt;
+                &lt;j:choose&gt;
+                    &lt;j:when test=&quot;${coberturaResult.sourceFileAvailable}&quot;&gt;
+                        &lt;div style=&quot;overflow-x:scroll;&quot;&gt;
+                            &lt;table class=&quot;source&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th colspan=&quot;3&quot;&gt;${coberturaResult.relativeSourcePath}&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                ${coberturaResult.sourceFileContent}
+
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/j:when&gt;
+                    &lt;j:otherwise&gt;
+                        &lt;p&gt;
+                            &lt;i&gt;Source code is unavailable&lt;/i&gt;
+                        &lt;/p&gt;
+                    &lt;/j:otherwise&gt;
+                &lt;/j:choose&gt;
+            &lt;/j:if&gt;
+
+            &lt;j:forEach var=&quot;element&quot; items=&quot;${coberturaResult.childElements}&quot;&gt;
+                &lt;j:set var=&quot;childMetrics&quot; value=&quot;${coberturaResult.getChildMetrics(element)}&quot;/&gt;
+               &lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt;Coverage Breakdown by ${element.displayName}&lt;/TD&gt;&lt;/table&gt;
+                &lt;table border=&quot;1px&quot; class=&quot;pane sortable&quot;&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Name&lt;/td&gt;
+                        &lt;j:forEach var=&quot;metric&quot; items=&quot;${childMetrics}&quot;&gt;
+                            &lt;td&gt;${metric.name}&lt;/td&gt;
+                        &lt;/j:forEach&gt;
+                    &lt;/tr&gt;
+                    &lt;j:forEach var=&quot;c&quot; items=&quot;${coberturaResult.children}&quot;&gt;
+                        &lt;j:set var=&quot;child&quot; value=&quot;${coberturaResult.getChild(c)}&quot;/&gt;
+                        &lt;tr&gt;
+
+                            &lt;td&gt;
+                                ${child.xmlTransform(child.name)}
+                            &lt;/td&gt;
+                            &lt;j:forEach var=&quot;metric&quot; items=&quot;${childMetrics}&quot;&gt;
+                                &lt;j:set var=&quot;childResult&quot; value=&quot;${child.getCoverage(metric)}&quot;/&gt;
+                                &lt;j:choose&gt;
+                                    &lt;j:when test=&quot;${childResult!=null}&quot;&gt;
+                                        &lt;td data=&quot;${childResult.percentageFloat}&quot;&gt;${childResult.percentage}%
+                                            (${childResult})
+                                        &lt;/td&gt;
+                                    &lt;/j:when&gt;
+                                    &lt;j:otherwise&gt;
+                                        &lt;td data=&quot;101&quot;&gt;N/A&lt;/td&gt;
+                                    &lt;/j:otherwise&gt;
+                                &lt;/j:choose&gt;
+                            &lt;/j:forEach&gt;
+                        &lt;/tr&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/table&gt;
+            &lt;/j:forEach&gt;
+  &lt;/j:if&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- CONSOLE OUTPUT --&gt;
+
+&lt;j:getStatic var=&quot;resultFailure&quot; field=&quot;FAILURE&quot; className=&quot;hudson.model.Result&quot;/&gt;
+&lt;j:if test=&quot;${build.result==resultFailure}&quot;&gt;
+&lt;TABLE width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;CONSOLE OUTPUT&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;j:forEach var=&quot;line&quot; items=&quot;${build.getLog(100)}&quot;&gt;&lt;TR&gt;&lt;TD class=&quot;console&quot;&gt;${line}&lt;/TD&gt;&lt;/TR&gt;&lt;/j:forEach&gt;
+&lt;/TABLE&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+&lt;/BODY&gt;
+&lt;/j:jelly&gt;</body>
+              <recipientProviders>
+                <hudson.plugins.emailext.plugins.recipients.DevelopersRecipientProvider/>
+              </recipientProviders>
+              <attachmentsPattern></attachmentsPattern>
+              <attachBuildLog>true</attachBuildLog>
+              <compressBuildLog>false</compressBuildLog>
+              <replyTo>shrey_s@hcl.com</replyTo>
+              <contentType>text/html</contentType>
+            </email>
+          </hudson.plugins.emailext.plugins.trigger.FailureTrigger>
+          <hudson.plugins.emailext.plugins.trigger.AlwaysTrigger>
+            <email>
+              <recipientList>shrey_s@hcl.com</recipientList>
+              <subject>$PROJECT_DEFAULT_SUBJECT</subject>
+              <body>&lt;?jelly escape-by-default=&apos;true&apos;?&gt;
+&lt;!DOCTYPE html [
+    &lt;!ENTITY nbsp &quot;&amp;#38;#38;nbsp&amp;#59;&quot;&gt;
+]&gt;
+&lt;j:jelly xmlns:j=&quot;jelly:core&quot; xmlns:st=&quot;jelly:stapler&quot; xmlns:d=&quot;jelly:define&quot;&gt;
+
+&lt;STYLE&gt;
+BODY, TABLE, TD, TH, P {
+  font-family:Verdana,Helvetica,sans serif;
+  font-size:11px;
+  color:black;
+}
+h1 { color:black; }
+h2 { color:black; }
+h3 { color:black; }
+TD.bg1 { color:white; background-color:#0000C0; font-size:120% }
+TD.bg2 { color:white; background-color:#4040FF; font-size:110% }
+TD.bg3 { color:white; background-color:#8080FF; }
+TD.test_passed { color:blue; }
+TD.test_failed { color:red; }
+TD.console { font-family:Courier New; }
+&lt;/STYLE&gt;
+&lt;BODY&gt;
+
+
+&lt;!-- GENERAL INFO --&gt;
+
+&lt;TABLE&gt;
+  &lt;TR&gt;&lt;TD align=&quot;right&quot;&gt;
+    &lt;j:choose&gt;
+      &lt;j:when test=&quot;${build.result==&apos;SUCCESS&apos;}&quot;&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/blue.gif&quot; /&gt;
+      &lt;/j:when&gt;
+	  &lt;j:when test=&quot;${build.result==&apos;FAILURE&apos;}&quot;&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/red.gif&quot; /&gt;
+      &lt;/j:when&gt;
+      &lt;j:otherwise&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/yellow.gif&quot; /&gt;
+      &lt;/j:otherwise&gt;
+    &lt;/j:choose&gt;
+  &lt;/TD&gt;&lt;TD valign=&quot;center&quot;&gt;&lt;B style=&quot;font-size: 200%;&quot;&gt;BUILD ${build.result}&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Build URL&lt;/TD&gt;&lt;TD&gt;&lt;A href=&quot;${rooturl}${build.url}&quot;&gt;${rooturl}${build.url}&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Project:&lt;/TD&gt;&lt;TD&gt;${project.name}&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Date of build:&lt;/TD&gt;&lt;TD&gt;${it.timestampString}&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Build duration:&lt;/TD&gt;&lt;TD&gt;${build.durationString}&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;BR/&gt;
+
+
+&lt;!-- CHANGE SET --&gt;
+
+&lt;j:set var=&quot;changeSet&quot; value=&quot;${build.changeSet}&quot; /&gt;
+&lt;j:if test=&quot;${changeSet!=null}&quot;&gt;
+  &lt;j:set var=&quot;hadChanges&quot; value=&quot;false&quot; /&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;CHANGES&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;j:forEach var=&quot;cs&quot; items=&quot;${changeSet}&quot; varStatus=&quot;loop&quot;&gt;
+      &lt;j:set var=&quot;hadChanges&quot; value=&quot;true&quot; /&gt;
+      &lt;j:set var=&quot;aUser&quot; value=&quot;${cs.hudsonUser}&quot;/&gt;
+      &lt;TR&gt;
+        &lt;TD colspan=&quot;2&quot; class=&quot;bg2&quot;&gt;&amp;nbsp;&amp;nbsp;Revision &lt;B&gt;${cs.commitId?:cs.revision?:cs.changeNumber}&lt;/B&gt; by
+          &lt;B&gt;${aUser!=null?aUser.displayName:cs.author.displayName}: &lt;/B&gt;
+          &lt;B&gt;(${cs.msgAnnotated})&lt;/B&gt;
+         &lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;j:forEach var=&quot;p&quot; items=&quot;${cs.affectedFiles}&quot;&gt;
+        &lt;TR&gt;
+          &lt;TD width=&quot;10%&quot;&gt;&amp;nbsp;&amp;nbsp;${p.editType.name}&lt;/TD&gt;
+          &lt;TD&gt;${p.path}&lt;/TD&gt;
+        &lt;/TR&gt;
+      &lt;/j:forEach&gt;
+    &lt;/j:forEach&gt;
+    &lt;j:if test=&quot;${!hadChanges}&quot;&gt;
+      &lt;TR&gt;&lt;TD colspan=&quot;2&quot;&gt;No Changes&lt;/TD&gt;&lt;/TR&gt;
+    &lt;/j:if&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- ARTIFACTS --&gt;
+
+&lt;j:set var=&quot;artifacts&quot; value=&quot;${build.artifacts}&quot; /&gt;
+&lt;j:if test=&quot;${artifacts!=null and artifacts.size()&amp;gt;0}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;BUILD ARTIFACTS&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;TR&gt;
+      &lt;TD&gt;
+        &lt;j:forEach var=&quot;f&quot; items=&quot;${artifacts}&quot;&gt;
+      	  &lt;li&gt;
+      	    &lt;a href=&quot;${rooturl}${build.url}artifact/${f}&quot;&gt;${f}&lt;/a&gt;
+      	  &lt;/li&gt;
+      	&lt;/j:forEach&gt;
+      &lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;  
+&lt;/j:if&gt;
+
+
+&lt;!-- MAVEN ARTIFACTS --&gt;
+
+&lt;j:set var=&quot;mbuilds&quot; value=&quot;${build.moduleBuilds}&quot; /&gt;
+&lt;j:if test=&quot;${mbuilds!=null}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+      &lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;BUILD ARTIFACTS&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+      &lt;j:forEach var=&quot;m&quot; items=&quot;${mbuilds}&quot;&gt;
+        &lt;TR&gt;&lt;TD class=&quot;bg2&quot;&gt;&lt;B&gt;${m.key.displayName}&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;j:forEach var=&quot;mvnbld&quot; items=&quot;${m.value}&quot;&gt;
+        &lt;j:set var=&quot;artifacts&quot; value=&quot;${mvnbld.artifacts}&quot; /&gt;
+        &lt;j:if test=&quot;${artifacts!=null and artifacts.size()&amp;gt;0}&quot;&gt;
+      &lt;TR&gt;
+        &lt;TD&gt;
+      	  &lt;j:forEach var=&quot;f&quot; items=&quot;${artifacts}&quot;&gt;
+      	    &lt;li&gt;
+      	      &lt;a href=&quot;${rooturl}${mvnbld.url}artifact/${f}&quot;&gt;${f}&lt;/a&gt;
+      	    &lt;/li&gt;
+      	  &lt;/j:forEach&gt;
+      	&lt;/TD&gt;
+      &lt;/TR&gt;
+        &lt;/j:if&gt;
+        &lt;/j:forEach&gt;
+      &lt;/j:forEach&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;  
+&lt;/j:if&gt;
+
+
+&lt;!-- JUnit TEMPLATE --&gt;
+
+&lt;j:set var=&quot;junitResultList&quot; value=&quot;${it.JUnitTestResult}&quot; /&gt;
+&lt;j:if test=&quot;${junitResultList.isEmpty()!=true}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;JUnit Tests&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;j:forEach var=&quot;junitResult&quot; items=&quot;${it.JUnitTestResult}&quot;&gt;
+      &lt;j:forEach var=&quot;packageResult&quot; items=&quot;${junitResult.getChildren()}&quot;&gt;
+        &lt;TR&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt; Name: ${packageResult.getName()} Failed: ${packageResult.getFailCount()} test(s), Passed: ${packageResult.getPassCount()} test(s), Skipped: ${packageResult.getSkipCount()} test(s), Total: ${packageResult.getPassCount()+packageResult.getFailCount()+packageResult.getSkipCount()} test(s)&lt;/TD&gt;&lt;/TR&gt;
+        &lt;j:forEach var=&quot;failed_test&quot; items=&quot;${packageResult.getFailedTests()}&quot;&gt;
+          &lt;TR bgcolor=&quot;white&quot;&gt;&lt;TD class=&quot;test_failed&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;&lt;li&gt;Failed: ${failed_test.getFullName()} &lt;/li&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;/j:forEach&gt;
+      &lt;/j:forEach&gt; 
+    &lt;/j:forEach&gt;  
+  &lt;/TABLE&gt;	
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- COBERTURA TEMPLATE --&gt;
+
+&lt;j:set var=&quot;coberturaAction&quot; value=&quot;${it.coberturaAction}&quot; /&gt;
+&lt;j:if test=&quot;${coberturaAction!=null}&quot;&gt;
+  &lt;j:set var=&quot;coberturaResult&quot; value=&quot;${coberturaAction.result}&quot; /&gt;
+  &lt;j:if test=&quot;${coberturaResult!=null}&quot;&gt;
+  	&lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;Cobertura Report&lt;/B&gt;&lt;/TD&gt;&lt;/table&gt;
+	&lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;Project Coverage Summary&lt;/B&gt;&lt;/TD&gt;&lt;/table&gt;
+            &lt;table border=&quot;1px&quot; class=&quot;pane&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Name&lt;/td&gt;
+                    &lt;j:forEach var=&quot;metric&quot; items=&quot;${coberturaResult.metrics}&quot;&gt;
+                        &lt;td&gt;${metric.name}&lt;/td&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;${coberturaResult.name}&lt;/td&gt;
+                    &lt;j:forEach var=&quot;metric&quot; items=&quot;${coberturaResult.metrics}&quot;&gt;
+                        &lt;td data=&quot;${coberturaResult.getCoverage(metric).percentageFloat}&quot;&gt;${coberturaResult.getCoverage(metric).percentage}%
+                            (${coberturaResult.getCoverage(metric)})
+                        &lt;/td&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+            &lt;j:if test=&quot;${coberturaResult.sourceCodeLevel}&quot;&gt;
+                &lt;h2&gt;Source&lt;/h2&gt;
+                &lt;j:choose&gt;
+                    &lt;j:when test=&quot;${coberturaResult.sourceFileAvailable}&quot;&gt;
+                        &lt;div style=&quot;overflow-x:scroll;&quot;&gt;
+                            &lt;table class=&quot;source&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th colspan=&quot;3&quot;&gt;${coberturaResult.relativeSourcePath}&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                ${coberturaResult.sourceFileContent}
+
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/j:when&gt;
+                    &lt;j:otherwise&gt;
+                        &lt;p&gt;
+                            &lt;i&gt;Source code is unavailable&lt;/i&gt;
+                        &lt;/p&gt;
+                    &lt;/j:otherwise&gt;
+                &lt;/j:choose&gt;
+            &lt;/j:if&gt;
+
+            &lt;j:forEach var=&quot;element&quot; items=&quot;${coberturaResult.childElements}&quot;&gt;
+                &lt;j:set var=&quot;childMetrics&quot; value=&quot;${coberturaResult.getChildMetrics(element)}&quot;/&gt;
+               &lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt;Coverage Breakdown by ${element.displayName}&lt;/TD&gt;&lt;/table&gt;
+                &lt;table border=&quot;1px&quot; class=&quot;pane sortable&quot;&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Name&lt;/td&gt;
+                        &lt;j:forEach var=&quot;metric&quot; items=&quot;${childMetrics}&quot;&gt;
+                            &lt;td&gt;${metric.name}&lt;/td&gt;
+                        &lt;/j:forEach&gt;
+                    &lt;/tr&gt;
+                    &lt;j:forEach var=&quot;c&quot; items=&quot;${coberturaResult.children}&quot;&gt;
+                        &lt;j:set var=&quot;child&quot; value=&quot;${coberturaResult.getChild(c)}&quot;/&gt;
+                        &lt;tr&gt;
+
+                            &lt;td&gt;
+                                ${child.xmlTransform(child.name)}
+                            &lt;/td&gt;
+                            &lt;j:forEach var=&quot;metric&quot; items=&quot;${childMetrics}&quot;&gt;
+                                &lt;j:set var=&quot;childResult&quot; value=&quot;${child.getCoverage(metric)}&quot;/&gt;
+                                &lt;j:choose&gt;
+                                    &lt;j:when test=&quot;${childResult!=null}&quot;&gt;
+                                        &lt;td data=&quot;${childResult.percentageFloat}&quot;&gt;${childResult.percentage}%
+                                            (${childResult})
+                                        &lt;/td&gt;
+                                    &lt;/j:when&gt;
+                                    &lt;j:otherwise&gt;
+                                        &lt;td data=&quot;101&quot;&gt;N/A&lt;/td&gt;
+                                    &lt;/j:otherwise&gt;
+                                &lt;/j:choose&gt;
+                            &lt;/j:forEach&gt;
+                        &lt;/tr&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/table&gt;
+            &lt;/j:forEach&gt;
+  &lt;/j:if&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- CONSOLE OUTPUT --&gt;
+
+&lt;j:getStatic var=&quot;resultFailure&quot; field=&quot;FAILURE&quot; className=&quot;hudson.model.Result&quot;/&gt;
+&lt;j:if test=&quot;${build.result==resultFailure}&quot;&gt;
+&lt;TABLE width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;CONSOLE OUTPUT&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;j:forEach var=&quot;line&quot; items=&quot;${build.getLog(100)}&quot;&gt;&lt;TR&gt;&lt;TD class=&quot;console&quot;&gt;${line}&lt;/TD&gt;&lt;/TR&gt;&lt;/j:forEach&gt;
+&lt;/TABLE&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+&lt;/BODY&gt;
+&lt;/j:jelly&gt;</body>
+              <recipientProviders>
+                <hudson.plugins.emailext.plugins.recipients.DevelopersRecipientProvider/>
+                <hudson.plugins.emailext.plugins.recipients.ListRecipientProvider/>
+              </recipientProviders>
+              <attachmentsPattern></attachmentsPattern>
+              <attachBuildLog>false</attachBuildLog>
+              <compressBuildLog>false</compressBuildLog>
+              <replyTo>shrey_s@hcl.com</replyTo>
+              <contentType>project</contentType>
+            </email>
+          </hudson.plugins.emailext.plugins.trigger.AlwaysTrigger>
+        </configuredTriggers>
+        <contentType>text/html</contentType>
+        <defaultSubject>$DEFAULT_SUBJECT</defaultSubject>
+        <defaultContent>&lt;?jelly escape-by-default=&apos;true&apos;?&gt;
+&lt;!DOCTYPE html [
+    &lt;!ENTITY nbsp &quot;&amp;#38;#38;nbsp&amp;#59;&quot;&gt;
+]&gt;
+&lt;j:jelly xmlns:j=&quot;jelly:core&quot; xmlns:st=&quot;jelly:stapler&quot; xmlns:d=&quot;jelly:define&quot;&gt;
+
+&lt;STYLE&gt;
+BODY, TABLE, TD, TH, P {
+  font-family:Verdana,Helvetica,sans serif;
+  font-size:11px;
+  color:black;
+}
+h1 { color:black; }
+h2 { color:black; }
+h3 { color:black; }
+TD.bg1 { color:white; background-color:#0000C0; font-size:120% }
+TD.bg2 { color:white; background-color:#4040FF; font-size:110% }
+TD.bg3 { color:white; background-color:#8080FF; }
+TD.test_passed { color:blue; }
+TD.test_failed { color:red; }
+TD.console { font-family:Courier New; }
+&lt;/STYLE&gt;
+&lt;BODY&gt;
+
+
+&lt;!-- GENERAL INFO --&gt;
+
+&lt;TABLE&gt;
+  &lt;TR&gt;&lt;TD align=&quot;right&quot;&gt;
+    &lt;j:choose&gt;
+      &lt;j:when test=&quot;${build.result==&apos;SUCCESS&apos;}&quot;&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/blue.gif&quot; /&gt;
+      &lt;/j:when&gt;
+	  &lt;j:when test=&quot;${build.result==&apos;FAILURE&apos;}&quot;&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/red.gif&quot; /&gt;
+      &lt;/j:when&gt;
+      &lt;j:otherwise&gt;
+        &lt;IMG SRC=&quot;${rooturl}static/e59dfe28/images/32x32/yellow.gif&quot; /&gt;
+      &lt;/j:otherwise&gt;
+    &lt;/j:choose&gt;
+  &lt;/TD&gt;&lt;TD valign=&quot;center&quot;&gt;&lt;B style=&quot;font-size: 200%;&quot;&gt;BUILD ${build.result}&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Build URL&lt;/TD&gt;&lt;TD&gt;&lt;A href=&quot;${rooturl}${build.url}&quot;&gt;${rooturl}${build.url}&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Project:&lt;/TD&gt;&lt;TD&gt;${project.name}&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Date of build:&lt;/TD&gt;&lt;TD&gt;${it.timestampString}&lt;/TD&gt;&lt;/TR&gt;
+  &lt;TR&gt;&lt;TD&gt;Build duration:&lt;/TD&gt;&lt;TD&gt;${build.durationString}&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;BR/&gt;
+
+
+&lt;!-- CHANGE SET --&gt;
+
+&lt;j:set var=&quot;changeSet&quot; value=&quot;${build.changeSet}&quot; /&gt;
+&lt;j:if test=&quot;${changeSet!=null}&quot;&gt;
+  &lt;j:set var=&quot;hadChanges&quot; value=&quot;false&quot; /&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;CHANGES&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;j:forEach var=&quot;cs&quot; items=&quot;${changeSet}&quot; varStatus=&quot;loop&quot;&gt;
+      &lt;j:set var=&quot;hadChanges&quot; value=&quot;true&quot; /&gt;
+      &lt;j:set var=&quot;aUser&quot; value=&quot;${cs.hudsonUser}&quot;/&gt;
+      &lt;TR&gt;
+        &lt;TD colspan=&quot;2&quot; class=&quot;bg2&quot;&gt;&amp;nbsp;&amp;nbsp;Revision &lt;B&gt;${cs.commitId?:cs.revision?:cs.changeNumber}&lt;/B&gt; by
+          &lt;B&gt;${aUser!=null?aUser.displayName:cs.author.displayName}: &lt;/B&gt;
+          &lt;B&gt;(${cs.msgAnnotated})&lt;/B&gt;
+         &lt;/TD&gt;
+      &lt;/TR&gt;
+      &lt;j:forEach var=&quot;p&quot; items=&quot;${cs.affectedFiles}&quot;&gt;
+        &lt;TR&gt;
+          &lt;TD width=&quot;10%&quot;&gt;&amp;nbsp;&amp;nbsp;${p.editType.name}&lt;/TD&gt;
+          &lt;TD&gt;${p.path}&lt;/TD&gt;
+        &lt;/TR&gt;
+      &lt;/j:forEach&gt;
+    &lt;/j:forEach&gt;
+    &lt;j:if test=&quot;${!hadChanges}&quot;&gt;
+      &lt;TR&gt;&lt;TD colspan=&quot;2&quot;&gt;No Changes&lt;/TD&gt;&lt;/TR&gt;
+    &lt;/j:if&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- ARTIFACTS --&gt;
+
+&lt;j:set var=&quot;artifacts&quot; value=&quot;${build.artifacts}&quot; /&gt;
+&lt;j:if test=&quot;${artifacts!=null and artifacts.size()&amp;gt;0}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;BUILD ARTIFACTS&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;TR&gt;
+      &lt;TD&gt;
+        &lt;j:forEach var=&quot;f&quot; items=&quot;${artifacts}&quot;&gt;
+      	  &lt;li&gt;
+      	    &lt;a href=&quot;${rooturl}${build.url}artifact/${f}&quot;&gt;${f}&lt;/a&gt;
+      	  &lt;/li&gt;
+      	&lt;/j:forEach&gt;
+      &lt;/TD&gt;
+    &lt;/TR&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;  
+&lt;/j:if&gt;
+
+
+&lt;!-- MAVEN ARTIFACTS --&gt;
+
+&lt;j:set var=&quot;mbuilds&quot; value=&quot;${build.moduleBuilds}&quot; /&gt;
+&lt;j:if test=&quot;${mbuilds!=null}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+      &lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;BUILD ARTIFACTS&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+      &lt;j:forEach var=&quot;m&quot; items=&quot;${mbuilds}&quot;&gt;
+        &lt;TR&gt;&lt;TD class=&quot;bg2&quot;&gt;&lt;B&gt;${m.key.displayName}&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;j:forEach var=&quot;mvnbld&quot; items=&quot;${m.value}&quot;&gt;
+        &lt;j:set var=&quot;artifacts&quot; value=&quot;${mvnbld.artifacts}&quot; /&gt;
+        &lt;j:if test=&quot;${artifacts!=null and artifacts.size()&amp;gt;0}&quot;&gt;
+      &lt;TR&gt;
+        &lt;TD&gt;
+      	  &lt;j:forEach var=&quot;f&quot; items=&quot;${artifacts}&quot;&gt;
+      	    &lt;li&gt;
+      	      &lt;a href=&quot;${rooturl}${mvnbld.url}artifact/${f}&quot;&gt;${f}&lt;/a&gt;
+      	    &lt;/li&gt;
+      	  &lt;/j:forEach&gt;
+      	&lt;/TD&gt;
+      &lt;/TR&gt;
+        &lt;/j:if&gt;
+        &lt;/j:forEach&gt;
+      &lt;/j:forEach&gt;
+  &lt;/TABLE&gt;
+&lt;BR/&gt;  
+&lt;/j:if&gt;
+
+
+&lt;!-- JUnit TEMPLATE --&gt;
+
+&lt;j:set var=&quot;junitResultList&quot; value=&quot;${it.JUnitTestResult}&quot; /&gt;
+&lt;j:if test=&quot;${junitResultList.isEmpty()!=true}&quot;&gt;
+  &lt;TABLE width=&quot;100%&quot;&gt;
+    &lt;TR&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;JUnit Tests&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+    &lt;j:forEach var=&quot;junitResult&quot; items=&quot;${it.JUnitTestResult}&quot;&gt;
+      &lt;j:forEach var=&quot;packageResult&quot; items=&quot;${junitResult.getChildren()}&quot;&gt;
+        &lt;TR&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt; Name: ${packageResult.getName()} Failed: ${packageResult.getFailCount()} test(s), Passed: ${packageResult.getPassCount()} test(s), Skipped: ${packageResult.getSkipCount()} test(s), Total: ${packageResult.getPassCount()+packageResult.getFailCount()+packageResult.getSkipCount()} test(s)&lt;/TD&gt;&lt;/TR&gt;
+        &lt;j:forEach var=&quot;failed_test&quot; items=&quot;${packageResult.getFailedTests()}&quot;&gt;
+          &lt;TR bgcolor=&quot;white&quot;&gt;&lt;TD class=&quot;test_failed&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;&lt;li&gt;Failed: ${failed_test.getFullName()} &lt;/li&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+        &lt;/j:forEach&gt;
+      &lt;/j:forEach&gt; 
+    &lt;/j:forEach&gt;  
+  &lt;/TABLE&gt;	
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- COBERTURA TEMPLATE --&gt;
+
+&lt;j:set var=&quot;coberturaAction&quot; value=&quot;${it.coberturaAction}&quot; /&gt;
+&lt;j:if test=&quot;${coberturaAction!=null}&quot;&gt;
+  &lt;j:set var=&quot;coberturaResult&quot; value=&quot;${coberturaAction.result}&quot; /&gt;
+  &lt;j:if test=&quot;${coberturaResult!=null}&quot;&gt;
+  	&lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg1&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;Cobertura Report&lt;/B&gt;&lt;/TD&gt;&lt;/table&gt;
+	&lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt;&lt;B&gt;Project Coverage Summary&lt;/B&gt;&lt;/TD&gt;&lt;/table&gt;
+            &lt;table border=&quot;1px&quot; class=&quot;pane&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Name&lt;/td&gt;
+                    &lt;j:forEach var=&quot;metric&quot; items=&quot;${coberturaResult.metrics}&quot;&gt;
+                        &lt;td&gt;${metric.name}&lt;/td&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;${coberturaResult.name}&lt;/td&gt;
+                    &lt;j:forEach var=&quot;metric&quot; items=&quot;${coberturaResult.metrics}&quot;&gt;
+                        &lt;td data=&quot;${coberturaResult.getCoverage(metric).percentageFloat}&quot;&gt;${coberturaResult.getCoverage(metric).percentage}%
+                            (${coberturaResult.getCoverage(metric)})
+                        &lt;/td&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+            &lt;j:if test=&quot;${coberturaResult.sourceCodeLevel}&quot;&gt;
+                &lt;h2&gt;Source&lt;/h2&gt;
+                &lt;j:choose&gt;
+                    &lt;j:when test=&quot;${coberturaResult.sourceFileAvailable}&quot;&gt;
+                        &lt;div style=&quot;overflow-x:scroll;&quot;&gt;
+                            &lt;table class=&quot;source&quot;&gt;
+                                &lt;thead&gt;
+                                    &lt;tr&gt;
+                                        &lt;th colspan=&quot;3&quot;&gt;${coberturaResult.relativeSourcePath}&lt;/th&gt;
+                                    &lt;/tr&gt;
+                                &lt;/thead&gt;
+                                ${coberturaResult.sourceFileContent}
+
+                            &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/j:when&gt;
+                    &lt;j:otherwise&gt;
+                        &lt;p&gt;
+                            &lt;i&gt;Source code is unavailable&lt;/i&gt;
+                        &lt;/p&gt;
+                    &lt;/j:otherwise&gt;
+                &lt;/j:choose&gt;
+            &lt;/j:if&gt;
+
+            &lt;j:forEach var=&quot;element&quot; items=&quot;${coberturaResult.childElements}&quot;&gt;
+                &lt;j:set var=&quot;childMetrics&quot; value=&quot;${coberturaResult.getChildMetrics(element)}&quot;/&gt;
+               &lt;table width=&quot;100%&quot;&gt;&lt;TD class=&quot;bg2&quot; colspan=&quot;2&quot;&gt;Coverage Breakdown by ${element.displayName}&lt;/TD&gt;&lt;/table&gt;
+                &lt;table border=&quot;1px&quot; class=&quot;pane sortable&quot;&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Name&lt;/td&gt;
+                        &lt;j:forEach var=&quot;metric&quot; items=&quot;${childMetrics}&quot;&gt;
+                            &lt;td&gt;${metric.name}&lt;/td&gt;
+                        &lt;/j:forEach&gt;
+                    &lt;/tr&gt;
+                    &lt;j:forEach var=&quot;c&quot; items=&quot;${coberturaResult.children}&quot;&gt;
+                        &lt;j:set var=&quot;child&quot; value=&quot;${coberturaResult.getChild(c)}&quot;/&gt;
+                        &lt;tr&gt;
+
+                            &lt;td&gt;
+                                ${child.xmlTransform(child.name)}
+                            &lt;/td&gt;
+                            &lt;j:forEach var=&quot;metric&quot; items=&quot;${childMetrics}&quot;&gt;
+                                &lt;j:set var=&quot;childResult&quot; value=&quot;${child.getCoverage(metric)}&quot;/&gt;
+                                &lt;j:choose&gt;
+                                    &lt;j:when test=&quot;${childResult!=null}&quot;&gt;
+                                        &lt;td data=&quot;${childResult.percentageFloat}&quot;&gt;${childResult.percentage}%
+                                            (${childResult})
+                                        &lt;/td&gt;
+                                    &lt;/j:when&gt;
+                                    &lt;j:otherwise&gt;
+                                        &lt;td data=&quot;101&quot;&gt;N/A&lt;/td&gt;
+                                    &lt;/j:otherwise&gt;
+                                &lt;/j:choose&gt;
+                            &lt;/j:forEach&gt;
+                        &lt;/tr&gt;
+                    &lt;/j:forEach&gt;
+                &lt;/table&gt;
+            &lt;/j:forEach&gt;
+  &lt;/j:if&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+
+&lt;!-- CONSOLE OUTPUT --&gt;
+
+&lt;j:getStatic var=&quot;resultFailure&quot; field=&quot;FAILURE&quot; className=&quot;hudson.model.Result&quot;/&gt;
+&lt;j:if test=&quot;${build.result==resultFailure}&quot;&gt;
+&lt;TABLE width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;TR&gt;&lt;TD class=&quot;bg1&quot;&gt;&lt;B&gt;CONSOLE OUTPUT&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;j:forEach var=&quot;line&quot; items=&quot;${build.getLog(100)}&quot;&gt;&lt;TR&gt;&lt;TD class=&quot;console&quot;&gt;${line}&lt;/TD&gt;&lt;/TR&gt;&lt;/j:forEach&gt;
+&lt;/TABLE&gt;
+&lt;BR/&gt;
+&lt;/j:if&gt;
+
+&lt;/BODY&gt;
+&lt;/j:jelly&gt;</defaultContent>
+        <attachmentsPattern></attachmentsPattern>
+        <presendScript>$DEFAULT_PRESEND_SCRIPT</presendScript>
+        <postsendScript>$DEFAULT_POSTSEND_SCRIPT</postsendScript>
+        <attachBuildLog>true</attachBuildLog>
+        <compressBuildLog>false</compressBuildLog>
+        <replyTo>shrey_s@hcl.com</replyTo>
+        <saveOutput>false</saveOutput>
+        <disabled>false</disabled>
+      </publisher>
+    </org.jenkinsci.plugins.emailext__template.ExtendedEmailPublisherTemplate>
+  </templates>
+</org.jenkinsci.plugins.emailext__template.ExtendedEmailTemplatePublisher_-DescriptorImpl>

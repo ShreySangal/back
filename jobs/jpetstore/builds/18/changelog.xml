@@ -1,0 +1,11 @@
+commit b805c5f06243fb0d6e3d8353c8097a00d05c5aa9
+tree 60952444e715780c1bad834d5d165030c94ac945
+parent e70b73006007d6b99143e8ce4bfa52fa7d80ee81
+author shreys-s <shrey_s@hcl.com> 2017-08-31 11:15:40 +0530
+committer GitHub <noreply@github.com> 2017-08-31 11:15:40 +0530
+
+    updated the dialog in index
+
+
+
+:100644 100644 e51e82a921b65ebc7c366fce5a179ec29410aaf8 d346a1539992eb992cd55cfba30404938f6581ae M	src/main/webapp/index.html

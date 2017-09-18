@@ -1,0 +1,166 @@
+Started by upstream project "[8mha:////4EAzgSgSWSiq0D9V4td/5u5WsOX5YCavmoiH0aaRK1fMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2wAOfg0qS81BJ9AICNRMXEAAAA[0mVPCSubnet" build number [8mha:////4KwYFNcFFb9ymDj54ZaZ6XZFKGcvM9vF2ZWXRR91TbC1AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/bAA5+DSpLzUEn1jACw1p8zFAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/lib/jenkins/workspace/VPCSubnet/default
+Determining to create or update Cloud Formation stack: VPCSubnet
+Stack not found: VPCSubnet. Reason: Detailed Message: Stack with id VPCSubnet does not exist (Service: AmazonCloudFormation; Status Code: 400; Error Code: ValidationError; Request ID: 631d0208-55e0-11e7-998c-1de4023be27a)
+Status Code: 400
+Error Code: ValidationError
+
+Creating Cloud Formation stack: VPCSubnet
+Stack status CREATE_IN_PROGRESS. ( 0ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 583ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 651ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 1079ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 1843ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 3450ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 6656ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 13055ms since previous check)
+Stack status CREATE_IN_PROGRESS. ( 26836ms since previous check)
+Stack status CREATE_COMPLETE. ( 52434ms since previous check)
+AZ2INFRAPUBSubnet-CREATE_IN_PROGRESS-2017-06-20T17:47:01.293Z - AWS::EC2::Subnet - CREATE_IN_PROGRESS - Resource creation Initiated
+AttachGateway-CREATE_IN_PROGRESS-2017-06-20T17:47:01.472Z - AWS::EC2::VPCGatewayAttachment - CREATE_IN_PROGRESS - null
+AZ1INFRAPUBSubnet-CREATE_IN_PROGRESS-2017-06-20T17:47:01.503Z - AWS::EC2::Subnet - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2APPSubnet-CREATE_IN_PROGRESS-2017-06-20T17:47:01.736Z - AWS::EC2::Subnet - CREATE_IN_PROGRESS - Resource creation Initiated
+AttachGateway-CREATE_IN_PROGRESS-2017-06-20T17:47:02.277Z - AWS::EC2::VPCGatewayAttachment - CREATE_IN_PROGRESS - Resource creation Initiated
+NetworkAclEntryIngress-CREATE_IN_PROGRESS-2017-06-20T17:47:02.549Z - AWS::EC2::NetworkAclEntry - CREATE_IN_PROGRESS - null
+NetworkAclEntryEgress-CREATE_IN_PROGRESS-2017-06-20T17:47:02.848Z - AWS::EC2::NetworkAclEntry - CREATE_IN_PROGRESS - null
+NetworkAclEntryEgress-CREATE_IN_PROGRESS-2017-06-20T17:47:03.769Z - AWS::EC2::NetworkAclEntry - CREATE_IN_PROGRESS - Resource creation Initiated
+NetworkAclEntryIngress-CREATE_IN_PROGRESS-2017-06-20T17:47:03.962Z - AWS::EC2::NetworkAclEntry - CREATE_IN_PROGRESS - Resource creation Initiated
+RouteToIGW-CREATE_IN_PROGRESS-2017-06-20T17:47:08.587Z - AWS::EC2::Route - CREATE_IN_PROGRESS - null
+RouteToIGW-CREATE_IN_PROGRESS-2017-06-20T17:47:09.422Z - AWS::EC2::Route - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ3DBSubnet-CREATE_COMPLETE-2017-06-20T17:47:14.556Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ2DBSubnet-CREATE_COMPLETE-2017-06-20T17:47:14.608Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ1APPSubnet-CREATE_COMPLETE-2017-06-20T17:47:14.957Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ3ELBSubnet-CREATE_COMPLETE-2017-06-20T17:47:14.978Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ2ELBSubnet-CREATE_COMPLETE-2017-06-20T17:47:15.878Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ1ELBSubnet-CREATE_COMPLETE-2017-06-20T17:47:15.907Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ3APPSubnet-CREATE_COMPLETE-2017-06-20T17:47:17.070Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ1DBSubnet-CREATE_COMPLETE-2017-06-20T17:47:17.143Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ2INFRAPUBSubnet-CREATE_COMPLETE-2017-06-20T17:47:17.567Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AttachGateway-CREATE_COMPLETE-2017-06-20T17:47:17.976Z - AWS::EC2::VPCGatewayAttachment - CREATE_COMPLETE - null
+AZ1INFRAPUBSubnet-CREATE_COMPLETE-2017-06-20T17:47:18.423Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+AZ2APPSubnet-CREATE_COMPLETE-2017-06-20T17:47:18.646Z - AWS::EC2::Subnet - CREATE_COMPLETE - null
+NetworkAclEntryEgress-CREATE_COMPLETE-2017-06-20T17:47:19.357Z - AWS::EC2::NetworkAclEntry - CREATE_COMPLETE - null
+AZ3ELBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:19.421Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ1APPSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:19.732Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+NetworkAclEntryIngress-CREATE_COMPLETE-2017-06-20T17:47:19.777Z - AWS::EC2::NetworkAclEntry - CREATE_COMPLETE - null
+AZ1ELBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:19.862Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ3DBSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:20.086Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ3ELBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:20.216Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1ELBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:20.402Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1APPSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:20.694Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2DBSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.118Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ2ELBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.245Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ3DBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.272Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ2ELBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.325Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ2DBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.473Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ3DBSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.621Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ3ELBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.675Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ3APPSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.679Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ1DBSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:21.926Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ2ELBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.163Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2ELBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.170Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2DBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.196Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2DBSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.203Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2APPSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.449Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ3DBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.508Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2INFRAPUBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.544Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ3ELBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:22.959Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1ELBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.058Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ1INFRAPUBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.181Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ1DBSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.348Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1APPSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.445Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ2APPSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.466Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2INFRAPUBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.536Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ3APPSubnetPrivateRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.792Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1ELBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:23.802Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2INFRAPUBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:24.329Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ1INFRAPUBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:24.389Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - null
+AZ1INFRAPUBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:24.539Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1DBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:24.788Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ2APPSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:25.402Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ2INFRAPUBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:25.560Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1DBSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:25.661Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+RouteToIGW-CREATE_COMPLETE-2017-06-20T17:47:25.685Z - AWS::EC2::Route - CREATE_COMPLETE - null
+AZ1APPSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:26.218Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ1INFRAPUBSubnetPublicRTAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:26.464Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ3APPSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:26.812Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - null
+AZ2APPSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:26.824Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ3APPSubnetNetworkAclAssociation-CREATE_IN_PROGRESS-2017-06-20T17:47:27.441Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_IN_PROGRESS - Resource creation Initiated
+VPCPeeringConnection-CREATE_COMPLETE-2017-06-20T17:47:28.812Z - AWS::EC2::VPCPeeringConnection - CREATE_COMPLETE - null
+RouteToVPCPeer-CREATE_IN_PROGRESS-2017-06-20T17:47:33.207Z - AWS::EC2::Route - CREATE_IN_PROGRESS - null
+RouteToVPCPeer-CREATE_IN_PROGRESS-2017-06-20T17:47:33.889Z - AWS::EC2::Route - CREATE_IN_PROGRESS - Resource creation Initiated
+RouteToVPC-CREATE_IN_PROGRESS-2017-06-20T17:47:35.200Z - AWS::EC2::Route - CREATE_IN_PROGRESS - null
+AZ3ELBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:35.840Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ1ELBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:35.951Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ3DBSubnetPrivateRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:37.335Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ2ELBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:37.732Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ1APPSubnetPrivateRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:37.745Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ2DBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:37.789Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ2ELBSubnetPublicRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:37.789Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ2DBSubnetPrivateRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:37.797Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ3DBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:38.189Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ3ELBSubnetPublicRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:38.594Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ1DBSubnetPrivateRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:38.885Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+RouteToVPC-CREATE_IN_PROGRESS-2017-06-20T17:47:38.974Z - AWS::EC2::Route - CREATE_IN_PROGRESS - Resource creation Initiated
+AZ2APPSubnetPrivateRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:39.245Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ1ELBSubnetPublicRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:39.450Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ2INFRAPUBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:39.502Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ3APPSubnetPrivateRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:39.571Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ1INFRAPUBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:41.024Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ2INFRAPUBSubnetPublicRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:41.272Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ1DBSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:41.299Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ1INFRAPUBSubnetPublicRTAssociation-CREATE_COMPLETE-2017-06-20T17:47:42.372Z - AWS::EC2::SubnetRouteTableAssociation - CREATE_COMPLETE - null
+AZ2APPSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:42.533Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ3APPSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:42.997Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+AZ1APPSubnetNetworkAclAssociation-CREATE_COMPLETE-2017-06-20T17:47:46.726Z - AWS::EC2::SubnetNetworkAclAssociation - CREATE_COMPLETE - null
+RouteToVPCPeer-CREATE_COMPLETE-2017-06-20T17:47:49.519Z - AWS::EC2::Route - CREATE_COMPLETE - null
+RouteToVPC-CREATE_COMPLETE-2017-06-20T17:47:54.605Z - AWS::EC2::Route - CREATE_COMPLETE - null
+99d6b5b0-55e0-11e7-bccf-500c28b03efd - AWS::CloudFormation::Stack - CREATE_COMPLETE - null
+Successfully created stack: VPCSubnet
+[EnvInject] - Executing scripts and injecting environment variables after the SCM step.
+[EnvInject] - Injecting as environment variables the properties content 
+PublicSubnet1ID=subnet-ec0abcc0
+AppSubnetID2=subnet-ed157aa5
+DBSubnetID2=subnet-6b137c23
+AppSubnetID1=subnet-2a0abc06
+DBSubnetID1=subnet-2b0abc07
+APPSubnetID1=subnet-2a0abc06
+PublicSubnet2ID=subnet-44147b0c
+ELBSubnetAZ2=subnet-951679dd
+SubnetID=subnet-2a0abc06
+ELBSubnetAZ1=subnet-8609bfaa
+VPCID=vpc-8262d6fb
+
+[EnvInject] - Variables injected successfully.
+[default] $ /bin/ksh -xe /tmp/hudson2683687863007112501.sh
++ echo subnet-ec0abcc0
+subnet-ec0abcc0
++ echo subnet-44147b0c
+subnet-44147b0c
++ echo subnet-2a0abc06
+subnet-2a0abc06
++ echo subnet-2a0abc06
+subnet-2a0abc06
++ echo subnet-ed157aa5
+subnet-ed157aa5
++ echo
+
++ echo subnet-2b0abc07
+subnet-2b0abc07
++ echo subnet-6b137c23
+subnet-6b137c23
++ echo subnet-8609bfaa
+subnet-8609bfaa
++ echo subnet-951679dd
+subnet-951679dd
++ echo vpc-8262d6fb
+vpc-8262d6fb
++ echo ''
+
+Triggering projects: [8mha:////4P/yiHIfGF8FmHvEakrBFBMqbiDhwjg81wpQS4WE02boAAAAkB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLGHg18/KT9IPcnFPLEktT6zUBwAAqhAilAAAAA==[0mRDGateway
+Triggering projects: [8mha:////4BZacE18TY9oaPTwEZg57hmyk4kSZneMU05Kjt0JuC+iAAAAkB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLGHg18/KT9J3dTbySSzNS87QBwAxcW6HlAAAAA==[0mEC2Launch
+Notifying upstream projects of job completion
+Finished: SUCCESS

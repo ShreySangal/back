@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='customized-build-message' version='1.0'><l:dependency name='Customized Build Message Plugin' groupId='org.jenkins-ci.plugins' artifactId='customized-build-message' version='1.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Customized+Build+Message+Plugin'><l:description>Display the customized messages in build history and status.</l:description><l:license name='MIT License' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

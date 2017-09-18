@@ -1,0 +1,11 @@
+commit 45d91bccfc569bc44e703351eb7929b0be4b1645
+tree b863c3cbe6d2934a7f10e802b8460e860584eb4f
+parent c4f63c51e5d3cb6126707cc1eb9bd1229627a875
+author shreys-s <shrey_s@hcl.com> 2017-09-12 10:18:30 +0530
+committer GitHub <noreply@github.com> 2017-09-12 10:18:30 +0530
+
+    Update home.jsp
+
+
+
+:100644 100644 6a2491199255b98f4eefcb9cdfeb29e055561ec7 9672d03b35efff1f803dc08a9f5066052da4c5ac M	gameoflife-web/src/main/webapp/WEB-INF/jsp/home.jsp

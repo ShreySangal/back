@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses' groupId='eu.markov.jenkins.plugin.mvnmeta' artifactId='maven-metadata-plugin' version='1.5.0'>
+  <l:dependency name='Maven Metadata Plugin for Jenkins CI server' groupId='eu.markov.jenkins.plugin.mvnmeta' artifactId='maven-metadata-plugin' version='1.5.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Maven+Metadata+Plugin'>
+    <l:description />
+    <l:license name='MIT license' />
+  </l:dependency>
+</l:dependencies>

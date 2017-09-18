@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.17">
+  <queueId>-1</queueId>
+  <timestamp>1503996020862</timestamp>
+  <startTime>0</startTime>
+  <duration>0</duration>
+  <keepLog>false</keepLog>
+  <builtOn>Windows Slave</builtOn>
+  <workspace>C:\Jenkins\workspace\jpetTest\jpet</workspace>
+</hudson.maven.MavenBuild>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ftpRename.FtpRenameBuilder_-DescriptorImpl plugin="ftp-rename@1.1">
+  <ftpServer></ftpServer>
+  <ftpPort>21</ftpPort>
+  <ftpUser></ftpUser>
+  <ftpPassword>{AQAAABAAAAAQTuf0K5u7z4Mkl6/C1TuyTl0d4bke2+MKpUkmkEXoVaM=}</ftpPassword>
+  <ftpPath></ftpPath>
+  <passiveMode>false</passiveMode>
+</org.jenkinsci.plugins.ftpRename.FtpRenameBuilder_-DescriptorImpl>

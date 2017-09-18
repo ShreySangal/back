@@ -1,0 +1,11 @@
+commit 7504b41a8deefa0bc52ef2df2c04cfc874b8538d
+tree bbd82558678ff7c75c7a65ee2177820206340a0d
+parent 1a3146611d7bbbbe4dd9404eebd9dbaeff3eaeab
+author shreys-s <shrey_s@hcl.com> 2017-07-10 15:35:39 +0530
+committer GitHub <noreply@github.com> 2017-07-10 15:35:39 +0530
+
+    added assembly plugin functioanality
+
+
+
+:100644 100644 b6a3abb36c21ba609ee715679e4f6cbd1e34b261 46bf142a961172824d400f8e4537b327d5ca9746 M	pom.xml

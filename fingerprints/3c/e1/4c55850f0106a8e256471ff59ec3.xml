@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-06-21 20:27:43.269 UTC</timestamp>
+  <md5sum>3ce14c55850f0106a8e256471ff59ec3</md5sum>
+  <fileName>org.springframework:spring-beans-4.1.1.RELEASE.jar</fileName>
+  <usages>
+    <entry>
+      <string>CounterWebApp/com.mkyong:CounterWebApp</string>
+      <ranges>1-7,10,12-28</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD</string>
+      <ranges>1-20</ranges>
+    </entry>
+    <entry>
+      <string>CI_CD/com.mkyong:CounterWebApp</string>
+      <ranges>1-20</ranges>
+    </entry>
+    <entry>
+      <string>CounterWebApp</string>
+      <ranges>1-7,10,12-28</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

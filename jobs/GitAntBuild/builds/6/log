@@ -1,0 +1,44 @@
+Started by user [8mha:////4DlDI0t6+uXLX11pe76GRu+kT2PsFbdYdgk20GMhygYeAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL94oyi1Mr4YgBtwcQHwgAAAA==[0mShrey Sangal
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/GitAntBuild
+ > /bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /bin/git config remote.origin.url https://github.com/shreys-s/Dummy # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/Dummy
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/Dummy +refs/heads/master:refs/remotes/origin/master
+Seen branch in repository origin/master
+Seen 1 remote branch
+ > /bin/git tag -l # timeout=10
+Checking out Revision 721abe4e7e9dd1dffa76b5db1c40836d25856ffa (origin/master)
+Commit message: "material-light"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 721abe4e7e9dd1dffa76b5db1c40836d25856ffa
+ > /bin/git rev-list 721abe4e7e9dd1dffa76b5db1c40836d25856ffa # timeout=10
+[Example2] $ /opt/ant/bin/ant -file build.xml
+Buildfile: /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/build.xml
+
+[8mha:////4FmmOMr6wkrn8P+pT0QdDgz7DtStrX+IMTjI7uWgMp5QAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minit:
+
+[8mha:////4FmmOMr6wkrn8P+pT0QdDgz7DtStrX+IMTjI7uWgMp5QAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompile:
+    [javac] /var/lib/jenkins/workspace/GitAntBuild/DevOps-Dummy/Example2/build.xml:10: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+[8mha:////4FmmOMr6wkrn8P+pT0QdDgz7DtStrX+IMTjI7uWgMp5QAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcompress:
+
+[8mha:////4OTQGfN1/VzxYrv+6TJbCkg6h3EVyBNGSHmWvRnJKrbMAAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 0 seconds
+Uploading artifact HelloWorld.jar started....
+GroupId: DevOps
+ArtifactId: HCL
+Classifier: HelloWorld-release-BN_6
+Type: jar
+Version: 1.1
+File: HelloWorld.jar
+Repository:DryiCE
+Uploading: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/DevOps/HCL/1.1/HCL-1.1-HelloWorld-release-BN_6.jar
+100 % completed (1.1 kB / 1.1 kB).
+Uploaded: http://10.1.23.186:8081/nexus/content/repositories/DryiCE/DevOps/HCL/1.1/HCL-1.1-HelloWorld-release-BN_6.jar (1.1 kB at 14 kB/s)
+Uploading artifact HelloWorld.jar completed.
+Notifying upstream projects of job completion
+Finished: SUCCESS

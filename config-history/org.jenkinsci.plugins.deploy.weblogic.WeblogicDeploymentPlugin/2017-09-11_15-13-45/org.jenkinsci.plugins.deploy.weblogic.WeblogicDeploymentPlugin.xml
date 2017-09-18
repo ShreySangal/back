@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.deploy.weblogic.WeblogicDeploymentPlugin_-WeblogicDeploymentPluginDescriptor plugin="weblogic-deployer-plugin@4.1">
+  <configurationFilePath></configurationFilePath>
+  <pluginDisabled>false</pluginDisabled>
+  <excludedArtifactNamePattern></excludedArtifactNamePattern>
+  <jdkSelected>system</jdkSelected>
+  <extraClasspath>null/server/lib/weblogic.jar</extraClasspath>
+  <javaOpts>-Xms256M -Xmx256M</javaOpts>
+</org.jenkinsci.plugins.deploy.weblogic.WeblogicDeploymentPlugin_-WeblogicDeploymentPluginDescriptor>

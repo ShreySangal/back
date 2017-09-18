@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: jira:1.39;resolution:=optional
+Long-Name: Deployment Sphere
+Compatible-Since-Version: 1.20
+Plugin-Developers: Izzet Mustafaiev:webdizz:izzet@mustafaiev.com,Fevzi
+  Anifeiev:fevz:,Zinur Mustafaiev:zinur:zinur@mustafaiev.com,Tair Must
+ afaiev:tair:tair@mustafaiev.com,Roman Kovalenko:rkovalenko:Roman_Kova
+ lenko@epam.com,Oleksii Zaitsev:Oleksii_Zaitsev:Oleksii_Zaitsev@epam.c
+ om
+Group-Id: org.jenkins-ci.plugins
+Plugin-Version: 0.1.105
+Jenkins-Version: 1.609
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Deployment+Sphere+Plu
+ gin
+Short-Name: deployment-sphere
+

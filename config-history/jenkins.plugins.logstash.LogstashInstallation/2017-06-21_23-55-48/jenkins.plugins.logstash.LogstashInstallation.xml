@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.plugins.logstash.LogstashInstallation_-Descriptor plugin="logstash@1.2.0">
+  <type>REDIS</type>
+  <host></host>
+  <port>-1</port>
+  <username>shrey_s</username>
+  <password>Unix_11</password>
+  <key>logstash</key>
+</jenkins.plugins.logstash.LogstashInstallation_-Descriptor>

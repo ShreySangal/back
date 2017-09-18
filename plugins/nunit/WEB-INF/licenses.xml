@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='nunit' version='0.21'><l:dependency name='Jenkins NUnit plugin' groupId='org.jenkins-ci.plugins' artifactId='nunit' version='0.21' url='http://wiki.jenkins-ci.org/display/JENKINS/NUnit+Plugin'><l:description>Allows handling NUnit results similar to how JUnit results are handled</l:description></l:dependency></l:dependencies>

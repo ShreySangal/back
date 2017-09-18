@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Tom
+Build-Jdk: 1.6.0_23
+Extension-Name: started-by-envvar
+Implementation-Title: started-by-envvar
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: started-by-envvar
+Long-Name: Started-By Environment Variable Plugin
+Url: http://jenkins-ci.org/plugin/started-by-envvar/
+Plugin-Version: 1.0
+Hudson-Version: 1.409.2
+Jenkins-Version: 1.409.2
+Plugin-Developers: 
+

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.orctom.jenkins.plugin.globalpostscript.GlobalPostScript_-DescriptorImpl plugin="global-post-script@1.1.3">
+  <script>downstream_job_trigger.groovy</script>
+  <runCondition>
+    <name>UNSTABLE</name>
+    <ordinal>1</ordinal>
+    <color>YELLOW</color>
+    <completeBuild>true</completeBuild>
+  </runCondition>
+</com.orctom.jenkins.plugin.globalpostscript.GlobalPostScript_-DescriptorImpl>

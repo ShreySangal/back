@@ -1,0 +1,25 @@
+Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building on master in workspace /var/lib/jenkins/workspace/Sourcing
+Cloning the remote Git repository
+Cloning repository https://github.com/shreys-s/game-of-life
+ > /bin/git init /var/lib/jenkins/workspace/Sourcing # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/game-of-life
+ > /bin/git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/game-of-life +refs/heads/*:refs/remotes/origin/*
+ > /bin/git config remote.origin.url https://github.com/shreys-s/game-of-life # timeout=10
+ > /bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /bin/git config remote.origin.url https://github.com/shreys-s/game-of-life # timeout=10
+Fetching upstream changes from https://github.com/shreys-s/game-of-life
+using GIT_ASKPASS to set credentials 
+ > /bin/git fetch --tags --progress https://github.com/shreys-s/game-of-life +refs/heads/*:refs/remotes/origin/*
+ > /bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4358eba6292024d2f72ff7594592362adcc9b0fa (refs/remotes/origin/master)
+Commit message: "updated the emp name"
+ > /bin/git config core.sparsecheckout # timeout=10
+ > /bin/git checkout -f 4358eba6292024d2f72ff7594592362adcc9b0fa
+First time build. Skipping changelog.
+Notifying upstream projects of job completion
+Finished: SUCCESS

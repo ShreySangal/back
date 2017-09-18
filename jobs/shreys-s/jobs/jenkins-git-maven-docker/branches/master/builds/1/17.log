@@ -1,0 +1,5 @@
+[ins-git-maven-docker_master-M24RLU7YZFJWT3SYKWV63Z4MI22THJKUOOFIROUXY4OKT2WY7TFQ] Running shell script
++ echo 'PATH = /sbin:/usr/sbin:/bin:/usr/bin'
+PATH = /sbin:/usr/sbin:/bin:/usr/bin
++ echo 'M2_HOME = '
+M2_HOME = 

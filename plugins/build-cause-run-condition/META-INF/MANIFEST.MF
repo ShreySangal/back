@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: cjohnson
+Build-Jdk: 1.6.0_26
+Extension-Name: build-cause-run-condition
+Specification-Title: Extendable build cause condition for the Run Cond
+ ition Plugin, to be used with http://wiki.jenkins-ci.org/display/JENK
+ INS/Run+Condition+Plugin
+Implementation-Title: build-cause-run-condition
+Implementation-Version: 0.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: build-cause-run-condition
+Long-Name: Build Cause Run Condition Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Build+Cause+Run+Condit
+ ion
+Plugin-Version: 0.1
+Hudson-Version: 1.424
+Jenkins-Version: 1.424
+Plugin-Dependencies: token-macro:1.5.1,run-condition:0.10
+Plugin-Developers: Chris Johnson:cjo9900:cjo.johnson@gmail.com
+

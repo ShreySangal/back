@@ -1,0 +1,101 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.jenkins-ci.plugins</groupId>
+		<artifactId>plugin</artifactId>
+		<version>2.12</version>
+	</parent>
+
+	<artifactId>weblogic-deployer-plugin</artifactId>
+	<name>Deploy WebLogic Plugin</name>
+	<version>4.1</version>
+	<packaging>hpi</packaging>
+
+	<url>http://wiki.jenkins-ci.org/display/JENKINS/WebLogic+Deployer+Plugin</url>
+	<description>This plugin deploys the artifacts built on Jenkins to a weblogic target (admin server, managed server, cluster ...) as an application or a library module.</description>
+
+	<developers>
+		<developer>
+			<id>RaphC</id>
+			<name>Raphael CHAUMIER</name>
+			<email>rcr@orange.fr</email>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>The MIT License</name>
+			<url>http://opensource.org/licenses/mit-license</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:ssh://git@github.com/jenkinsci/weblogic-deployer-plugin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/weblogic-deployer-plugin.git</developerConnection>
+		<url>https://github.com/jenkinsci/weblogic-deployer-plugin</url>
+		<tag>weblogic-deployer-plugin-4.1</tag>
+	</scm>
+
+	<properties>
+		<!-- Baseline Jenkins version you use to build the plugin. Users must have 
+			this version or newer to run. -->
+		<jenkins.version>1.580.1</jenkins.version>
+		<!-- Java Level to use. Java 7 required when using core >= 1.612 -->
+		<java.level>6</java.level>
+		<hpi.dependencyResolution>runtime</hpi.dependencyResolution>
+		<!-- Jenkins Test Harness version you use to test the plugin. -->
+		<!-- For Jenkins version >= 1.580.1 use JTH 2.x or higher. -->
+		<jenkins-test-harness.version>2.12</jenkins-test-harness.version>
+		<!--TODO: change to true after the code cleanup-->
+    	<findbugs.failOnError>false</findbugs.failOnError>
+	</properties>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jenkins-ci.tools</groupId>
+				<artifactId>maven-hpi-plugin</artifactId>
+				<configuration>
+					<disabledTestInjection>true</disabledTestInjection>
+					<dependencyResolution>${hpi.dependencyResolution}</dependencyResolution>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jenkins-ci.main</groupId>
+			<artifactId>maven-plugin</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-jelly</groupId>
+			<artifactId>commons-jelly-tags-util</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>repo.jenkins-ci.org</id>
+			<url>http://repo.jenkins-ci.org/public/</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>repo.jenkins-ci.org</id>
+			<url>http://repo.jenkins-ci.org/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+</project>

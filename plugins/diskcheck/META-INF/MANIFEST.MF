@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mthakkar
+Build-Jdk: 1.7.0_75
+Extension-Name: diskcheck
+Implementation-Title: diskcheck
+Implementation-Version: 0.29
+Plugin-Class: org.jenkinsci.plugin.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: diskcheck
+Long-Name: diskcheck
+Url: http://jenkins-ci.org/plugin/diskcheck/
+Plugin-Version: 0.29
+Hudson-Version: 1.532
+Jenkins-Version: 1.532
+Plugin-Developers: Manoj Thakkar:mthak:mthakkar@cloudera.com
+

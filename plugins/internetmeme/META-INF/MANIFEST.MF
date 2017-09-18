@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: harpreet
+Build-Jdk: 1.6.0_65
+Extension-Name: internetmeme
+Specification-Title: Displays an Internet Meme on each build page. Ins
+ pired by Chuck Norris plugin
+Implementation-Title: internetmeme
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: internetmeme
+Long-Name: InternetMeme Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Internet+Meme+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.434
+Jenkins-Version: 1.434
+Plugin-Developers: Cliffano Subagio:cliffano:blah@cliffano.com,Harpree
+ t Singh:harpreet1002:singh.harry@gmail.com
+

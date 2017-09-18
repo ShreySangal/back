@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: abeer
+Build-Jdk: 1.8.0_25
+Extension-Name: parameterized-scheduler
+Specification-Title: Lets you define many cron-like format but with ad
+ ditional parameters for each definition
+Implementation-Title: parameterized-scheduler
+Implementation-Version: 0.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: parameterized-scheduler
+Long-Name: Parameterized Scheduler
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Parameterized+Schedul
+ er+Plugin
+Plugin-Version: 0.5
+Hudson-Version: 1.642.3
+Jenkins-Version: 1.642.3
+Plugin-Dependencies: workflow-job:2.1
+Plugin-Developers: Baptiste Mathus:batmat:batmat@batmat.net
+

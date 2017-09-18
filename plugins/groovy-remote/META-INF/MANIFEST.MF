@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Plugin-Class: org.jenkinsci.plugins.groovyremote.GroovyRemotePlugin
+v: 0.2
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Groovy+Remote+Control
+ +Plugin
+Group-Id: org.jenkinsci.plugins
+Jenkins-Version: 1.475
+Plugin-Version: 0.2
+Long-Name: Groovy Remote Control Plugin
+Short-Name: groovy-remote
+
